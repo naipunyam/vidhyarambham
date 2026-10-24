@@ -56,12 +56,12 @@ Nisha's SOP for a custom birthday cake:
 | 6 | Decorate, write the message, and photograph the finished cake in daylight |
 | 7 | Quality check: weight within 50 g of the order, message spelled right, no cracks, clean box |
 | 8 | Box it with a board, a sticker, a referral card and a "best before" note |
-| 9 | Deliver on time, collect the balance by UPI and record it |
+| 9 | Deliver on time within 5 km of Kuttiady town, collect the balance by UPI and record it |
 | 10 | Next day: send a thank-you message and the review link |
 
 Her sister followed it alone one Sunday and got stuck at step 6, on how much cream to use per layer. Nisha added a photo and "about 3 tablespoons per layer", and the next cake was right first time.
 
-Arun's "Shop setup" SOP has 18 steps, from "Ask the owner for 30 product photos, or book a photo session" to "Send the instruction sheet and book the 30-minute training". It now takes him 4 hours instead of 5, and Fazil can do the catalogue part on his own.
+Arun's "Shop setup" SOP has 18 steps, from "Ask the owner for 30 product photos, or book a photo session" to "Send the instruction sheet and book the 30-minute training". It now takes him 4 hours instead of 5, which saves about ₹250 of his time on every setup at his ₹250-an-hour target, and Fazil can do the catalogue part on his own.
 """,
     resources=[
         ('os12', 'Section 12.3 Designing a Startup Operational Plan', '40 min'),
@@ -185,7 +185,7 @@ Nisha's stock sheet for her key items:
 | Cocoa (kg) | 0.5 | 7 days (ordered online) | 0.25 kg | 0.5 ÷ 7 × 7 + 0.25 = 0.75 kg |
 | Cake boxes | 8 | 3 days | 5 | 8 ÷ 7 × 3 + 5 ≈ 9 boxes |
 
-Her delivery rule: free within 5 km (about ₹30 of petrol and 20 minutes), ₹40 for 5–10 km, and nothing beyond 10 km. Her service promise: replies within 2 hours between 9 am and 9 pm, with an away message at night.
+Her delivery rule: free within 5 km of Kuttiady town (about ₹30 of petrol and 20 minutes), ₹40 for 5–10 km, and nothing beyond 10 km. Her service promise: replies within 2 hours between 9 am and 9 pm, with an away message at night.
 
 **A complaint:** a customer said the writing on her cake was smudged. Nisha listened, apologised, sent ₹150 back by UPI within the hour and asked for a photo. The cause: the box lid had touched the top of the cake. The fix: a taller box for cakes with writing, now part of her SOP. The same customer ordered again the next month.
 """,
@@ -297,7 +297,7 @@ Climb one step at a time, and stop as soon as the problem is solved:
 Before you automate a task, time it for a week. Afterwards, time it again. If an automation doesn't save time or reduce mistakes, remove it.
 """,
     example="""
-Nisha replaced her "which flavour, what size, what date?" chats with a Google Form: name, phone, pickup or delivery address, date and time, size, flavour, message on the cake, and allergies or special requests. Responses go straight into a sheet, where a formula works out the price. She shares the form through a quick reply. Orders now arrive complete, and she saves about 2 hours a week of messages.
+Nisha replaced her "which flavour, what size, what date?" chats with a Google Form: name, phone, pickup or delivery address, date and time, size, flavour, message on the cake, and allergies or special requests. Responses go straight into a sheet, where a formula works out the price. She shares the form through a quick reply. Orders from her Kuttiady customers now arrive complete, and she saves about 2 hours a week of messages, worth roughly ₹260 at her earnings per hour.
 
 Arun built a monthly care-plan report template in Sheets: catalogue items added, enquiries answered (counted from the owner's labels), the top questions and one suggestion. Copying it for each client takes 10 minutes instead of an hour. He also has a Calendar reminder for every client on the 1st of each month to update the catalogue, and any care-plan invoice unpaid after 7 days turns red.
 """,

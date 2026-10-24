@@ -143,7 +143,7 @@ Wastage and failed batches, gas and electricity, phone data, boxes and stickers,
 Rent, equipment instalments, phone plans and subscriptions don't change with each sale. In Module 8 you will compare them with your contribution to find your break-even point.
 """,
     example="""
-**Nisha's 1 kg chocolate cake:**
+**Nisha's 1 kg chocolate cake** (prices from her Kuttiady supermarket in November):
 
 | Item | ₹ |
 | --- | --- |
@@ -237,7 +237,7 @@ L3 = lesson(
     outcome='Choose a price and 2–3 packages using your costs, the value to the customer and the alternatives, then test them on at least 5 real customers.',
     split='1 hour study, 3 hours action',
     core="""
-Most beginners price too low, out of fear. A low price doesn't make you more competitive if it leaves you exhausted and unable to deliver well. Look at price from three directions.
+Many beginners price too low, out of fear. A low price doesn't make you more competitive if it leaves you exhausted and unable to deliver well. Look at price from three directions.
 
 ### 1. The floor: your costs
 
@@ -368,7 +368,7 @@ MODULE = module(
     overview="""
 Customers have shown interest. Now make sure each sale makes money. This module covers how you charge (the revenue model), what you promise (the value proposition), what one sale really earns you (unit economics) and what to charge (pricing).
 
-Many small businesses with paying customers still fail here, because the price never covered the costs and the owner's time. You finish with an offer sheet you can send to any customer.
+Some small businesses with paying customers still fail here, because the price never covered the costs and the owner's time. You finish with an offer sheet you can send to any customer.
 """,
     outcomes=[
         'Choose a revenue model that suits your customers and your path, with a recurring piece if possible',

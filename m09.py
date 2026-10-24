@@ -5,7 +5,7 @@ L1 = lesson(
     title='Choose a business structure',
     weeks=(22, 22), hours=3,
     outcome='Compare the five common business structures in India and choose the right one for now, with a written agreement if you have a partner.',
-    split='1 hour study (plus 35 minutes if you have a co-founder), 2 hours action',
+    split='1 hour 20 minutes study (plus 35 minutes if you have a co-founder), 1 hour 40 minutes action',
     core="""
 A business structure decides who owns the business, who is responsible for its debts, how it is taxed and how much paperwork it needs. For a new micro-business, simpler is usually better, and you can change structure later when there is a reason.
 
@@ -25,6 +25,17 @@ Points to know (check current rules):
 - **Startup India recognition** (by DPIIT) is for private limited companies, registered partnership firms, LLPs and cooperative societies. A sole proprietorship can't be recognised as a startup.
 - **Tax** differs between structures. Ask a CA before you choose anything other than a sole proprietorship.
 - **Costs:** an LLP or a company needs digital signatures, government fees, professional help and yearly filings. Don't take that on until you need limited liability, investors, or a bigger client who insists on it.
+
+### Protect the business from big losses
+
+A structure limits some kinds of liability, but most risks for a micro-business are practical:
+
+- **Insurance:** fire and theft cover for stock and equipment, and health insurance for yourself, so that one bad event doesn't end the business. Kerala's MSME Insurance Scheme reimburses Udyam-registered MSMEs 50% of the annual premium, up to ₹2,500, for certain policies from public sector insurers, through the DIC (check current rules).
+- **Backups:** keep your Founder Workbook, customer list and designs in Google Drive with two-step verification, and download a copy every month.
+- **Written agreements** with customers, partners and helpers (ENT-M09-L03).
+- **Spread the risk:** avoid depending on one big customer or a single supplier.
+
+OpenStax's section 13.7 on mitigating and managing risks covers the wider picture.
 
 ### If you have a co-founder or partner
 
@@ -49,7 +60,8 @@ Nisha runs Nisha's Oven as a **sole proprietorship**: she is the only owner, her
 Fathima and her cousin want to turn PSC Sprint into an app and apply to KSUM. They plan to form a **private limited company** once their weekly test channel proves demand, because startup recognition needs a registered entity and investors would expect a company.
 """,
     resources=[
-        ('os13', 'Sections 13.1 and 13.3–13.5 on business structures. The book uses US law, so read it for the ideas only', '45 min'),
+        ('os13', 'Sections 13.1, 13.3–13.5 and 13.7 on structures and risk. The book uses US law, so read it for the ideas only', '55 min'),
+        ('kerala-insurance', 'Read who is eligible for the premium support and how to claim it (check current rules)', '10 min'),
         ('mca', 'Browse the portal to see where LLPs and companies are registered (check current rules)', '10 min'),
         ('partnership-act', 'Optional: section 69, on what happens when a firm is not registered', '5 min'),
         ('startupindia-recognition', 'Read the eligibility criteria for startup recognition', '5 min'),
@@ -57,12 +69,12 @@ Fathima and her cousin want to turn PSC Sprint into an app and apply to KSUM. Th
     ],
     steps=[
         'Fill in the structure decision sheet for your business.',
-        'Write down what would make you change structure later: hiring staff, a large contract, raising money, a partner joining.',
+        'Write down what would make you change structure later (hiring staff, a large contract, raising money, a partner joining), and your two biggest risks with how you will protect against them: insurance, backups or agreements.',
         'If you have a partner or co-founder, draft your one-page agreement covering the 8 points, and sign it together.',
         'Ask one CA, lawyer or experienced business owner one question about your choice, and note the answer.',
         'Save the decision in Founder Toolkit/09 Legal.',
     ],
-    proof='Your structure decision sheet, your triggers for changing structure, the partner agreement (if you have a partner) and the expert\'s answer.',
+    proof='Your structure decision sheet, your triggers for changing structure, your two biggest risks with their protections, the partner agreement (if you have a partner) and the expert\'s answer.',
     templates=[
         ('structure decision', """
 STRUCTURE DECISION     Date: ____
@@ -204,6 +216,7 @@ EPF and ESI (when hiring),,,,,,,
 Professional tax,,Local body,,,,,
 Trademark (optional),,IP India e-filing,,,,,
 Kerala MSME in-principle approval (optional),,K-SWIFT or DIC,,,,,
+Insurance for stock and equipment (optional),,Insurer; Kerala premium support via DIC,,,,,
 """, 'csv'),
     ],
     mistakes=[
@@ -392,7 +405,7 @@ MODULE = module(
     overview="""
 Legal work sounds frightening, but for a micro-business most of it is simple: choose the right structure, register what your activity needs, put agreements in writing, protect your name and treat customers and their data fairly. This module walks through each, using official sources, and ends with a compliance checklist for your own business.
 
-This is general information, not legal advice. Rules differ by activity and change often, so every rule here is marked check current rules. Confirm anything important with a lawyer, a CA or the office concerned.
+This is general information, not legal advice. Rules differ by activity and change often, so every rule here is marked **check current rules**. Confirm anything important with a lawyer, a CA or the office concerned.
 """,
     outcomes=[
         'Compare sole proprietorship, partnership, LLP, OPC and private limited company, and choose one for now',

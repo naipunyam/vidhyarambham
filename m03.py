@@ -48,7 +48,7 @@ Ask before you record anything. Store notes under a code (S1, S2…) rather than
     example="""
 For ShopAssist, Arun wrote three learning goals and then listed 15 shop owners: six textile shops, four mobile shops, two bakeries, two pharmacies and a hardware shop across Kuttiady, Thottilpalam and Vatakara. Eight came through an uncle and two friends; seven were walk-ins.
 
-He visited at about 11 in the morning on weekdays, when shops were quiet, and used the Malayalam script below. Ten of the 15 agreed, three said "come next week" and two said no. By Sunday he had done three interviews of about 15 minutes each, all in person, and booked four more for the following week.
+He visited at about 11 in the morning on weekdays, when shops were quiet, and used the Malayalam script below. Ten of the 15 agreed, three said "come next week" and two said no. By Sunday he had done three interviews of about 15 minutes each, all in person, and booked four more for the following week. His only cost was about ₹120 in bus fares.
 """,
     resources=[
         ('yc-users', 'Watch the whole talk and write down the questions it recommends', 'about 20 min'),

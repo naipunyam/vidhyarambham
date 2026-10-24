@@ -382,7 +382,7 @@ Write your decision down, with the numbers, and share it with someone. A written
     example="""
 Three decision memos:
 
-**Arun: persevere.** 15 owners interviewed → 11 offered a pilot → 4 paid ₹999 → 4 delivered → 3 "very disappointed" without it → 2 asked for monthly help. His criterion was 3 paid pilots, so it was met. The weakest group: the pharmacies and the hardware shop said no (privacy worries, few WhatsApp enquiries). Decision: persevere with textile and mobile shops only, and test a ₹500 monthly care plan next.
+**Arun: persevere.** 15 owners interviewed in Kuttiady and Vatakara → 11 offered a pilot → 4 paid ₹999 → 4 delivered → 3 "very disappointed" without it → 2 asked for monthly help. His criterion was 3 paid pilots, so it was met. The weakest group: the pharmacies and the hardware shop said no (privacy worries, few WhatsApp enquiries). Decision: persevere with textile and mobile shops only, and test a ₹500 monthly care plan next.
 
 **Fathima: pivot.** 300 views → 31 replies → 9 pre-orders at ₹99, against a criterion of 20. Replies said ₹99 was fine, but people wanted to try before buying and wanted weekly practice rather than one big pack. Decision: an offer pivot to a free weekly 20-question mock test in a WhatsApp channel, plus a ₹49-a-month paid group with full answers and rank lists. She will test it for 4 weeks.
 

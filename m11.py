@@ -174,7 +174,7 @@ Arun's AI use policy, stuck above his desk:
 5. No AI-made reviews, testimonials or fake results.
 6. If a client asks, I tell them which parts were AI-assisted.
 
-His red-team test: he asked an AI assistant five tricky questions that a textile shop's customers might send, such as "Can I return a saree after wearing it?" and "Do you deliver to Kannur tomorrow?". It confidently invented a 7-day return policy and a Kannur delivery service that the shop doesn't offer. That convinced both Arun and his client to keep a human in every reply.
+His red-team test: he asked an AI assistant five tricky questions that a textile shop's customers might send, such as "Can I return a saree after wearing it?" and "Do you deliver to Kannur tomorrow?". It confidently invented a 7-day return policy and a Kannur delivery service that the shop doesn't offer. A wrong return promise on a ₹2,500 saree would have cost the shop money and trust, so both Arun and his client agreed to keep a human in every reply.
 """,
     resources=[
         ('gemini-api-terms', 'Read how free-tier data may be used and reviewed', '10 min'),

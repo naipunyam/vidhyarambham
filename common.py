@@ -5,6 +5,10 @@ checked. Lessons refer to links by key, so the sources page is generated from
 exactly the links the course uses.
 """
 
+import collections
+import hashlib
+import random
+
 VDATE = '2026-10-24'
 
 STATUS = {
@@ -133,6 +137,7 @@ R = {
     'ksmart': _r('K-SMART: local body services online', 'https://ksmart.lsgkerala.gov.in/', 'vr', 'Kerala'),
     'ksmart-ikm': _r('IKM: what K-SMART covers', 'https://ikm.gov.in/en/node/1103', 'v', 'Kerala'),
     'ksmart-panchayat': _r('Edavaka Grama Panchayat: services now only through K-SMART', 'https://edavakapanchayat.lsgkerala.gov.in/en/node/182', 'v', 'Kerala'),
+    'kerala-insurance': _r('Kerala: MSME Insurance Scheme (premium support)', 'https://industry.kerala.gov.in/index.php/schemes-mainmenu/msme-insurance-scheme', 'vr', 'Kerala'),
     'kudumbashree': _r('Kudumbashree', 'https://www.kudumbashree.org/', 'v', 'Kerala'),
     'kerala-labour': _r('Kerala Labour Commissionerate', 'https://lc.kerala.gov.in/', 'vr', 'Kerala'),
     'kerala-registration': _r('Kerala Registration Department (registration of firms)', 'https://keralaregistration.gov.in/', 'u', 'Kerala'),
@@ -204,13 +209,24 @@ def fence(text, lang=''):
     return f'```{lang}\n{text}\n```'
 
 
+QUIZ_LETTERS = collections.Counter()
+
+
 def quiz_blocks(quiz):
+    """Render questions and answers. Options are shuffled with a seed taken
+    from the question text, so the order is stable between builds but the
+    correct letter isn't always the same one."""
     qs, ans = [], []
     for i, q in enumerate(quiz, 1):
-        opts = '\n'.join(f'    - {chr(65 + j)}) {o}' for j, o in enumerate(q['o']))
+        assert q['a'] in 'ABCD'[: len(q['o'])], q
+        rng = random.Random(int(hashlib.md5(q['q'].encode('utf-8')).hexdigest(), 16))
+        order = list(range(len(q['o'])))
+        rng.shuffle(order)
+        options = [q['o'][k] for k in order]
+        letter = 'ABCD'[order.index('ABCD'.index(q['a']))]
+        QUIZ_LETTERS[letter] += 1
+        opts = '\n'.join(f'    - {chr(65 + j)}) {o}' for j, o in enumerate(options))
         qs.append(f"{i}. {q['q']}\n{opts}")
-        letter = q['a']
-        assert letter in 'ABCD'[: len(q['o'])], q
         ans.append(f"{i}. **{letter}.** {q['why']}")
     return '\n'.join(qs), '\n'.join(ans)
 
@@ -279,9 +295,11 @@ def module(m, *, title, weeks, hours, overview, outcomes, lessons, project, proj
         assert len(row) == 4 and all('|' not in c for c in row)
         rub.append('| ' + ' | '.join(row) + ' |')
     lesson_hours = sum(s['hours'] for s in lessons)
+    paras = overview.strip().split('\n\n')
+    assert len(paras) >= 2, 'the first paragraph becomes the summary; the rest is the overview'
     parts = [
         '## Overview',
-        overview.strip(),
+        '\n\n'.join(paras[1:]),
         '## Outcomes',
         'By the end of this module you can:',
         bullets(outcomes),
@@ -308,7 +326,7 @@ def module(m, *, title, weeks, hours, overview, outcomes, lessons, project, proj
         'kind': 'capstone' if m == 14 else 'level',
         'weeks': [a, b],
         'hours': hours,
-        'summary': overview.strip().split('\n\n')[0],
+        'summary': paras[0],
         'content': '\n\n'.join(parts),
         'tasks': [
             {'id': f'{sid}-project', 'text': f'Module project: {project}', 'kind': 'project', 'week': b,

@@ -11,7 +11,7 @@ L1 = lesson(
 
 In a small business, a founder's week usually looks like this:
 
-- **Finding customers:** talking to people, posting, following up. Most beginners spend far too little time here.
+- **Finding customers:** talking to people, posting, following up. Many beginners spend far too little time here.
 - **Delivering:** baking the cake, setting up the shop's WhatsApp, writing the question pack.
 - **Collecting money and keeping records:** every rupee in and out, written down.
 - **Improving:** asking customers what to fix, then fixing it.
@@ -20,7 +20,7 @@ In a small business, a founder's week usually looks like this:
 
 ### Startup or small business?
 
-You will hear two words. A **startup**, in the Y Combinator sense, is a company built to grow very fast, often with investors' money, and most of them fail. A **small business** (a micro-enterprise) aims to be profitable early and grow steadily: a home bakery, a design service, a tuition centre. This course aims for the second first: a business that earns real money within months. Paul Graham calls a startup that earns just enough to cover its founders' living costs "ramen profitable". That is a good first target for you too.
+You will hear two words. A **startup**, in the Y Combinator sense, is a company built to grow very fast, often with investors' money, and many of them fail. A **small business** (a micro-enterprise) aims to be profitable early and grow steadily: a home bakery, a design service, a tuition centre. This course aims for the second first: a business that earns real money within months. Paul Graham calls a startup that earns just enough to cover its founders' living costs "ramen profitable". That is a good first target for you too.
 
 ### The honest odds
 
@@ -34,6 +34,16 @@ Small businesses usually close for a few repeating reasons:
 - **The founder burned out or lost interest.**
 
 Every module of this course attacks one of these.
+
+### The founder mindset
+
+OpenStax's section on the entrepreneurial mindset describes the attitudes behind successful founders. In practice they come down to a few habits you can build:
+
+- **Bias to action:** try a small version this week instead of planning for months.
+- **Customer focus:** spend more time with customers than with your own ideas.
+- **Learning from failure:** treat a failed test as information, not as a verdict on you.
+- **Persistence with flexibility:** stay committed to the problem, but change the solution when the evidence says so.
+- **Ownership:** take responsibility for results, including the dull parts such as records and follow-ups.
 
 ### Think in experiments, not bets
 

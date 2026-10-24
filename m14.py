@@ -44,7 +44,7 @@ Arun's two-week plan to launch a "Festival-ready WhatsApp" package before the we
 
 - **Goal:** 8 new setups and 5 new care-plan shops in 14 days: about ₹14,000 in setups, plus ₹2,500 a month in care plans.
 - **Offer:** the Standard package at ₹1,800, with one free month of the care plan for shops that sign up during the launch. The launch really does end on day 14.
-- **Audience:** 60 shops in his pipeline, plus introductions from his 13 current clients.
+- **Audience:** 60 shops in his pipeline, plus introductions from his 15 current clients.
 - **Channels:** personal visits and messages, referrals from clients, the printing-shop partner, before-and-after posts on his WhatsApp Status, and a short talk at a local traders' association meeting, with the organisers' permission.
 - **Capacity:** at most one setup a day on weekdays and three on Saturday, with Fazil doing the photos. Beyond that, he books slots for the following week.
 - **Budget:** ₹600 for printed offer sheets and bus fares, within his risk limit.
@@ -192,7 +192,7 @@ Arun's scoreboard for the first seven days:
 | 7 (Sunday, day off) | 0 | 0 | 0 | 0 | 0 | 0 |
 | **Total** | **36** | **21** | **13** | **9** | **4** | **7,200** |
 
-The mid-launch review showed that Saturday visits converted best and that two sales came through the printing-shop partner. Weekday WhatsApp messages got replies but few meetings. So in week two he put more effort into Saturday visits and asked every client for one introduction. By day 14 he had 9 setups (goal: 8) and 6 new care-plan shops (goal: 5). Five of the nine new shops belonged to owners he had never met before the launch.
+The mid-launch review showed that Saturday visits in Kuttiady and Vatakara converted best and that two sales came through the printing-shop partner. Weekday WhatsApp messages got replies but few meetings. So in week two he put more effort into Saturday visits and asked every client for one introduction. By day 14 he had 9 setups (goal: 8) and 6 new care-plan shops (goal: 5). Five of the nine new shops belonged to owners he had never met before the launch.
 """,
     resources=[
         ('yc-first', 'Optional refresher: the parts on reaching early customers', 'about 23 min'),
@@ -310,11 +310,11 @@ Arun's one-page plan after his launch:
 | Problem | Small textile and mobile shops lose WhatsApp customers in the evening rush (8 of 11 owners interviewed) |
 | Customer | Textile and mobile shops in Kuttiady, Thottilpalam, Nadapuram and Vatakara with 20 or more enquiries a day |
 | Offer | Setup: Basic ₹999, Standard ₹1,800, Premium ₹2,900; care plan ₹500 a month |
-| Evidence | 22 paying shops, 16 on the care plan; 14 Google reviews averaging 4.8; 1 of 16 care plans cancelled last month |
-| Model | About ₹1,650 contribution per Standard setup; the care plan earns about ₹330 an hour |
+| Evidence | 24 paying shops, 16 on the care plan; 14 Google reviews averaging 4.8; 1 of 16 care plans cancelled last month |
+| Model | About ₹1,350 contribution per Standard setup after paying Fazil for photos; the care plan earns about ₹330 an hour |
 | Sales | Best channels: Saturday visits (about 40% of conversations become sales) and partner referrals |
 | Operations | An 18-step setup SOP, a photo SOP with Fazil, a monthly report template |
-| Finances | Last month: ₹16,200 revenue, about ₹14,000 contribution, ₹800 fixed costs; break-even reached in month 2 |
+| Finances | Launch month: ₹21,200 revenue (9 setups and 10 care plans), about ₹17,000 contribution, ₹800 fixed costs; break-even reached in month 2 |
 | Compliance | Sole proprietorship, Udyam-registered; turnover well below the ₹20 lakh GST threshold, reviewed every quarter |
 | Risks | WhatsApp policy changes; competition from bigger agencies; limited time in exam season |
 | Next 90 days | 30 care-plan shops; one new town (Perambra); an AI-assisted FAQ add-on at ₹700 |
@@ -402,7 +402,7 @@ LESSONS = [L1, L2, L3]
 
 MODULE = module(
     14,
-    title='Capstone: launch your micro-business',
+    title='The capstone launch',
     weeks=(30, 32), hours=16,
     overview="""
 This is where everything comes together. You plan a launch, run it for one to two weeks, win paying customers, and then step back to review the numbers, write a one-page business plan and pitch it to a real person.

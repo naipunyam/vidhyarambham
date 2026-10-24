@@ -131,7 +131,7 @@ A script is not something to recite. It is a tested structure that keeps you cle
 
 ### Follow up
 
-Most people don't reply to a first message because they are busy, not because they aren't interested. A polite schedule:
+Many people don't reply to a first message because they are busy, not because they aren't interested. A polite schedule:
 
 - **Day 0:** your first message
 - **Day 2–3:** a short follow-up with something useful (a tip, a photo of a result)

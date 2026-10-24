@@ -16,7 +16,7 @@ Winning a new customer takes interviews, posts, visits, samples and follow-ups. 
 - **Average orders per customer** and **average order value**.
 - **Simple cohorts:** of the customers who first bought in a given month, how many bought again in the next 3 months? Compare months to see whether you are improving.
 
-Paul Graham's essay "Startup = Growth" argues that the growth rate is the compass a startup steers by. For a micro-business, watch monthly numbers: is the repeat rate going up, and is churn going down?
+Paul Graham's essay "Startup = Growth" argues that a startup should focus on its growth rate and let it guide decisions. For a micro-business, watch monthly numbers: is the repeat rate going up, and is churn going down?
 
 ### Ways to keep customers coming back
 
@@ -42,7 +42,7 @@ Nisha checked her last 6 months: 52 customers, 17 of whom ordered twice or more.
 1. **Occasion reminders, with consent.** At delivery she asks, "Shall I remind you a week before next year's birthday?" 31 customers said yes, and their dates went into her calendar.
 2. **"Same as last time?" messages** every Thursday to customers who had ordered a weekend snack box.
 
-She also sent a win-back message to 12 customers who hadn't ordered for 3 months; 4 of them ordered within two weeks.
+She also sent a win-back message to 12 Kuttiady customers who hadn't ordered for 3 months; 4 of them ordered within two weeks, about ₹3,000 of sales from one evening's messages.
 
 Arun's care plan had 10 shops, and one cancelled in October: a churn of 10%. The reason: the owner couldn't see what he was paying for. Arun added a one-page monthly report with three numbers (new catalogue items, enquiries answered and the top question). Nobody cancelled the next month.
 """,
@@ -158,7 +158,7 @@ Every Sunday evening:
 A dashboard you don't act on is decoration. The actions are the point.
 """,
     example="""
-Arun's weekly dashboard:
+Arun's weekly dashboard for ShopAssist's shops in Kuttiady and Vatakara:
 
 | KPI | Target | This week | Status |
 | --- | --- | --- | --- |

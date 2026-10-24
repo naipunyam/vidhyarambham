@@ -170,7 +170,7 @@ Then compare with reality. Can you make and sell that many units a month? This i
 Try three changes in your sheet: price down 10%, costs up 10% and sales down 20%. If any one of them wipes out your profit, the business is fragile; look for ways to raise the contribution or cut fixed costs.
 """,
     example="""
-**Nisha's P&L for November:**
+**Nisha's P&L for November** (her home bakery in Kuttiady):
 
 | Line | ₹ |
 | --- | --- |
@@ -183,7 +183,7 @@ Try three changes in your sheet: price down 10%, costs up 10% and sales down 20%
 | Phone and data | 300 |
 | One Instagram boost (a test) | 200 |
 | Oven depreciation (₹12,000 over 4 years) | 250 |
-| Interest on the mixer instalment | 120 |
+| Interest on the oven instalment | 120 |
 | **Net profit before tax** | **7,890** |
 
 She worked about 60 hours, so she earned roughly ₹130 an hour.
@@ -310,7 +310,7 @@ When you approach a GST threshold, when a compulsory case might apply, when you 
     example="""
 **Nisha** expects about ₹2.5 lakh of cake sales this year. She supplies only goods, far below the ₹40 lakh threshold, and none of the compulsory cases applies because she sells only locally and directly to customers. She doesn't register for GST and doesn't show GST on her bills. She plans to file an income tax return, using her cash book as the record. Most of her money comes by UPI, so under presumptive taxation the minimum profit she would declare is 6% of her UPI receipts plus 8% of her cash receipts. Her real profit is much higher than that, so she would declare the real figure. Whether she owes any tax depends on her total income and the current slab rates, which she will check with a local tax practitioner before filing.
 
-**Arun** expects about ₹6 lakh this year from setups and care plans, below the ₹20 lakh threshold for services. One client, a larger GST-registered mobile shop, asked for GST invoices; Arun explained that he isn't registered, and the client accepted a normal invoice. He set a reminder to review GST if his turnover passes ₹15 lakh, and asked a CA whether his work counts as a business or a profession for presumptive tax.
+**Arun** expects about ₹3 lakh this year from setups and care plans, far below the ₹20 lakh threshold for services. One client, a larger GST-registered mobile shop, asked for GST invoices; Arun explained that he isn't registered, and the client accepted a normal invoice. He set a reminder to review GST if his turnover passes ₹15 lakh, and asked a CA whether his work counts as a business or a profession for presumptive tax.
 """,
     resources=[
         ('gst-council-32', 'Read the decisions on the threshold and the composition scheme', '10 min'),
@@ -387,7 +387,7 @@ L4 = lesson(
     outcome='Choose the right source of money for your stage, find the main government schemes on official sources, and avoid dangerous debt.',
     split='1.5 hours study, 2.5 hours action',
     core="""
-Most micro-businesses don't need outside money to start, and this course is designed so that you won't. But when you need equipment or stock to grow, choose carefully: the wrong money can sink a good business.
+Many micro-businesses don't need outside money to start, and this course is designed so that you won't. But when you need equipment or stock to grow, choose carefully: the wrong money can sink a good business.
 
 ### The funding ladder
 
@@ -398,7 +398,7 @@ Use the lowest rung that works:
 3. **Friends and family:** only with a written note of the amount, whether it is a loan or a gift, the repayment dates and what happens if the business fails. Unwritten family loans damage relationships.
 4. **Bank loans,** often under government schemes (below).
 5. **Grants and competitions:** free money with conditions, mostly for innovation.
-6. **Angel investors and venture capital:** money for a share of your company. Only for businesses that can grow very fast; most micro-businesses should never raise it.
+6. **Angel investors and venture capital:** money for a share of your company. Only for businesses that can grow very fast; a typical micro-business doesn't need it.
 
 ### Government schemes (check current rules)
 
@@ -428,7 +428,7 @@ Your District Industries Centre (DIC) and Taluk Industries Office help with thes
 Angel investors and venture capital funds buy a share of your company in exchange for money. They expect very fast growth and a big exit, which suits a tech startup, not a bakery or a local service. If that is your path, Y Combinator's talk on fundraising and its seed fundraising guide explain how it works, and KSUM runs investor events.
 """,
     example="""
-Nisha wants a bigger oven and a stand mixer before next Christmas, about ₹45,000 in all. Her options:
+Nisha wants a second, larger oven and a stand mixer before next Christmas, about ₹45,000 in all. Her options:
 
 | Option | Cost | Risk |
 | --- | --- | --- |

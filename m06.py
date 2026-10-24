@@ -186,7 +186,7 @@ Nisha's first week on WhatsApp Status and Instagram:
 | Sat | Offer | "Weekend orders close tonight at 8 pm" |
 | Sun | Teach | "How to cut a cake neatly" (a 15-second clip) |
 
-Results: 7 posts, about 900 Status views, 140 Instagram views, 19 messages and 6 orders. Five of the six orders came after the Monday Reel and the Thursday price list, so in week two she posted two process Reels and kept the price list on Thursdays.
+Cost: ₹0, using her phone and the light on her balcony. Results: 7 posts, about 900 Status views, 140 Instagram views, 19 messages and 6 orders. Five of the six orders came after the Monday Reel and the Thursday price list, so in week two she posted two process Reels and kept the price list on Thursdays.
 
 **Fathima** posts one PSC question a day as a YouTube Short, with the answer explained in Malayalam in 30 seconds, ending with "The full weekly test is free in our WhatsApp channel". **Arun** posts before-and-after screenshots of shops' WhatsApp catalogues, with the owners' permission.
 """,
@@ -296,7 +296,7 @@ Ask every happy customer for an honest review, right after they thank you. Make 
 Use exactly the same name, address and phone number on Google, WhatsApp, Instagram, any directory such as JustDial, and your printed material. Mismatched details confuse customers and search engines alike.
 """,
     example="""
-Arun claimed Rasheed's existing listing, which had the wrong hours and no photos. He chose the most specific shop category, added 25 real photos, the WhatsApp number, the hours (including Sunday closing) and a description: "Sarees, salwar sets and kids' wear on Kuttiady main road, near the bus stand. New stock every week. WhatsApp us for photos and prices." He printed a QR code linking to the review page and placed it at the billing counter.
+Arun claimed Rasheed's existing listing, which had the wrong hours and no photos. He chose the most specific shop category, added 25 real photos, the WhatsApp number, the hours (including Sunday closing) and a description: "Sarees, salwar sets and kids' wear on Kuttiady main road, near the bus stand. New stock every week. WhatsApp us for photos and prices." He printed a QR code linking to the review page (₹20 at a photocopy shop) and placed it at the billing counter.
 
 In the following month, the shop received 12 reviews from real customers, averaging 4.7 stars, and the calls and direction requests shown in the profile's performance page both went up.
 
@@ -378,7 +378,7 @@ L4 = lesson(
     outcome='Design a simple, honest referral offer, ask happy customers for referrals at the right moment, and track where every customer comes from.',
     split='35 minutes study, 1 hour 25 minutes action',
     core="""
-In Kerala towns, most new customers come from people talking to each other: family groups, neighbours, colleagues, people waiting at the bus stop. Word of mouth is free, but it doesn't happen by itself. You can make it more likely.
+In small Kerala towns, word of mouth travels fast: through family groups, neighbours, colleagues and people waiting at the bus stop. Word of mouth is free, but it doesn't happen by itself. You can make it more likely.
 
 ### Give people something to talk about
 

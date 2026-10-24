@@ -7,7 +7,7 @@ L1 = lesson(
     outcome='Collect 20 real problems from your town, your own life and online groups, written as clear problem statements.',
     split='1 hour study, 2 hours action',
     core="""
-Most beginners start with a solution ("I'll make an app for…") and then look for people who need it. It works much better the other way round. Find a problem people already have, already spend time or money on, and would be glad to see solved. Then build the business around it.
+Many beginners start with a solution ("I'll make an app for…") and then look for people who need it. It works much better the other way round. Find a problem people already have, already spend time or money on, and would be glad to see solved. Then build the business around it.
 
 ### Where problems hide
 

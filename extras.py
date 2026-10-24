@@ -16,7 +16,7 @@ MODULE_MAP = [
     (11, 'AI for entrepreneurs', 'Use free AI tools for research, content, support and operations, safely', 'AI playbook'),
     (12, 'Growth and scaling', 'Keep customers, track KPIs, delegate and decide when to scale', 'KPI dashboard and growth plan'),
     (13, 'Resilience and ethics', 'Make good decisions, handle failure, avoid burnout and scams', 'Founder operating rules'),
-    (14, 'Capstone: launch', 'Plan and run your launch, win paying customers, write your plan and pitch', 'Launch report, one-page business plan, pitch'),
+    (14, 'The capstone launch', 'Plan and run your launch, win paying customers, write your plan and pitch', 'Launch report, one-page business plan, pitch'),
 ]
 
 MILESTONES = [
@@ -333,6 +333,8 @@ Never paste customers' names, phone numbers or private details into an AI tool. 
 ## 7. Calendar and an accountability buddy
 
 Block your weekly business slots in Google Calendar (you will fine-tune them in ENT-M01-L03). Choose an accountability buddy: a friend who is also building something, or a family member who will ask you every Sunday, "What did you do this week?"
+
+Every link on this page was opened and checked on 24 October 2026. The **Sources and verification log** at the end of the course lists each one with its status.
 """
     tasks = [
         ('ent-w0-folder', 'Founder Toolkit folder made in Google Drive, with its 14 subfolders'),
@@ -462,6 +464,8 @@ Finishing the course is the start of the real work. Here is a sensible order for
 - {link('ksum', 'Kerala Startup Mission')}: incubation, grants and events for tech and innovation startups
 - {link('kudumbashree')}: support and markets for women's micro-enterprises
 - Your bank's MSME desk, for Mudra and other loans (check current rules)
+
+Every link on this page was checked on 24 October 2026; see the **Sources and verification log** for each one's status.
 """
     return {
         'id': 'ent-next',
