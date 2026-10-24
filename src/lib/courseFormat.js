@@ -96,6 +96,15 @@ export function validateCourse(course) {
     for (const field of ['summary', 'content']) {
       if (section[field] !== undefined && typeof section[field] !== 'string') add(`${label}.${field}`, 'must be text')
     }
+    if (section.roadmap !== undefined) {
+      if (!isObject(section.roadmap)) add(`${label}.roadmap`, 'must be an object, for example { "title": "Course roadmap" }')
+      else {
+        for (const field of ['title', 'note', 'caption', 'trackNote']) {
+          const v = section.roadmap[field]
+          if (v !== undefined && typeof v !== 'string') add(`${label}.roadmap.${field}`, 'must be text')
+        }
+      }
+    }
     if (section.tasks === undefined) return
     if (!Array.isArray(section.tasks)) return add(`${label}.tasks`, 'must be a list')
 

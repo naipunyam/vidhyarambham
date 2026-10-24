@@ -2,6 +2,7 @@ import { sectionProgress, toggleTask, setNote } from '../lib/progress.js'
 import { hrefFor } from '../lib/routes.js'
 import { BackLink, Markdown, ProgressBar, weeksLabel } from './Bits.jsx'
 import TaskItem from './TaskItem.jsx'
+import Roadmap from './Roadmap.jsx'
 
 export default function SectionPage({ course, section, progress, onChange }) {
   const p = sectionProgress(section, progress.done)
@@ -44,6 +45,8 @@ export default function SectionPage({ course, section, progress, onChange }) {
           </ul>
         </section>
       )}
+
+      {section.roadmap && <Roadmap course={course} settings={section.roadmap} done={progress.done} />}
 
       <Markdown source={section.content} />
 

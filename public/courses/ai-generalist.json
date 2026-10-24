@@ -2,11 +2,11 @@
   "format": "vidhyarambham-course",
   "formatVersion": 1,
   "id": "ai-generalist",
-  "version": 1,
+  "version": 2,
   "title": "Free AI Generalist Course",
   "summary": "In 24 weeks you go from AI basics to your first paying client or a launched product, using only free tools and free learning resources.",
   "language": "en",
-  "updated": "2026-10-21",
+  "updated": "2026-10-24",
   "totalWeeks": 24,
   "paces": [
     {
@@ -29,8 +29,15 @@
       "id": "intro",
       "title": "How this course works",
       "kind": "intro",
-      "content": "In 24 weeks you go from AI basics to your first paying client or a launched product, using only free tools and free learning resources.\n\n**By the end you will be able to:**\n\n- Explain how large language models (LLMs) work and pick the right model for a job\n- Write prompts that give reliable, structured results\n- Build custom assistants and \"chat with your documents\" (RAG) bots\n- Make images, video, voice and music with AI, and know which ones you may use for clients\n- Automate business workflows and build AI agents\n- Build and deploy web apps with AI coding tools\n- Find clients, price your work and deliver it, or launch your own product\n\n**Six rules that make it work:**\n\n1. **Build, don't binge.** Spend about 30% of your time learning and 70% building. Every level ends in a real project.\n2. **Sell early.** The business track starts in Week 3, not at the end. You talk to real prospects while you learn.\n3. **Pass the exit test.** Each level ends with a hands-on challenge you finish without a tutorial before moving on.\n4. **Make everything public.** Every project goes into your portfolio. Clients buy proof, not certificates.\n5. **Use AI as your tutor.** A tutor prompt (Week 0) gives you explanations, quizzes and code reviews. It covers most of what a paid mentor does.\n6. **Decide with evidence.** In Week 14 you choose your business path based on what you enjoyed and what prospects responded to.\n\n**Honest limits:**\n\n- It is self-paced. With no cohort, accountability is your job; the communities section shows how to get it free.\n- Income is not guaranteed. Skills are only part of it; outreach and consistency decide the rest.\n- Free plans change often. The free tool stack lists a backup for each tool.\n- Some free plans forbid commercial use or add a watermark. Those are marked in the tool table, so you never deliver client work that breaks a licence.",
-      "tasks": []
+      "summary": "In 24 weeks you go from AI basics to your first paying client or a launched product, using only free tools and free learning resources.",
+      "content": "**By the end you will be able to:**\n\n- Explain how large language models (LLMs) work and pick the right model for a job\n- Write prompts that give reliable, structured results\n- Build custom assistants and \"chat with your documents\" (RAG) bots\n- Make images, video, voice and music with AI, and know which ones you may use for clients\n- Automate business workflows and build AI agents\n- Build and deploy web apps with AI coding tools\n- Find clients, price your work and deliver it, or launch your own product\n\n**Six rules that make it work:**\n\n1. **Build, don't binge.** Spend about 30% of your time learning and 70% building. Every level ends in a real project.\n2. **Sell early.** The business track starts in Week 3, not at the end. You talk to real prospects while you learn.\n3. **Pass the exit test.** Each level ends with a hands-on challenge you finish without a tutorial before moving on.\n4. **Make everything public.** Every project goes into your portfolio. Clients buy proof, not certificates.\n5. **Use AI as your tutor.** A tutor prompt (Week 0) gives you explanations, quizzes and code reviews. It covers most of what a paid mentor does.\n6. **Decide with evidence.** In Week 14 you choose your business path based on what you enjoyed and what prospects responded to.\n\n**Honest limits:**\n\n- It is self-paced. With no cohort, accountability is your job; the communities section shows how to get it free.\n- Income is not guaranteed. Skills are only part of it; outreach and consistency decide the rest.\n- Free plans change often. The free tool stack lists a backup for each tool.\n- Some free plans forbid commercial use or add a watermark. Those are marked in the tool table, so you never deliver client work that breaks a licence.",
+      "tasks": [],
+      "roadmap": {
+        "title": "Skills first, a path in Week 14, clients by Week 24",
+        "note": "Full pace: 24 weeks at about 15 hours a week; light pace doubles the calendar",
+        "trackNote": "Saturdays from Week 3",
+        "caption": "The levels run top to bottom. The business track runs beside them every Saturday from Week 3."
+      }
     },
     {
       "id": "pace",

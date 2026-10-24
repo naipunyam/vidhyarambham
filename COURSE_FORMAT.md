@@ -77,8 +77,28 @@ Before a file goes into `public/courses/`, the build runs `npm run check-courses
 | `summary` | No | One short paragraph shown under the title |
 | `content` | No | The lesson text, in Markdown (see below) |
 | `tasks` | No | Things to tick off |
+| `roadmap` | No | Shows the course roadmap on this section's page, above its content (see below) |
 
 Use `reference` for sections people read but don't do, such as a tool list or sources. Use `track` for work that runs alongside the levels, such as a weekly business track.
+
+## The roadmap
+
+Add `roadmap` to one section, usually the first, to show a picture of the whole course on its page:
+
+```json
+"roadmap": {
+  "title": "Skills first, a path in Week 14, clients by Week 24",
+  "note": "Full pace: 24 weeks at about 15 hours a week",
+  "trackNote": "Saturdays from Week 3",
+  "caption": "The levels run top to bottom. The business track runs beside them."
+}
+```
+
+All four fields are optional. The app draws the roadmap from the course itself:
+
+- Sections of kind `setup`, `level`, `gate` and `capstone` run top to bottom, in course order. A `gate` is drawn as a decision point.
+- The first `track` section runs beside them as a band, over the steps its `weeks` cover. Each track task sits next to the step whose weeks contain the task's `week`.
+- Each step opens its section when tapped and shows "Done" once all its tasks are ticked.
 
 ## Task fields
 
