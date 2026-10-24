@@ -1,0 +1,472 @@
+{
+  "format": "vidhyarambham-course",
+  "formatVersion": 1,
+  "id": "ai-generalist",
+  "version": 1,
+  "title": "Free AI Generalist Course",
+  "summary": "In 24 weeks you go from AI basics to your first paying client or a launched product, using only free tools and free learning resources.",
+  "language": "en",
+  "updated": "2026-10-21",
+  "totalWeeks": 24,
+  "paces": [
+    {
+      "id": "full",
+      "label": "Full pace",
+      "hoursPerWeek": 15,
+      "weekLength": 1,
+      "note": "After your PSC exam: 24 weeks"
+    },
+    {
+      "id": "light",
+      "label": "Light pace",
+      "hoursPerWeek": 7.5,
+      "weekLength": 2,
+      "note": "Alongside PSC prep: about 12 months"
+    }
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "How this course works",
+      "kind": "intro",
+      "content": "In 24 weeks you go from AI basics to your first paying client or a launched product, using only free tools and free learning resources.\n\n**By the end you will be able to:**\n\n- Explain how large language models (LLMs) work and pick the right model for a job\n- Write prompts that give reliable, structured results\n- Build custom assistants and \"chat with your documents\" (RAG) bots\n- Make images, video, voice and music with AI, and know which ones you may use for clients\n- Automate business workflows and build AI agents\n- Build and deploy web apps with AI coding tools\n- Find clients, price your work and deliver it, or launch your own product\n\n**Six rules that make it work:**\n\n1. **Build, don't binge.** Spend about 30% of your time learning and 70% building. Every level ends in a real project.\n2. **Sell early.** The business track starts in Week 3, not at the end. You talk to real prospects while you learn.\n3. **Pass the exit test.** Each level ends with a hands-on challenge you finish without a tutorial before moving on.\n4. **Make everything public.** Every project goes into your portfolio. Clients buy proof, not certificates.\n5. **Use AI as your tutor.** A tutor prompt (Week 0) gives you explanations, quizzes and code reviews. It covers most of what a paid mentor does.\n6. **Decide with evidence.** In Week 14 you choose your business path based on what you enjoyed and what prospects responded to.\n\n**Honest limits:**\n\n- It is self-paced. With no cohort, accountability is your job; the communities section shows how to get it free.\n- Income is not guaranteed. Skills are only part of it; outreach and consistency decide the rest.\n- Free plans change often. The free tool stack lists a backup for each tool.\n- Some free plans forbid commercial use or add a watermark. Those are marked in the tool table, so you never deliver client work that breaks a licence.",
+      "tasks": []
+    },
+    {
+      "id": "pace",
+      "title": "Choose your pace",
+      "kind": "reference",
+      "content": "The content is the same at both paces; only the calendar changes. Six months at full pace is long enough to build 8–10 portfolio projects and run real outreach, and short enough to keep momentum.\n\n| Pace | When | Time per week | Length |\n| --- | --- | --- | --- |\n| Full pace | After your PSC exam | About 15 hours | 24 weeks (6 months) |\n| Light pace | Alongside PSC prep | About 7–8 hours | About 12 months |\n\n**My recommendation:**\n\n- If your PSC exam is less than about 3 months away, wait. Protect the exam.\n- Otherwise, start Levels 0–2 at light pace now and switch to full pace after the exam.\n- At light pace, PSC comes first: do AI time only after that day's PSC target is done.\n- Make light-pace projects double as PSC prep: a NotebookLM notebook of your notes, a quiz generator, AI flashcards. Then the AI hours also help the exam.\n\n**Weekly rhythm at full pace (about 15 hours):**\n\n| Day | Time | What you do |\n| --- | --- | --- |\n| Mon–Thu | 2 h a day | 40 min learning, 80 min building |\n| Fri | 2 h | Finish and publish the week's project; write a short post about it |\n| Sat | 2.5 h | Business track: outreach, prospect talks, portfolio |\n| Sun | 2.5 h | Review, exit-test practice, plan next week |\n\n**Weekly rhythm at light pace (about 7.5 hours):** 1 hour each weekday and 2.5 hours on Saturday. Weekdays are for learning and building; Saturday is for publishing and the business track; Sunday is off.",
+      "tasks": []
+    },
+    {
+      "id": "week-0",
+      "title": "Week 0: Setup",
+      "kind": "setup",
+      "weeks": [
+        0,
+        0
+      ],
+      "hours": 5,
+      "content": "Week 0 takes about 5 hours. It leaves you with every free account, a faster laptop, a learning log and an AI tutor.\n\n**1. Create free accounts.** Use one email for all of them, a free password manager such as Bitwarden, and two-factor login.\n\n- Google account: Gemini app, Google AI Studio, NotebookLM, Google Colab\n- ChatGPT and Claude (free plans)\n- GitHub: your code and portfolio\n- Hugging Face and Kaggle: free courses and free cloud notebooks\n- LinkedIn: your public build log\n\n**2. Make the old laptop usable.** The heavy work runs in the cloud, so the laptop only needs a smooth browser.\n\n- Check its RAM first. With about 4 GB, try Linux Mint Xfce or Xubuntu; with about 2 GB, try Lubuntu.\n- Test Linux from a USB stick before installing anything. Back up your files first.\n- Not sure? Keep Windows and run one browser with few tabs and few extensions.\n- If you ever have a small budget, an SSD is the biggest single speed-up. It is optional.\n\n**3. Split the work between devices.** Use the phone for reading, watching lessons, quick prompts and testing apps. Use the laptop for building sessions.\n\n**4. Start a learning log.** Add one short note per day in Obsidian: what I learned, what I built, what blocked me. It becomes your blog material and your progress record.\n\n**5. Set up your AI tutor.** ChatGPT's Study Mode (Tools → Study and learn) and Gemini's Guided Learning (Tools menu) are free and teach step by step instead of just answering. Paste this prompt at the start of each study session:\n\n```\nYou are my tutor for a self-study course on becoming an AI generalist.\nMy level: [beginner / some experience]. Use simple English and real examples.\nToday's topic: [topic]. My goal for this session: [goal].\n1. Ask me 2 questions first to check what I already know.\n2. Explain one idea at a time, with an everyday example.\n3. After each idea, give me a short exercise and wait for my answer.\n4. Correct my mistakes directly. Do not praise wrong answers.\n5. End with a 5-question quiz and a summary I can save to my notes.\n```",
+      "tasks": [
+        {
+          "id": "w0-accounts",
+          "text": "All accounts created, two-factor login on",
+          "kind": "task"
+        },
+        {
+          "id": "w0-laptop",
+          "text": "Laptop runs a browser smoothly",
+          "kind": "task"
+        },
+        {
+          "id": "w0-learning-log",
+          "text": "Learning log started in Obsidian",
+          "kind": "task"
+        },
+        {
+          "id": "w0-tutor-session",
+          "text": "First tutor session done with the prompt above",
+          "kind": "task"
+        },
+        {
+          "id": "w0-start-post",
+          "text": "Optional: a LinkedIn post saying you are starting, for accountability",
+          "kind": "task"
+        }
+      ]
+    },
+    {
+      "id": "level-0",
+      "title": "Level 0: How AI really works",
+      "kind": "level",
+      "weeks": [
+        1,
+        2
+      ],
+      "hours": 30,
+      "summary": "You finish Level 0 able to explain how a chatbot produces an answer, why it makes mistakes, and which model suits which job. About 30 hours at full pace.",
+      "content": "**You learn:**\n\n- AI, machine learning, deep learning and generative AI, and how they differ\n- How an LLM is built: pre-training on internet text, tokens, next-token prediction, fine-tuning and human feedback\n- Why models hallucinate, why they miscount letters, and what a knowledge cutoff means\n- Context windows, reasoning models versus fast models, and multimodal input (images, audio, files)\n- The landscape: closed models (ChatGPT, Claude, Gemini) and open-weight models (Llama, Qwen, DeepSeek, Mistral, Gemma)\n- Safe use: what never to paste into a chatbot, checking facts, and basic copyright sense\n\n**Free resources:**\n\n| Resource | Type | Time |\n| --- | --- | --- |\n| [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI), Andrej Karpathy | Video lecture for a general audience | 3.5 h |\n| \"How I use LLMs\", on [Karpathy's YouTube channel](https://www.youtube.com/@AndrejKarpathy) | Practical video | About 2 h |\n| \"Transformers, the tech behind LLMs\" (Deep Learning chapter 5), on [3Blue1Brown](https://www.youtube.com/@3blue1brown) | Animated explainer | About 1 h |\n| [AI Fluency: Framework & Foundations](https://www.anthropic.com/learn), Anthropic Academy | Free course with certificate | 3–4 h |\n| [Elements of AI](https://www.elementsofai.com/), University of Helsinki | Free course with certificate, no maths needed | About 30 h in full; do chapters 1, 4 and 5 now |",
+      "tasks": [
+        {
+          "id": "l0-p1",
+          "text": "Model comparison journal",
+          "kind": "project",
+          "detail": "Run the same 10 real tasks through ChatGPT, Claude, Gemini and one open model on [LMArena](https://lmarena.ai). Include a summary, an email, a maths word problem, an English–Malayalam translation and a code explanation. Score each answer from 1 to 5 for accuracy and usefulness, then publish the results as a LinkedIn post.\n\nWatch the Malayalam results closely. Knowing which model writes good Malayalam is a real edge when you sell to Kerala businesses.",
+          "week": 2
+        },
+        {
+          "id": "l0-exit",
+          "text": "5-minute explanation recorded without notes",
+          "kind": "exit",
+          "detail": "Without notes, record a 5-minute voice note explaining how ChatGPT produces an answer, why it hallucinates, and which model you would pick for three different tasks and why.",
+          "week": 2
+        }
+      ]
+    },
+    {
+      "id": "level-1",
+      "title": "Level 1: Prompting and AI for everyday work",
+      "kind": "level",
+      "weeks": [
+        3,
+        4
+      ],
+      "hours": 30,
+      "summary": "You finish Level 1 able to get reliable, well-formatted results from any chatbot and to use AI for research, writing and analysis. About 30 hours at full pace.",
+      "content": "**You learn:**\n\n- The parts of a strong prompt: role, context, task, constraints, output format and examples\n- Few-shot prompting: showing 2–3 examples of what you want\n- When to switch on a reasoning model, and when a fast model is enough\n- Structured output: tables, Markdown and JSON that other tools can read\n- Prompt chaining: splitting a big job into small, checkable steps\n- Testing a prompt on 5 different inputs before trusting it\n- AI research with citations, and the habit of checking every claim against its source\n- Everyday uses: writing and editing, summarising documents, analysing a spreadsheet, learning a new topic\n\n**Free resources:**\n\n| Resource | Type | Time |\n| --- | --- | --- |\n| [Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial), Anthropic | Hands-on lessons with exercises and answer key | About 6 h |\n| [Prompt Engineering Guide](https://www.promptingguide.ai), DAIR.AI | Reference site covering every major technique | Use as needed |\n| [Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies), Google | Official Gemini guide | About 1 h |\n| [Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering), OpenAI | Official ChatGPT-model guide | About 1 h |\n| Gemini Deep Research and NotebookLM | Free research tools with limited daily or monthly use | Practice tools |",
+      "tasks": [
+        {
+          "id": "l1-p1",
+          "text": "Your prompt library",
+          "kind": "project",
+          "detail": "Build at least 20 tested templates in Obsidian. Each entry holds its purpose, the prompt, an example input and output, and the model that does it best. Include 5 business prompts: a proposal, a cold email, a social post in Malayalam, a customer reply and a price quote.",
+          "week": 4
+        },
+        {
+          "id": "l1-p2",
+          "text": "A local industry brief",
+          "kind": "project",
+          "detail": "Pick one local business type, such as Kozhikode clinics, restaurants or tuition centres. Use Deep Research and NotebookLM to find the tasks they waste time on and where AI could help. This brief feeds the business track.",
+          "week": 4
+        },
+        {
+          "id": "l1-exit",
+          "text": "PDF to client brief within 3 tries on 2 models",
+          "kind": "exit",
+          "detail": "Take a messy 3-page PDF and turn it into a one-page client brief in a fixed format. Get a usable result within 3 tries on two different models.",
+          "week": 4
+        }
+      ]
+    },
+    {
+      "id": "level-2",
+      "title": "Level 2: Custom assistants and RAG",
+      "kind": "level",
+      "weeks": [
+        5,
+        7
+      ],
+      "hours": 45,
+      "summary": "You finish Level 2 able to build assistants that follow fixed instructions and answer questions from a company's own documents, with sources. About 45 hours at full pace.",
+      "content": "**You learn:**\n\n- System instructions: giving an assistant a fixed role, tone, rules and knowledge\n- Gems in Gemini: free to create on gemini.google.com, with your own files attached. ChatGPT's custom GPTs need a paid plan to create, so use Gems.\n- Google AI Studio: system instructions, structured output and a free API key for later levels\n- Just enough Python to run notebooks in Google Colab\n- RAG (retrieval-augmented generation): splitting documents into chunks, turning them into embeddings, searching them, then answering only from what was found\n- Making a bot say \"not in the documents\" instead of guessing\n- Testing a bot with a fixed set of questions and counting correct answers\n\n**Free resources:**\n\n| Resource | Type | Time |\n| --- | --- | --- |\n| [Python course](https://www.kaggle.com/learn/python), Kaggle Learn | Short free course with exercises | About 5 h |\n| [Google AI Studio](https://aistudio.google.com) | Free playground and API key | Practice tool |\n| [NotebookLM](https://notebooklm.google.com) | Free no-code document chat with citations | Practice tool |\n| [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/): Building and Evaluating Advanced RAG; [Building Agentic RAG with LlamaIndex](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/) | Free video courses with code labs in the browser | About 1 h each |\n| \"Learn RAG From Scratch\" on [freeCodeCamp's YouTube channel](https://www.youtube.com/@freecodecamp) | Free long-form code-along | Several hours; pick chapters |\n| [LLM Course](https://huggingface.co/learn), Hugging Face | Free course with certificate | Chapters 1–2 now, the rest optional |\n\n**Light-pace option:** load your PSC notes into NotebookLM. Use it to generate practice questions and short Malayalam explanations.",
+      "tasks": [
+        {
+          "id": "l2-p1",
+          "text": "Business FAQ assistant",
+          "kind": "project",
+          "detail": "Build a Gem for one local business type using public information: services, timings, prices and policies. It must answer in English and Malayalam and hand over to a human when unsure.",
+          "week": 7
+        },
+        {
+          "id": "l2-p2",
+          "text": "Ask-my-documents bot",
+          "kind": "project",
+          "detail": "In Google Colab, with the free Gemini API, build a bot over 20 or more PDFs. It answers with page citations and says \"not in the documents\" when it should. Write 20 test questions and record how many it gets right.",
+          "week": 7
+        },
+        {
+          "id": "l2-exit",
+          "text": "8 of 10 correct after a 3-hour build",
+          "kind": "exit",
+          "detail": "In one 3-hour sitting, build a document chatbot for a document set you have not seen. It must answer at least 8 of 10 test questions correctly, with sources.",
+          "week": 7
+        }
+      ]
+    },
+    {
+      "id": "level-3",
+      "title": "Level 3: AI for images, video and voice",
+      "kind": "level",
+      "weeks": [
+        8,
+        10
+      ],
+      "hours": 45,
+      "summary": "You finish Level 3 able to produce social posts, product images and short vertical video ads, with Malayalam voiceover, that are legal to deliver to a client. About 45 hours at full pace.",
+      "content": "**You learn:**\n\n- Image prompts: subject, style, lighting, composition and aspect ratio\n- Editing with AI: background removal, product-photo clean-up, fixing parts of an image\n- A reel workflow: script (chatbot) → visuals (image and video tools) → voiceover → captions → edit → 9:16 export\n- Text-to-speech in English and Malayalam, and music generation\n- Licences: commercial use, watermarks and attribution, tool by tool\n- Ethics: never use a real person's face or voice without written consent, and label AI content where platforms ask\n\n**The licence rule:** practise with any free tool, but deliver client work only from tools whose free licence allows it. The table shows what the free plans allow as of October 2026.\n\n| Tool | What it does | Free plan for client work? |\n| --- | --- | --- |\n| [Canva](https://www.canva.com/policies/free-media) | Design, posts, posters, simple video | Yes for free content; Pro elements need a paid plan |\n| [Clipchamp](https://clipchamp.com/pricing/) | Browser video editor | Yes: 1080p exports with no watermark, unless you add premium items |\n| [FLUX.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) on Hugging Face or Colab | Open image model | Yes: Apache 2.0 licence allows commercial use |\n| [Indic Parler-TTS](https://aikosh.indiaai.gov.in/home/models/details/ai4bharat_indic_parler_tts_text_to_speech_model.html), AI4Bharat | Open text-to-speech, includes Malayalam | Yes: [Apache 2.0](https://tts.ai/voices/indic-parler/) |\n| [Suno](https://help.suno.com/en/categories/550145-rights) | Music | No: free songs are for personal, non-commercial use only |\n| [ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/13313564601361) | Voice | No: free plan has no commercial licence and needs attribution |\n| [Kling](https://www.aiarty.com/ai-video-generator/kling-ai-pricing.htm) | AI video | No: free Basic plan output is not licensed for commercial use |\n| CapCut | Video editor | Avoid: [banned in India since June 2020](https://videowizardtools.com/why-is-capcut-banned-in-india/) |",
+      "tasks": [
+        {
+          "id": "l3-p1",
+          "text": "Brand kit and 10 posts",
+          "kind": "project",
+          "detail": "For one local shop, build a colour and font kit in Canva and 10 social posts in English and Malayalam. Use FLUX images and your own phone photos.",
+          "week": 10
+        },
+        {
+          "id": "l3-p2",
+          "text": "A 30-second reel ad",
+          "kind": "project",
+          "detail": "Write the script with a chatbot, make the visuals, add a Malayalam voiceover with Indic Parler-TTS, add captions, and edit it in Clipchamp. Keep a list of every asset and its licence.",
+          "week": 10
+        },
+        {
+          "id": "l3-exit",
+          "text": "Licence-clean reel in 3 hours",
+          "kind": "exit",
+          "detail": "In 3 hours, produce a licence-clean 20–30 second reel for a business brief you have not seen, with the asset-and-licence list attached.",
+          "week": 10
+        }
+      ]
+    },
+    {
+      "id": "level-4",
+      "title": "Level 4: Automation and AI agents",
+      "kind": "level",
+      "weeks": [
+        11,
+        14
+      ],
+      "hours": 60,
+      "summary": "You finish Level 4 able to automate a real business process end to end and to build AI agents that use tools, with a human approval step where it matters. This is the skill small businesses pay for most directly. About 60 hours at full pace.",
+      "content": "**You learn:**\n\n- Workflow thinking: trigger → steps → output, and drawing a process on paper before automating it\n- APIs, webhooks and JSON, and keeping API keys secret\n- Make and n8n: building, testing and fixing workflows, plus error handling\n- Google Apps Script for free Sheets, Gmail and Forms automations\n- Telegram bots as a free chat front end for practice\n- AI agents: a model plus tools, memory and a loop. When a fixed workflow is better than an agent.\n- Human-in-the-loop: the agent drafts, a person approves before anything is sent or paid\n- MCP (Model Context Protocol): the standard way agents connect to other apps\n\n**Free tools and their limits:**\n\n| Tool | Free plan | Note |\n| --- | --- | --- |\n| [Make](https://www.jetadmin.io/blog/make-com-review/) | 1,000 credits a month, 2 active scenarios, runs at most every 15 minutes | Good for learning and small client jobs |\n| n8n Community Edition, self-hosted | Free, with no workflow or run limits | n8n Cloud has only a 14-day trial; run it on your laptop to learn |\n| Google Apps Script | Free with a Google account | Best for Sheets and Gmail jobs |\n\n**The n8n licence, in short:** n8n's [licence FAQ](https://docs.n8n.io/n8n-community-license/community-license/license-faq) allows a freelancer to build workflows for clients on their own self-hosted instance, as long as clients cannot create or edit workflows. Hosting n8n as a service where clients build their own workflows is not allowed.\n\n**WhatsApp note:** automating WhatsApp uses Meta's paid business platform. Practise with Telegram, and price WhatsApp costs into client quotes.\n\n**Free resources:**\n\n| Resource | Type | Time |\n| --- | --- | --- |\n| [n8n Academy](https://learn.n8n.io): Quickstart, Essentials, Integrations, and AI, Testing & Best Practices | Official free courses | About 10–15 h |\n| [5-Day AI Agents Intensive](https://www.kdnuggets.com/kaggle-googles-free-5-day-agentic-ai-course), Google and Kaggle | Free self-paced guide: whitepapers, podcasts, code labs | 1–2 h a day for 5 days |\n| [Agents Course](https://huggingface.co/learn), Hugging Face | Free course with certificate (needs some Python) | 20–30 h; do Units 1–2 now |\n| MCP course in [Anthropic Academy](https://www.anthropic.com/learn) | Free course | A few hours |",
+      "tasks": [
+        {
+          "id": "l4-p1",
+          "text": "Lead capture and reply",
+          "kind": "project",
+          "detail": "A Google Form sends each enquiry to n8n or Make. Gemini sorts it and drafts a reply, the workflow logs it in a Google Sheet, and the owner gets a Telegram alert to approve the reply.",
+          "week": 14
+        },
+        {
+          "id": "l4-p2",
+          "text": "Business chat bot",
+          "kind": "project",
+          "detail": "Connect your Level 2 FAQ bot to Telegram through n8n, with a \"talk to a human\" handover.",
+          "week": 14
+        },
+        {
+          "id": "l4-p3",
+          "text": "Document extraction",
+          "kind": "project",
+          "detail": "Turn a folder of bills or invoices (PDFs or photos) into clean rows in a Google Sheet, with a check step for low-confidence fields.",
+          "week": 14
+        },
+        {
+          "id": "l4-exit",
+          "text": "Unseen process automated in 4 hours, with a handover guide",
+          "kind": "exit",
+          "detail": "Take a written process you have not seen, such as \"clinic appointment requests arrive by form; staff copy them into a sheet and call back\". In under 4 hours, map it, automate it with error handling, and write a one-page handover guide.",
+          "week": 14
+        }
+      ]
+    },
+    {
+      "id": "decision-gate",
+      "title": "Decision gate and the three business paths",
+      "kind": "gate",
+      "weeks": [
+        14,
+        14
+      ],
+      "summary": "At the end of Week 14 you pick one path for the capstone, based on evidence rather than hope. My advice: start with a service path to earn money and learn what businesses need, and grow a product on the side.",
+      "content": "**Answer these with evidence from Weeks 3–14:**\n\n- Which projects did you enjoy and finish fastest?\n- Which offers got a yes, a pilot or a referral from a real owner?\n- How soon do you need income?\n\n| Path | What you sell | Time to first income | Main levels | Example offers |\n| --- | --- | --- | --- | --- |\n| A. AI automation services | Workflows, chatbots and document processing for local businesses | Fastest | 2 and 4 | Enquiry auto-reply and lead tracker for clinics; bills-to-spreadsheet for shops |\n| B. AI content studio | Posts, product images, reels and Malayalam voiceovers | Fast | 3 | Monthly content pack for a restaurant; product-photo makeover for an online seller |\n| C. Your own product | An app or tool people pay for every month | Slowest | 5 | A niche tool, such as an exam-prep app for Kerala PSC aspirants |\n\n**Pick one.** Two half-paths fail where one full path works. You can add a second path after your first three paying clients.",
+      "tasks": [
+        {
+          "id": "gate-evidence",
+          "text": "Answer the three gate questions with evidence from Weeks 3–14",
+          "kind": "task",
+          "week": 14
+        },
+        {
+          "id": "gate-path",
+          "text": "Choose one path: A, B or C",
+          "kind": "task",
+          "week": 14,
+          "detail": "Pick one. Two half-paths fail where one full path works."
+        }
+      ]
+    },
+    {
+      "id": "level-5",
+      "title": "Level 5: Building apps with AI",
+      "kind": "level",
+      "weeks": [
+        15,
+        18
+      ],
+      "hours": 60,
+      "summary": "You finish Level 5 able to turn a client's idea into a deployed web app with login, a database and an AI feature, without leaking API keys. About 60 hours at full pace.",
+      "content": "**Your head start:** you already build React PWAs with AI help. Use this level to fill the gaps that matter once real customers use your apps: backend, login, security, payments and commercial hosting.\n\n**You learn:**\n\n- Building with AI properly: write a one-page spec first (users, screens, data), build in small steps, test after each step, and read the code the AI writes\n- How a frontend, a backend and a database fit together\n- Git and GitHub: commits, branches, and rolling back a bad change\n- Login and databases with Supabase or Firebase\n- Calling AI APIs safely: keep keys on a server function, never in the browser, and limit how often each user can call it\n- Payments in India with Razorpay or UPI, added only once a real customer wants to pay\n- Security basics: check every input, lock database rows to their owner, keep secrets out of public repos, take backups\n\n**Free build tools:**\n\n| Tool | What it gives you | Note |\n| --- | --- | --- |\n| [Google AI Studio Build mode](https://venturebeat.com/ai/googles-new-vibe-coding-ai-studio-experience-lets-anyone-build-deploy-apps) | Builds full apps from a prompt in the browser; export to GitHub or ZIP | Free to start, no card needed |\n| [GitHub Codespaces](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) | A full coding setup in the browser | 120 core hours a month free, about 60 hours on the smallest machine. Ideal for the old laptop. |\n| [Google Antigravity](https://www.cloudzero.com/blog/google-antigravity-pricing/) | Agent-based coding app and command-line tool | Free Individual tier with a weekly agent quota; it [replaced the free Gemini CLI](https://letsdatascience.com/news/google-replaces-gemini-cli-with-antigravity-cli-574b2056) on June 18, 2026. The desktop app may be slow on an old laptop. |\n\n**Where you may host commercial work for free:**\n\n| Host | Free plan | Commercial use |\n| --- | --- | --- |\n| [Cloudflare Pages and Workers](https://toolfreebie.com/?p=39) | Static sites plus 100,000 Worker requests a day | Allowed |\n| [Vercel Hobby](https://vercel.com/docs/limits/fair-use-guidelines) | Generous limits | Not allowed: personal, non-commercial use only |\n| [GitHub Pages](https://docs.github.com/en/enterprise-server@3.22/pages/getting-started-with-github-pages/github-pages-limits) | Static sites | Not for an online business, shop or paid software. Fine for your portfolio and personal PSC apps. |\n| [Supabase Free](https://www.jetadmin.io/blog/supabase-review/amp/) | 2 active projects, 500 MB database | Pauses after a week without activity; fine for prototypes |\n\n**Free resources:**\n\n| Resource | Type | Time |\n| --- | --- | --- |\n| [5-Day AI Agents: Intensive Vibe Coding Course](https://letsdatascience.com/news/kaggle-offers-vibe-coding-learning-resources-f4ae7c6e), Google and Kaggle | Free self-paced guide; the optional cloud capstone may need billing | 1–2 h a day for 5 days |\n| [CS50x](https://cs50.harvard.edu/x/), Harvard | Free computer science foundations | Pick weeks on web and SQL |\n| [freeCodeCamp](https://www.freecodecamp.org/learn) | Free web development certifications | Fill gaps as needed |\n| Supabase and Cloudflare documentation | Official guides | Use as needed |",
+      "tasks": [
+        {
+          "id": "l5-p1",
+          "text": "A client-style micro app",
+          "kind": "project",
+          "detail": "Build an AI quote generator for a local service business. The customer fills a form, Gemini drafts the quote, and it is saved per user in Supabase. Host it on Cloudflare, with the API key inside a Worker.",
+          "week": 18
+        },
+        {
+          "id": "l5-p2",
+          "text": "Add AI to an app you already have",
+          "kind": "project",
+          "detail": "For example, add AI explanations and quiz generation to one of your PSC apps through a Worker, without breaking existing features.",
+          "week": 18
+        },
+        {
+          "id": "l5-exit",
+          "text": "Deployed prototype in one day, no exposed keys",
+          "kind": "exit",
+          "detail": "In one 8-hour day, turn a one-page brief into a deployed prototype with login, a database and one AI feature. No API key may be visible in the browser.",
+          "week": 18
+        }
+      ]
+    },
+    {
+      "id": "business-track",
+      "title": "The business track",
+      "kind": "track",
+      "weeks": [
+        3,
+        24
+      ],
+      "summary": "Selling starts in Week 3 and runs every Saturday. By Week 24 you have talked to real buyers for five months, not five days.",
+      "content": "**Your edge:** Malayalam, local trust and in-person access, plus AI skills. Most AI freelancers compete online on price. Kerala's small businesses need someone who speaks their language and can sit with them.\n\n**Three selling rules:**\n\n1. **Sell outcomes, not tools.** Say \"every enquiry gets a reply within 2 minutes, day and night\", not \"I build n8n workflows\".\n2. **Productise.** Each offer has a fixed scope, a fixed price and a fixed delivery time.\n3. **Charge setup plus monthly care.** A one-time build fee plus a monthly fee for hosting, fixes and tool costs gives you recurring income.\n\n**Saturday tasks by phase:**\n\n| Weeks | Business task | Output |\n| --- | --- | --- |\n| 3–4 | Pick 2 candidate niches. List 30 local businesses in each from Google Maps. | A prospect list of 60 |\n| 5–7 | Talk to 10 owners about their day, not your product | 10 interview notes and their top 3 problems |\n| 8–10 | Build a portfolio site and LinkedIn profile; post twice a week about your projects | A live portfolio |\n| 11–14 | Run 1–2 free or low-cost pilots in exchange for a testimonial and permission to publish results | 2 case studies |\n| 15–18 | Write 2 fixed-price offers; contact 10 prospects a week | An offer sheet and a pipeline |\n| 19–24 | Launch (see the capstone) | Your first paying clients |\n\n**Interview questions that get honest answers:**\n\n- \"Walk me through how you handle enquiries or bookings today.\"\n- \"What took the most time last week?\"\n- \"What have you tried to fix it, and what did that cost?\"\n- \"If this were solved, what would it be worth to you each month?\"\n\nNever ask \"Would you buy my AI tool?\" People say yes to be polite.\n\n**How to price without guessing:** estimate your hours and the tool costs, then find out what the problem costs the client each month in lost leads or staff time. Price well below that cost and well above your hours. Pass paid tool costs, such as WhatsApp messaging, through to the client in writing.\n\n**Where to find clients:**\n\n| Channel | What it costs you | Best for |\n| --- | --- | --- |\n| Local, direct (visits, referrals, WhatsApp) | No commission | Your first clients: highest trust |\n| LinkedIn, direct | No platform fee | Remote clients who see your posts |\n| [Contra](https://www.jobbers.io/?p=69887) | 0% commission for freelancers; clients pay a fee | Portfolio-led remote work |\n| [Upwork](https://www.jobbers.io/?p=51077) | About 10% fee, plus paid Connects to send proposals | Bidding on remote projects |\n| [Fiverr](https://www.jobbers.io/?p=68779) | Flat 20% of every order | Small fixed-price gigs |\n\n**Protect yourself and your clients:**\n\n- Put every project in a short written agreement: scope, price, timeline, what is not included, and how data is handled.\n- Keep client data out of free AI tiers. Google, for example, says [free Gemini API requests may be used to improve its products](https://benchlm.ai/free-tier/google-ai-studio). Use the client's own paid account for their data.\n- Udyam (MSME) registration is free on the government portal. GST registration is required above a turnover threshold. I'm not a tax adviser, so see a local chartered accountant before your first large invoice.\n\n**Free business resources:**\n\n| Resource | Type | Time |\n| --- | --- | --- |\n| [Startup School](https://www.startupschool.org/), Y Combinator | Free founder course with weekly progress tracking | About 7 weeks at 1–2 h a week |\n| [HubSpot Academy](https://www.hubspot.com/sales/sales-training): Inbound Sales | Free certification | Under 3 hours |",
+      "tasks": [
+        {
+          "id": "bt-w3-4",
+          "text": "A prospect list of 60",
+          "kind": "task",
+          "week": 4,
+          "detail": "Weeks 3–4: Pick 2 candidate niches. List 30 local businesses in each from Google Maps."
+        },
+        {
+          "id": "bt-w5-7",
+          "text": "10 interview notes and their top 3 problems",
+          "kind": "task",
+          "week": 7,
+          "detail": "Weeks 5–7: Talk to 10 owners about their day, not your product"
+        },
+        {
+          "id": "bt-w8-10",
+          "text": "A live portfolio",
+          "kind": "task",
+          "week": 10,
+          "detail": "Weeks 8–10: Build a portfolio site and LinkedIn profile; post twice a week about your projects"
+        },
+        {
+          "id": "bt-w11-14",
+          "text": "2 case studies",
+          "kind": "task",
+          "week": 14,
+          "detail": "Weeks 11–14: Run 1–2 free or low-cost pilots in exchange for a testimonial and permission to publish results"
+        },
+        {
+          "id": "bt-w15-18",
+          "text": "An offer sheet and a pipeline",
+          "kind": "task",
+          "week": 18,
+          "detail": "Weeks 15–18: Write 2 fixed-price offers; contact 10 prospects a week"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone: launch and first clients",
+      "kind": "capstone",
+      "weeks": [
+        19,
+        24
+      ],
+      "summary": "The last six weeks turn your chosen path into a running business: a sharp offer, steady outreach and your first paying customers.",
+      "content": "| Week | Paths A and B (services) | Path C (product) |\n| --- | --- | --- |\n| 19 | Final offer sheet with 2–3 fixed-price packages; one-page case studies from your pilots | Landing page with a waitlist; talk to 10 target users |\n| 20 | Contact 20 prospects a week by visit, WhatsApp or LinkedIn; follow up twice | Build the smallest version that solves the main problem |\n| 21 | Discovery calls; send each proposal within 24 hours | Private beta with waitlist users; fix the top 3 problems |\n| 22 | Deliver the first projects and collect testimonials | Add payments and ask beta users to pay |\n| 23 | Systemise: templates, checklists and a handover guide for each offer | Public launch on LinkedIn, relevant communities and local groups |\n| 24 | Review income, hours, what to raise and what to drop; plan the next 3 months | Review users, payers and drop-offs; plan the next 3 months |\n\n**After Week 24:** specialise in the niche that paid you. Move to paid tool plans only when client income covers them. If you take Path C, look at the Kerala Startup Mission grants under Communities and support.",
+      "tasks": [
+        {
+          "id": "cap-w19",
+          "text": "Week 19 plan done",
+          "kind": "task",
+          "week": 19,
+          "detail": "**Paths A and B (services):** Final offer sheet with 2–3 fixed-price packages; one-page case studies from your pilots\n\n**Path C (product):** Landing page with a waitlist; talk to 10 target users"
+        },
+        {
+          "id": "cap-w20",
+          "text": "Week 20 plan done",
+          "kind": "task",
+          "week": 20,
+          "detail": "**Paths A and B (services):** Contact 20 prospects a week by visit, WhatsApp or LinkedIn; follow up twice\n\n**Path C (product):** Build the smallest version that solves the main problem"
+        },
+        {
+          "id": "cap-w21",
+          "text": "Week 21 plan done",
+          "kind": "task",
+          "week": 21,
+          "detail": "**Paths A and B (services):** Discovery calls; send each proposal within 24 hours\n\n**Path C (product):** Private beta with waitlist users; fix the top 3 problems"
+        },
+        {
+          "id": "cap-w22",
+          "text": "Week 22 plan done",
+          "kind": "task",
+          "week": 22,
+          "detail": "**Paths A and B (services):** Deliver the first projects and collect testimonials\n\n**Path C (product):** Add payments and ask beta users to pay"
+        },
+        {
+          "id": "cap-w23",
+          "text": "Week 23 plan done",
+          "kind": "task",
+          "week": 23,
+          "detail": "**Paths A and B (services):** Systemise: templates, checklists and a handover guide for each offer\n\n**Path C (product):** Public launch on LinkedIn, relevant communities and local groups"
+        },
+        {
+          "id": "cap-w24",
+          "text": "Week 24 plan done",
+          "kind": "task",
+          "week": 24,
+          "detail": "**Paths A and B (services):** Review income, hours, what to raise and what to drop; plan the next 3 months\n\n**Path C (product):** Review users, payers and drop-offs; plan the next 3 months"
+        },
+        {
+          "id": "cap-targets",
+          "text": "3 paying clients, or 10 paying users on Path C",
+          "kind": "task",
+          "week": 24,
+          "detail": "Targets for the six weeks (goals to aim at, not promises): 100 outreach contacts, 10 real conversations, and 3 paying clients, or 10 paying users on Path C."
+        },
+        {
+          "id": "cap-public-projects",
+          "text": "8–10 public projects, each with a short write-up",
+          "kind": "task",
+          "week": 24
+        },
+        {
+          "id": "cap-case-studies",
+          "text": "At least 2 case studies with real results",
+          "kind": "task",
+          "week": 24
+        },
+        {
+          "id": "cap-portfolio-live",
+          "text": "A live portfolio site and an active LinkedIn profile",
+          "kind": "task",
+          "week": 24
+        },
+        {
+          "id": "cap-certificates",
+          "text": "Free certificates as extras: AI Fluency, Elements of AI, Hugging Face Agents, n8n Academy, HubSpot Inbound Sales",
+          "kind": "task",
+          "week": 24
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Free tool stack",
+      "kind": "reference",
+      "content": "Every tool below has a free plan as of October 2026. The last column says whether the free plan may be used for paid client work.\n\n| Tool | Category | Free plan | Free plan OK for client work? |\n| --- | --- | --- | --- |\n| ChatGPT | Chat, learning | Free plan with Study Mode | Yes, but keep client data out |\n| Claude | Chat, writing, code | Free plan | Yes, but keep client data out |\n| Gemini app | Chat, Gems, Deep Research | Free; since [October 9, 2026](https://www.layer3labs.io/guides/is-gemini-free) most free prompts go to a lighter Flash-Lite model | Yes, but keep client data out |\n| [NotebookLM](https://elephas.app/blog/notebooklm-source-limits) | Document research | Up to 100 notebooks with 50 sources each | Yes for your own research |\n| Google AI Studio and Gemini API | Prototyping, API key | Free tier with rate limits; free requests may be used to improve Google's products | Prototypes only; use the client's paid key for their data |\n| Google Colab and Kaggle notebooks | Python in the cloud | Free | Yes |\n| [GitHub Codespaces](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) | Coding in the browser | 120 core hours and 15 GB a month | Yes |\n| [Google Antigravity](https://www.cloudzero.com/blog/google-antigravity-pricing/) | AI coding agent | Free Individual tier, weekly quota | Yes |\n| n8n Community Edition | Automation | Free, self-hosted, no run limits | Yes, within the [licence rule](https://docs.n8n.io/n8n-community-license/community-license/license-faq) |\n| [Make](https://www.jetadmin.io/blog/make-com-review/) | Automation | 1,000 credits a month, 2 active scenarios | Yes, for small jobs |\n| Google Apps Script, Telegram bots | Automation | Free | Yes |\n| [Supabase](https://www.jetadmin.io/blog/supabase-review/amp/) | Database, login | 2 active projects, 500 MB, pauses after a week idle | Prototypes only |\n| [Cloudflare Pages and Workers](https://toolfreebie.com/?p=39) | Hosting | Free, 100,000 Worker requests a day | Yes |\n| [GitHub Pages](https://docs.github.com/en/enterprise-server@3.22/pages/getting-started-with-github-pages/github-pages-limits) | Hosting | Free static sites | No: not for an online business |\n| [Vercel Hobby](https://vercel.com/docs/limits/fair-use-guidelines) | Hosting | Free | No: non-commercial only |\n| [Canva](https://www.canva.com/policies/free-media) | Design | Free plan | Yes, with free elements only |\n| [Clipchamp](https://clipchamp.com/pricing/) | Video editing | 1080p exports, no watermark without premium items | Yes |\n| [FLUX.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) | Images | Open model, Apache 2.0 | Yes |\n| [Indic Parler-TTS](https://tts.ai/voices/indic-parler/) | Malayalam and English voice | Open model, Apache 2.0 | Yes |\n| [Suno](https://help.suno.com/en/categories/550145-rights), [ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/13313564601361), [Kling](https://www.aiarty.com/ai-video-generator/kling-ai-pricing.htm) | Music, voice, video | Free plans with limits | No: practice only |\n| [Razorpay](https://razorpay.com/blog/razorpay-payment-gateway-pricing-explained/) | Payments | No setup or yearly fee; about 2% per successful payment plus GST | Yes |\n\nFree plans change often. Re-check a tool's pricing page before you promise a client anything that depends on it.",
+      "tasks": []
+    },
+    {
+      "id": "community",
+      "title": "Communities and support",
+      "kind": "reference",
+      "content": "The real value of a paid cohort is accountability. You can rebuild most of it for free with a public log, a study partner and active communities.\n\n**Your accountability system:**\n\n1. **Public build log.** Every Friday, post on LinkedIn what you built that week.\n2. **Study partner.** Find one person learning AI or building a business, and hold a 15-minute check-in each week.\n3. **Sunday review.** In Obsidian, score the week against its plan and set next week's three goals.\n4. **Weekly founder update.** On Path C, use the free weekly update tool in [Startup School](https://www.startupschool.org/about).\n\n**Free communities to join:**\n\n- [n8n community forum](https://community.n8n.io): workflow help and templates\n- Hugging Face Discord: agents and open models, linked from the [Agents Course](https://huggingface.co/agents-course)\n- Kaggle Discord: questions on the 5-Day Intensive courses\n- DeepLearning.AI forum: questions on the short courses\n- College innovation and entrepreneurship centres (IEDCs) and Kerala Startup Mission events: local founders and possible study partners\n\n**Kerala Startup Mission grants:** KSUM's [innovation grants](https://grants.startupmission.in) are grants, not loans, for technology-based products. They fit Path C, not a service business.\n\n| Grant | Up to |\n| --- | --- |\n| Idea Grant | ₹3 lakh |\n| Productisation Grant | ₹7 lakh |\n| Market Acceleration Grant | ₹10 lakh |\n| Scale Up Grant | ₹15 lakh |\n\nYou can apply for the Idea Grant without a KSUM Unique ID. To receive the money, you need a registered company (private limited, LLP or one-person company) and the ID.",
+      "tasks": []
+    },
+    {
+      "id": "sources",
+      "title": "Sources",
+      "kind": "reference",
+      "content": "Checked on October 21, 2026. Official pages are listed first in each group.\n\n**Learning resources**\n\n- [Anthropic Academy](https://www.anthropic.com/learn) · [AI Fluency course details](https://www.eweek.com/news/anthropic-ai-fluency-course/) · [Academy course list](https://dev.to/amareswer/anthropic-academy-free-claude-courses-and-certificates-22ki)\n- [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI) · [Elements of AI](https://www.elementsofai.com/)\n- [Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)\n- [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/) · [Hugging Face Learn](https://huggingface.co/learn) · [Hugging Face Agents Course](https://huggingface.co/agents-course)\n- [n8n Academy](https://learn.n8n.io) · [5-Day AI Agents Intensive](https://www.kdnuggets.com/kaggle-googles-free-5-day-agentic-ai-course) · [5-Day Vibe Coding course](https://letsdatascience.com/news/kaggle-offers-vibe-coding-learning-resources-f4ae7c6e)\n- [Startup School](https://www.startupschool.org/) · [HubSpot Academy sales training](https://www.hubspot.com/sales/sales-training)\n- [ChatGPT Study Mode](https://www.tomsguide.com/ai/chatgpt/stop-getting-lazy-answers-from-chatgpt-use-study-mode-instead) · [Gemini Guided Learning](https://beebom.com/gemini-gets-a-guided-learning-mode-for-students-how-to-use-it/amp/) · [Free Gemini Gems](https://www.androidauthority.com/gemini-gems-free-3534726/)\n\n**Free plans, limits and licences**\n\n- [Make pricing](https://www.make.com/pricing) · [Make free plan details](https://www.jetadmin.io/blog/make-com-review/)\n- [n8n licence FAQ](https://docs.n8n.io/n8n-community-license/community-license/license-faq)\n- [Supabase pricing](https://supabase.com/pricing) · [GitHub Codespaces billing](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces)\n- [Vercel fair use guidelines](https://vercel.com/docs/limits/fair-use-guidelines) · [GitHub Pages limits](https://docs.github.com/en/enterprise-server@3.22/pages/getting-started-with-github-pages/github-pages-limits) · [Cloudflare free hosting](https://toolfreebie.com/?p=39)\n- [Google AI Studio free tier](https://benchlm.ai/free-tier/google-ai-studio) · [AI Studio Build mode](https://venturebeat.com/ai/googles-new-vibe-coding-ai-studio-experience-lets-anyone-build-deploy-apps) · [Gemini free plan changes](https://www.layer3labs.io/guides/is-gemini-free)\n- [Google Antigravity pricing](https://www.cloudzero.com/blog/google-antigravity-pricing/) · [Gemini CLI replaced by Antigravity CLI](https://letsdatascience.com/news/google-replaces-gemini-cli-with-antigravity-cli-574b2056)\n- [NotebookLM limits](https://elephas.app/blog/notebooklm-source-limits)\n- [Canva Free Media License](https://www.canva.com/policies/free-media) · [Clipchamp pricing](https://clipchamp.com/pricing/)\n- [Suno rights](https://help.suno.com/en/categories/550145-rights) · [ElevenLabs publishing rules](https://help.elevenlabs.io/hc/en-us/articles/13313564601361) · [Kling plans](https://www.aiarty.com/ai-video-generator/kling-ai-pricing.htm)\n- [FLUX.1 schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) · [Indic Parler-TTS on IndiaAI](https://aikosh.indiaai.gov.in/home/models/details/ai4bharat_indic_parler_tts_text_to_speech_model.html) · [Indic Parler-TTS licence](https://tts.ai/voices/indic-parler/)\n- [CapCut ban in India](https://videowizardtools.com/why-is-capcut-banned-in-india/)\n\n**Business and Kerala**\n\n- [KSUM Innovation Grant portal](https://grants.startupmission.in)\n- [Razorpay pricing](https://razorpay.com/pricing)\n- [Fiverr and Upwork fees](https://www.jobbers.io/?p=51077) · [Contra fees](https://www.jobbers.io/?p=69887)\n- [Lightweight Linux for old laptops](https://www.fosslinux.com/linux-on-older-hardware-revival-guide)",
+      "tasks": []
+    }
+  ]
+}
