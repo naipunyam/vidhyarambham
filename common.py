@@ -96,6 +96,8 @@ R = {
     'standup': _r('Stand-Up India', 'https://www.standupmitra.in/', 'vr', 'Government of India'),
     'startupindia': _r('Startup India (DPIIT recognition, Seed Fund)', 'https://www.startupindia.gov.in/', 'vr', 'Government of India'),
     'startupindia-kerala': _r('Startup India: Kerala state startup policy', 'https://www.startupindia.gov.in/content/sih/en/startup-scheme/state-startup-policies/Kerala-state-policy.html', 'vr', 'Government of India'),
+    'startupindia-recognition': _r('Startup India: who is eligible for DPIIT startup recognition', 'https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html', 'vr', 'Government of India'),
+    'partnership-act': _r('Indian Partnership Act, 1932 (India Code, PDF)', 'https://www.indiacode.nic.in/bitstream/123456789/12849/1/the_indian_partnership_act_1932.pdf', 'vr', 'Government of India'),
     'mca': _r('Ministry of Corporate Affairs (MCA): LLPs and companies', 'https://www.mca.gov.in/', 'vr', 'Government of India'),
     'ipindia': _r('IP India: trademarks', 'https://ipindia.gov.in/', 'vr', 'Government of India'),
     'tm-search': _r('IP India: search existing trademarks', 'https://ipindia.gov.in/trade-marks-before-you-apply-search-existing-trademarks', 'v', 'Government of India'),
