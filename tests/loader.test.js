@@ -3,9 +3,11 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { loadShippedCourses, loadCourseFromUrl } from '../src/lib/loader.js'
 
-const files = {
-  '/b/courses/index.json': readFileSync(new URL('../public/courses/index.json', import.meta.url), 'utf8'),
-  '/b/courses/ai-generalist.json': readFileSync(new URL('../public/courses/ai-generalist.json', import.meta.url), 'utf8'),
+// Every course listed in index.json, read from disk, served by a fake fetch.
+const indexText = readFileSync(new URL('../public/courses/index.json', import.meta.url), 'utf8')
+const files = { '/b/courses/index.json': indexText }
+for (const name of JSON.parse(indexText).courses) {
+  files[`/b/courses/${name}`] = readFileSync(new URL(`../public/courses/${name}`, import.meta.url), 'utf8')
 }
 const fakeFetch = (map) => async (url) => {
   if (!(url in map)) return { ok: false, status: 404, json: async () => ({}), text: async () => '' }
@@ -16,7 +18,7 @@ const fakeFetch = (map) => async (url) => {
 test('loads shipped courses listed in index.json', async () => {
   const r = await loadShippedCourses('/b/', fakeFetch(files))
   assert.deepEqual(r.problems, [])
-  assert.deepEqual(r.courses.map((c) => c.id), ['ai-generalist'])
+  assert.deepEqual(r.courses.map((c) => c.id), ['ai-generalist', 'entrepreneurship'])
 })
 
 test('a broken course file is skipped with a clear problem, others still load', async () => {
