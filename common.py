@@ -64,6 +64,8 @@ R = {
     'ga4-utm': _r('Analytics Help: URL builders (collect campaign data with UTM links)', 'https://support.google.com/analytics/answer/10917952', 'v', G_YT),
     'ga-builder': _r('Google Analytics demos and tools: Campaign URL Builder', 'https://ga-dev-tools.web.app/ga4/campaign-url-builder/', 'v', G_YT),
     'sites-ga': _r('Sites Help: Use Analytics with your site', 'https://support.google.com/sites/answer/97459', 'v', G_YT),
+    'ga4-traffic': _r('Analytics Help: Traffic acquisition report', 'https://support.google.com/analytics/answer/12923437', 'v', G_YT),
+    'gsites': _r('Sites Help: How to use Google Sites', 'https://support.google.com/sites/answer/6372878', 'v', G_YT),
     'gads-formats': _r('Google Ads Help: About video ad formats', 'https://support.google.com/google-ads/answer/2375464', 'v', G_YT),
     'gads-copy': _r('Google Ads Help: Write compelling, genuine ad copy', 'https://support.google.com/google-ads/answer/6167101', 'v', G_YT),
     'gads-tax': _r('Google Ads Help: Taxes in your country (India: GST)', 'https://support.google.com/google-ads/answer/2375370', 'vr', G_YT),
