@@ -125,6 +125,7 @@ R = {
     'bt-is19000': _r('Business Today: BIS standard IS 19000:2022 for online reviews (December 2022)', 'https://businesstoday.in/latest/trends/story/fake-online-reviews-bis-releases-new-standard-for-online-consumer-reviews-356195-2022-12-13', 'vr', G_NEWS),
     # ---- Free courses and guides
     'yt-creators': _r('YouTube Creators (free official guides)', 'https://www.youtube.com/creators/', 'v', G_COURSES),
+    'yt-shorts-guide': _r('YouTube Creators: Shorts (how to record, add sound, edit and upload)', 'https://www.youtube.com/creators/create/shorts/', 'v', G_COURSES),
     'bp-free': _r('Meta Blueprint: Browse free courses from the Blueprint catalog', 'https://www.facebookblueprint.com/student/page/512235-browse-free-courses-from-the-blueprint-catalog', 'v', G_COURSES),
     'bp-intro': _r('Meta Blueprint: Start marketing with Meta technologies', 'https://www.facebookblueprint.com/student/path/211554-meta-marketing', 'v', G_COURSES),
     'bp-ads': _r('Meta Blueprint: Get started with advertising on Facebook and Instagram', 'https://www.facebookblueprint.com/student/path/211543-meta-advertising-course', 'v', G_COURSES),
