@@ -140,6 +140,8 @@ R = {
     'canva-mkt': _r('Canva Design School: Marketing with Canva', 'https://www.canva.com/en/design-school/courses/marketing-with-canva', 'v', G_COURSES),
     'os-pom': _r('OpenStax: Principles of Marketing (free textbook, CC BY-NC-SA 4.0)', 'https://openstax.org/books/principles-marketing/pages/preface', 'v', G_COURSES),
     'os-5-1': _r('OpenStax Principles of Marketing 5.1: Market Segmentation and Consumer Markets', 'https://openstax.org/books/principles-marketing/pages/5-1-market-segmentation-and-consumer-markets', 'v', G_COURSES),
+    'os-2-3': _r('OpenStax Principles of Marketing 2.3: Purpose and Structure of the Marketing Plan', 'https://openstax.org/books/principles-marketing/pages/2-3-purpose-and-structure-of-the-marketing-plan', 'v', G_COURSES),
+    'os-5-6': _r('OpenStax Principles of Marketing 5.6: Product Positioning', 'https://openstax.org/books/principles-marketing/pages/5-6-product-positioning', 'v', G_COURSES),
     'os-13-3': _r('OpenStax Principles of Marketing 13.3: Integrated Marketing Communications', 'https://openstax.org/books/principles-marketing/pages/13-3-integrated-marketing-communications', 'v', G_COURSES),
     'os-16-2': _r('OpenStax Principles of Marketing 16.2: Social Media and Mobile Marketing', 'https://openstax.org/books/principles-marketing/pages/16-2-social-media-and-mobile-marketing', 'v', G_COURSES),
     'dcn-boost': _r('Digital Culture Network: boosted posts vs ad campaigns', 'https://digitalculturenetwork.org.uk/knowledge/whats-the-difference-between-boosted-posts-and-ad-campaigns-on-facebook-and-instagram/', 'v', G_COURSES),

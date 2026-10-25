@@ -186,3 +186,5 @@
 - v https://fonts.google.com/specimen/Chilanka Chilanka: Malayalam handwriting style font by Santhosh Thottingal
 - vt https://transparency.meta.com/researchtools/ad-library-tools/ "Meta Ad Library tools | Transparency Center"
 - v https://www.ascionline.in/social/faqs/ ASCI FAQs: approved labels #Advertisement #Ad #Sponsored #Collaboration #Partnership #Employee #Free gift ("No other labels can be used"); free products incl. unsolicited and barters need disclosure; placement rules; editorial content needs no label. vr
+- v https://openstax.org/books/principles-marketing/pages/5-6-product-positioning 5.6 Product Positioning: positioning statement, head-to-head vs differentiation, perceptual maps.
+- v https://openstax.org/books/principles-marketing/pages/2-3-purpose-and-structure-of-the-marketing-plan 2.3 marketing plan: SMART = specific, measurable, actionable, realistic, time-bound; SWOT.
