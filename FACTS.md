@@ -196,3 +196,6 @@
 - v https://www.facebookblueprint.com/student/path/219699-ad-objectives-course "Selecting Campaign Objectives in Meta Ads Manager": beginner, 16 min (objectives 8 min; conversion locations and performance goals 8 min). Objectives not named on page.
 - v https://digitalculturenetwork.org.uk/knowledge/what-you-need-to-set-up-meta-ads/ (upd Oct 2026): admin access to FB Page + IG; real personal profile; one Business Portfolio; ad account; card payment + optional monthly spending limit; Pixel optional (privacy policy must mention it); choose one objective + success measure.
 - vt https://transparency.meta.com/policies/ad-standards/SIEP-advertising/SIEP "Ads about Social Issues, Elections or Politics | Transparency Center"
+- v https://openstax.org/books/principles-marketing/pages/12-1-pricing-and-its-role-in-the-marketing-mix 12.1 Pricing: define pricing, role in marketing mix, psychology of pricing.
+- v https://openstax.org/books/principles-marketing/pages/15-1-personal-selling-and-its-role-in-the-promotion-mix 15.1 Personal selling, relationship selling.
+- v https://www.hubspot.com/sales/sales-training HubSpot free sales courses: Inbound Sales Certification (5 classes), Sales Enablement (12 classes), Sales Software; "all HubSpot Academy certification courses are completely free"; each 2-4 hours of video.
