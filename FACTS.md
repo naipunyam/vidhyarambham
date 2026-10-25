@@ -189,3 +189,5 @@
 - v https://openstax.org/books/principles-marketing/pages/5-6-product-positioning 5.6 Product Positioning: positioning statement, head-to-head vs differentiation, perceptual maps.
 - v https://openstax.org/books/principles-marketing/pages/2-3-purpose-and-structure-of-the-marketing-plan 2.3 marketing plan: SMART = specific, measurable, actionable, realistic, time-bound; SWOT.
 - v https://www.youtube.com/creators/create/shorts/ YouTube Creators Shorts page: record by holding capture or tap; timer for hands-free filming; Add sound; trim, voiceover, automatic captions, filters in Studio; YouTube Create for advanced editing; non-original Shorts (unedited clips of films/TV) not eligible for ads.
+- vt https://transparency.meta.com/features/approach-to-ranking/content-distribution-guidelines/engagement-bait/ "Engagement Bait | Transparency Center"
+- v https://support.google.com/google-ads/answer/6167101 Google: write compelling, genuine ad copy: focus on user needs/benefits; tie to keywords; "Make any urgency earned and valued"; avoid non-specific CTAs like "sign up today"; "call us today" = false urgency without benefit.
