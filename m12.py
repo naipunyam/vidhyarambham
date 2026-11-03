@@ -51,6 +51,28 @@ One or two posts a week on LinkedIn, and short Malayalam Reels with tips for sho
 ### Network where your clients are
 
 Many local clients come through people, not posts: traders' associations, Kudumbashree units, college alumni groups, local business WhatsApp groups (as a helpful member, not a spammer), and the owners you met in your audits. Offer help first; share a useful tip; follow up.
+
+### Teach to build trust
+
+Teaching is the fastest way to show what you know. Ideas that cost nothing:
+
+- **A free 30-minute talk** at a Kudumbashree meeting, a traders' association or a college club: "5 things every shop should fix on Google and WhatsApp".
+- **A free "profile check" morning** at a local business event: 10 minutes for each business, with one written tip each.
+- **Short Malayalam tip Reels** for shop owners: one tip, one example, one result.
+- **A simple guide** as a PDF, such as "WhatsApp Business setup in 10 steps", shared in groups where it is welcome.
+
+Each one brings new contacts, real questions to answer, and photos and stories for your own posts (with permission).
+
+### A weekly rhythm for your own brand
+
+| Day | What | Time |
+| --- | --- | --- |
+| Monday | One LinkedIn post: a lesson, a result or a mistake | 30 minutes |
+| Wednesday | One Malayalam tip Reel on your practice page or your own account | 45 minutes |
+| Friday | Helpful comments on 5 posts by local business owners or marketers | 15 minutes |
+| Any day | One message to someone you've met, with a useful link or idea | 10 minutes |
+
+That's under two hours a week, and it adds up over months.
 """,
     example="""
 Anu's LinkedIn before: a photo from a wedding, the headline "Student", no About section.
@@ -176,6 +198,26 @@ Google Sites is free with a Google account and easy on the laptop. Keep it simpl
 - **Contact:** WhatsApp click-to-chat link, email, LinkedIn.
 
 Connect Google Analytics (SMM-M08-L02) and use UTM links in your bios so you know where visitors come from. Also export a short PDF version in Canva to send on WhatsApp.
+
+### When your numbers are small
+
+Most first case studies have small numbers. That's fine if you present them honestly:
+
+- **Show change, not size:** "enquiries went from 6 to 12 a week" says more than "12 enquiries".
+- **Show rates:** shares per 1,000 views, enquiries per post.
+- **Show your process:** the calendar, a script, the before-and-after profile. Clients pay for a reliable method.
+- **Add the owner's words:** two lines on what working with you was like.
+- **Say what you'd do next:** the next three steps, with more time or budget.
+
+### One portfolio, two readers
+
+| | A business owner wants | An employer or agency wants |
+| --- | --- | --- |
+| First | Results for a business like theirs | Skills: content, editing, design, analytics |
+| Proof | Before-and-after numbers and a testimonial | Samples: Reels, carousels, a report, a calendar |
+| Then | Packages and prices | How you work: tools, process, reliability |
+
+Keep one site, but add a short "For employers" page with work samples and your tools, and send that link when you apply for jobs.
 """,
     example="""
 Anu's case study 1, in short (made-up numbers to show the method):

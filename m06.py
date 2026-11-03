@@ -46,6 +46,32 @@ YouTube's own well-being tips for creators suggest batching similar tasks, such 
 ### Keep a buffer
 
 Always keep **three to five finished posts** ready for weeks when you're ill, travelling or close to an exam. Evergreen posts (tips, "then and now", FAQs) make the best buffer because they don't go out of date.
+
+### Plan a campaign inside the calendar
+
+A festival or a launch needs more than one post. Plan it as a short campaign with a beginning, a middle and an end:
+
+| When | Post | Its job |
+| --- | --- | --- |
+| 3 weeks before | Teaser: "Something new for Onam is coming" | Curiosity |
+| 2 weeks before | Launch: the product, the price and how to order | A clear offer |
+| 10 days before | Proof: a making-of Reel, a customer's photo (with permission) | Trust |
+| 1 week before | FAQ carousel: delivery, timing, payment | Removing doubts |
+| 3 days before | Reminder: "Pre-orders close Thursday" (only if it's true) | Action |
+| On the day | Thank-you and behind-the-scenes Stories | Warmth |
+| 2 days after | Recap Reel and a review request | Proof for next time |
+
+Put each row into your Calendar tab with its date, so the campaign is batched along with everything else.
+
+### Plan the week in 20 minutes
+
+Every Saturday before you batch (or with a client, on a short call):
+
+1. Look at last week's Weekly Stats row: what worked, and what didn't?
+2. Check the month's themes and any dates coming up.
+3. Choose the week's posts: pillar, format, hook and CTA for each.
+4. List what you need: places to visit, people to ask, photos from the client.
+5. Mark each post "idea" in the Calendar tab, then start the batch.
 """,
     example="""
 Anu planned her November with three themes: "Monsoon is over: outdoor spots", "Wedding season food", and her series "₹100 Friday" and "Shop story".
@@ -156,6 +182,31 @@ Platforms reward originality. Instagram recommends originals over near-identical
 ### Make it a habit
 
 Add a "repurpose" column to your Calendar: for every main post, note the two or three other places it will go. Do the repurposing in your batch session, not as an afterthought.
+
+### One shop visit, a week of posts
+
+Here is what one 60-minute visit to a tailoring shop can become (made-up example):
+
+| Day | Platform and format | Made from |
+| --- | --- | --- |
+| Monday | Instagram Reel: "31 years on the same street" (40 seconds) | Interview clips and B-roll |
+| Monday | YouTube Short of the same video | The original export |
+| Tuesday | Story with a poll: "Have you had clothes stitched here?" | One photo |
+| Wednesday | Carousel: "5 things to ask your tailor" | His tips from the interview |
+| Thursday | Facebook Page post with the Reel and a longer caption | The Reel |
+| Friday | WhatsApp Status: three close-ups of his hands at work | B-roll |
+| Saturday | LinkedIn post: what a 31-year-old shop taught you about loyal customers | Your notes |
+| Sunday | Photos for the owner's own Google profile, with his OK | Photos from the visit |
+
+Eight pieces from one trip, about three hours of work in all, and each one made for its platform.
+
+### Long to short: find the best moments
+
+When you cut Shorts or Reels from a longer video, don't guess which parts are best. On YouTube, the audience retention report shows **spikes** where viewers rewatch or share a moment, and **dips** where they skip or leave (as of October 2026). Spikes are your best candidates for Shorts; give each one its own hook in the first second, because Shorts viewers haven't seen the build-up. A moment that only makes sense after five minutes of context won't work alone.
+
+### Check that repurposing pays
+
+Repurposing isn't free: every version needs its own hook and caption. Once a month, compare the repurposed posts with the originals in your Posting Log. If a format gets almost nothing on a platform for three months (for example, long Facebook posts for a young audience), stop making it and spend the time on what works.
 """,
     example="""
 Fathima filmed one 12-minute YouTube video, "20 Kerala geography questions for PSC (Malayalam)". From it, in about 50 extra minutes, she made:
@@ -255,6 +306,45 @@ Build once, reuse forever. Keep these in Drive folder **06 Systems**:
 - **File naming:** date_series_topic_version (2026-11-07_shopstory_tailor_v1.mp4)
 
 A good library makes a routine post take 30–40 minutes instead of two hours.
+
+### A client approval routine
+
+When you post for a business, agree a simple routine so that nothing goes out unchecked and nothing waits for ever:
+
+1. **Monday:** share next week's plan (topics and dates) in one WhatsApp message.
+2. **Wednesday:** send the finished posts: each video or image with its caption, numbered.
+3. **Thursday evening:** the owner replies "OK", or asks for changes by number ("2: change the price to ₹180").
+4. **Friday:** schedule everything that's approved.
+5. **No reply?** Agree in advance what happens: either nothing goes out, or only evergreen posts they have already approved.
+
+Keep approvals in writing; a WhatsApp message is enough. If something goes wrong later, you can show what was approved.
+
+### Check before you schedule
+
+Run through this before you press **Schedule**, because mistakes are harder to catch once you've moved on:
+
+- **Date, time and am/pm** are right, in India's time zone.
+- **The preview on a phone:** the cover or thumbnail, the first line of the caption, and on-screen text clear of the app's buttons.
+- **Tags and collaborators** are added, and everyone shown has agreed.
+- **Links and numbers work:** tap the WhatsApp link or call the number yourself.
+- **Sound is licensed** for that platform (SMM-M14-L02).
+- **Disclosure** is in place for anything paid, gifted or affiliated (SMM-M14-L01).
+- **You'll be free** for the first hour after it goes live, to reply.
+
+### Third-party schedulers
+
+Many scheduling apps have free plans with limits. Before you connect one to your account, or to a client's:
+
+- **It should connect through the platform's own login screen** (Meta's, Google's or LinkedIn's), never by typing your password into the app's own form.
+- **Check what it can access,** and remove access when you stop using it.
+- **Read the free plan's limits:** how many accounts, how many scheduled posts, and whether it adds its own branding.
+- **For clients, start with the official tools** in the table above. Add another tool only when it clearly saves time, and with the owner's agreement.
+
+### What not to schedule
+
+- **News and anything time-sensitive:** prices, stock and timings can change before the post goes out.
+- **Replies and DMs:** a person must answer, and quickly.
+- **Anything during a crisis:** when something sad or serious happens locally, or a client faces a storm of complaints, pause every scheduled post until you've checked it still fits. A cheerful offer in the middle of a tragedy looks careless. Your crisis playbook is in SMM-M14-L04.
 """,
     example="""
 Anu's scheduling set-up for the challenge:

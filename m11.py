@@ -43,6 +43,27 @@ To work on a client's profile, the owner adds you as a **manager** from their pr
 - **Local Facebook groups** and **WhatsApp Status**, where many local recommendations spread
 - **Local pages** like your practice page, which can feature businesses honestly
 - **Word of mouth**, helped by referrals (SMM-M11-L03 and ENT-M06-L04)
+
+### See what customers see
+
+Search like a customer, on a phone with location turned on, from near the shop:
+
+1. **Search the business's name.** Does the profile appear, with the right photos, hours and phone number?
+2. **Search the category and the area,** such as "mobile repair Kuttiady", "cake shop near me" or "homestay Kakkayam". Note the three businesses that appear first on the map.
+3. **Compare** the owner's profile with those three: category, photos, reviews and replies, updates, products.
+4. **Tap Directions:** does the pin take you to the real entrance?
+
+Screenshot what you find. The gap between the owner's profile and the top three is usually the to-do list.
+
+### A 10-minute weekly routine
+
+- Add one new photo: a product, the team, the shop front at night.
+- Post one update: an offer, new stock or an event.
+- Reply to every new review.
+- Check the hours, especially before holidays and festivals.
+- Check that the phone number and the WhatsApp link still work.
+
+Small, regular updates keep the profile accurate and fresh, and give customers more reasons to choose it.
 """,
     example="""
 Riyas at **Malabar Mobiles** searched "mobile repair Kuttiady" on his phone and couldn't find his shop on the map. Anu looked at his profile with him (as a manager he added):
@@ -165,6 +186,27 @@ Instagram's in-app shopping features vary by country and account, so for most In
 ### Clear policies prevent fights
 
 Write simple rules in a Highlight or the catalogue: delivery area and charges, order cut-off times, cancellation, what happens if something is wrong, and refunds. Consumer protection law applies to online sales too (ENT-M09-L03 covers it).
+
+### Find the leaking step
+
+For one month, count how many people reach each step of the chat-to-order flow, using WhatsApp labels:
+
+| Step | People | Kept from the step before |
+| --- | --- | --- |
+| Enquiries | 60 | — |
+| Order summary sent | 36 | 60% |
+| Paid | 27 | 75% |
+| Delivered | 27 | 100% |
+| Ordered again within 2 months | 9 | 33% |
+
+(Made-up numbers.) Here the biggest loss is between the enquiry and the order summary: 24 people asked but never got as far as an order. Read those chats. The usual reasons are no price in the catalogue, a slow first reply, or a question nobody answered ("Do you deliver to Thottilpalam?"). Fix that one step first, then count again next month.
+
+### Delivery in a rural area
+
+- **Zones and charges:** list nearby places with a charge for each, such as "Kuttiady town free; up to 5 km ₹30; 5–10 km ₹50" (made-up).
+- **Pick-up points:** a shop or a bus stop where customers can collect, for places you don't deliver to.
+- **An order cut-off:** "Order by 6 pm for next-day delivery."
+- **Updates:** a short message when the order leaves, so customers aren't left waiting by the phone.
 """,
     example="""
 **Amma's Pickles** set up this flow (made-up example):
@@ -286,6 +328,25 @@ Events give you timely content and new audiences:
 - **After:** a recap Reel, thank the people involved, share customers' posts with permission.
 
 At religious festivals, school events and funerals or memorials, be respectful: ask organisers before filming, avoid filming children who aren't yours without a parent's consent, and don't turn sacred moments into ads.
+
+### Turn reviews into content (with permission)
+
+Good reviews are proof from other customers. Use them honestly:
+
+- **Review card posts:** the customer's words on a simple Canva design, with their first name only if they agree.
+- **"Customer of the week" Stories,** with their photo and order, only with their clear OK.
+- **Answer a worry with a review:** if people ask "Is it fresh?", share a review that talks about freshness.
+- **Never change a review's words,** add stars, or combine several reviews into one quote.
+
+### Referral maths
+
+Before offering a referral reward, check that it pays (made-up numbers):
+
+- Nisha's average order is ₹650, and she keeps about ₹200 after ingredients and packing.
+- "You both get ₹50 off" costs ₹100 for each new customer.
+- If a new customer orders twice on average, Nisha keeps about ₹400 from them, minus the ₹100: ₹300.
+
+If a reward costs more than a new customer brings in, make it smaller, or offer a small free extra instead of a discount. The Entrepreneurship course covers referrals in ENT-M06-L04.
 """,
     example="""
 **Nisha's Oven** planned Onam (made-up example):

@@ -41,6 +41,23 @@ Set your price between your cost floor and the value to the client, and check it
 ### Don't underprice
 
 Very low prices attract clients who don't value the work, and leave you no time to do it well. Start with a fair introductory price for your first one or two clients, linked to your pilot results, and raise it as your case studies grow.
+
+### "Can you do it cheaper?"
+
+You'll hear this often. Don't cut the price for the same work; change the scope instead:
+
+- **Offer a smaller package:** "For ₹4,000 I can do 6 posts a month instead of 8, without the monthly meeting."
+- **Offer a smaller start:** a one-time setup first, and a monthly plan when they see results.
+- **Explain the value once,** in their terms: "If this brings two extra orders a week, it pays for itself."
+- **Know your floor:** the lowest price at which the work is still worth doing well. Below it, say no politely: "I understand. If things change, I'm happy to help later."
+
+A friendly way to hold your price in Malayalam: "ഈ വിലയിൽ ഞാൻ നന്നായി ചെയ്യാം; കുറഞ്ഞ ബജറ്റിന് ചെറിയ പ്ലാൻ നോക്കാം." ("At this price I can do it well; for a smaller budget, let's look at a smaller plan.")
+
+### Raise prices the right way
+
+- Raise prices for **new clients first,** as soon as your case studies improve.
+- Give existing clients **a month's notice** and a reason: more results, or more work included.
+- Raise in steps, such as 10–20% at a time, not in one big jump.
 """,
     example="""
 Arun's ShopAssist (from the Entrepreneurship course) built three packages for shops around Vatakara (made-up prices to show the method; check your own local rates):
@@ -168,6 +185,26 @@ Keep it to **one or two pages**, in plain language (and Malayalam if the owner p
 7. **Terms** (advance payment, minimum term) and **the next step** ("Reply YES and we'll start on Monday")
 
 **Never guarantee sales or follower numbers.** Promise the work, the measurement and honest reporting. Your case studies show what's possible.
+
+### Good clients and red flags
+
+Before you write a proposal, check whether this is a client you want.
+
+**Good signs:**
+
+- The owner makes the decisions, or the decision-maker joins the conversation.
+- They have a realistic budget and accept that results take a few months.
+- They reply within a day or two, and can send photos or let you visit.
+- They care about their customers, not just their numbers.
+
+**Red flags:**
+
+- They ask for fake followers, fake reviews or a "guaranteed viral" post.
+- They want work done free "for exposure", beyond a pilot you chose to do.
+- They won't pay anything in advance, or other freelancers say they don't pay.
+- They want you to copy a competitor's posts or use music and photos without permission.
+
+One difficult client can take the time of three good ones. It's fine to say no: "I don't think I'm the right fit for this, but thank you for asking."
 """,
     example="""
 After his pilot results spread by word of mouth, Arun met the owner of **Peak Fitness**. In the discovery talk she said: "We need more women joining the morning batch; most come from referrals now."
@@ -440,6 +477,43 @@ Many marketers stay happily solo with four to six good clients. An **agency** ma
 - **Cash flow:** paying helpers before clients pay you
 - **Saying yes to everything** and missing deadlines
 - **Burnout:** growth on top of exhaustion fails. YouTube's advice to creators applies here too: get help with the tasks that take your time and energy (Module 16).
+
+### Systems before people
+
+Before you hire anyone, make the work easy to hand over:
+
+- **One folder per client** in Drive, with the same structure every time: Brand (logo, colours, fonts), Photos, Calendar, Approvals, Reports, Agreements.
+- **A shared calendar** in a Google Sheet with a status column, so you and your helpers can see what's due.
+- **Templates for everything:** the onboarding checklist, weekly update, monthly report and reply templates.
+- **Checklists** for shooting, editing, captions and posting, so quality doesn't depend on memory.
+
+If you were ill for a week, could someone else keep your clients' posts going from your folders? If not, that is the next thing to fix.
+
+### Margin maths with a helper
+
+Arun's Starter package (SMM-M15-L01) is ₹6,000 a month. Doing everything himself took about 14 hours and ₹400 for travel and data: about ₹400 an hour. Now a helper edits the 4 Reels at ₹300 each. Arun spends about 8 hours on planning, captions, approvals and the report, so he keeps ₹6,000 − ₹1,200 − ₹400 = ₹4,400: **about ₹550 an hour.** If he also paid someone ₹2,500 a month for replies and Status, and his own hours only fell to 7, he'd keep ₹1,900: **about ₹270 an hour.** Do this sum for every client before you add a helper. (Made-up numbers to show the method.)
+
+### Hiring your first helper
+
+1. **Write the task down:** what, how many, by when, and to what standard (your checklist).
+2. **Give a small paid test:** one Reel edit or two designs, paid, before any regular work.
+3. **Agree in writing:** the rate per piece, deadlines, the payment date, that client files stay private, and that work made for clients belongs to the clients.
+4. **Pay on time, every time.** Good helpers stay with people who pay promptly.
+5. **Review together** after the first month: what's working, and what to change.
+
+### Keep the clients you have
+
+Growing is easier when clients stay. Winning a new client takes pitches, proposals and setup; keeping one takes care:
+
+- **A monthly check-in call,** not just the report: "What's coming up for the business next month?"
+- **A three-month review:** results against the goal, what to change, and whether the package still fits.
+- **Small, useful extras now and then,** such as a festival greeting design, with no extra charge.
+- **Fix problems fast,** and say sorry when you get something wrong.
+- **Ask for referrals** when results are good: "Who else do you know who could use this?"
+
+### Staying solo is a fine choice
+
+An agency means managing people, cash and quality as well as content. A solo freelancer with five good clients, fair prices and free evenings may be happier, and earn enough. Grow only if you want to run that kind of business, not because it sounds bigger. ENT-M12-L03 covers hiring and scaling in more depth.
 """,
     example="""
 Arun's ShopAssist after a year (made-up example):

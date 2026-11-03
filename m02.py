@@ -47,6 +47,29 @@ A vanity metric looks impressive but doesn't change decisions: total followers, 
 ### Start from your baseline
 
 Targets come from your own numbers, not from someone else's success story. If your first five posts averaged 120 views, a target of 300 views a post by week 13 is a stretch but believable; 50,000 is a wish.
+
+### Goals for different kinds of accounts
+
+| Account | Business goal | Social media objective | KPI | First target |
+| --- | --- | --- | --- | --- |
+| Your practice page | Prove you can grow an audience | Reach local people who share | Shares per 1,000 views | From 4 to 8 in 8 weeks |
+| Home bakery | More weekday orders | Nearby parents message on WhatsApp | WhatsApp chats from Instagram | From 8 to 30 a month |
+| Homestay | Fill weekdays in the monsoon | Couples from Kozhikode and Kannur enquire | Booking enquiries | From 4 to 10 a month |
+| Gym | New members in the slow months | People within 5 km try a session | Trial bookings | From 6 to 15 a month |
+| PSC YouTube channel | Income from the channel later | Aspirants subscribe and come back | Returning viewers and watch time | Up 20% in 3 months |
+| Your freelance brand | First paying clients | Shop owners see proof and message you | Enquiries from owners | 2 a month by week 30 |
+
+(Made-up numbers to show the method.)
+
+### Check each level at its own speed
+
+- **Inputs, every day or week:** did you post what you planned and reply to everyone?
+- **Outputs, every week:** views, reach, shares and follows, in your Sunday review.
+- **Outcomes, every month:** enquiries, bookings and sales. They move slowly, so judge them over a month or more, never a single day.
+
+### When the numbers disagree
+
+If views go up but enquiries don't, more views won't fix it. Look further down the funnel (SMM-M01-L02): Is the offer clear? Is the price visible? Is the WhatsApp link one tap away? Do replies come quickly? Fix the step where people drop off, then measure again. The opposite also happens: a post with modest views can bring the most enquiries because it reached exactly the right people. Judge posts by the KPI you chose, not by views alone.
 """,
     example="""
 Anu's goal ladder for **@kuttiady.diaries**:
@@ -285,6 +308,29 @@ If you are positioning a business rather than an account, the Entrepreneurship c
 ### Don't copy, learn
 
 Study competitors for patterns (formats, hooks, posting rhythm), never to copy their words, photos or videos. Copying breaks platform rules and the law, and it makes you a weaker version of them.
+
+### Test your niche before you commit
+
+Ask four questions before you settle on a niche:
+
+1. **Can you list 50 post ideas** for it in 30 minutes? If not, it's too narrow, or you don't know it well enough yet.
+2. **Do people already ask about it?** Look for questions in comments, local groups and the search suggestions in YouTube and Instagram.
+3. **Can you reach the subject every week?** A hyperlocal page needs you to visit places; a PSC channel needs regular study time.
+4. **Does it lead to your goal?** A page about local shops and food builds the skills that local clients will pay for; a page about film gossip might grow, but it won't show a bakery owner what you can do for them.
+
+Start narrow and widen later. "Food and shops around Kuttiady" can grow into "small businesses across Kozhikode district" once you have an audience; going from broad to specific is much harder.
+
+### Positioning for a client
+
+Every business you work with needs a position too. Ask the owner, "Why do your best customers choose you over the shop down the road?", then look for proof you can show:
+
+| Business | Position | Proof to show |
+| --- | --- | --- |
+| Malabar Mobiles | "The repair shop that tells you the price before opening your phone" | A price-list post, repair videos, reviews that mention honesty |
+| Nisha's Oven | "Eggless cakes that taste homemade, ordered on WhatsApp" | Process Reels, customers' photos (with permission), quick replies |
+| Kakkayam Hills Homestay | "A quiet family stay in the hills, with real monsoon views" | Monsoon videos, guest reviews, clear directions |
+
+(Made-up examples.) A position the business can't prove is just a slogan.
 """,
     example="""
 Anu analysed four accounts:
@@ -397,6 +443,29 @@ Decide, and write down, how you'll mix languages: for example "Malayalam in spee
 ### A light visual identity
 
 Two colours, one or two fonts (one that supports Malayalam well, such as Manjari or Noto Sans Malayalam), and one photo style (daylight, real places, no stock photos). Use them on every cover and thumbnail.
+
+### Balance the pillars across the week
+
+Don't post pillars at random. Give each a regular slot and a share of your posts, based on the job it does for your goal:
+
+| Pillar | Share of posts | Job it does |
+| --- | --- | --- |
+| Eat | About 35% | Reach and shares: people send food spots to friends |
+| People | About 25% | Trust and saves: the stories people remember |
+| Know | About 25% | Usefulness: the reason people follow and come back |
+| Nostalgia and places | About 15% | Emotion, and new followers from outside the area |
+
+This is a starting split for the practice page; your own numbers will show what to change. Review it every month. If a pillar gets few views and no shares for four weeks, change its format or series before you drop the topic.
+
+### Your voice in hard moments
+
+Your voice must also work when things go wrong. A friendly page that jokes in Reels should answer a complaint calmly and plainly, without jokes:
+
+- **Complaint:** "Sorry this happened. Please message us the order details and we'll sort it out today."
+- **A mistake in a post:** "You're right, the timing was wrong. We've corrected it above. Thank you for telling us."
+- **Sad local news:** pause the jokes and the scheduled posts for the day.
+
+Write two or three of these into your voice chart now, so you don't have to find the words under pressure. Module 14 covers crises in full.
 """,
     example="""
 Anu's pillars and series for @kuttiady.diaries:

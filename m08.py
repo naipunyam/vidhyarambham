@@ -170,6 +170,22 @@ In GA4, open **Reports → Acquisition → Traffic acquisition**. The **session 
 ### WhatsApp is different
 
 A WhatsApp click-to-chat link opens a chat, not a website, so GA4 can't see it. Track WhatsApp enquiries with **keywords** in your CTA ("send 'SQUAT'"), **labels** in WhatsApp Business and the question "how did you hear about us?".
+
+### Mistakes that spoil UTM data
+
+- **Mixed spellings:** `instagram`, `Instagram` and `insta` show up as three different sources. Agree one list and stick to it.
+- **Spaces:** use hyphens or underscores (`onam-offer`), never spaces.
+- **Tags on your own site's internal links:** they confuse the report about where visitors really came from. Tag only the links you put on other platforms.
+- **Link shorteners that drop the tags:** after shortening, open the link once and check that the full address in the browser still has the `utm_` parts.
+- **Personal data:** never put names, phone numbers or emails in a UTM.
+
+### Read GA4 in 10 minutes a month
+
+1. Open **Reports → Acquisition → Traffic acquisition** (as of October 2026) and set the dates to last month.
+2. Change the first column to **Session source / medium** to see which platforms brought visitors.
+3. Compare **sessions** and **engaged sessions** for each source: engaged visits matter more than clicks that leave at once.
+4. Search the table for your **campaign** names to compare the links you tagged.
+5. Write two sentences for your monthly report: which source brought the most engaged visitors, and what you'll change.
 """,
     example="""
 Peak Fitness made a one-page Google Site with its timetable and fees, connected GA4, and used three UTM links for two weeks:
@@ -285,6 +301,17 @@ Owners are busy. A good report fits on **one page**, with details after it:
 7. **What I need from you:** photos, offers, approvals.
 
 Write in plain language (Malayalam for owners who prefer it), show screenshots, and never claim results you can't connect to your work. A short **weekly WhatsApp update** ("This week: 4 posts, 2,300 views, 11 chats; best post was ...") keeps clients confident between reports.
+
+### When the numbers go down
+
+Every account has bad months. Report them the same way as good ones:
+
+1. **Say it first:** "Enquiries fell from 26 to 18 this month."
+2. **Give the likely reasons, with evidence:** fewer posts during the festival rush, no price post, a week of heavy rain.
+3. **Say what you'll change,** and when you'll check again.
+4. **Show what still went well,** honestly, without hiding the drop.
+
+Don't blame "the algorithm" without evidence; owners hear it as an excuse. A calm, honest report in a bad month builds more trust than a glossy one in a good month.
 """,
     example="""
 Anu wrote a practice report for her own page after the challenge (made-up numbers):

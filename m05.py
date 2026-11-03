@@ -56,6 +56,26 @@ Formulas aren't cheating; they are patterns that have worked for decades. Fill t
 ### Proof in every caption
 
 Add one piece of proof whenever you can: a number, a real customer quote (with permission), a fact you checked, years of experience. Proof turns a claim into something people believe.
+
+### Edit every caption once
+
+Your first draft is rarely the best. A two-minute edit makes most captions stronger:
+
+1. **Cut the warm-up.** Delete "Hi friends, today I want to tell you about…" and start with the most interesting line.
+2. **Make it specific.** Replace "affordable" with the price, "near town" with the landmark, "soon" with the date.
+3. **Check the promise.** Does the post deliver what the first line promises? If not, change the first line.
+4. **Read it aloud** in your page's voice.
+5. **Keep one CTA,** at the end.
+
+**Before:** "Hello all!! We are very happy to inform that our shop is having a big offer on many items this week so please visit and support us 🙏🙏"
+
+**After:** "Screen guards for ₹149 this week only. Fitted free in 5 minutes. 📍 Malabar Mobiles, opposite the bus stand, Kuttiady. Offer ends Sunday."
+
+The second version names the product, the price, the benefit, the place and the deadline, in fewer words. (Made-up example.)
+
+### Curiosity, not clickbait
+
+A good hook makes people curious about something the post really delivers. Clickbait promises something it doesn't ("You won't believe what happened!") or invents urgency. People feel cheated, stop trusting the page, and Meta shows less of posts that bait engagement (SMM-M14-L03). The test: would someone who watched to the end feel the hook was fair?
 """,
     example="""
 Peak Fitness's original caption under a Reel of a trainer correcting a squat:
@@ -308,6 +328,19 @@ Quick, warm replies turn interest into customers. Reply to comments within a few
 ### Bios are copy too
 
 Each platform's bio should say who it's for, what they get and what to do, in the space that platform allows (SMM-M03-L01 has the formula).
+
+### Write so everyone can follow
+
+Some of your audience read slowly, watch without sound or use a screen reader. Writing for them helps everyone:
+
+- **Captions on every video with speech,** because many people watch with the sound off.
+- **Big, short on-screen text,** away from the app's buttons, with strong contrast: light text on a dark band, or the reverse.
+- **Hashtags in Camel Case,** such as #KuttiadyFood rather than #kuttiadyfood. They're easier to read, and screen readers can say the words.
+- **Emojis after the words, not instead of them.** Screen readers read each emoji's name aloud, so a row of ten emojis is ten words of noise.
+- **Describe important images** in the caption, or in the platform's alt-text option where there is one: "Photo: the new bakery counter with 12 kinds of cake."
+- **Plain words:** explain any English marketing term in a Malayalam caption, or leave it out.
+
+A quick test: watch your next Reel on mute, then read your caption with your eyes half closed. If either stops making sense, fix it before you post.
 """,
     example="""
 Anu turned one visit, a new juice shop in Kuttiady, into posts for four places:

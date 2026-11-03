@@ -191,6 +191,25 @@ Many people watch without sound, so on-screen captions are essential.
 - Don't paste machine translations straight into posts. Ask a native speaker to check, and rewrite idioms rather than translating them word for word.
 - Local words and Malabar expressions make posts feel real; never use a dialect or accent to mock anyone.
 - Keep spellings consistent, especially place names, so people can search for them.
+
+### Dialects and respect
+
+Malayalam changes from place to place. Malabar speech, with its own words and rhythm, feels natural and warm to local viewers; use it in speech when it is yours. In written captions, simple standard Malayalam is easier for everyone to read and to search for. Never mock an accent, dialect, community or religion for laughs, even inside a trend. It loses trust fast, and it can break platform rules on hate and harassment.
+
+### Numbers, prices and times
+
+Write numbers the same way in both languages, so nobody misreads them:
+
+- **Prices with the rupee sign:** ₹650, not "650/-" in one post and "Rs. 650" in the next.
+- **Times with am or pm:** "6 pm", or "വൈകിട്ട് 6 മണി" in Malayalam.
+- **Dates with the month in words:** "15 August", not "15/8", which some people read the other way round.
+- **Phone numbers with the country code (+91)** in bios and posts, so people outside India can call or message too.
+
+### Proofread before you post
+
+- **Read the Malayalam on the phone, in the app where it will appear.** A draft, or a message to yourself on WhatsApp, works. Some apps and fonts break letters, especially chillu letters such as ൽ, ൻ and ർ, and conjuncts.
+- **Ask a second reader** who reads Malayalam well to check important posts, prices and anything you write for a client.
+- **Check names twice.** A misspelt shop or person's name is the error people notice most, and the one they remember.
 """,
     example="""
 **Amma's Pickles** tested the same Reel (a jar of mango pickle being filled) in two versions, one week apart:

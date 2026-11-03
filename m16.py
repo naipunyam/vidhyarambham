@@ -53,6 +53,19 @@ Write your priority order and stick to it, for example: health and sleep → PSC
 Talking to someone you trust helps more than pushing through alone. **Tele-MANAS** is the government's free mental health helpline, on **14416** or 1-800-89-14416, 24 hours a day, in the language of your choice. If stress is affecting your sleep, health or daily life for weeks, please see a doctor.
 
 The Entrepreneurship course looks at burnout from a business owner's side in ENT-M13-L02; read it if you are also running a business.
+
+### A reset for bad days
+
+Some days a post flops, a client is rude, or you just feel low. Have a short routine ready:
+
+1. **Close the apps** and step away for at least 20 minutes: a walk, a cup of tea, a chat with someone at home.
+2. **Write one line** about what happened, and one thing you control next.
+3. **Open your wins file** (below) and read three things in it.
+4. **Do one small, easy task,** such as replying to a kind comment or tidying your Ideas tab. Then stop for the day if you need to.
+
+### Keep a wins file
+
+Make a folder or a note called "Wins". Add screenshots of kind messages, a client's thank-you, a post that helped someone, and your progress numbers each month. On hard days it shows you real evidence that your work matters, which is worth more than any single post's views.
 """,
     example="""
 In week 33 Anu was running her sprint, finishing the pilot report and preparing for a PSC exam. She noticed she was checking Insights about twenty times a day and sleeping less (made-up example).
@@ -169,6 +182,20 @@ Agree a **moderation policy** with each client: what gets hidden, what gets answ
 ### Look after yourself afterwards
 
 Abuse hurts even when you know it's not about you. Step away from the screen, talk to someone, and if it stays with you, call **Tele-MANAS on 14416** (free, 24 hours) or see a doctor.
+
+### An escalation ladder for client accounts
+
+Agree this with every client, so you both know what happens at each level:
+
+| Level | Example | What you do |
+| --- | --- | --- |
+| 1. A fair complaint | "The cake came late" | Reply politely, move to DM or WhatsApp, fix it (SMM-M14-L04) |
+| 2. Spam or scams | Fake offers, suspicious links | Hide or delete, block, report |
+| 3. Abuse | Insults, slurs, harassment | Save evidence, hide or restrict, block, report; tell the owner |
+| 4. Threats or private information | Threats, doxxing, blackmail | Save evidence, report, tell the owner the same day; 1930 and the police |
+| 5. A storm | Many angry comments at once | Pause scheduled posts and use the crisis playbook (SMM-M14-L04) |
+
+Write the owner's phone number and your agreed reply times next to the ladder, and keep it in the client's folder.
 """,
     example="""
 Anu posted a "Shop story" about an elderly tailor. A few accounts started posting abusive comments about his community, and others joined in (made-up example).

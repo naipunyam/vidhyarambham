@@ -302,6 +302,29 @@ Write simple **house rules** ("Be kind, no hate, no spam, no personal attacks") 
 - **Third-party "growth" apps:** Instagram removes inauthentic likes, follows and comments made by such apps and warns the accounts that use them.
 
 Real engagement grows slower and lasts. Fake engagement can get your account restricted and makes your numbers useless for case studies.
+
+### Turn comments into content
+
+Comments tell you what to post next:
+
+- **Answer a common question with a post:** "Many of you asked where to park near the market. Here are 3 options." Name the person who asked only if they're happy to be named.
+- **Make a FAQ carousel** from the five questions you get most.
+- **Collect ideas:** every good question goes into the Ideas tab, with "comment" as the source.
+- **Thank people publicly** for useful tips and corrections.
+
+People who see their question answered come back, and everyone else sees a page that listens.
+
+### Check your community's health every month
+
+| Measure | How to count it | A good sign |
+| --- | --- | --- |
+| Reply rate | Comments you replied to ÷ comments received | Close to 100% |
+| Reply time | Your usual time before the first reply | A few hours or less |
+| Conversations | Comments with a question or a story, not just an emoji | Rising |
+| Regulars | Names you see commenting again and again | A growing group |
+| Story replies and DMs | From your insights and your inbox | Rising |
+
+Add these to your Weekly Stats notes once a month. For a local business, 30 regular, active people are worth more than 3,000 silent followers.
 """,
     example="""
 Anu set up a 15-minute routine at 8 pm daily and started a WhatsApp Channel, "Kuttiady Diaries updates", linked in her bio. She also began a Story series, "Ask a shop owner": followers send questions and she asks the owners on her visits.
