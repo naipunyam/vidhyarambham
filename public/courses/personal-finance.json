@@ -1,0 +1,447 @@
+{
+ "format": "vidhyarambham-course",
+ "formatVersion": 1,
+ "id": "personal-finance",
+ "version": 1,
+ "title": "Practical Personal Finance for India: Budget, Protect, Invest and Plan",
+ "summary": "Build a working budget, a net-worth tracker, an emergency fund plan, an insurance checklist, a written investment policy, a tax checklist, scam-proof habits and a complete personal financial plan, using your own money, free tools and official sources. Kerala examples, rupee calculations and copy-ready spreadsheet templates throughout. Educational only: no product tips. Part-time: 30 weeks at about 5 hours a week. Full-time: about 10 weeks.",
+ "language": "en",
+ "updated": "2026-11-03",
+ "totalWeeks": 30,
+ "paces": [
+  {
+   "id": "part-time",
+   "label": "Part-time",
+   "hoursPerWeek": 5,
+   "weekLength": 1,
+   "note": "Alongside PSC prep or a job: 30 weeks at about 5 hours a week"
+  },
+  {
+   "id": "full-time",
+   "label": "Full-time",
+   "hoursPerWeek": 14,
+   "weekLength": 0.33,
+   "note": "About 10 calendar weeks at about 14 hours a week. The 30-day expense tracking still takes 30 real days; see the weekly schedule."
+  }
+ ],
+ "sections": [
+  {
+   "id": "fin-start",
+   "title": "Start here: how this course works",
+   "kind": "intro",
+   "summary": "What you will build, how long it takes, why the course gives no tips, how every lesson works, privacy rules for proof, and the assumptions behind the course.",
+   "content": "## What this course is\n\nA free, practical personal finance course for India, written for Kerala. You learn by doing it with your own money: every lesson ends with a task on your real accounts, bills, policies or tax, and you keep proof of it. Lesson by lesson, the tasks build one complete personal financial plan.\n\nIt is written for a beginner near Kuttiady in Kozhikode district who is preparing for Kerala PSC exams, has an Android phone and an old laptop, and has ₹0 to spend on learning. Your income may one day come from a government job, freelancing or your own business, so the course covers salaried, irregular and business income. It works just as well for anyone in a similar situation.\n\nRules, rates and limits change often. Every rate, limit and rule in this course was checked against an official source or a dated news report on 2026-11-03 and is marked **as of November 2026**. Where it matters, it also says **check current rules**: open the linked source before you act.\n\n## By the end you will have\n\n- **A working budget system:** 30 days of real spending, a budget sheet with formulas and a monthly routine\n- **A net-worth tracker** and a cash-flow statement you update every month\n- **An emergency fund plan** with a target, a place and a monthly transfer that has already started\n- **An insurance checklist** and a comparison of real policies, done without buying anything\n- **A written Investment Policy Statement:** your rules for investing, before you invest\n- **A tax checklist** and a calculator that compares both tax regimes for your income\n- **Scam-proof habits** written down and shared with your family\n- **A complete personal financial plan** on one page, with a yearly review checklist\n\nAll of it lives in one spreadsheet, the **Money Workbook**, and one Google Drive folder, the **Money Folder**.\n\n## How long it takes\n\n| Pace | Calendar time | Hours a week | Total work |\n| --- | --- | --- | --- |\n| Part-time (the default) | Week 0, then 30 weeks: about 7 months | About 5 (4 to 6) | About 18 hours |\n| Full-time | About 10 weeks | About 14 | About 18 hours |\n\nPick your pace and start date on the course page; the app then shows which week you are in and what is due. The 30-day expense log takes 30 real days at either pace.\n\n## Educational only: no tips, no selling\n\n- **No product recommendations.** This course never tells you which fund, stock, policy, bank or insurer to choose. It teaches you how to compare them with official data, so you can decide for yourself.\n- **Examples are made up.** Anu, Rahul, Fathima and their numbers are invented to show how the methods work. Product names appear only as examples of a type, never as advice.\n- **It is not legal, tax or investment advice.** When your situation is complex, or a lot of money is involved, use a professional: a SEBI-registered investment adviser for investment advice (Module 9 shows how to check registration), a chartered accountant or tax practitioner for difficult tax returns, and a lawyer for wills and property.\n- **Risks are shown honestly,** including the risks of popular products such as endowment policies, chitties, co-operative deposits, real estate, stocks, gold and crypto.\n\n## Honest expectations\n\n- **Money progress is slow, then fast.** The first months feel small: ₹500 here, ₹2,000 there. Habits compound like interest does.\n- **Your income matters more than any tip.** On a small income, the biggest wins are avoiding expensive debt, insuring against disasters and growing your income (Module 16).\n- **Nobody can promise returns.** Anyone who promises high, fixed or \"guaranteed\" returns on an investment is the first warning sign of a scam (Module 15).\n- **Mistakes are normal.** You will overspend some months. The monthly review is where you notice and adjust, without guilt.\n\n## How each lesson works\n\nEvery lesson has the same parts, in this order:\n\n1. **ID, title, outcome and time** at the top, such as FIN-M01-L01\n2. **Core lesson:** the idea, explained simply, with worked calculations in rupees\n3. **Local example:** the idea applied by people like you in Kozhikode district\n4. **Free resources:** exactly what to study, how long it takes and when the link was checked\n5. **Action task:** real work on your own money, and the **proof to record**\n6. **Template:** copy-ready sheet headers, formulas and checklists that work in Google Sheets and LibreOffice Calc\n7. **Common mistakes** and how to avoid them\n8. **Quiz:** 3 to 5 questions, with the answers at the very bottom\n9. **Progress checklist:** the ticks under **Your tasks**\n\nEach module starts with an overview page: outcomes, total time, the module project, a self-assessment rubric, a \"short on time?\" version and revision flashcards.\n\n## Privacy: what proof means here\n\nProof is a screenshot, a filled-in tab or a short note, saved in your Money Folder. **Never** put full account numbers, card numbers, CVVs, PINs, passwords or OTPs in your proof, your notes, this app or an AI chat. Cover them, or write only the last four digits. Your progress in this app is saved on your phone only.\n\n## Module map\n\n| Module | Part-time weeks | What you do | Output for your plan |\n| --- | --- | --- | --- |\n| 1. Money mindset | 1–2 | Your money story, values, the biases that cost money, needs and wants, lifestyle inflation | Values tab and spending rules |\n| 2. Goals and tracking |  | Goals with amounts and dates, net-worth statement, cash-flow statement, savings rate | Goals, Net Worth and Cash Flow tabs |\n| 3. Budgeting |  | Reading your 30-day log, 50/30/20, zero-based, envelopes, a formula budget, irregular income | Budget system |\n| 4. Banking and payments |  | Account types, KYC, UPI and card safety, fraud liability rules, FDs, RDs, deposit insurance | Accounts tab and safety audit |\n| 5. Emergency fund |  | How much, where to keep it, how to build it on a small income | Emergency fund plan |\n| 6. Debt and credit |  | Interest and EMIs, credit cards, loans, credit reports, payoff methods, loan-app traps | Debts tab and payoff plan |\n| 7. Insurance |  | Term, health, accident, vehicle and home cover, government schemes, claims, complaints | Insurance checklist and comparison |\n| 8. Investing fundamentals |  | Inflation, compounding, risk and return, asset classes, allocation, rebalancing | Calculators and Allocation tabs |\n| 9. Investment options in India |  | Mutual funds, index funds, small savings, EPF, PPF, NPS, stocks, gold, REITs, KSFE, co-ops, crypto | Fund comparison and shortlist |\n| 10. Taxes |  | Income-tax Act 2025, both regimes, capital gains, TDS, filing your ITR, GST for freelancers | Tax tab and tax checklist |\n| 11. Big life goals |  | Marriage, vehicle, house (rent or buy), children's education, supporting parents | Big Goals tab |\n| 12. Retirement and independence |  | Corpus estimate, pensions, FIRE ideas | Retirement tab |\n| 13. Estate basics |  | Nominations, joint accounts, wills, a document system | Documents tab and nomination audit |\n| 14. Kerala government employee |  | Pay slip, DA, NPS and pension status, GPF, Medisep, the first-year plan | Government-job money plan |\n| 15. Scams and fraud protection |  | Ponzi, MLM, fake apps, finfluencers, UPI and OTP fraud, digital arrest, reporting | Scam-proof habits and family briefing |\n| 16. Growing income |  | Career, freelancing and business income, linked to the other courses | Income growth plan |\n| 17. Capstone |  | Investment Policy Statement, one-page financial plan, yearly money review | Your complete financial plan |\n\n## Key assumptions\n\nThese decisions were made for you when the course was written. Change them if your situation is different.\n\n1. **Pace:** part-time, about 5 hours a week next to PSC study. The full-time pace does the same work in about 10 weeks.\n2. **Money:** learning costs ₹0. The course never asks you to buy a product. Where a task involves money (opening a deposit, starting your emergency fund), the amount is yours to choose, and ₹100 is enough to learn the steps.\n3. **Income:** you may have little or irregular income now. Every lesson works with any amount, including pocket money, part-time work or family support. Module 14 assumes a future Kerala government job; Module 3 and Module 10 cover freelance and business income.\n4. **Devices:** an Android phone does almost everything with Google Sheets. The old laptop is useful for longer spreadsheet work in Google Sheets or LibreOffice Calc.\n5. **Family:** in Kerala, money is often a family matter. Tasks that involve parents, a spouse or siblings say so; share only what you are comfortable sharing.\n6. **Rules and rates** were checked on 2026-11-03. The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026, so tax lessons use the new law's section numbers, with the old names (such as \"80C\") in brackets because people still use them.\n7. **Not advice.** The course explains Indian rules simply. For complex cases, use a qualified, registered professional.\n\n## The running examples (all made up)\n\n- **Anu**, 27, a PSC aspirant in Kakkattil who tutors students and earns about ₹14,000 a month, irregularly\n- **Rahul**, 29, from Thottilpalam, newly appointed as an LD clerk in a Kerala government office after a PSC exam\n- **Fathima**, 31, a freelance graphic designer in Kuttiady with clients in Kozhikode and the Gulf\n- **Nisha's Oven**, a home bakery in Kuttiady (you may know Nisha from the Entrepreneurship course)\n- **Joseph and Mary**, Anu's neighbours, a retired couple in their sixties with a pension and an FD habit\n\n## Other courses in this app\n\nThis course links to the others instead of repeating them:\n\n- **Practical Entrepreneurship** for business bookkeeping (ENT-M08-L01), profit and break-even (ENT-M08-L02), business GST and income tax (ENT-M08-L03), funding and loans for a business (ENT-M08-L04), pricing (ENT-M05-L03) and avoiding scams (ENT-M13-L02)\n- **Practical Social Media Marketing** for earning from a skill: packages, clients and contracts (Module 15) and account security (SMM-M14-L04)\n- **Free AI Generalist Course** for using AI tools well (Level 1) and finding first clients (Capstone)"
+  },
+  {
+   "id": "fin-schedule",
+   "title": "Weekly schedule: part-time and full-time",
+   "kind": "reference",
+   "summary": "What to do each week at both paces, how the 30-day log fits the full-time pace, and a weekly rhythm around PSC study.",
+   "content": "## Part-time: about 5 hours a week\n\nOne course week is one calendar week. This is the default pace on the course page. The **30-day expense log** in weeks 1–5 takes about 10 minutes a day; the **monthly money review** takes about 30 minutes.\n\n| Week | What you do | Hours |\n| --- | --- | --- |\n| 0 | Week 0: Money Folder, Money Workbook, security and baseline | 4 |\n| 1 | FIN-M01-L01; FIN-M01-L02 (weeks 1–2); 30-day expense log | 3.2 |\n| 2 | FIN-M01-L02 (weeks 1–2); FIN-M01-L03; Module 1 project and rubric; 30-day expense log | 4.2 |\n| 3 | 30-day expense log | 1 |\n| 4 | 30-day expense log | 1 |\n| 5 | 30-day expense log | 0.5 |\n| 9 | monthly money review | 0.5 |\n| 13 | monthly money review | 0.5 |\n| 17 | monthly money review | 0.5 |\n| 21 | monthly money review | 0.5 |\n| 25 | monthly money review | 0.5 |\n| 29 | monthly money review | 0.5 |\n| 30 | final self-assessment and checklist | 1 |\n\n## Full-time: about 14 hours a week\n\nChoose **Full-time** on the course page. The app then moves about three course weeks every calendar week (one course week is 0.33 of a calendar week). Real-day tasks don't speed up:\n\n- **The 30-day expense log** still takes 30 days. Start it on day 1 and keep it going while you study Modules 1–4.\n- **Module 3** comes before your log is finished: build the budget from the days you have, then redo it when day 30 is done.\n- **Monthly reviews** happen at the end of each real month, so you do two during the course instead of six.\n\n| Calendar week | Course weeks | Modules | Real-day notes |\n| --- | --- | --- | --- |\n| 1 | 0–3 | Week 0; M01 Money mindset | Week 0 setup, then start the 30-day expense log on day 1 of course week 1. It runs in real days, to about calendar week 5. |\n| 2 | 3–6 | — | Module 3 arrives before your 30 days are done: build the budget from the days you have, and redo the numbers when day 30 is done. |\n| 3 | 6–9 | — |  |\n| 4 | 9–12 | — |  |\n| 5 | 12–15 | — | Your 30-day log ends this week. Update the Budget tab with all 30 days. |\n| 6 | 15–18 | — | First monthly money review at the end of your first real month. |\n| 7 | 18–21 | — |  |\n| 8 | 21–24 | — |  |\n| 9 | 24–27 | — |  |\n| 10 | 27–30 | — | Second monthly money review, then the final self-assessment. |\n\n## A weekly rhythm that fits around PSC study\n\n- **Daily, 5–10 minutes:** log the day's spending before you sleep. Check your bank app's UPI history so nothing is missed.\n- **Weekdays:** 30–40 minutes for a lesson, after your PSC study block, not before it, so the exam keeps your best hours.\n- **Saturday, 90 minutes:** the action task. Most tasks need your bank app, statements or documents, so do them in one sitting.\n- **First Sunday of the month, 30 minutes:** your money date. From week 9 this is the monthly money review.\n\n## When you fall behind\n\n- **This week** shows earlier open tasks as overdue. Do the action tasks first; readings can wait.\n- More than two weeks behind? Set a new start date on the course page so the weeks match your real progress. Your ticks are kept.\n- Use each module's \"short on time?\" version when you need it.\n\n## Exam mode\n\nIn the four weeks before a PSC exam: keep only the 5-minute daily log (if it is running) and the monthly review, and pause the lessons. Move your start date later by the same number of weeks. Money habits keep running; the course waits for you."
+  },
+  {
+   "id": "fin-w0",
+   "title": "Week 0: Money Folder, Money Workbook and rules from day 1",
+   "kind": "setup",
+   "weeks": [
+    0,
+    0
+   ],
+   "hours": 3.5,
+   "summary": "One private Drive folder, one workbook, a secure phone, rules that protect you from day 1, and everything ready for the 30-day expense log.",
+   "content": "Week 0 takes about 4 hours, including the baseline self-assessment on the next page. You set up free tools once, so every lesson has a place to save its work, and you start the habit the whole course depends on: writing down where your money goes.\n\n## 1. A Money Folder in Google Drive\n\nMake a folder called **Money Folder** with these subfolders: 00 Baseline, 01 Mindset, 02 Goals, 03 Budget, 04 Banking, 05 Emergency, 06 Debt, 07 Insurance, 08 Basics, 09 Investing, 10 Tax, 11 Big goals, 12 Retirement, 13 Estate, 14 Govt job, 15 Scams, 16 Income, 17 Plan. Every lesson's proof goes into one of them.\n\n- Keep the folder **private**: don't share it with anyone except, if you choose, a spouse or parent.\n- Store screenshots with account numbers covered. Keep original documents (PAN, Aadhaar, policy papers) in DigiLocker or a safe place at home, not in a shared folder. Module 13 builds a proper document system.\n\n## 2. The Money Workbook\n\nMake one spreadsheet called **Money Workbook** in Google Sheets (phone or laptop). If you prefer working offline on the laptop, the free [LibreOffice Calc](https://www.libreoffice.org/) opens and saves the same file as .xlsx or .ods. Start with two tabs; each module adds its own tab, so by week 30 the workbook is your whole plan.\n\n**Tab 1: Expenses.** Put these headings in row 1:\n\n```csv\nDate,Amount (₹),Category,Need or want,Paid by,Paid to,Note\n```\n\n- **On the laptop:** paste the line into cell A1, then choose **Data → Split text to columns** (Google Sheets) or **Data → Text to Columns** (LibreOffice).\n- **On the phone:** type the seven headings into A1 to G1.\n- **Categories** (type them exactly the same way every time, so formulas can add them up): Food and groceries, Eating out and snacks, Transport and fuel, Phone and internet, Rent and housing, Electricity, water and gas, Health and medicines, Education and PSC, Clothes and personal care, Family support, Gifts, functions and festivals, Subscriptions and apps, Loan EMIs and card payments, Savings and investments, Other.\n\n**Tab 2: Baseline.** You fill it on the next page.\n\n**Formulas in this course** work in both Google Sheets and LibreOffice Calc. One difference: LibreOffice may expect semicolons (;) instead of commas (,) between the parts of a formula, depending on its settings ([Tools → Options → LibreOffice Calc → Formula → Separators](https://help.libreoffice.org/latest/en-US/text/shared/optionen/01060900.html)). If a formula from this course shows an error in LibreOffice, change the commas to semicolons.\n\n## 3. Get your phone ready\n\n- **Your bank's official app:** install it only from the link on your bank's own website. Turn on SMS and email alerts for every transaction; alerts are how you catch fraud early (Module 4).\n- **Google Sheets and Google Drive** for the workbook and folder.\n- **Screen lock** on the phone, and app lock on payment apps if they offer it.\n- **Update** the phone's software when updates arrive; they fix security holes.\n\n## 4. Lock your accounts\n\nTurn on 2-Step Verification for the Google account that holds your Money Folder (Google Account → Security). Use a different, long password for your email and for each banking app. Save backup codes on paper at home. Module 15 goes deeper into fraud protection.\n\n## 5. Rules from day 1\n\nThese protect you while you learn. Each one is explained fully later in the course:\n\n- **Never share an OTP, UPI PIN, card PIN, CVV or password** with anyone, including people who say they are from your bank, the police, RBI or a courier company. Banks and government agencies never ask for them.\n- **Don't buy any financial product during this course just because a lesson discusses it.** Compare first, decide later, and only after your emergency fund and insurance basics are in place.\n- **Don't borrow to invest,** and don't take a loan from an app you found through an ad or a message (Module 6 shows how to check a lender).\n- **Ignore tips** from WhatsApp and Telegram groups, YouTube \"gurus\" and strangers. Anyone advising you on investments for a fee must be registered with SEBI (Module 9).\n- **Keep your proof private.** Cover account and card numbers in every screenshot, and never paste them into this app or an AI chat.\n- **Talk before you sign.** For any policy, loan, chitty or investment, take the documents home, read them, and sleep on it. Good offers don't expire tonight.\n\n## 6. An AI assistant as your tutor (optional)\n\nThe free plans of common AI chat tools are enough to ask \"explain this simply\" questions. Save this prompt and paste it at the start of a chat:\n\n```\nYou are my patient personal-finance tutor for India. I live near Kuttiady, Kozhikode, Kerala, and I am a beginner taking a self-study course. Explain in simple English, with a short Malayalam word for key terms. Use rupee examples. Never recommend a specific fund, stock, insurance policy, bank or app; instead, teach me how to compare options using official sources (RBI, SEBI, AMFI, IRDAI, the Income Tax Department). Tell me when a rule may have changed and which official page to check. If my question needs a professional (tax, legal or investment advice for my exact case), say so. Ask me one question at a time to check I understood.\n```\n\nAI tools can be wrong about Indian rules, especially recent ones. Check every rate or rule against the official link in the lesson. Never give an AI tool your account numbers, PAN, Aadhaar number or documents.\n\n## 7. Your calendar and a money buddy\n\nBlock your weekly slots in your calendar, plus a **money date** on the first Sunday of every month. Choose a money buddy: a friend, sibling or spouse who asks you every Sunday, \"Did you log everything this week?\"\n\n## 8. Start the 30-day expense log\n\nYour log starts on day 1 of week 1, the day after you finish this page. The **Money habits track** page explains the rules. Log everything, including cash, tea and small UPI payments. It takes 5 to 10 minutes a day.\n\nEvery link on this page was checked on 2026-11-03. The **Sources and verification log** at the end of the course lists each one with its status.",
+   "tasks": [
+    {
+     "id": "fin-w0-folder",
+     "text": "Money Folder made in Google Drive, private, with its 18 subfolders",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "fin-w0-workbook",
+     "text": "Money Workbook made, with the Expenses tab headings and the category list",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "fin-w0-phone",
+     "text": "Bank app from the official link, transaction alerts on, screen lock on",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "fin-w0-security",
+     "text": "2-Step Verification on for the Google account; unique passwords for email and banking",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "fin-w0-rules",
+     "text": "Rules from day 1 read and saved as a note on your phone",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "fin-w0-calendar",
+     "text": "Weekly slots and a monthly money date in your calendar; money buddy chosen",
+     "kind": "task",
+     "week": 0
+    }
+   ]
+  },
+  {
+   "id": "fin-baseline",
+   "title": "Baseline self-assessment (you repeat it at the end)",
+   "kind": "setup",
+   "weeks": [
+    0,
+    0
+   ],
+   "hours": 0.5,
+   "summary": "Rate 20 money skills, write a rough money snapshot and say why you are doing this. You take the same assessment in week 30.",
+   "content": "Before you start, record where you are. You'll take exactly the same self-assessment in week 30 and compare. Be honest: low scores now make your progress visible later. It takes about 30 minutes.\n\n## Part 1: rate 20 skills from 1 to 5\n\n| Score | Means |\n| --- | --- |\n| 1 | Never heard of it, or can't do it |\n| 2 | Understand it, but haven't done it |\n| 3 | Can do it with help or a guide open |\n| 4 | Can do it alone, reliably |\n| 5 | Can explain it to my family and do it for them |\n\nCopy this table into the **Baseline** tab of your Money Workbook. Fill in the **Start** column now; leave **End** for week 30.\n\n| No | Skill | Start (week 0) | End (week 30) |\n| --- | --- | --- | --- |\n| 1 | Say where my money goes each month, in rupees |  |  |\n| 2 | Tell needs from wants and spot lifestyle inflation |  |  |\n| 3 | Set a money goal with an amount, a date and a monthly saving |  |  |\n| 4 | Build a net-worth statement |  |  |\n| 5 | Build a monthly budget in a spreadsheet with formulas |  |  |\n| 6 | Budget an irregular or freelance income |  |  |\n| 7 | Use UPI, cards and net banking safely, and know what to do after a fraud |  |  |\n| 8 | Size an emergency fund and choose where to keep it |  |  |\n| 9 | Calculate the true cost of a loan or a credit-card balance |  |  |\n| 10 | Read my credit report and get an error fixed |  |  |\n| 11 | Work out how much term and health cover I need, without being sold to |  |  |\n| 12 | Make an insurance claim, and complain if it is rejected |  |  |\n| 13 | Explain inflation, compounding and real return with numbers |  |  |\n| 14 | Choose an asset allocation and rebalance it |  |  |\n| 15 | Compare mutual funds using official data |  |  |\n| 16 | Explain PPF, EPF, NPS, FDs and small savings, and when each fits |  |  |\n| 17 | Calculate income tax under both regimes and file my own return |  |  |\n| 18 | Plan a big goal: house, vehicle, education or parents' care |  |  |\n| 19 | Spot and report an investment or payment scam |  |  |\n| 20 | Write and review a personal financial plan |  |  |\n\n## Part 2: your money snapshot\n\nRough numbers are fine; guesses are allowed and useful. You will compare them with real numbers later, and the gap between guess and reality is one of the most useful things this course shows you. Write them in the same tab.\n\n```\nMONEY SNAPSHOT (date: ____)\nMonthly income after deductions, roughly: ₹____ (0 is a fine answer)\nMonthly spending, your best guess: ₹____\nSavings and investments, total: ₹____\nLoans, card dues and money owed to people, total: ₹____\nIf my income stopped today, I could cover about ____ months of expenses\nHealth insurance: yes / no / don't know   Cover: ₹____\nLife insurance: yes / no   Type, if known: ____\nI know my credit score: yes / no\nNominees on all my accounts: yes / no / don't know\nI have filed an income tax return before: yes / no\nI have been offered a \"scheme\", app or tip that promised big returns: yes / no\n```\n\n## Part 3: three sentences\n\n1. Why I am doing this course: ____\n2. What I want my money life to look like in week 30: ____\n3. What usually stops me finishing things, and my plan for it: ____\n\nSave a screenshot of the Baseline tab (numbers you consider private can be covered) in **00 Baseline**.",
+   "tasks": [
+    {
+     "id": "fin-baseline-skills",
+     "text": "Baseline: 20 skills rated, Start column filled in",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "fin-baseline-snapshot",
+     "text": "Baseline: money snapshot and three sentences written",
+     "kind": "task",
+     "week": 0
+    }
+   ]
+  },
+  {
+   "id": "fin-habits",
+   "title": "Money habits track: the 30-day log and monthly reviews",
+   "kind": "track",
+   "weeks": [
+    1,
+    29
+   ],
+   "summary": "Log every rupee for 30 days in weeks 1–5, then review your money for 30 minutes every month. Ten checkpoints keep you on track.",
+   "content": "Two habits run underneath the whole course. **This week** on the course page shows one checkpoint at a time.\n\n## Habit 1: the 30-day expense log (weeks 1–5)\n\nFor 30 days in a row, write down every rupee that leaves your hands or your accounts, in the **Expenses** tab. This is the most important task in the course: every budget, goal and plan later is built on these real numbers.\n\n**Rules for the 30 days**\n\n1. **Everything counts:** tea, bus fare, mobile recharge, a ₹10 UPI payment, money given to family, a gift at a wedding. Cash too.\n2. **Log daily,** before you sleep. Open your bank app's UPI history and your wallet: anything missing? It takes 5 to 10 minutes.\n3. **One row per payment.** Date, amount, category from the list in Week 0, need or want (your honest call), how you paid, who you paid, and a short note if useful.\n4. **Don't change your life for the log.** The aim is to see your real spending, not a \"good month\". If you notice a leak, write it in the note; you fix it in Module 3.\n5. **Missed a day?** Fill it from your UPI history and memory the next morning. Don't restart; just keep going.\n6. **Shared family spending:** if you pay for the household, log what you pay. If parents pay for you, you can add a note of rough amounts; it helps you plan for the day you take over.\n\n**A formula to watch your total grow** (put it in any empty cell, such as J1):\n\n```\n=SUM(B2:B500)\n```\n\n## Habit 2: the monthly money review (from week 9)\n\nOn your money date, spend 30 minutes updating your numbers and making one decision. Add a **Review** tab with these headings:\n\n```csv\nMonth,Income (₹),Spent (₹),Saved (₹),Savings rate %,Net worth (₹),Emergency fund (₹),Debt left (₹),Biggest overspend,One decision for next month\n```\n\nSavings rate % formula, for row 2: `=IF(B2>0, D2/B2*100, 0)`\n\n**The review routine:** update Net Worth (Module 2), compare budget with actual spending (Module 3), check the emergency fund and debts, then write **one decision** for next month, such as \"cancel one unused subscription\" or \"move ₹500 more to the emergency fund on salary day\". One decision a month is enough; twelve good decisions a year change your life.\n\n## Checkpoints\n\n| Due by week | Checkpoint | Evidence |\n| --- | --- | --- |\n| 1 | 30-day log: day 7 done, every expense logged | Expenses tab with 7 days of rows |\n| 2 | 30-day log: day 14 done | Expenses tab with 14 days of rows and a first category total |\n| 3 | 30-day log: day 21 done | Expenses tab with 21 days of rows |\n| 5 | 30-day log: all 30 days done | Expenses tab with 30 days of rows, cash included |\n| 9 | Monthly money review 1 | Review tab row: net worth, budget vs actual, emergency fund, one decision |\n| 13 | Monthly money review 2 | Review tab row, with debts and insurance updated |\n| 17 | Monthly money review 3 | Review tab row, with your allocation checked |\n| 21 | Monthly money review 4 | Review tab row, with the tax checklist updated |\n| 25 | Monthly money review 5 | Review tab row, with goal savings updated |\n| 29 | Monthly money review 6 | Review tab row, ready for your one-page plan |\n\n## When a checkpoint is missed\n\nMissing one is information, not failure. Ask why: no fixed time, too many categories, embarrassment about a spend, exam pressure? Fix that one thing. For the log, fill the gap from your UPI history and carry on.",
+   "tasks": [
+    {
+     "id": "fin-habit-day7",
+     "text": "30-day log: day 7 done, every expense logged",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Evidence:** Expenses tab with 7 days of rows. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-habit-day14",
+     "text": "30-day log: day 14 done",
+     "kind": "project",
+     "week": 2,
+     "detail": "**Evidence:** Expenses tab with 14 days of rows and a first category total. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-habit-day21",
+     "text": "30-day log: day 21 done",
+     "kind": "project",
+     "week": 3,
+     "detail": "**Evidence:** Expenses tab with 21 days of rows. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-habit-day30",
+     "text": "30-day log: all 30 days done",
+     "kind": "project",
+     "week": 5,
+     "detail": "**Evidence:** Expenses tab with 30 days of rows, cash included. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-review-1",
+     "text": "Monthly money review 1",
+     "kind": "project",
+     "week": 9,
+     "detail": "**Evidence:** Review tab row: net worth, budget vs actual, emergency fund, one decision. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-review-2",
+     "text": "Monthly money review 2",
+     "kind": "project",
+     "week": 13,
+     "detail": "**Evidence:** Review tab row, with debts and insurance updated. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-review-3",
+     "text": "Monthly money review 3",
+     "kind": "project",
+     "week": 17,
+     "detail": "**Evidence:** Review tab row, with your allocation checked. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-review-4",
+     "text": "Monthly money review 4",
+     "kind": "project",
+     "week": 21,
+     "detail": "**Evidence:** Review tab row, with the tax checklist updated. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-review-5",
+     "text": "Monthly money review 5",
+     "kind": "project",
+     "week": 25,
+     "detail": "**Evidence:** Review tab row, with goal savings updated. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    },
+    {
+     "id": "fin-review-6",
+     "text": "Monthly money review 6",
+     "kind": "project",
+     "week": 29,
+     "detail": "**Evidence:** Review tab row, ready for your one-page plan. Save a screenshot in your Money Folder (03 Budget for the log, 17 Plan for reviews)."
+    }
+   ]
+  },
+  {
+   "id": "fin-m01",
+   "title": "Module 1: Money mindset and behavioural finance",
+   "kind": "level",
+   "weeks": [
+    1,
+    2
+   ],
+   "hours": 5.5,
+   "summary": "Understand the beliefs, values and biases behind your money decisions, and turn them into a few clear spending rules.",
+   "content": "## Overview\n\nMost money problems are not maths problems. People know they should save; they just don't. This module looks at why: the money story you grew up with, the values you actually hold, the biases every brain has, and the slow creep of lifestyle inflation.\n\nYou start your 30-day expense log in the same week (see the **Money habits track**), so every lesson here uses your real spending, not imaginary examples. By the end of week 2 you have a short list of spending rules that fit your values and protect you from your own biases. Every later module builds on them.\n\n## Outcomes\n\nBy the end of this module you can:\n\n- Describe the money beliefs you grew up with and choose which to keep\n- Rank your money values and turn them into specific spending rules\n- Recognise seven common biases in your own spending and set up rules that beat them\n- Separate needs, wants and upgraded needs with a spreadsheet formula\n- Price a want in hours of work and write a rule for future raises\n\n## Time\n\nAbout 5 hours 30 minutes in total: 4 hours 30 minutes of lessons and 1 hour for the module project. Part-time: weeks 1–2.\n\n## Lessons\n\n1. FIN-M01-L01: Your money story and values (about 1 hour 30 minutes)\n2. FIN-M01-L02: The biases that cost you money (about 1 hour 30 minutes)\n3. FIN-M01-L03: Needs, wants and lifestyle inflation (about 1 hour 30 minutes)\n\n## Module project: My money values and spending rules\n\n1. Open your Values tab. Make sure your top three values are clear and each has a \"why\".\n2. Write your final list of five spending rules: at least one from your values, one 24-hour or 30-day rule, one friction rule (such as no saved cards), your raise rule, and one rule about family or functions.\n3. Under the rules, add evidence from your expense log: two spends that followed a rule and one that broke it, and what you learned.\n4. Write one paragraph: \"The money belief I am changing, and why.\"\n5. Show the rules to your money buddy or a family member and ask, \"Which of these will be hardest for me?\" Write their answer down.\n\n**Proof to record:** A screenshot or PDF of your Values tab with the five rules, the evidence and the paragraph, saved in 01 Mindset.\n\n## Self-assessment rubric\n\nScore yourself honestly after the project. Move on when no row is a 1 and at least half the rows are 3. If a row is a 1, redo that part first.\n\n| Criterion | 1: Not yet | 2: Getting there | 3: Ready |\n| --- | --- | --- | --- |\n| Money story | Not written | Written, but vague | Written honestly, with one belief to keep and one to change |\n| Values | Not ranked | Ranked, without reasons | Top three ranked, each with a reason |\n| Rules | None, or no numbers | Some rules have numbers | Five specific rules, each with a number or frequency |\n| Evidence | None | Examples, but not from the log | Real spends from your log, kept and broken |\n| Rules in action | Nothing set up | One rule set up | At least two rules set up (friction or automation) |\n\n## Short on time?\n\nThe minimum version, when PSC prep or work leaves little time:\n\n- Rank your values and write three rules (FIN-M01-L01, steps 2 and 4).\n- Remove saved cards from one shopping app (FIN-M01-L02).\n- Add the needs and wants formulas and write your raise rule (FIN-M01-L03).\n- Keep the 30-day log going; it matters more than anything else in these weeks.\n\n## Revision flashcards\n\nCover the right-hand column, read the front, say the answer, then check. Repeat the ones you missed the next day.\n\n| Front (say the answer aloud) | Back |\n| --- | --- |\n| Values-based spending in one sentence | Spend freely on what you value most, cut hard on what you don't. |\n| Present bias | Today feels more real than the future, so saving \"later\" never starts. Beat it by saving automatically first. |\n| Anchoring | The first number you see, such as an MRP, shapes your judgement of a price. |\n| Mental accounting | Treating money differently by its source, so bonuses and gifts get wasted. |\n| Upgraded need | A need bought in an expensive version; the extra part is a want. |\n| Lifestyle inflation | Spending rising with income so that savings never grow. |\n| The half-raise rule | At least half of every increase in income goes to savings, goals or debt payoff. |\n| Hours of work for a want | Price ÷ (monthly take-home ÷ hours worked in a month). |\n\n## Top mistakes in this module\n\n- **Skipping this module as \"soft\".** Rules built here are what keep your budget alive in month three.\n- **Pausing the 30-day log.** The log is the raw material for Modules 2 and 3. Ten minutes a day, every day.\n- **Judging yourself.** You are collecting information, not grading yourself. Honest data beats a good-looking month.",
+   "tasks": [
+    {
+     "id": "fin-m01-project",
+     "text": "Module project: My money values and spending rules",
+     "kind": "project",
+     "week": 2,
+     "detail": "**Proof to record:** A screenshot or PDF of your Values tab with the five rules, the evidence and the paragraph, saved in 01 Mindset."
+    },
+    {
+     "id": "fin-m01-rubric",
+     "text": "Self-assessment: rubric scored, no row at 1",
+     "kind": "exit",
+     "week": 2
+    }
+   ]
+  },
+  {
+   "id": "fin-m01-l01",
+   "title": "FIN-M01-L01: Your money story and values",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.5,
+   "summary": "**Outcome:** Write down the money beliefs you grew up with, name your top three money values and turn them into spending rules you can follow. **Time:** about 1 hour 30 minutes (20 minutes reading, 30 minutes resources, 40 minutes action).",
+   "content": "## Core lesson\n\nEvery money decision you make is shaped by two things you rarely look at: the **money story** you learned growing up, and the **values** you actually hold today. When the two don't match, you feel guilty about spending you enjoy, or you spend on things you don't care about because \"that's what people do\". This lesson makes both visible.\n\n### Your money story\n\nMost of us learned about money by watching our family, not from lessons. In Kerala, some common family money beliefs are:\n\n- **\"Gold is the safest saving.\"** Many families save in jewellery for weddings and emergencies.\n- **\"A government job means you are settled.\"** Security is valued above income.\n- **\"Land never loses value.\"** Money goes into plots and houses, even when it means big loans.\n- **\"Money from the Gulf solves everything.\"** Remittances paid for houses and weddings, sometimes without savings for the person who earned them.\n- **\"Don't talk about money.\"** Children rarely know what the family earns, owes or has saved.\n- **\"Chitty and the co-operative society are like family.\"** Trust comes from people you know, not from rules.\n\nNone of these is simply right or wrong. Some protected families for generations; some caused real harm when a belief met a changed world. The point is to **notice which beliefs drive you**, so you choose them instead of following them automatically.\n\n### Values: what money is for\n\nA value is something that matters to you for its own sake: security, learning, family, freedom, health, generosity, comfort, adventure, status, faith, independence, beauty. Money is a tool for living your values. **Values-based spending** is a simple rule:\n\n> Spend freely on what you value most. Cut hard on what you don't.\n\nThis is different from \"spend less on everything\". A person who values learning should not feel guilty about buying PSC books; a person who doesn't care about clothes should not buy new ones for every function just because others do.\n\n### From values to rules\n\nValues become useful when you turn them into **spending rules**, short sentences you can follow without thinking:\n\n- \"Books, courses and PSC materials: always yes, up to ₹1,500 a month.\"\n- \"Gold only for planned gifts, never as an impulse.\"\n- \"Eating out once a week with friends; no delivery on weekdays.\"\n- \"₹500 from every income goes to my parents' medicine fund first.\"\n\nGood rules are **specific** (a number or a frequency), **positive where possible** (what you will do) and **few** (three to five).\n\n### Why this comes first\n\nBudgets fail when they fight your values. If you value time with friends and your budget says \"no eating out\", you will break it within a week and feel bad. If your budget gives friends ₹800 a month and cuts the ₹900 of food delivery you don't really care about, you keep it. Modules 2 and 3 build your goals and budget on the values you write today.\n\n## Local example\n\n**Anu**, 27, lives in Kakkattil and is preparing for the LD Clerk and LGS exams. She tutors school students in the evenings and earns about ₹14,000 a month, more in exam season and less in vacations. Her parents value gold and land; her father once lost money in a \"deposit scheme\" run by a friend, and the family never spoke about it.\n\nWhen Anu wrote her money story, she noticed two beliefs: \"money talk causes fights\" and \"gold is the only safe saving\". When she ranked her values, she put **independence**, **learning** and **family** at the top. Comfort and status came last.\n\nThen she looked at her first week of the expense log:\n\n| Spend | Amount | Matches a top value? |\n| --- | --- | --- |\n| PSC test series app | ₹399 | Yes: learning |\n| Food delivery, three times | ₹735 | No |\n| Medicine for her mother | ₹620 | Yes: family |\n| New earrings in a sale | ₹1,150 | No: bought because a friend did |\n| Bus pass top-up | ₹300 | A need |\n\nHer rules: \"Learning spend up to ₹1,000 a month, no guilt\"; \"Delivery only on Sundays\"; \"Jewellery only from a planned gift list\"; \"₹1,000 a month into my own savings before I give money at home, because independence matters\". She showed the rules to her mother and, for the first time, the two of them talked about the old deposit scheme.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [SEBI investor website: guides and fraud warnings](https://investor.sebi.gov.in/) | The \"Learn to manage your money for financial well-being\" guide: read the part on managing money and setting priorities | 20 minutes | verified 2026-11-03 |\n| [NCFE: free basic financial education course (e-LMS, about 5 hours)](https://ncfe.org.in/?p=430) | Register free, then do the module on managing income and expenditure | 20 minutes | verified 2026-11-03 |\n| [RBI: Financial Education (messages, films, games, downloads)](https://rbi.org.in/financialeducation/) | Browse the Financial Awareness Messages (FAME) and note two that apply to you | 10 minutes | verified 2026-11-03 |\n\n## Action task (on your own money)\n\n1. Answer the five money-story questions in the template, honestly, in English or Malayalam. Write at least three lines each.\n2. Rank the 12 values in the template from 1 to 12. Circle your top three.\n3. Open your expense log (or your bank app's UPI history for the last 14 days if the log has just started). Find three spends that match a top value and three that don't.\n4. Write three to five spending rules that follow from your values. Each must have a number or a frequency.\n5. Make a new tab in the Money Workbook called **Values** and copy the template into it.\n6. Tell one person (your money buddy or a family member) your top value and one rule. Their reaction is useful information.\n\n**Proof to record:** A screenshot of the Values tab with your top three values and at least three rules, saved in 01 Mindset.\n\n## Template: money story questions\n\n```\nMY MONEY STORY (date: ____)\n1. What did my family say or show about money when I was a child?\n2. One money event I still remember (good or bad), and what it taught me:\n3. What do I believe about gold, land, loans, government jobs and the Gulf?\n4. When I spend money, what do I feel: guilty, happy, anxious, nothing?\n5. One belief I want to keep, and one I want to change:\n```\n\n## Template: Values tab\n\n```csv\nValue,Rank (1-12),Why it matters to me,Spending that supports it,Spending that doesn't,My rule (with a number)\nSecurity,,,,,\nIndependence,,,,,\nFamily,,,,,\nLearning,,,,,\nHealth,,,,,\nFreedom of time,,,,,\nGenerosity and giving,,,,,\nComfort,,,,,\nStatus and appearance,,,,,\nAdventure and travel,,,,,\nFaith and community,,,,,\nBeauty and creativity,,,,,\n```\n\n## Common mistakes\n\n- **Writing the values you think you should have.** If you rank \"security\" first but spend every spare rupee on clothes, your real value may be appearance. That is allowed; just be honest, then decide.\n- **Rules without numbers.** \"Spend less on food\" is a wish. \"Delivery only on Sundays, up to ₹300\" is a rule you can check.\n- **Too many rules.** Ten rules are forgotten in a week. Start with three to five.\n- **Blaming family beliefs.** Your parents' beliefs made sense in their world. Keep what still works, change what doesn't, without contempt.\n\n## Quiz\n\nAnswer without looking back. The answers are at the bottom of this page.\n\n1. What is values-based spending?\n    - A) Spending freely on what you value most and cutting hard on what you don't\n    - B) Copying the budget of someone who is rich\n    - C) Spending only on needs, never on wants\n    - D) Cutting every category by 10%\n2. Which of these is a good spending rule?\n    - A) Try to spend less on food\n    - B) Eat out once a week, up to ₹400\n    - C) Be careful with money\n    - D) Never enjoy anything\n3. Why does the course look at values before building a budget?\n    - A) Budgets that fight your values get broken quickly\n    - B) Banks ask for your values\n    - C) It is a legal requirement\n    - D) Values decide your tax regime\n4. Anu values learning. How should she treat her ₹399 PSC test series?\n    - A) As a waste to be cut first\n    - B) As an investment that must earn a return\n    - C) As a planned, guilt-free spend within her learning limit\n    - D) As something to hide from her family\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** SEBI money-management guide, the NCFE module on income and expenditure, and two RBI awareness messages\n- **Action:** Write your money story, rank your values and set 3–5 spending rules in the Values tab. It is done when your proof is saved: a screenshot of the Values tab with your top three values and at least three rules, saved in 01 Mindset.\n- **Quiz:** at least 3 right, or re-read the core lesson and try again.\n\n## Answers\n\n1. **A.** It doesn't cut everything equally; it moves money from what you don't care about to what you do.\n2. **B.** A good rule is specific: it has a frequency and a number you can check.\n3. **A.** A budget that funds what you care about is one you keep.\n4. **C.** It matches a top value, so it belongs in her plan, within the limit she set.",
+   "tasks": [
+    {
+     "id": "fin-m01-l01-study",
+     "text": "Study: SEBI money-management guide, the NCFE module on income and expenditure, and two RBI awareness messages",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "fin-m01-l01-action",
+     "text": "Action: Write your money story, rank your values and set 3–5 spending rules in the Values tab",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** A screenshot of the Values tab with your top three values and at least three rules, saved in 01 Mindset. Save it in your Money Folder and paste its link (or a short note of where it is) in this task's note. Never paste account numbers, passwords or OTPs anywhere."
+    },
+    {
+     "id": "fin-m01-l01-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "fin-m01-l02",
+   "title": "FIN-M01-L02: The biases that cost you money",
+   "kind": "level",
+   "weeks": [
+    1,
+    2
+   ],
+   "hours": 1.5,
+   "summary": "**Outcome:** Recognise seven common money biases in your own spending and put two simple rules in place that stop them. **Time:** about 1 hour 30 minutes (25 minutes reading, 25 minutes resources, 40 minutes action).",
+   "content": "## Core lesson\n\nBehavioural finance studies why intelligent people make money decisions that hurt them. The problem is rarely a lack of knowledge. It is how human brains work: we prefer now over later, hate losses more than we enjoy gains, and copy the crowd. You can't remove these biases, but you can **design rules around them**.\n\n### Seven biases, with the rule that beats each one\n\n| Bias | What it does | How it costs you | The rule that beats it |\n| --- | --- | --- | --- |\n| Present bias | Today feels far more real than next year | Saving \"from next month\" never starts | Save first, automatically, on the day money arrives |\n| Loss aversion | A loss hurts about twice as much as a gain pleases | You hold a bad policy or investment to avoid \"booking a loss\" | Judge by the future, not by what you already paid |\n| Herd behaviour (FOMO) | Doing what everyone around you does | Buying a hot stock, a crypto coin or a \"scheme\" because others are | Never invest in anything you can't explain in two sentences |\n| Anchoring | The first number you see shapes your judgement | \"MRP ₹4,000, now ₹1,999\" feels like saving ₹2,001 | Ask \"would I pay ₹1,999 for this if there was no MRP?\" |\n| Mental accounting | Treating money differently by where it came from | A bonus, gift or arrears is spent as \"free money\" | Every rupee goes through the same plan, whatever its source |\n| Overconfidence | Believing you know more than you do | Trading, picking stocks, or skipping insurance because \"nothing will happen\" | Write down your reasons; check them later against what happened |\n| Social pressure | Spending to match what others expect | Weddings, functions, phones and gold beyond your means | Decide your amount before the event, privately |\n\n### Two more traps scammers use\n\n- **Urgency:** \"Offer ends tonight\", \"your account will be blocked in 30 minutes\". Urgency switches off careful thinking. Real banks, insurers and government offices give you time.\n- **Authority:** a uniform, a logo or a confident voice makes us obey. Scammers pretend to be the police, RBI or a bank (Module 15).\n\n### Why small leaks matter: a worked example\n\nSmall daily spends feel too small to matter, but they add up:\n\n| Daily habit | Per day | Per month (30 days) | Per year (365 days) |\n| --- | --- | --- | --- |\n| Tea and a snack outside | ₹40 | ₹1,200 | ₹14,600 |\n| Food delivery, average per day | ₹100 | ₹3,000 | ₹36,500 |\n| Unused subscriptions, per day | ₹10 | ₹300 | ₹3,650 |\n\n₹100 a day is ₹36,500 a year: for many people that is a whole emergency fund. The point is not to ban tea. It is to choose these spends on purpose.\n\n### Commitment devices: rules that work when willpower doesn't\n\n- **Pay yourself first:** a standing instruction moves savings on the day income arrives (Module 5).\n- **The 24-hour rule:** for any want above an amount you choose (say ₹1,000), wait 24 hours. For above ₹10,000, wait 30 days.\n- **Friction:** remove saved cards from shopping apps, turn off sale notifications, delete apps you use only to browse.\n- **Pre-decide:** write the amount for a wedding gift or festival budget before you go.\n\n## Local example\n\n**Fathima**, 31, a freelance designer in Kuttiady, finished a big branding project for a Gulf client and received ₹60,000 at once. Her first thought: \"This is extra; I'll finally buy the new phone.\" That is mental accounting: the money felt like a bonus because it came in one lump.\n\nBefore buying, she used the 24-hour rule and looked at her numbers. Her average income over the last six months was ₹32,000 a month, but two months had been under ₹15,000. The ₹60,000 was really **two months of normal income**, and she had to set aside money for income tax on it (Module 10).\n\nHer decision: ₹15,000 to her tax and slow-month buffer, ₹10,000 to her emergency fund, ₹25,000 for normal monthly spending over the next month, and ₹10,000 towards a phone, with the rest saved from the next two projects. She bought the phone two months later, without a loan, and noticed she no longer wanted the most expensive model.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [Zerodha Varsity: all modules](https://zerodha.com/varsity/modules/) | Module 12, \"Innerworth: Mind over markets\": read any two chapters on emotions and biases in money decisions | 30 minutes | verified 2026-11-03 |\n| [SEBI investor website: guides and fraud warnings](https://investor.sebi.gov.in/) | The fraud-warning topics (fake trading apps, \"stock market guru\" scams): read one and notice which biases it uses | 15 minutes | verified 2026-11-03 |\n\n## Action task (on your own money)\n\n1. Open the days you have logged so far. Mark every **want** (not a need) with the bias that best explains it, using the table in the core lesson. Some wants have no bias; that's fine.\n2. Count which bias appears most often. That is your main leak.\n3. Pick two rules from the core lesson that fight your top two biases, such as the 24-hour rule and removing saved cards.\n4. Set them up today: remove the saved card, turn off sale notifications, write the 24-hour rule on your phone's lock-screen note, or whatever your rules need.\n5. Calculate your own \"small leak\" in the template: one daily habit × 365.\n\n**Proof to record:** Your bias audit (the template, filled in) and a screenshot showing one rule set up, such as a removed saved card or a lock-screen note, saved in 01 Mindset.\n\n## Template: bias audit\n\n```\nBIAS AUDIT (days logged: ____)\nWant,Amount (₹),Bias (present / loss / herd / anchor / mental accounting / overconfidence / social / none),What I'd do differently\n,,,\n,,,\n,,,\n\nMost common bias: ____\nRule 1 that beats it: ____ (set up on ____)\nRule 2: ____ (set up on ____)\n\nMy small leak: ____ per day x 365 = ₹____ a year\n```\n\n## Template: formula: yearly cost of a daily habit\n\n```\nA2: daily amount, for example 100\nB2: =A2*365          yearly cost\nC2: =A2*30           monthly cost\n```\n\n## Common mistakes\n\n- **Thinking biases are only for \"other people\".** Everyone has them, including experts. The aim is better rules, not shame.\n- **Relying on willpower.** Willpower runs out by evening. Friction and automation work every day.\n- **Banning every small pleasure.** A plan with no joy gets abandoned. Choose your small spends; don't eliminate them.\n- **Treating lump sums as free money.** Arrears, bonuses, gifts and big client payments go through the same plan as your salary.\n\n## Quiz\n\nAnswer without looking back. The answers are at the bottom of this page.\n\n1. A shirt shows \"MRP ₹4,000, today ₹1,999\". Which bias makes this feel like a saving of ₹2,001?\n    - A) Anchoring\n    - B) Overconfidence\n    - C) Loss aversion\n    - D) Present bias\n2. You keep paying for a policy you know is poor only because \"I have already paid three years\". Which bias is this?\n    - A) Anchoring\n    - B) Herd behaviour\n    - C) Loss aversion and the sunk-cost trap\n    - D) Mental accounting\n3. What is the best defence against present bias?\n    - A) Keeping all savings in cash at home\n    - B) Saving automatically on the day income arrives\n    - C) Promising yourself to save next month\n    - D) Reading more about markets\n4. ₹100 a day on delivery food costs about how much in a year?\n    - A) ₹1,00,000\n    - B) ₹36,500\n    - C) ₹3,000\n    - D) ₹12,000\n5. A caller says your bank account will be blocked in 30 minutes unless you act now. What is the scammer using?\n    - A) Anchoring on MRP\n    - B) Compounding\n    - C) Diversification\n    - D) Urgency\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** Two chapters of Varsity's \"Innerworth\" module and one SEBI fraud-warning topic\n- **Action:** Do a bias audit of your logged spending and set up two rules that beat your top biases. It is done when your proof is saved: your bias audit (the template, filled in) and a screenshot showing one rule set up, such as a removed saved card or a lock-screen note, saved in 01 Mindset.\n- **Quiz:** at least 4 right, or re-read the core lesson and try again.\n\n## Answers\n\n1. **A.** The first number (the MRP) anchors your judgement. You still spend ₹1,999.\n2. **C.** Money already paid is gone either way; judge by what happens from today (Module 7 shows how to evaluate such policies).\n3. **B.** Automation removes the daily choice, so \"later\" can't win.\n4. **B.** ₹100 × 365 = ₹36,500.\n5. **D.** Urgency stops careful thinking. Real banks give you time and never ask for OTPs or PINs.",
+   "tasks": [
+    {
+     "id": "fin-m01-l02-study",
+     "text": "Study: Two chapters of Varsity's \"Innerworth\" module and one SEBI fraud-warning topic",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "fin-m01-l02-action",
+     "text": "Action: Do a bias audit of your logged spending and set up two rules that beat your top biases",
+     "kind": "project",
+     "week": 2,
+     "detail": "**Proof to record:** Your bias audit (the template, filled in) and a screenshot showing one rule set up, such as a removed saved card or a lock-screen note, saved in 01 Mindset. Save it in your Money Folder and paste its link (or a short note of where it is) in this task's note. Never paste account numbers, passwords or OTPs anywhere."
+    },
+    {
+     "id": "fin-m01-l02-quiz",
+     "text": "Quiz: at least 4 right",
+     "kind": "task",
+     "week": 2
+    }
+   ]
+  },
+  {
+   "id": "fin-m01-l03",
+   "title": "FIN-M01-L03: Needs, wants and lifestyle inflation",
+   "kind": "level",
+   "weeks": [
+    2,
+    2
+   ],
+   "hours": 1.5,
+   "summary": "**Outcome:** Split your spending into needs, wants and upgrades with a formula, price a want in hours of work, and write a rule for future raises. **Time:** about 1 hour 30 minutes (20 minutes reading, 20 minutes resources, 50 minutes action).",
+   "content": "## Core lesson\n\n### Needs, wants and the hidden third type\n\n- **A need** is something you must pay for to live, work or stay healthy: basic food, rent, electricity, bus fare, medicines, a working phone, insurance, loan EMIs you already owe.\n- **A want** is something you would like but can live without: eating out, a new dress for a function, a streaming plan, a bike upgrade.\n- **An upgraded need** is the one that tricks us: a need, bought in a more expensive version. A working phone (about ₹12,000) is a need; the ₹45,000 model is the need plus a ₹33,000 want. Rice is a need; daily restaurant meals are mostly want.\n\nWhen you classify spending, split upgraded needs in your head: the basic part is a need, the extra is a want. In your log, mark the whole spend by its bigger part and add a note.\n\n### Lifestyle inflation\n\n**Lifestyle inflation** (or lifestyle creep) means your spending rises every time your income rises, so you never save more. It is very common after a first job, a pay rise, DA arrears or a move to the Gulf. Signs:\n\n- Your income doubled in five years but your savings didn't.\n- \"We can afford it now\" is said about every upgrade.\n- Each new comfort becomes a \"need\" within months: a car, an AC, a bigger house, daily delivery.\n\nThe fix is simple to state: **decide what happens to a raise before it arrives.** A common rule is the **half-raise rule**: at least half of every increase in take-home income goes to savings, goals or debt payoff, and the rest improves your life. You enjoy the raise and still get ahead.\n\n### Price a want in hours of your life\n\nMoney is time you have already spent working. Converting a price to hours makes wants honest:\n\n> Your hourly income = monthly take-home ÷ hours you work in a month\n> Hours of work for a want = price ÷ hourly income\n\n**Worked example:** Rahul takes home ₹30,000 a month for about 176 working hours (8 hours × 22 days). His hourly income is ₹30,000 ÷ 176 = about ₹170. A ₹45,000 phone costs him ₹45,000 ÷ ₹170 = about **265 hours**, which is about **33 working days**. The ₹12,000 phone costs about 71 hours. Is the better camera worth 194 extra hours of work? Sometimes yes. But now it is a choice.\n\n### Needs come first, wants are planned\n\nThe order of your money each month: needs, then savings and debt payments, then wants. Wants are not bad. A plan with zero wants fails. The 50/30/20 method in Module 3 gives wants a fixed share, so you enjoy them without guilt.\n\n## Local example\n\n**Rahul**, 29, from Thottilpalam, joined a Kerala government office as an LD clerk this year after his PSC exam. (His numbers here are made up to show the method; your pay depends on your post and the pay scale.) Before the job he lived on about ₹6,000 a month from tuition. Now he takes home about ₹30,000.\n\nWithin three months his spending rose from ₹6,000 to ₹27,000: a ₹2,900 EMI for a phone, eating out three times a week, a gym he went to twice, new clothes, and more help to his parents (which he valued). He was saving ₹3,000 a month and felt he had \"no money left\".\n\nHe split his last month using the method in this lesson:\n\n| Type | Amount | Share of ₹30,000 |\n| --- | --- | --- |\n| Needs (food at home, rent share, bus, phone bill, parents' medicines) | ₹12,400 | 41% |\n| Upgraded needs, extra part only (expensive phone EMI, branded clothes) | ₹4,600 | 15% |\n| Wants (eating out, gym, subscriptions) | ₹10,000 | 33% |\n| Saved | ₹3,000 | 10% |\n\nHe kept the parents' help and his weekly dinner with friends, cancelled the gym (₹1,200) and two subscriptions (₹500), and set a half-raise rule for his next DA increase. His saving went from ₹3,000 to ₹6,500 a month without feeling poor.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [NCFE: free basic financial education course (e-LMS, about 5 hours)](https://ncfe.org.in/?p=430) | In the e-LMS course, finish the managing income and expenditure module and its quiz | 20 minutes | verified 2026-11-03 |\n\n## Action task (on your own money)\n\n1. In the Expenses tab, make sure every row has **Need** or **Want** in column D. Use \"Want\" for the extra part of an upgraded need if you can split it; otherwise mark the row by its bigger part and add a note.\n2. In an empty area of the Expenses tab, add the three formulas from the template to total needs, wants and everything.\n3. Work out the percentage of needs and wants so far.\n4. Calculate your hourly income (from income, tuition, pocket money or family support; if you have no income, use what you hope to earn in your first job) and price one want you are considering in hours.\n5. Write your raise rule: what percentage of any future increase in income will go to savings and goals.\n6. Pick one want to pause for 30 days and write it down. You decide in Module 3 whether to bring it back.\n\n**Proof to record:** A screenshot of your needs and wants totals with percentages, your hours-of-work calculation for one want, and your raise rule, saved in 01 Mindset.\n\n## Template: needs and wants formulas (Expenses tab)\n\n```\nJ2: Needs total      K2: =SUMIF(D2:D500,\"Need\",B2:B500)\nJ3: Wants total      K3: =SUMIF(D2:D500,\"Want\",B2:B500)\nJ4: All spending     K4: =SUM(B2:B500)\nJ5: Needs %          K5: =IF(K4>0,K2/K4*100,0)\nJ6: Wants %          K6: =IF(K4>0,K3/K4*100,0)\n```\n\n## Template: hours of work for a want\n\n```\nA2: monthly take-home income (₹)        30000\nB2: hours worked in a month             176\nC2: hourly income  =A2/B2\nD2: price of the want (₹)               45000\nE2: hours of work  =D2/C2\nF2: working days   =E2/8\n```\n\n## Template: my raise rule\n\n```\nWhen my take-home income rises, at least ____% of the increase goes to:\n1. ____ (for example, emergency fund until it is full)\n2. ____ (for example, my goals and retirement)\nThe rest I can use to improve my life, starting with: ____\nSigned: ____  Date: ____\n```\n\n## Common mistakes\n\n- **Calling every want a need.** Ask: \"What happens if I don't buy this for a month?\" If the honest answer is \"nothing serious\", it is a want.\n- **Feeling guilty about all wants.** Wants are part of a good life. The goal is to choose them, not to remove them.\n- **Letting EMIs turn wants into needs.** Once you take an EMI for a phone, the EMI is a need. Avoid that trap for wants (Module 6).\n- **Waiting for the raise to decide.** Decide your raise rule now, while the money doesn't exist yet. It is much easier.\n\n## Quiz\n\nAnswer without looking back. The answers are at the bottom of this page.\n\n1. A basic working phone costs ₹12,000; you buy a ₹45,000 model. How should you think of the ₹33,000 difference?\n    - A) As a want inside an upgraded need\n    - B) As an investment\n    - C) As a need, because phones are essential\n    - D) As a tax deduction\n2. What is lifestyle inflation?\n    - A) An insurance premium increase\n    - B) Spending rising every time income rises, so savings don't grow\n    - C) The interest rate on a credit card\n    - D) General price rise measured by CPI\n3. Rahul earns ₹170 an hour. About how many hours of work is a ₹17,000 purchase?\n    - A) 1,000 hours\n    - B) 10 hours\n    - C) 100 hours\n    - D) 17 hours\n4. Which formula totals the \"Need\" rows when amounts are in column B and types in column D?\n    - A) =COUNT(B2:B500)\n    - B) =SUMIF(D2:D500,\"Need\",B2:B500)\n    - C) =SUM(D2:D500)\n    - D) =AVERAGE(B2:D500)\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** The NCFE module on managing income and expenditure, with its quiz\n- **Action:** Split your logged spending into needs and wants with formulas, price one want in hours and write your raise rule. It is done when your proof is saved: a screenshot of your needs and wants totals with percentages, your hours-of-work calculation for one want, and your raise rule, saved in 01 Mindset.\n- **Quiz:** at least 3 right, or re-read the core lesson and try again.\n\n## Answers\n\n1. **A.** The basic phone is the need; the extra cost is a want you are choosing.\n2. **B.** It is personal: your own spending creeping up with income.\n3. **C.** ₹17,000 ÷ ₹170 = 100 hours.\n4. **B.** SUMIF checks column D for \"Need\" and adds the matching amounts from column B.",
+   "tasks": [
+    {
+     "id": "fin-m01-l03-study",
+     "text": "Study: The NCFE module on managing income and expenditure, with its quiz",
+     "kind": "task",
+     "week": 2
+    },
+    {
+     "id": "fin-m01-l03-action",
+     "text": "Action: Split your logged spending into needs and wants with formulas, price one want in hours and write your raise rule",
+     "kind": "project",
+     "week": 2,
+     "detail": "**Proof to record:** A screenshot of your needs and wants totals with percentages, your hours-of-work calculation for one want, and your raise rule, saved in 01 Mindset. Save it in your Money Folder and paste its link (or a short note of where it is) in this task's note. Never paste account numbers, passwords or OTPs anywhere."
+    },
+    {
+     "id": "fin-m01-l03-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 2
+    }
+   ]
+  },
+  {
+   "id": "fin-final",
+   "title": "Final self-assessment and toolkit checklist",
+   "kind": "capstone",
+   "weeks": [
+    30,
+    30
+   ],
+   "hours": 1,
+   "summary": "Retake the baseline self-assessment, compare your real money snapshot with your week 0 guesses, and check that every part of your plan exists.",
+   "content": "Two things to finish the course: retake the baseline self-assessment, and check that every part of your plan exists.\n\n## 1. Retake the self-assessment\n\nOpen the **Baseline** tab and fill in the **End** column for all 20 skills, without looking at your start scores first. Then compare:\n\n- Which three skills grew the most? Write them in your one-page plan's notes.\n- Any skill still at 1 or 2? Note which module covers it and plan one practice task for next month.\n- Rewrite the **money snapshot** with real numbers now, next to your week 0 guesses. Where was your guess furthest from reality?\n\n## 2. Check your toolkit\n\nEach item should be a tab, a file or a note in your Money Folder that you could show a family member tomorrow. If something is missing, the module listed has its template.\n\n| Toolkit item | Where the template is |\n| --- | --- |\n| Money Workbook with every tab filled in and dated | Week 0, used all course |\n| Budget system: 30-day log, Budget tab with formulas, monthly routine | Module 3 |\n| Net-worth tracker and cash-flow statement, updated this month | Module 2 |\n| Emergency fund plan: target, where it is kept, monthly transfer, progress | Module 5 |\n| Debt list with true costs, payoff plan and a checked credit report | Module 6 |\n| Insurance checklist and a policy comparison done without buying | Module 7 |\n| Investment Policy Statement, signed and dated | Modules 8, 9 and 17 |\n| Tax checklist and the two-regime calculator | Module 10 |\n| Goal funding plans and a retirement estimate | Modules 11 and 12 |\n| Document register, nominations checked on every account, will decision | Module 13 |\n| Scam-proof habits checklist, shared with your family | Module 15 |\n| One-page financial plan and the yearly money-review checklist | Module 17 |\n\n## Before you call the course done\n\n- Save a backup of your progress from **Backup and courses** in this app, and keep it in your Money Folder.\n- Download a copy of your Money Workbook (File → Download) and keep it offline too.\n- Put your next monthly money date and your yearly review month in your calendar. The course ends; your money system doesn't.",
+   "tasks": [
+    {
+     "id": "fin-final-reassess",
+     "text": "Final self-assessment: End column filled in and compared with week 0",
+     "kind": "exit",
+     "week": 30
+    },
+    {
+     "id": "fin-final-snapshot",
+     "text": "Money snapshot rewritten with real numbers, next to the week 0 guesses",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-workbook",
+     "text": "Money Workbook with every tab filled in and dated",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-budget",
+     "text": "Budget system: 30-day log, Budget tab with formulas, monthly routine",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-networth",
+     "text": "Net-worth tracker and cash-flow statement, updated this month",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-ef",
+     "text": "Emergency fund plan: target, where it is kept, monthly transfer, progress",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-debt",
+     "text": "Debt list with true costs, payoff plan and a checked credit report",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-insurance",
+     "text": "Insurance checklist and a policy comparison done without buying",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-ips",
+     "text": "Investment Policy Statement, signed and dated",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-tax",
+     "text": "Tax checklist and the two-regime calculator",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-goals",
+     "text": "Goal funding plans and a retirement estimate",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-docs",
+     "text": "Document register, nominations checked on every account, will decision",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-scam",
+     "text": "Scam-proof habits checklist, shared with your family",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "fin-final-plan",
+     "text": "One-page financial plan and the yearly money-review checklist",
+     "kind": "task",
+     "week": 30
+    }
+   ]
+  },
+  {
+   "id": "fin-next",
+   "title": "What next: your 12-month money routine",
+   "kind": "reference",
+   "summary": "How to keep your money system running after the course: monthly, quarterly and yearly routines, life events, when to pay for advice and where to keep learning.",
+   "content": "Finishing the course is the start of running your own money. Here is a sensible order for the next twelve months.\n\n## Every month (30 minutes)\n\n- The monthly money review on your money date: update the numbers, make one decision.\n- Keep the 50/30/20 or zero-based budget you chose; log spending at least for one week each quarter, so you don't drift.\n\n## Every quarter (1 hour)\n\n- Small savings rates are announced every quarter: check if they changed ([India Post rates page](https://indiapost.gov.in/banking-services/saving)).\n- Check your allocation against your Investment Policy Statement; rebalance only if it has drifted beyond your limits.\n- Download your mutual fund and demat statement ([CAS](https://www.amfiindia.com/investor-corner/investor-center/cas.html)) and check that nominations and KYC show as complete.\n\n## Every year (one weekend, in the same month every year)\n\nUse the yearly money-review checklist from FIN-M17-L03: insurance renewals and cover, nominations, the will decision, the free credit reports, tax regime choice and ITR, goals and their timelines, and the one-page plan.\n\n## When life changes, revisit these modules\n\n| When this happens | Revisit |\n| --- | --- |\n| You get a Kerala government job | Module 14: the first-year plan, then Modules 7, 10 and 12 |\n| You start freelancing or a business | FIN-M03-L04 and FIN-M10-L05, plus the Entrepreneurship course, Module 8 |\n| Marriage or a child | Modules 7, 11 and 13: cover, goals and nominations |\n| You plan to buy a house or vehicle | FIN-M11-L02 and FIN-M06-L03 |\n| A big windfall: arrears, bonus, inheritance, sale of gold or land | Your Investment Policy Statement first, then Modules 8 and 9; wait 30 days before deciding |\n| Someone offers a \"great scheme\" | Module 15, before you pay anything |\n\n## When to pay for advice\n\nYou don't need an adviser to follow this course. Consider a fee-only SEBI-registered investment adviser when your investments become large or complicated, after a windfall, or before retirement. Check registration on the [SEBI list of registered investment advisers](https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=13) first, and read about fee limits in FIN-M09-L02. For tax notices or business accounts, use a chartered accountant.\n\n## Keep learning, free\n\n- [NCFE's free e-LMS course](https://ncfe.org.in/?p=430): about 5 hours on banking, insurance, pensions, investing and scams\n- [Zerodha Varsity](https://zerodha.com/varsity/modules/): the Personal Finance, Mutual Funds, Insurance and NPS modules, read as education, not as product advice\n- [OpenStax Principles of Finance](https://biz.libretexts.org/Bookshelves/Finance/Principles_of_Finance_%28OpenStax%29): chapters 3, 7, 8, 15 and 20 for the theory behind interest, time value and risk\n- [SEBI investor website](https://investor.sebi.gov.in/) and [RBI Financial Education](https://rbi.org.in/financialeducation/) for new rules and fraud warnings\n\n## Keep up with rule changes\n\nThe Union Budget (usually on 1 February) can change tax rules; RBI changes rates through the year; Kerala announces DA and pay decisions by government order. Once a month, spend 15 minutes on the official pages linked in this course's sources log, and update your plan when something changes.\n\nEvery link on this page was checked on 2026-11-03; see the **Sources and verification log** for each one's status."
+  },
+  {
+   "id": "fin-glossary",
+   "title": "Glossary with Malayalam meanings",
+   "kind": "reference",
+   "summary": "66 key personal finance terms in English and Malayalam, with simple meanings.",
+   "content": "Key words from the course, roughly in the order you meet them. Many English words, such as EMI, SIP and KYC, are used as they are in Malayalam conversation; the Malayalam is given so you can explain them to family.\n\n| English | മലയാളം (Malayalam) | Simple meaning |\n| --- | --- | --- |\n| **Budget** | ബജറ്റ് (വരവുചെലവ് പദ്ധതി) | A plan for how you will use the money you expect to receive |\n| **Income** | വരുമാനം | Money you receive: salary, fees, business profit, interest |\n| **Expense** | ചെലവ് | Money you spend |\n| **Savings** | സമ്പാദ്യം | The part of income you don't spend |\n| **Savings rate** | സമ്പാദ്യ നിരക്ക് | Savings as a percentage of income |\n| **Needs and wants** | ആവശ്യങ്ങളും ആഗ്രഹങ്ങളും | What you must pay for, and what you would like to have |\n| **Lifestyle inflation** | ജീവിതശൈലി ചെലവ് വർധന | Spending rising every time income rises, so saving never grows |\n| **Asset** | ആസ്തി | Something you own that has money value |\n| **Liability** | ബാധ്യത | Money you owe |\n| **Net worth** | അറ്റ ആസ്തി | Everything you own minus everything you owe |\n| **Cash flow** | പണമൊഴുക്ക് | Money coming in and going out over a period |\n| **Emergency fund** | അടിയന്തര നിധി | Savings kept ready for job loss, illness or urgent repairs |\n| **Inflation** | വിലക്കയറ്റം (പണപ്പെരുപ്പം) | Prices rising over time, so each rupee buys less |\n| **Interest** | പലിശ | The price of borrowing money, or the reward for lending it |\n| **Principal** | മുതൽ | The original amount borrowed or invested |\n| **Compound interest** | കൂട്ടുപലിശ | Interest earned on earlier interest as well as on the principal |\n| **EMI** | മാസത്തവണ (ഇ.എം.ഐ.) | Equated monthly instalment: a fixed monthly loan payment |\n| **Loan** | വായ്പ | Money borrowed that must be repaid with interest |\n| **Debt** | കടം | Money you owe to anyone |\n| **Collateral** | ഈട് | Something pledged to a lender, such as gold, that can be taken if you don't repay |\n| **Guarantor** | ജാമ്യക്കാരൻ | A person who promises to repay if the borrower doesn't |\n| **Credit score** | ക്രെഡിറ്റ് സ്കോർ (വായ്പാ വിശ്വാസ്യത സ്കോർ) | A number that shows lenders how reliably you have repaid |\n| **Savings account** | സേവിങ്സ് അക്കൗണ്ട് | A bank account for keeping money safely, with some interest |\n| **Fixed deposit (FD)** | സ്ഥിര നിക്ഷേപം | A lump sum kept with a bank for a fixed time at a fixed rate |\n| **Recurring deposit (RD)** | ആവർത്തന നിക്ഷേപം | A fixed amount deposited every month for a fixed time |\n| **KYC** | ഉപഭോക്താവിനെ തിരിച്ചറിയൽ (കെ.വൈ.സി.) | Know Your Customer: proving your identity and address |\n| **Nominee** | നോമിനി (നാമനിർദ്ദേശം ചെയ്യപ്പെട്ടയാൾ) | The person who receives the money in an account if you die |\n| **Will** | വിൽപ്പത്രം | A written document saying who gets your property after you die |\n| **Insurance** | ഇൻഷുറൻസ് | Paying a small, certain amount to be protected from a large, uncertain loss |\n| **Premium** | പ്രീമിയം (ഇൻഷുറൻസ് തവണ) | The amount you pay for insurance |\n| **Sum insured or sum assured** | ഇൻഷുറൻസ് തുക (പരിരക്ഷാ തുക) | The most the insurer will pay |\n| **Claim** | ക്ലെയിം (നഷ്ടപരിഹാര അപേക്ഷ) | Asking the insurer to pay under your policy |\n| **Term insurance** | ടേം ഇൻഷുറൻസ് (കാലാവധി ലൈഫ് ഇൻഷുറൻസ്) | Pure life cover for a fixed period, with no maturity payout |\n| **Waiting period** | കാത്തിരിപ്പ് കാലയളവ് | Time after buying health cover before some illnesses are covered |\n| **Investment** | നിക്ഷേപം | Putting money into something you expect to grow or pay income |\n| **Risk** | നഷ്ടസാധ്യത (റിസ്ക്) | The chance that results differ from what you expect, including losses |\n| **Return** | ആദായം (റിട്ടേൺ) | What an investment earns, as a percentage |\n| **Real return** | യഥാർത്ഥ ആദായം | Return after subtracting inflation |\n| **Asset allocation** | ആസ്തി വിന്യാസം | How your money is split between equity, debt, gold and cash |\n| **Diversification** | വൈവിധ്യവൽക്കരണം | Spreading money across many investments so one failure hurts less |\n| **Rebalancing** | പുനഃസന്തുലനം | Bringing your allocation back to its target |\n| **Mutual fund** | മ്യൂച്വൽ ഫണ്ട് | A pool of many people's money invested by a professional manager |\n| **SIP** | വ്യവസ്ഥാപിത നിക്ഷേപ പദ്ധതി (എസ്.ഐ.പി.) | Systematic investment plan: investing a fixed amount regularly |\n| **NAV** | അറ്റ ആസ്തി മൂല്യം (എൻ.എ.വി.) | Net asset value: the price of one unit of a mutual fund |\n| **Expense ratio** | ചെലവ് അനുപാതം | The yearly fee a fund takes, as a percentage of your money |\n| **Index fund** | ഇൻഡക്സ് ഫണ്ട് (സൂചിക ഫണ്ട്) | A fund that simply copies a market index |\n| **Share or stock** | ഓഹരി | A small part-ownership of a company |\n| **Demat account** | ഡീമാറ്റ് അക്കൗണ്ട് | An account that holds shares and other securities electronically |\n| **Dividend** | ലാഭവിഹിതം | Part of a company's or fund's profit paid to investors |\n| **Capital gain** | മൂലധന നേട്ടം | Profit from selling an investment for more than you paid |\n| **Income tax** | ആദായ നികുതി | Tax on your yearly income |\n| **Tax regime** | നികുതി സമ്പ്രദായം | The set of rates and deductions you choose: old or new |\n| **Deduction** | കിഴിവ് | An amount subtracted from income before tax is worked out |\n| **TDS** | ഉറവിടത്തിൽ നികുതി പിടിക്കൽ (ടി.ഡി.എസ്.) | Tax deducted at source by the payer before paying you |\n| **Income tax return (ITR)** | ആദായ നികുതി റിട്ടേൺ | The yearly statement of your income and tax filed with the department |\n| **GST** | ചരക്ക് സേവന നികുതി (ജി.എസ്.ടി.) | Goods and Services Tax, charged on most sales of goods and services |\n| **Provident fund** | പ്രൊവിഡന്റ് ഫണ്ട് (ഭാവിനിധി) | A long-term savings account for retirement, such as EPF, GPF or PPF |\n| **Pension** | പെൻഷൻ | Regular income after retirement |\n| **Dearness allowance (DA)** | ക്ഷാമബത്ത | An allowance added to pay to offset rising prices |\n| **Retirement corpus** | വിരമിക്കൽ നിധി | The total savings you need to live on after you stop working |\n| **Chitty** | ചിട്ടി (കുറി) | A group saving and borrowing scheme where members bid for the monthly prize |\n| **Co-operative society** | സഹകരണ സംഘം | A member-owned organisation; some take deposits, but not all are licensed banks |\n| **Ponzi scheme** | പോൻസി തട്ടിപ്പ് | A fraud that pays old investors with new investors' money until it collapses |\n| **Phishing** | ഫിഷിങ് (വ്യാജ സന്ദേശ തട്ടിപ്പ്) | Fake messages or sites that trick you into giving passwords or OTPs |\n| **Investment Policy Statement** | നിക്ഷേപ നയരേഖ | Your written rules for investing: goals, allocation, what you will and won't do |\n| **Financial plan** | സാമ്പത്തിക പദ്ധതി | Your goals and the steps, numbers and dates to reach them |"
+  },
+  {
+   "id": "fin-sources",
+   "title": "Sources and verification log",
+   "kind": "reference",
+   "summary": "Every link in the course, where it is used and when it was checked (2026-11-03).",
+   "content": "Every link in this course is listed here with the date it was checked. Links were opened and read on 2026-11-03; nothing here was copied from memory. If a link stops working, search for its title on the same website.\n\n- **verified 2026-11-03:** the page was opened on that date and its content matched what the course says.\n- **verified 2026-11-03; check current rules:** as above, but it is a rate, limit or rule that changes often. Open the source before you act.\n- **verified 2026-11-03 (headline checked):** the page could not be opened in full, so only its headline and date were checked in a web search. The course uses it only for what the headline itself says.\n- **unverified:** the site blocks automated checks, so the page could not be opened for this course. The address is the official one named by other government sources; type it yourself and check that it is the real site.\n\nGovernment and regulator pages are preferred. Where an official page could not be opened or doesn't exist in plain text, a dated news report or a bank's official page is used instead, and its date is in the title. OpenStax *Principles of Finance* is licensed CC BY 4.0, and this course only links to it.\n\n## RBI, banking and credit\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [RBI: Financial Education (messages, films, games, downloads)](https://rbi.org.in/financialeducation/) | FIN-M01-L01, What next | verified 2026-11-03 |\n\n## SEBI, AMFI and investing\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [SEBI investor website: guides and fraud warnings](https://investor.sebi.gov.in/) | FIN-M01-L01, FIN-M01-L02, What next | verified 2026-11-03 |\n| [SEBI: list of registered investment advisers (search by name or number)](https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecognisedFpi=yes&intmId=13) | What next | verified 2026-11-03 |\n| [AMFI: consolidated account statement (CAS)](https://www.amfiindia.com/investor-corner/investor-center/cas.html) | What next | verified 2026-11-03 |\n\n## Small savings, EPF, NPS and pensions\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [India Post: saving schemes and current interest rates](https://indiapost.gov.in/banking-services/saving) | What next | verified 2026-11-03; check current rules |\n\n## Free courses and books\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [NCFE: free basic financial education course (e-LMS, about 5 hours)](https://ncfe.org.in/?p=430) | FIN-M01-L01, FIN-M01-L03, What next | verified 2026-11-03 |\n| [Zerodha Varsity: all modules](https://zerodha.com/varsity/modules/) | FIN-M01-L02, What next | verified 2026-11-03 |\n| [OpenStax Principles of Finance on LibreTexts (CC BY 4.0)](https://biz.libretexts.org/Bookshelves/Finance/Principles_of_Finance_%28OpenStax%29) | What next | verified 2026-11-03 |\n\n## Free tools\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [LibreOffice (free office suite with Calc)](https://www.libreoffice.org/) | Week 0 | verified 2026-11-03 |\n| [LibreOffice Help: formula options and separators](https://help.libreoffice.org/latest/en-US/text/shared/optionen/01060900.html) | Week 0 | verified 2026-11-03 |\n\n## Marked \"unverified\"\n\n## Headline checked only\n\n## Marked \"check current rules\"\n\n- [India Post: saving schemes and current interest rates](https://indiapost.gov.in/banking-services/saving)"
+  }
+ ]
+}
