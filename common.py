@@ -153,6 +153,7 @@ R = {
     'etv-arrest': _r('ETV Bharat: I4C says CBI, ED and police don\'t arrest people on video calls (October 2024)', 'https://www.etvbharat.com/en/!bharat/cbi-ed-police-dont-arrest-people-through-video-calls-indian-cyber-crime-coordination-centre-enn24100602996', 'v', G_SCAM),
     'chakshu': _r('Factly: Chakshu, to report fraud calls, SMS and WhatsApp messages', 'https://factly.in/explainer-government-launches-chakshu-to-report-sms-call-or-whatsapp-messages-attempting-to-commit-fraud/amp', 'v', G_SCAM),
     'ml-mlm': _r('Moneylife: pyramid and money-circulation schemes banned under consumer rules (December 2021)', 'https://moneylife.in/article/indian-govt-bans-pyramid-or-mlm-schemes-under-new-consumer-protection-rules/65986.html', 'v', G_SCAM),
+    'ml-buds': _r('Moneylife: rules notified under the Banning of Unregulated Deposit Schemes (BUDS) Act', 'https://www.moneylife.in/article/govt-notifies-rules-for-banning-ponzi-schemes-unregulated-deposits-under-buds-act/59448.html', 'vt', G_SCAM),
     'sachet': _r('RBI Sachet: complain about illegal deposit schemes, check registered entities', 'https://sachet.rbi.org.in/', 'v', G_SCAM),
     # ---- Nominations, documents and wills
     'pib-nominee': _r('PIB: up to four nominees for bank accounts from 1 November 2025', 'https://www.pib.gov.in/PressReleasePage.aspx?PRID=2181734', 'vr', G_ESTATE),
