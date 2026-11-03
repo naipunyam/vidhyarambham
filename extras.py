@@ -754,7 +754,7 @@ def finish(course):
         groups.setdefault(R[key]['group'], []).append(key)
     order = ['Income tax and GST', 'RBI, banking and credit', 'SEBI, AMFI and investing',
              'Small savings, EPF, NPS and pensions', 'Insurance', 'Kerala', 'Scams, safety and complaints',
-             'Nominations, documents and wills', 'Free courses and books', 'Free tools', 'Other']
+             'Nominations, documents and wills', 'Law and family', 'Free courses and books', 'Free tools', 'Other']
     parts = [f"""
 Every link in this course is listed here with the date it was checked. Links were opened and read on {VDATE}; nothing here was copied from memory. If a link stops working, search for its title on the same website.
 

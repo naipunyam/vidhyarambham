@@ -30,6 +30,7 @@ G_SCAM = 'Scams, safety and complaints'
 G_ESTATE = 'Nominations, documents and wills'
 G_LEARN = 'Free courses and books'
 G_TOOLS = 'Free tools'
+G_LAW = 'Law and family'
 
 
 def _r(title, url, s='v', group='Other'):
@@ -159,6 +160,7 @@ R = {
     'udgam': _r('RBI: UDGAM FAQs (find unclaimed deposits)', 'https://rbi.org.in/scripts/FS_FAQs.aspx?Id=166', 'v', G_ESTATE),
     'digilocker': _r('DigiLocker', 'https://www.digilocker.gov.in/', 'v', G_ESTATE),
     'will-guide': _r('iPleaders: how to make and register a will in India', 'https://blog.ipleaders.in/register-will-india/', 'v', G_ESTATE),
+    'dowry-act': _r('Ministry of Women and Child Development: the Dowry Prohibition Act, 1961', 'https://wcd.nic.in/dowry-prohibition-act-1961-28-1961', 'v', G_LAW),
     # ---- Free courses and books
     'ncfe': _r('NCFE: free basic financial education course (e-LMS, about 5 hours)', 'https://ncfe.org.in/?p=430', 'v', G_LEARN),
     'varsity': _r('Zerodha Varsity: all modules', 'https://zerodha.com/varsity/modules/', 'v', G_LEARN),
