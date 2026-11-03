@@ -67,3 +67,37 @@ Status: v = page read and matches; vr = verified, check current rules; vt = titl
 - u BBC Learning English (site blocked).
 - v https://www.pib.gov.in/ PIB: ministries' press releases; English/Hindi toggle; regional office PIB Thiruvananthapuram.
 - vt https://samagra.kite.kerala.gov.in/ KITE "Samagra eResource Portal"; metadata keywords mention textbook downloads (SCERT textbooks not confirmed in content).
+
+## Added in the second research pass (all 2026-11-03)
+- v https://www.learningscientists.org/spaced-practice | /interleaving | /elaboration | /concrete-examples | /dual-coding : each a resource page with posters (colour, B/W), slides (PPT, PDF), bookmarks, stickers, a video and a blog post.
+- v https://docs.ankiweb.net/editing.html cloze {{c1::text::hint}}, each number one card; Image Occlusion native since Anki 23.10; Hide All Guess One vs Hide One Guess One; Tools > Empty Cards after deleting shapes.
+- v https://docs.ankiweb.net/deck-options.html 20 new cards a day -> roughly about 200 reviews a day; FSRS; desired retention default 90%, workload rises sharply near 100%, stay below 97%.
+- v https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge Wozniak 1999, 20 rules (do not learn if you do not understand; learn before you memorize; minimum information; cloze; imagery; mnemonics; graphic deletion; avoid sets; avoid enumerations; combat interference; optimize wording; refer to other memories; personalize; emotional states; context cues; redundancy; sources; date stamping; prioritize).
+- v https://forums.ankiweb.net/t/image-occlusion-ankidroid-v2-17/43841 (Apr 2024): AnkiDroid 2.17 has the built-in Image Occlusion note type; creation works when that note type is chosen.
+- v https://apps.ankiweb.net/ Anki desktop free: Windows 10+ x64, macOS 13+, Linux 2022+; AnkiDroid free, by contributors.
+- v https://education.nsw.gov.au/content/dam/main-education/about-us/educational-data/cese/2017-cognitive-load-theory.pdf CESE 2017: WM about four chunks; schemas; automation; explicit instruction; worked example effect; expertise reversal.
+- v https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/ Cornell LSC: Walter Pauk, How to Study in College (page claims handwriting beats laptop; contradicted by replication, see LS blog).
+- v https://openstax.org/books/introduction-philosophy/pages/5-introduction ch 5 Logic and reasoning: 5.1-5.5 (incl. 5.3 Arguments, 5.4 Types of Inferences, 5.5 Informal Fallacies).
+- v https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent 6.1 Understand Percent.
+- u https://ncert.nic.in/textbook.php (robots block).
+- v https://scert.kerala.gov.in/ SCERT Kerala: revised textbooks classes 2, 4, 6, 8 and class 10 textbooks and workbooks listed (Onmanorama 3 Jun 2024 confirms textbooks on SCERT site and Samagra).
+- vr https://keralapsc.gov.in/sites/default/files/2022-07/degree_level_cpe__for_confirmation_.pdf Degree Level CPE (2022): Mark 100, 1 Hour 15 Minutes; questions in English and Malayalam/Tamil/Kannada.
+- vr https://openai.com/index/chatgpt-study-mode/ (29 Jul 2025) study mode: Socratic questions, hints, quizzes; Free/Plus/Pro/Team logged-in; tools menu -> "Study and learn".
+- vr https://blog.google/outreach-initiatives/education/guided-learning/ (6 Aug 2025) Guided Learning in Gemini: step by step, probing questions, quizzes.
+- v https://knowledge.wharton.upenn.edu/article/without-guardrails-generative-ai-can-harm-education (27 Aug 2024) Bastani et al.: ~1,000 Turkish high-school students; GPT Base practice +48%, GPT Tutor +127%; exam without AI: GPT Base 17% lower than control, GPT Tutor about the same.
+- v https://news.uchicago.edu/story/writing-about-worries-eases-anxiety-and-improves-test-performance Ramirez & Beilock, Science 14 Jan 2011: 10 min expressive writing before exam; anxious 9th graders B+ vs B-.
+- v https://eprints.whiterose.ac.uk/id/eprint/91793/ Sirois & Pychyl 2013: procrastination as short-term mood repair; costs borne by future self.
+- v https://bps.org.uk/research-digest/cure-procrastination-forgive-yourself (4 May 2010) Wohl, Pychyl & Bennett 2010: 134 students; self-forgiveness after first midterms -> less procrastination before second.
+- v https://cris.maastrichtuniversity.nl/en/publications/understanding-effort-regulation-comparing-pomodoro-breaks-and-sel Biwer et al. 2023 BJEP: 87 students; Pomodoro 24/6 and 12/3 systematic breaks vs self-regulated: less fatigue and distractedness, higher concentration and motivation with systematic breaks; same task completion.
+- v https://ora.ox.ac.uk/objects/uuid:daa9a729-f17b-4e45-97c0-cff5075ea404 Melby-Lervag, Redick & Hulme 2016: 87 publications, 145 comparisons; near transfer only; no convincing far transfer (reading, arithmetic, intelligence).
+- v https://newsonair.gov.in/icmr-releases-updated-dietary-guidelines-for-indians-in-2024 (9 May 2024) ICMR-NIN Dietary Guidelines for Indians: be physically active, limit salt, sugar, fats, ultra-processed food.
+- v https://socialsci.libretexts.org/Bookshelves/Counseling_and_Guidance/College_Success_(OpenStax)/06%3A_Studying_Memory_and_Test_Taking/6.03%3A_Test_Taking test anxiety strategies; MCQ: read all choices, confident first, skip and return, time plan.
+- v https://www.prd.kerala.gov.in/ I&PRD Kerala: press releases (Malayalam), e-magazines Janapadham and Kerala Calling.
+- v https://newsonair.gov.in/ AIR news: national and regional bulletins, audio bulletins.
+- v https://f-droid.org/en/packages/com.logseq.app/ Logseq 0.10.15 on F-Droid (18 Dec 2025), AGPL-3.0.
+- v https://www.languagetransfer.org/ free, donation-run; Spanish, English, Arabic, Turkish, Greek, German, Italian, Swahili, French (+ music theory).
+- v https://www.frontiersin.org/articles/10.3389/fpsyg.2012.00429/full Dekker et al. 2012: 242 teachers UK/NL; learning styles 93%/96%; 10% of brain 48%/46%; left/right brain 91%/86%; CC BY 3.0.
+- v https://en.wikipedia.org/wiki/Mnemonic_major_system 0 s z; 1 t d th; 2 n; 3 m; 4 r; 5 l; 6 ch j sh soft g; 7 k hard g q; 8 f v; 9 p b; vowels, w, h, y ignored.
+- v https://en.wikipedia.org/wiki/Jnanpith_Award Malayalam: 1965 G. Sankara Kurup (first ever), 1980 S. K. Pottekkatt, 1984 Thakazhi Sivasankara Pillai, 1995 M. T. Vasudevan Nair, 2007 O. N. V. Kurup, 2019 Akkitham Achuthan Namboothiri.
+- v https://en.wikipedia.org/wiki/List_of_rivers_of_Kerala 44 rivers, 41 west-flowing, 3 east-flowing (Kabani named); Periyar 244 km, Bharathapuzha 209, Pamba 176, Chaliyar 169.
+- not used: Khan Academy (fetch empty), legislative.gov.in constitution (JS only), BBC Learning English (blocked).
