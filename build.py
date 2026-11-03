@@ -40,7 +40,7 @@ course = {
     'title': 'Practical Social Media Marketing: Grow an Account, Run Campaigns, Get Clients',
     'summary': 'Grow a real account with measured results, run a real campaign for a local business, and finish with a portfolio, a service package and a price sheet, using free tools on an Android phone. Malayalam and English, Kerala examples, rupee numbers and copy-ready templates throughout. Part-time: 40 weeks at about 6 hours a week. Full-time: about 14 weeks.',
     'language': 'en',
-    'updated': common.VDATE,
+    'updated': common.VDATE2,
     'totalWeeks': 40,
     'paces': [
         {'id': 'part-time', 'label': 'Part-time', 'hoursPerWeek': 6, 'weekLength': 1,

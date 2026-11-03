@@ -746,7 +746,7 @@ GLOSSARY = [
     ('Affiliate marketing', 'അഫിലിയേറ്റ് വിപണനം', 'Earning a commission when people buy through your link'),
     ('Monetisation', 'വരുമാനമാക്കൽ', 'Earning money from content or an audience'),
     ('Disclosure', 'വെളിപ്പെടുത്തൽ', 'Clearly saying that a post is paid, gifted or connected to a brand'),
-    ('Material connection', 'ഭൗതിക ബന്ധം', 'Any link with a brand, such as payment or free products, that must be disclosed'),
+    ('Material connection', 'ബ്രാൻഡുമായുള്ള ബന്ധം (വാണിജ്യ ബന്ധം)', 'Any link with a brand, such as payment or free products, that must be disclosed'),
     ('Endorsement', 'അംഗീകാര പ്രസ്താവന', 'Recommending a product as if from your own experience'),
     ('Copyright', 'പകർപ്പവകാശം', 'Ownership of original creative work, such as music, photos and videos'),
     ('Licence', 'ഉപയോഗാനുമതി (ലൈസൻസ്)', 'Permission to use someone\'s work under set conditions'),
