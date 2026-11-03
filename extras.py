@@ -505,7 +505,7 @@ There are no good or bad scores here; they are your starting line. Short-term me
 
 def system_section():
     rows = [(str(w), f'Weekly learning review (week {w})', 'Weekly tab row and your written review') for w in REVIEW_WEEKS]
-    rows += [(str(w), f'AnkiDroid: day {d} of 30 reviewed', 'Screenshot of the AnkiDroid statistics calendar') for d, w in ANKI_DAYS]
+    rows += [(str(w), f'AnkiDroid: day {d} of 30 reviewed', 'Screenshot of the statistics screen' + (', and the retaken 20-question topic test' if d == 30 else '')) for d, w in ANKI_DAYS]
     rows.sort(key=lambda r: int(r[0]))
     content = f"""
 Two habits run underneath the whole course. They turn lessons into a system. **This week** on the course page shows the checkpoints when they are due.
@@ -527,7 +527,7 @@ In Module 4 you build a deck of 100 or more cards on one PSC topic. The course a
 - **Review every day,** even on bad days: 5 minutes is better than none. Do the reviews before you add new cards.
 - **Count review days, not calendar days.** If you miss a day, the 30 days end a day later.
 - **Add new cards gradually:** about 10 to 20 new cards a day until the deck has 100 or more (LRN-M04-L04 explains the workload).
-- **Proof:** a screenshot of the AnkiDroid statistics screen with its calendar, and your true retention (the share of mature reviews you passed).
+- **Proof:** a screenshot of the AnkiDroid statistics screen showing your review days and the percentage of reviews you answered correctly. On day 30, retake the 20-question topic test from LRN-M04-L01 and compare.
 
 ## Checkpoints
 
@@ -541,7 +541,7 @@ Missing one is information, not failure. Ask why: no fixed time, too many new ca
               'detail': '**Evidence:** your written review and a row in the Weekly tab. Save a photo or screenshot in 07 Metacognition.'}
              for w in REVIEW_WEEKS]
     tasks += [{'id': f'lrn-anki-day{d:02d}', 'text': f'AnkiDroid: day {d} of 30 reviewed', 'kind': 'project', 'week': w,
-               'detail': '**Evidence:** a screenshot of the AnkiDroid statistics calendar, saved in 04 Anki.'}
+               'detail': '**Evidence:** a screenshot of the AnkiDroid statistics screen showing your review days, saved in 04 Anki. On day 30, also your retaken 20-question topic test.'}
               for d, w in ANKI_DAYS]
     tasks.sort(key=lambda t: t['week'])
     return {

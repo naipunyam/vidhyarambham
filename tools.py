@@ -25,7 +25,7 @@ ERROR_TYPES = [
 ]
 PYQ = 'Paper (post and year),Question no,Subject,Topic,Subtopic,Type (fact / concept / calculation / statement),Repeated? (Y/N),Seen in my material? (Y/N),Right at first try? (Y/N),Notes'
 SYLLABUS = 'Subject,Topic (from the official syllabus),Marks or share,PYQ count,Confidence (1-5),Status (not started / learning / revising / solid),Source I use,Next review'
-WEEKLY = 'Week,Dates,Study hours,AnkiDroid days (of 7),AnkiDroid true retention %,Self-test score %,Mock or PYQ score,Focus blocks done,Top error type,One change for next week'
+WEEKLY = 'Week,Dates,Study hours,AnkiDroid days (of 7),AnkiDroid % correct,Self-test score %,Mock or PYQ score,Focus blocks done,Top error type,One change for next week'
 FOCUS_LOG = 'Date,Task,Planned minutes,Minutes to first distraction,Distractions (tally),Phone where?,Focus (1-10),Note'
 SPRINT = 'Day,Date,Minutes,What I studied,Methods used,Retrieval score (e.g. 7/10),Cards added,Energy (1-5),Note'
 
@@ -104,7 +104,7 @@ Recording: v1 file ________  v2 file ________
 Score each 1-3:  Accuracy __  Clarity __  Complete __  Without notes __  Total __/12"""
 
 WEEKLY_REVIEW = """WEEKLY LEARNING REVIEW        Week ___ (dates ________)   20 minutes, Sunday
-Numbers: study hours ___ | AnkiDroid days ___/7, true retention ___%
+Numbers: study hours ___ | AnkiDroid days ___/7, % correct ___%
          self-test ___% | mock or PYQ score ___ | focus blocks ___
 1. From memory, no notes: the three most important things I learned this week
    ______________________________________________________________________
