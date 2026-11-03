@@ -38,6 +38,7 @@ An **acronym** makes a word from first letters; an **acrostic** makes a sentence
 
 - **The five writs:** Habeas corpus, Mandamus, Prohibition, Certiorari, Quo warranto. Acrostic: **"Hari's Mother Prepared Chakka Quickly."**
 - **Kerala's three east-flowing rivers:** Kabani, Bhavani, Pambar. Acrostic: **"Kerala's Big Payasam."**
+- **The six Malayalam Jnanpith winners in order:** G. Sankara Kurup (1965), S. K. Pottekkatt (1980), Thakazhi Sivasankara Pillai (1984), M. T. Vasudevan Nair (1995), O. N. V. Kurup (2007) and Akkitham Achuthan Namboothiri (2019) ({link('jnanpith', 'Jnanpith Award list')}). Acrostic from their first initials (G, S, T, M, O, A): **"Good Students Take Mocks Often, Anu."** The years go on cards (or into number images, LRN-M11-L03).
 
 Malayalam acrostics work just as well, often better for Malayalam speakers. Make your own.
 

@@ -166,7 +166,7 @@ His first 10 hours each produced something: a script, an audio test in three roo
         ('langtransfer', 'If your project is a language: look at the free courses', '10 minutes'),
     ],
     steps=[
-        'Choose one new skill you want for after PSC (or alongside it) and fill in the learning project canvas below.',
+        'Choose one skill to learn on your own and fill in the learning project canvas below: a PSC skill that no lesson covers (for example letter or essay writing in English, or speaking for posts with an interview), or a skill for after PSC.',
         'Do the baseline test of your outcome and record the result.',
         'Choose one main free resource for each sub-skill, from this app\'s other courses or official and open sources.',
         'Plan your first 10 hours session by session, each producing something you make or do.',

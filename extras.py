@@ -97,11 +97,11 @@ def full_time_rows():
         1: 'Week 0 and the baseline tests (the 24-hour recall needs a second short session the next day). Then Modules 1–2.',
         2: 'AnkiDroid starts (Module 4). The 30-day review runs in real days, to about calendar week 6, alongside the next modules.',
         6: 'Module 12 ends: make your 12-week PSC plan. Read LRN-M21-L01 now and start the 30-day capstone sprint at the end of this week.',
-        7: 'Sprint days 1–7, with Modules 13–14 alongside (about 45–60 minutes of sprint a day, plus lessons).',
-        8: 'Sprint continues; Modules 15–17 alongside.',
-        9: 'Sprint continues; Modules 18–20 alongside. The app shows LRN-M21-L01 now: you have already done it.',
-        10: 'Finish the sprint days. Keep AnkiDroid and the weekly review going.',
-        11: 'Sprint after-tests and reflection, the final retests, and your learning system document.',
+        7: 'Sprint days 1–7 (45–60 minutes a day), with the modules the app shows alongside.',
+        8: 'Sprint days 8–14, with the modules the app shows alongside.',
+        9: 'Sprint days 15–21. The app now shows LRN-M21-L01: you have already done it.',
+        10: 'Sprint days 22–28: the revision cycle. Keep AnkiDroid and the weekly review going.',
+        11: 'Sprint days 29–30, the after test on day 31 and your reflection report, the final retests and your learning system document.',
     }
     names = {m: plan.MODULES[m - 1][0] for m in range(1, 22)}
     c = 1
@@ -229,6 +229,7 @@ These decisions were made when the course was written. Change them if your situa
 - **Sreeja**, 34, from Nadapuram: a homemaker with two children, studying for LGS in two 45-minute slots a day
 - **Ashiq**, 22, from Kuttiady: a new BCom graduate, good at maths, fighting a strong phone habit
 - **Joseph sir**, 61, from Thottilpalam: a retired Malayalam teacher who runs a small study group at the panchayat library
+- **Vinod**, a member of Joseph sir's group who drives an autorickshaw and hopes one day to work in the Gulf
 
 ## Other courses in this app
 
@@ -342,6 +343,20 @@ Every action task uses your real material, so collect it now:
 - Nothing new to install yet. You need the **Clock app** (stopwatch and timer) and a **voice recorder** (most phones have one; a voice note to yourself also works).
 - Later modules install free, open-source apps: AnkiDroid (Module 4), Loop Habit Tracker (Module 6) and Joplin or Logseq (Module 18).
 - Turn off notifications for games and shopping apps today. Module 5 goes much further.
+
+## Your free tool stack
+
+Everything in this course runs on free tools. You don't need to install them all today; each module tells you when.
+
+{table(['Tool', 'What it is for', 'Set up in'], [
+    ('Google Sheets and Google Drive (or LibreOffice Calc offline)', 'Learning Workbook and Learning Folder', 'Week 0'),
+    ('Phone clock (timer, stopwatch) and voice recorder', 'Baseline tests, Pomodoro blocks, Feynman recordings', 'Week 0'),
+    (link('ankidroid-play', 'AnkiDroid') + ' (open source)', 'Spaced repetition flashcards', 'Module 4'),
+    (link('wellbeing', 'Digital Wellbeing') + ' (built into Android)', 'Screen time, Focus mode, app timers, Bedtime mode', 'Module 5'),
+    (link('loop', 'Loop Habit Tracker') + ' (open source)', 'Tracking study habits', 'Module 6'),
+    (link('joplin', 'Joplin') + ' or ' + link('logseq', 'Logseq') + ' (open source)', 'Your knowledge base', 'Module 18'),
+    ('A free AI chat plan (optional)', 'Socratic tutoring and quizzes from your notes', 'Module 17'),
+])}
 
 ## 5. Your weekly slots
 

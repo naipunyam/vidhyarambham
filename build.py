@@ -41,7 +41,7 @@ course = {
     'summary': (f'An evidence-based "learn how to learn" course done on your own Kerala PSC material. Measure your memory, reading, '
                 f'focus and digit span in week 0 and again at the end; build a 100-card AnkiDroid deck, a memory palace, five Feynman '
                 f'recordings, a PYQ analysis and error log, a 12-week PSC study plan and a 30-day learning sprint. Honest evidence '
-                f'ratings for every technique, free and open-source tools only. Part-time: {FINAL} weeks at about 6 hours a week. '
+                f'ratings for every technique; free tools only, open source wherever possible. Part-time: {FINAL} weeks at about 6 hours a week. '
                 f'Full-time: about {len(extras.full_time_rows())} weeks.'),
     'language': 'en',
     'updated': common.VDATE,
