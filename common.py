@@ -145,7 +145,7 @@ R = {
     'ml-cps': _r('Moneylife: Kerala introduces the contributory pension scheme for employees joining from 1 April 2013', 'https://moneylife.in/article/introduction-of-contributory-pension-scheme-in-kerala/30913.html', 'v', G_KERALA),
     'medisep2': _r('Onmanorama: Medisep phase 2 from 1 February 2026', 'https://www.onmanorama.com/news/kerala/2026/01/21/medisep-kerala-phase-2-rollout-february1.html', 'v', G_KERALA),
     'ag-gpf': _r('Accountant General (A&E) Kerala: about GPF', 'https://cag.gov.in/ae/kerala/en/page-ae-kerala-about-gpf', 'vr', G_KERALA),
-    'gpais': _r('CUSAT: circular on the Group Personal Accident Insurance Scheme (PDF)', 'https://finance.cusat.ac.in/uploads/CIRC_279_CUSAT_NPS.N3_GPAIS_2024-2025.pdf', 'vt', G_KERALA),
+    'gpais': _r('CUSAT: circular on the Group Personal Accident Insurance Scheme (PDF)', 'https://finance.cusat.ac.in/uploads/CIRC_279_CUSAT_NPS.N3_GPAIS_2024-2025.pdf', 'v', G_KERALA),
     'ksfe-chitty': _r('KSFE: chitty', 'https://ksfe.com/chitty', 'vr', G_KERALA),
     'kl-dgf': _r('TeamLease RegTech: Kerala Co-operative Deposit Guarantee (Amendment) Scheme, 2026', 'https://www.teamleaseregtech.com/updates/article/51730/kerala-co-operative-deposit-guarantee-amendment-scheme-2026', 'vr', G_KERALA),
     'ic-dgf': _r('Indian Cooperative: Kerala raises the co-op deposit guarantee to ₹10 lakh (January 2026)', 'https://www.indiancooperative.com/co-op-news-snippets/kerala-hikes-deposit-guarantee-for-co-op-members/', 'vr', G_KERALA),
