@@ -18,7 +18,7 @@ const fakeFetch = (map) => async (url) => {
 test('loads shipped courses listed in index.json', async () => {
   const r = await loadShippedCourses('/b/', fakeFetch(files))
   assert.deepEqual(r.problems, [])
-  assert.deepEqual(r.courses.map((c) => c.id), ['ai-generalist', 'entrepreneurship'])
+  assert.deepEqual(r.courses.map((c) => c.id), ['ai-generalist', 'entrepreneurship', 'social-media-marketing'])
 })
 
 test('a broken course file is skipped with a clear problem, others still load', async () => {
