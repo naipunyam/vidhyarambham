@@ -122,6 +122,7 @@ R = {
     'ins-ombudsman': _r('Council for Insurance Ombudsmen', 'https://www.cioins.co.in/', 'v', G_INS),
     'bima-bharosa': _r('IRDAI Bima Bharosa: register and track an insurance complaint', 'https://bimabharosa.irdai.gov.in/', 'v', G_INS),
     'pmjjby': _r('ICICI Bank: PMJJBY and PMSBY government insurance schemes', 'https://www.icici.bank.in/personal-banking/insurance/government-schemes/pm-service-my-plan', 'vr', G_INS),
+    'tg-motor': _r('TaxGuru: motor insurance rules in India, third-party cover (September 2026)', 'https://taxguru.in/finance/irdai-rules-regulations-car-insurance-india.html', 'vr', G_INS),
     'om-seniors': _r('Onmanorama: health cover options for Kerala\'s senior citizens (November 2025)', 'https://www.onmanorama.com/lifestyle/health/2025/11/13/kerala-senior-citizens-health-insurance-options.amp.html', 'v', G_INS),
     # ---- Kerala
     'kl-da': _r('Onmanorama: Kerala raises DA and DR to 37% (October 2026)', 'https://www.onmanorama.com/news/kerala/2026/10/17/kerala-hikes-da-dr-by-2-revised-rates-effective-with-november-payments.html', 'v', G_KERALA),
