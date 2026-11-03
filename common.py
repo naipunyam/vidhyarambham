@@ -102,6 +102,11 @@ R = {
     'amfi-risko': _r('AMFI (Mutual Funds Sahi Hai): the six riskometer levels', 'https://www.mutualfundssahihai.com/en/what-riskometer-and-what-are-different-levels', 'v', G_SEBI),
     'sebi-risko': _r('SEBI investor website: riskometer', 'https://investor.sebi.gov.in/riskometer.html', 'v', G_SEBI),
     'amfi-cas': _r('AMFI: consolidated account statement (CAS)', 'https://www.amfiindia.com/investor-corner/investor-center/cas.html', 'v', G_SEBI),
+    'amfi-ter': _r('AMFI: what the total expense ratio is, and where it is disclosed', 'https://amfiindia.com/investor-corner/knowledge-center/Expense-Ratio.html', 'v', G_SEBI),
+    'elss-lockin': _r('Edelweiss Mutual Fund: the ELSS three-year lock-in, per instalment', 'https://www.edelweissmf.com/investor-insights/mutual-fund-investment-tips-and-articles/elss-lock-in-period', 'v', G_SEBI),
+    'gjepc-huid': _r('GJEPC: hallmarked jewellery with a 6-digit HUID made mandatory from 1 April (2023)', 'https://gjepc.org/solitaire/?p=20069', 'vt', G_SEBI),
+    'om-biscare': _r('Outlook Money: check gold jewellery purity with the BIS CARE app', 'https://www.outlookmoney.com/invest/bought-gold-jewellery-recently-heres-how-you-can-check-its-purity-using-the-bis-care-app', 'vt', G_SEBI),
+    'rbi-sgb': _r('RBI: SGB premature redemption calendar, April to September 2026', 'https://website.rbi.org.in/web/rbi/-/press-releases/sovereign-gold-bond-sgb-scheme-calendar-for-premature-redemption-during-april-2026-september-2026', 'vt', G_SEBI),
     'ml-reit': _r('Moneylife: REIT minimum investment cut, trading lot of one unit (August 2021)', 'https://www.moneylife.in/article/sebi-revises-minimum-application-value-trading-lot-for-reits-invits/64785.html', 'vr', G_SEBI),
     'ob-sgb': _r('Outlook Business: no new Sovereign Gold Bond issues (February 2025)', 'https://www.outlookbusiness.com/economy-and-policy/govt-likely-to-discontinue-sovereign-gold-bond-schemes-confirms-finance-ministry', 'v', G_SEBI),
     # ---- Small savings, EPF, NPS and pensions
