@@ -62,3 +62,14 @@ console.log(`total hours: ${total.toFixed(0)}`)
 const counts = []
 for (let w = 0; w <= (course.totalWeeks || 0); w++) counts.push(`${w}:${tasksForWeek(course, { done: {} }, w).length}`)
 console.log('open tasks shown per week:', counts.join(' '))
+
+// Lesson-code references: malformed codes and codes that don't exist (yet).
+const ids = new Set(course.sections.map((s) => s.id))
+const bad = new Set(), unknown = new Set()
+for (const s of course.sections) {
+  const blob = [s.content, s.summary, ...(s.tasks || []).map((t) => t.detail || '')].join('\n')
+  for (const m of blob.matchAll(/LRN-M\d\d-L\d(?!\d)/g)) bad.add(`${s.id}:${m[0]}`)
+  for (const m of blob.matchAll(/LRN-M(\d\d)-L(\d\d)/g)) if (!ids.has(`lrn-m${m[1]}-l${m[2]}`)) unknown.add(m[0])
+}
+if (bad.size) console.log('MALFORMED codes:', [...bad].join(' '))
+if (unknown.size) console.log('codes not (yet) in the course:', [...unknown].sort().join(' '))
