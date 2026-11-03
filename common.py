@@ -108,6 +108,8 @@ R = {
     'anki-deck': _r('Anki manual: Deck Options (daily limits, FSRS, desired retention)', 'https://docs.ankiweb.net/deck-options.html', 'v', G_TOOLS),
     'anki-io-forum': _r('Anki forums (April 2024): image occlusion in AnkiDroid 2.17', 'https://forums.ankiweb.net/t/image-occlusion-ankidroid-v2-17/43841', 'v', G_TOOLS),
     'joplin': _r('Joplin: free, open-source notes for Android, Windows and Linux', 'https://joplinapp.org/', 'v', G_TOOLS),
+    'joplin-help': _r('Joplin help: features, sync options, encryption and apps', 'https://joplinapp.org/help/', 'v', G_TOOLS),
+    'obsidian': _r('Obsidian pricing: free without limits; optional paid sync (not open source)', 'https://obsidian.md/pricing', 'vr', G_TOOLS),
     'logseq': _r('Logseq: privacy-first, open-source knowledge management', 'https://logseq.com/', 'v', G_TOOLS),
     'logseq-fdroid': _r('Logseq for Android on F-Droid (AGPL-3.0)', 'https://f-droid.org/en/packages/com.logseq.app/', 'v', G_TOOLS),
     'loop': _r('Loop Habit Tracker (free, open source, GPLv3)', 'https://loophabits.org/', 'v', G_TOOLS),
