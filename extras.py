@@ -73,7 +73,7 @@ def total_hours(modules):
     h = 4 + 1  # week 0 (with the baseline) and the final checklist
     for _, overview, _lessons in _mods(modules):
         h += overview['hours']
-    h += sum(habit_hours(w) for w in range(0, 31))
+    h += sum(habit_hours(w) for w in range(0, 32))
     return h
 
 
@@ -97,12 +97,12 @@ def week_plan(modules):
         project_hours = overview['hours'] - sum(s['hours'] for s in lessons)
         pw = next(t['week'] for t in overview['tasks'] if t['id'].endswith('-project'))
         add(pw, f'Module {m} project and rubric', project_hours)
-    for w in range(1, 31):
+    for w in range(1, 32):
         if 1 <= w <= 5:
             add(w, '30-day expense log', habit_hours(w))
         elif habit_hours(w):
             add(w, 'monthly money review', habit_hours(w))
-    add(30, 'final self-assessment and checklist', 1)
+    add(31, 'final self-assessment and checklist', 1)
     return plan
 
 
@@ -115,14 +115,15 @@ def full_time_rows(modules):
         2: 'Module 3 arrives before your 30 days are done: build the budget from the days you have, and redo the numbers when day 30 is done.',
         5: 'Your 30-day log ends this week. Update the Budget tab with all 30 days.',
         6: 'First monthly money review at the end of your first real month.',
-        10: 'Second monthly money review, then the final self-assessment.',
+        10: 'Second monthly money review.',
+        11: 'The capstone and the final self-assessment.',
     }
     rows = []
-    for c in range(1, 11):
+    for c in range(1, 12):
         lo = int((c - 1) / 0.33)
-        hi = min(int(c / 0.33 - 0.01), 30)
-        if c == 10:
-            hi = 30
+        hi = min(int(c / 0.33 - 0.01), 31)
+        if c == 11:
+            hi = 31
         focus = [f'M{m:02d} {names[m]}' for m, (s, e) in sorted(mod_weeks.items()) if s <= hi and e >= lo]
         if lo == 0:
             focus.insert(0, 'Week 0')
@@ -163,7 +164,7 @@ All of it lives in one spreadsheet, the **Money Workbook**, and one Google Drive
 ## How long it takes
 
 {table(['Pace', 'Calendar time', 'Hours a week', 'Total work'], [
-    ('Part-time (the default)', 'Week 0, then 30 weeks: about 7 months', 'About 5 (4 to 6)', f'About {total:.0f} hours'),
+    ('Part-time (the default)', 'Week 0, then 31 weeks: about 7 months', 'About 5 (4 to 6)', f'About {total:.0f} hours'),
     ('Full-time', 'About 10 weeks', 'About 14', f'About {total:.0f} hours'),
 ])}
 
@@ -330,7 +331,7 @@ Make a folder called **Money Folder** with these subfolders: 00 Baseline, 01 Min
 
 ## 2. The Money Workbook
 
-Make one spreadsheet called **Money Workbook** in Google Sheets (phone or laptop). If you prefer working offline on the laptop, the free {link('libreoffice', 'LibreOffice Calc')} opens and saves the same file as .xlsx or .ods. Start with two tabs; each module adds its own tab, so by week 30 the workbook is your whole plan.
+Make one spreadsheet called **Money Workbook** in Google Sheets (phone or laptop). If you prefer working offline on the laptop, the free {link('libreoffice', 'LibreOffice Calc')} opens and saves the same file as .xlsx or .ods. Start with two tabs; each module adds its own tab, so by week 31 the workbook is your whole plan.
 
 **Tab 1: Expenses.** Put these headings in row 1:
 
@@ -434,15 +435,15 @@ LEVELS = [
 def baseline_section():
     rows = [(str(i), s, '', '') for i, s in enumerate(SKILLS, 1)]
     content = f"""
-Before you start, record where you are. You'll take exactly the same self-assessment in week 30 and compare. Be honest: low scores now make your progress visible later. It takes about 30 minutes.
+Before you start, record where you are. You'll take exactly the same self-assessment in week 31 and compare. Be honest: low scores now make your progress visible later. It takes about 30 minutes.
 
 ## Part 1: rate 20 skills from 1 to 5
 
 {table(['Score', 'Means'], LEVELS)}
 
-Copy this table into the **Baseline** tab of your Money Workbook. Fill in the **Start** column now; leave **End** for week 30.
+Copy this table into the **Baseline** tab of your Money Workbook. Fill in the **Start** column now; leave **End** for week 31.
 
-{table(['No', 'Skill', 'Start (week 0)', 'End (week 30)'], rows)}
+{table(['No', 'Skill', 'Start (week 0)', 'End (week 31)'], rows)}
 
 ## Part 2: your money snapshot
 
@@ -464,7 +465,7 @@ I have been offered a "scheme", app or tip that promised big returns: yes / no''
 ## Part 3: three sentences
 
 1. Why I am doing this course: ____
-2. What I want my money life to look like in week 30: ____
+2. What I want my money life to look like in week 31: ____
 3. What usually stops me finishing things, and my plan for it: ____
 
 Save a screenshot of the Baseline tab (numbers you consider private can be covered) in **00 Baseline**.
@@ -475,7 +476,7 @@ Save a screenshot of the Baseline tab (numbers you consider private can be cover
         'kind': 'setup',
         'weeks': [0, 0],
         'hours': 0.5,
-        'summary': 'Rate 20 money skills, write a rough money snapshot and say why you are doing this. You take the same assessment in week 30.',
+        'summary': 'Rate 20 money skills, write a rough money snapshot and say why you are doing this. You take the same assessment in week 31.',
         'content': content.strip(),
         'tasks': [
             {'id': 'fin-baseline-skills', 'text': 'Baseline: 20 skills rated, Start column filled in', 'kind': 'task', 'week': 0},
@@ -574,14 +575,14 @@ Each item should be a tab, a file or a note in your Money Folder that you could 
 - Put your next monthly money date and your yearly review month in your calendar. The course ends; your money system doesn't.
 """
     tasks = [
-        {'id': 'fin-final-reassess', 'text': 'Final self-assessment: End column filled in and compared with week 0', 'kind': 'exit', 'week': 30},
-        {'id': 'fin-final-snapshot', 'text': 'Money snapshot rewritten with real numbers, next to the week 0 guesses', 'kind': 'task', 'week': 30},
-    ] + [{'id': i, 'text': t, 'kind': 'task', 'week': 30} for i, t, _ in TOOLKIT]
+        {'id': 'fin-final-reassess', 'text': 'Final self-assessment: End column filled in and compared with week 0', 'kind': 'exit', 'week': 31},
+        {'id': 'fin-final-snapshot', 'text': 'Money snapshot rewritten with real numbers, next to the week 0 guesses', 'kind': 'task', 'week': 31},
+    ] + [{'id': i, 'text': t, 'kind': 'task', 'week': 31} for i, t, _ in TOOLKIT]
     return {
         'id': 'fin-final',
         'title': 'Final self-assessment and toolkit checklist',
         'kind': 'capstone',
-        'weeks': [30, 30],
+        'weeks': [31, 31],
         'hours': 1,
         'summary': 'Retake the baseline self-assessment, compare your real money snapshot with your week 0 guesses, and check that every part of your plan exists.',
         'content': content.strip(),
