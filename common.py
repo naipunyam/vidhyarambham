@@ -63,6 +63,8 @@ R = {
     'it-s126': _r('Income-tax Act, 2025, section 126: health insurance deduction (old 80D)', 'https://www.incometaxindia.gov.in/w/section-126-96', 'vr', G_TAX),
     'it-ins-benefits': _r('Income Tax Department: tax benefits of life and health insurance', 'https://www.incometaxindia.gov.in/w/tax-benefits-due-to-life-insurance-policy-health-insurance-policy-and-expenditure-on-medical-treatment', 'vr', G_TAX),
     'it-vda': _r('Income Tax Department: taxation of virtual digital assets (PDF)', 'https://www.incometaxindia.gov.in/documents/20117/42998/Taxation-of-Virtual-Digital-Asset-VDA_2026-01-06_06-43-57_cfe04a_en.pdf/153706c8-7b5c-77d4-fc56-624c50ece1b0', 'vr', G_TAX),
+    'it-ais': _r('Income Tax Department: steps to access your Annual Information Statement (AIS)', 'https://www.incometaxindia.gov.in/w/steps-to-access-ais-information-online', 'v', G_TAX),
+    'sansa-advtax': _r('Sansa Legal: advance tax under the Income-tax Act, 2025 (June 2026)', 'https://www.sansalegal.com/post/advance-tax-under-income-tax-act-2025-due-dates-calculation-and-payment-guide', 'vr', G_TAX),
     'gst-56': _r('GST Council: decisions of the 56th meeting (PDF, September 2025)', 'https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau.pdf', 'vr', G_TAX),
     'cbic-reg': _r('CBIC: registration under GST (PDF)', 'https://cbic-gst.gov.in/pdf/press-release/registrtn-gst-regime.pdf', 'vr', G_TAX),
     # ---- RBI, banking and credit

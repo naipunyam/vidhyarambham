@@ -678,7 +678,7 @@ If you choose to hold crypto, treat it as speculation: a small amount you could 
     example=f"""
 **Rahul** joined a ₹3,000-a-month KSFE chitty of 50 months (₹1,50,000), planning to use it for his sister's second-year fees. In month 9, he needed money and won the auction with a 28% discount: prize ₹1,08,000. He gave his salary certificate and a colleague's surety as security.
 
-He calculated the real cost with the template: he had paid 9 instalments (averaging ₹2,600 after dividends), received ₹1,08,000, and would pay about 41 more instalments averaging ₹2,700. The effective cost was well above a bank education loan's rate, but he had no other quick option at the time. His lesson: "A chitty is a loan if you win early. Next time I'll compare it with a loan before I bid."
+He calculated the real cost with the template: he had paid 9 instalments (averaging ₹2,600 after dividends), received ₹1,08,000, and would pay about 41 more instalments averaging ₹2,700. The effective cost came to about 19% a year, well above what a bank education loan would have cost, but he had no other quick option at the time. His lesson: "A chitty is a loan if you win early. Next time I'll compare it with a loan before I bid."
 
 His mother, meanwhile, had ₹6 lakh in a primary co-operative society. They checked: it was not a licensed bank. They kept ₹3 lakh there (within the Kerala guarantee for members, after confirming her membership) and moved the rest to a post office MIS.
 """,
