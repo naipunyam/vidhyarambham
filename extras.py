@@ -630,6 +630,8 @@ You don't need an adviser to follow this course. Consider a fee-only SEBI-regist
 - {link('varsity', 'Zerodha Varsity')}: the Personal Finance, Mutual Funds, Insurance and NPS modules, read as education, not as product advice
 - {link('openstax', 'OpenStax Principles of Finance')}: chapters 3, 7, 8, 15 and 20 for the theory behind interest, time value and risk
 - {link('sebi-investor', 'SEBI investor website')} and {link('rbi-fe', 'RBI Financial Education')} for new rules and fraud warnings
+- {link('nse-iap', 'NSE\'s free investor awareness programmes')} (with study material) and {link('nism-fe', 'NISM\'s financial education programmes')}; SEBI\'s Saa₹thi app for learning on your phone
+- For Kerala government employees: the {link('kl-fin', 'Finance Department website')} for DA, pay and pension orders
 
 ## Keep up with rule changes
 

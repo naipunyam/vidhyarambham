@@ -25,7 +25,7 @@ This module is for the day your PSC result turns into an appointment order. If y
 ### Earnings
 
 - **Basic pay:** fixed by your post's pay scale and your stage in it; it rises with yearly increments and with pay revisions decided by government order.
-- **Dearness allowance (DA):** a percentage of basic pay that compensates for price rises, revised by government order. Kerala raised **DA and dearness relief (for pensioners) from 35% to 37%** by an order dated 17 October 2026; the new DA came with the October salary paid in November 2026, and **arrears from 1 January 2026** are to follow by a separate order ({link('kl-da', 'Onmanorama, October 2026')}, {CHECK}).
+- **Dearness allowance (DA):** a percentage of basic pay that compensates for price rises, revised by government order. Kerala raised **DA and dearness relief (for pensioners) from 35% to 37%** by an order dated 17 October 2026 (G.O.(P) No.108/2026/Fin, listed on the {link('kl-fin', 'Finance Department website')}, where DA, pay and other orders are published); the new DA came with the October salary paid in November 2026, and **arrears from 1 January 2026** are to follow by a separate order ({link('kl-da', 'Onmanorama, October 2026')}, {CHECK}).
 - **House rent allowance (HRA)** and other allowances, depending on your post and place of work.
 
 ### Deductions
@@ -69,6 +69,7 @@ When the DA increase to 37% was announced in October 2026, his tracker showed th
 """,
     resources=[
         ('kl-da', 'The October 2026 DA and DR increase: rates and when they are paid', '10 minutes'),
+        ('kl-fin', 'The Finance Department website: find the DA order and the list of recent government orders', '10 minutes'),
         ('ml-cps', 'Why employees who joined from April 2013 are in the contributory pension scheme', '10 minutes'),
         ('ag-gpf', 'The AG Kerala GPF page, including what goes through SPARK', '15 minutes'),
         ('kl-ptax', 'Profession tax basics', '5 minutes'),

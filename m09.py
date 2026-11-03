@@ -173,6 +173,7 @@ You can manage simple investments yourself with this course. Consider a **SEBI-r
 - **Verify registration** on SEBI's website before paying anyone: search the {link('sebi-ia-list', 'list of registered investment advisers')} by name or registration number, and match the details. SEBI has long asked people to deal only with registered advisers and research analysts and to beware of tips by SMS and social media ({link('sebi-ia-caution', 'SEBI')}).
 - **Finfluencers:** since 2024, SEBI-regulated entities can't have any association with unregistered people who give advice or make return claims ({link('bt-finfluencer', 'Business Today, August 2024')}). A YouTuber or Telegram channel recommending specific funds or stocks for money must be registered; most aren't.
 - A distributor (an agent paid by commission) can sell you products but is not an adviser; ask how they are paid.
+- **Learn more, free:** SEBI's **Saa₹thi** app (launched in January 2022) is its mobile app for investor education ({link('saarthi', 'SEBI press release')}); NSE runs free investor awareness programmes and publishes study material ({link('nse-iap', 'NSE')}).
 """,
     example=f"""
 **Anu** practised comparing three index funds that track the same index (names hidden here; she used real ones from fund house websites, as a learning exercise):
@@ -403,7 +404,7 @@ Her note: "EPF rules changed in 2025 and NPS rules in December 2025. I'll check 
         ('varsity', 'Module 17, "NPS: National Pension System": the first chapters', '25 minutes'),
     ],
     steps=[
-        'Write down which of EPF, PPF and NPS you already have. For EPF, check your passbook balance in the EPFO member services or the UMANG app; for PPF, your passbook; for NPS, your statement.',
+        'Write down which of EPF, PPF and NPS you already have. For EPF, check your passbook through EPFO\'s online member services (or ask your employer); for PPF, your passbook; for NPS, your statement.',
         'For each account you have, check: nominee, last contribution, balance. Add them to your Net Worth and Allocation tabs (as debt, or split for NPS).',
         'For the accounts you don\'t have, write whether they fit you, using the table.',
         'Write one rule about your EPF if you have one, for example: "When I change jobs, I transfer my EPF; I never withdraw it for wants."',
@@ -667,8 +668,9 @@ Kerala's co-operative sector serves millions of families, often with good servic
 - **Kerala's own guarantee:** the Kerala Co-operative Deposit Guarantee (Amendment) Scheme, 2026 (notified 9 January 2026) provides a guarantee for **members'** deposits in societies, reported as up to **₹10 lakh per member**, depending on the society having paid its contribution to the fund ({link('kl-dgf', 'TeamLease RegTech')}, {link('ic-dgf', 'Indian Cooperative')}, {CHECK}).
 - Kerala has seen several co-operative and private finance failures. Spread deposits, stay within guarantee limits, and prefer institutions whose accounts and audit reports you can see.
 
-### Crypto: legal, taxed, unprotected
+### Crypto: not banned, not legal tender, heavily taxed
 
+- **Legal status:** the government told Parliament in 2019 that India had **not banned** cryptocurrency and had no separate law for it ({link('inc42-crypto', 'Inc42, July 2019')}); in 2022 the Finance Secretary said crypto "will never become legal tender": you can buy it, but it has no government authorisation and the government is not responsible for losses ({link('quint-crypto', 'The Quint, February 2022')}). These are the latest official statements found for this course; {CHECK}, as crypto rules may change.
 - **Tax:** income from transferring crypto (virtual digital assets) is taxed at a flat **30% plus surcharge and cess**, with **no deduction except the cost** of buying and **no set-off of losses** against other income; **1% TDS** applies on transfers above ₹50,000 a year (for most individuals) or ₹10,000 (others) ({link('it-vda', 'Income Tax Department')}, {CHECK}).
 - **Protection:** there is no investor-protection system for crypto like the ones for bank deposits or mutual funds. Exchanges can be hacked or shut; wrong transfers can't be reversed.
 - **Scams:** fake crypto apps and "trading bots" that show rising balances you can't withdraw are among the most common investment frauds (Module 15).

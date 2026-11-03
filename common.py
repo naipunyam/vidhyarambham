@@ -66,6 +66,7 @@ R = {
     'it-vda': _r('Income Tax Department: taxation of virtual digital assets (PDF)', 'https://www.incometaxindia.gov.in/documents/20117/42998/Taxation-of-Virtual-Digital-Asset-VDA_2026-01-06_06-43-57_cfe04a_en.pdf/153706c8-7b5c-77d4-fc56-624c50ece1b0', 'vr', G_TAX),
     'it-ais': _r('Income Tax Department: steps to access your Annual Information Statement (AIS)', 'https://www.incometaxindia.gov.in/w/steps-to-access-ais-information-online', 'v', G_TAX),
     'sansa-advtax': _r('Sansa Legal: advance tax under the Income-tax Act, 2025 (June 2026)', 'https://www.sansalegal.com/post/advance-tax-under-income-tax-act-2025-due-dates-calculation-and-payment-guide', 'vr', G_TAX),
+    'it-calc': _r('Income Tax Department: income and tax calculator (compares regimes)', 'https://www.incometax.gov.in/iec/foportal/income-tax-calculator', 'v', G_TAX),
     'gst-56': _r('GST Council: decisions of the 56th meeting (PDF, September 2025)', 'https://gstcouncil.gov.in/sites/default/files/2025-09/press_release_press_information_bureau.pdf', 'vr', G_TAX),
     'cbic-reg': _r('CBIC: registration under GST (PDF)', 'https://cbic-gst.gov.in/pdf/press-release/registrtn-gst-regime.pdf', 'vr', G_TAX),
     # ---- RBI, banking and credit
@@ -110,6 +111,10 @@ R = {
     'gjepc-huid': _r('GJEPC: hallmarked jewellery with a 6-digit HUID made mandatory from 1 April (2023)', 'https://gjepc.org/solitaire/?p=20069', 'vt', G_SEBI),
     'om-biscare': _r('Outlook Money: check gold jewellery purity with the BIS CARE app', 'https://www.outlookmoney.com/invest/bought-gold-jewellery-recently-heres-how-you-can-check-its-purity-using-the-bis-care-app', 'vt', G_SEBI),
     'rbi-sgb': _r('RBI: SGB premature redemption calendar, April to September 2026', 'https://website.rbi.org.in/web/rbi/-/press-releases/sovereign-gold-bond-sgb-scheme-calendar-for-premature-redemption-during-april-2026-september-2026', 'vt', G_SEBI),
+    'nse-iap': _r('NSE: free investor awareness programmes and study material', 'https://www.nseindia.com/invest/investors-awareness-programs', 'v', G_SEBI),
+    'nism-fe': _r('NISM: financial education and investor education programmes', 'https://www.nism.ac.in/financial-education', 'v', G_SEBI),
+    'quint-crypto': _r('The Quint: crypto will never be legal tender, says the Finance Secretary (February 2022)', 'https://thequint.com/news/business/cryptocurrency-like-bitcoin-ethereum-nft-will-not-be-legal-tender-india-says-finance-secretary-tv-somanathan', 'vr', G_SEBI),
+    'inc42-crypto': _r('Inc42: India hasn\'t banned cryptocurrency, says the government (July 2019)', 'https://inc42.com/?p=163021', 'vr', G_SEBI),
     'ml-reit': _r('Moneylife: REIT minimum investment cut, trading lot of one unit (August 2021)', 'https://www.moneylife.in/article/sebi-revises-minimum-application-value-trading-lot-for-reits-invits/64785.html', 'vr', G_SEBI),
     'ob-sgb': _r('Outlook Business: no new Sovereign Gold Bond issues (February 2025)', 'https://www.outlookbusiness.com/economy-and-policy/govt-likely-to-discontinue-sovereign-gold-bond-schemes-confirms-finance-ministry', 'v', G_SEBI),
     # ---- Small savings, EPF, NPS and pensions
@@ -136,6 +141,7 @@ R = {
     'kl-da': _r('Onmanorama: Kerala raises DA and DR to 37% (October 2026)', 'https://www.onmanorama.com/news/kerala/2026/10/17/kerala-hikes-da-dr-by-2-revised-rates-effective-with-november-payments.html', 'v', G_KERALA),
     'kl-aps': _r('Onmanorama: Assured Pension Scheme sanctioned in principle (March 2026)', 'https://www.onmanorama.com/news/kerala/2026/03/01/assured-pension-scheme-kerala-government.html', 'v', G_KERALA),
     'kl-pension': _r('Onmanorama: Kerala employees still waiting on pension reform (August 2026)', 'https://www.onmanorama.com/news/kerala/2026/08/17/kerala-govt-employees-left-waiting-pension-remains-stuck-between-promises.html', 'v', G_KERALA),
+    'kl-fin': _r('Kerala Finance Department: government orders and circulars (DA, pay, Medisep link)', 'https://finance.kerala.gov.in/', 'v', G_KERALA),
     'ml-cps': _r('Moneylife: Kerala introduces the contributory pension scheme for employees joining from 1 April 2013', 'https://moneylife.in/article/introduction-of-contributory-pension-scheme-in-kerala/30913.html', 'v', G_KERALA),
     'medisep2': _r('Onmanorama: Medisep phase 2 from 1 February 2026', 'https://www.onmanorama.com/news/kerala/2026/01/21/medisep-kerala-phase-2-rollout-february1.html', 'v', G_KERALA),
     'ag-gpf': _r('Accountant General (A&E) Kerala: about GPF', 'https://cag.gov.in/ae/kerala/en/page-ae-kerala-about-gpf', 'vr', G_KERALA),

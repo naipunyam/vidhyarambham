@@ -191,7 +191,7 @@ The pattern: **with the ₹12 lakh rebate, the new regime wins for most people**
 
 ### Do the calculation, don't guess
 
-Your own numbers decide. The template builds both regimes with formulas, so you can test different deductions and see the break-even. Revisit it every year: rules, your income and your deductions all change.
+Your own numbers decide. The template builds both regimes with formulas, so you can test different deductions and see the break-even. Then cross-check your result with the Income Tax Department's own **income and tax calculator**, which compares the regimes for a chosen year, age and income ({link('it-calc', 'official calculator')}). Revisit it every year: rules, your income and your deductions all change.
 """,
     example=f"""
 **Rahul's** salary for the tax year is ₹4,20,000 (made-up). His office asked him to choose a regime for TDS.
@@ -210,12 +210,14 @@ Both are zero, so he chose the default new regime, which is simpler. He then pla
         ('it-rates', 'Old regime slabs, senior citizen limits, surcharge and cess', '10 minutes'),
         ('it-sched15', 'Schedule XV: what counts for section 123 (old 80C)', '10 minutes'),
         ('it-s126', 'Section 126: the health insurance deduction', '5 minutes'),
+        ('it-calc', 'The official income and tax calculator: try the basic calculator with your income', '10 minutes'),
     ],
     steps=[
         'Build the two-regime calculator in your Tax tab from the template.',
         'Test it with the four worked examples in this lesson; your answers must match the table.',
         'Enter your own expected income for this tax year (salary, freelance, interest), and the deductions you really have (not ones you might buy).',
         'Read the result and the break-even: how much in deductions would make the old regime worth it?',
+        'Cross-check your own case on the Income Tax Department\'s official income and tax calculator; if the answers differ, find out why (age, year or a deduction).',
         'Write your regime decision for this year and one sentence on why. If you have business income, note the switching rule.',
     ],
     proof='A screenshot of your Tax tab calculator showing the four test cases matching and your own result with your regime decision, saved in 10 Tax.',
