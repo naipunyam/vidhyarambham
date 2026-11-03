@@ -86,6 +86,7 @@ R = {
     'os-psych-14-4': _r('OpenStax Psychology 2e, 14.4 Regulation of Stress', 'https://openstax.org/books/psychology-2e/pages/14-4-regulation-of-stress', 'v', G_BOOK),
     'os-cs': _r('OpenStax, College Success (free, CC BY-NC-SA 4.0)', 'https://openstax.org/books/college-success/pages/preface', 'v', G_BOOK),
     'os-cs-lt': _r('College Success (OpenStax) on LibreTexts: all 12 chapters', CS, 'v', G_BOOK),
+    'os-cs-3': _r('College Success, chapter 3: Managing Your Time and Priorities (procrastination, time management, goals)', CS + '/03%3A_Managing_Your_Time_and_Priorities', 'v', G_BOOK),
     'os-cs-5': _r('College Success, chapter 5: Reading and Notetaking (SQ3R, Cornell method)', CS + '/05%3A_Reading_and_Notetaking', 'v', G_BOOK),
     'os-cs-6': _r('College Success, chapter 6: Studying, Memory, and Test Taking', CS + '/06%3A_Studying_Memory_and_Test_Taking', 'v', G_BOOK),
     'os-cs-6-3': _r('College Success, 6.3 Test Taking (including test anxiety)', CS + '/06%3A_Studying_Memory_and_Test_Taking/6.03%3A_Test_Taking', 'v', G_BOOK),
