@@ -3,6 +3,8 @@ import { makeBackup, readBackup, backupFileName } from '../lib/state.js'
 import { courseProgress } from '../lib/progress.js'
 import { BackLink } from './Bits.jsx'
 
+const count = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`
+
 export default function BackupPage({ state, entries, onRestore, onRemoveCourse }) {
   const [message, setMessage] = useState(null)
 
@@ -108,7 +110,7 @@ export default function BackupPage({ state, entries, onRestore, onRemoveCourse }
           <ul className="plain-list">
             {Object.entries(state.progress).map(([id, p]) => (
               <li key={id}>
-                {titleOf(id)}: {Object.keys(p.done).length} ticks, {Object.keys(p.notes).length} notes
+                {titleOf(id)}: {count(Object.keys(p.done).length, 'tick')}, {count(Object.keys(p.notes).length, 'note')}
               </li>
             ))}
           </ul>

@@ -1,9 +1,18 @@
 import { courseProgress } from '../lib/progress.js'
 import { getProgress } from '../lib/state.js'
 import { hrefFor } from '../lib/routes.js'
-import { Flame, ProgressBar } from './Bits.jsx'
+import { pickContinue } from '../lib/continue.js'
+import { toneFor, splitCourseTitle, firstSentence, clip } from '../lib/look.js'
+import { Flame, ProgressRing } from './Bits.jsx'
+
+function openTasksText(open) {
+  if (open === 0) return 'nothing left this week'
+  return `${open} ${open === 1 ? 'task' : 'tasks'} left this week`
+}
 
 export default function Library({ entries, state, loading, problems, offline }) {
+  const next = pickContinue(entries, state)
+
   return (
     <>
       <header className="masthead">
@@ -22,24 +31,49 @@ export default function Library({ entries, state, loading, problems, offline }) 
         </p>
       )}
 
+      {next && (
+        <section className="continue" aria-labelledby="continue-h">
+          <div className="continue-text">
+            <h2 id="continue-h" className="continue-kicker">
+              Continue where you left off
+            </h2>
+            <p className="continue-title">{splitCourseTitle(next.course.title).main}</p>
+            <p className="continue-meta">
+              Week {next.week}
+              {next.lastWeek ? ` of ${next.lastWeek}` : ''}, {openTasksText(next.open)}
+            </p>
+          </div>
+          <a className="button sun" href={hrefFor({ name: 'course', courseId: next.course.id })}>
+            Continue
+          </a>
+        </section>
+      )}
+
       {entries.length > 0 && (
-        <ul className="course-list">
-          {entries.map(({ course, source }) => {
-            const p = courseProgress(course, getProgress(state, course.id).done)
-            return (
-              <li key={course.id}>
-                <a className="course-row" href={hrefFor({ name: 'course', courseId: course.id })}>
-                  <span className="course-row-title">{course.title}</span>
-                  {course.summary && <span className="course-row-summary">{course.summary}</span>}
-                  <ProgressBar percent={p.percent} label={`${course.title} progress`} />
-                  <span className="course-row-meta">
-                    {p.done} of {p.total} tasks done{source === 'imported' ? ', added from a file' : ''}
-                  </span>
-                </a>
-              </li>
-            )
-          })}
-        </ul>
+        <section aria-labelledby="courses-h">
+          <h2 id="courses-h" className="list-title">
+            Your courses
+          </h2>
+          <ul className="course-list">
+            {entries.map(({ course, source }) => {
+              const p = courseProgress(course, getProgress(state, course.id).done)
+              const { main, sub } = splitCourseTitle(course.title)
+              return (
+                <li key={course.id}>
+                  <a className={`course-card tone-${toneFor(course.id)}`} href={hrefFor({ name: 'course', courseId: course.id })}>
+                    <ProgressRing percent={p.percent} size={64} stroke={7} decorative />
+                    <span className="course-card-title">{main}</span>
+                    {sub && <span className="course-card-sub">{sub}</span>}
+                    {course.summary && <span className="course-card-summary">{clip(firstSentence(course.summary), 110)}</span>}
+                    <span className="course-card-count">
+                      {p.done} of {p.total} tasks done{source === 'imported' ? ', added from a file' : ''}
+                    </span>
+                  </a>
+                </li>
+              )
+            })}
+          </ul>
+        </section>
       )}
 
       {!loading && entries.length === 0 && (

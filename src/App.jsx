@@ -8,6 +8,7 @@ import SectionPage from './components/SectionPage.jsx'
 import BackupPage from './components/BackupPage.jsx'
 import AddCoursePage from './components/AddCoursePage.jsx'
 import NotFound from './components/NotFound.jsx'
+import { toneFor } from './lib/look.js'
 
 function browserStorage() {
   try {
@@ -66,7 +67,7 @@ export default function App() {
       const progress = getProgress(state, entry.course.id)
       const onChange = (change) => updateProgress(entry.course.id, change)
       if (route.name === 'course') {
-        page = <CoursePage entry={entry} progress={progress} onChange={onChange} />
+        page = <CoursePage key={entry.course.id} entry={entry} progress={progress} onChange={onChange} />
       } else {
         const section = entry.course.sections.find((s) => s.id === route.sectionId)
         page = section ? (
@@ -79,7 +80,7 @@ export default function App() {
   }
 
   return (
-    <div className="app">
+    <div className={route.courseId ? `app tone-${toneFor(route.courseId)}` : 'app'}>
       {saveFailed && (
         <p className="banner" role="alert">
           Your progress can't be saved in this browser, so ticks will be lost when you close it. Turn off private

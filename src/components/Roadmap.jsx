@@ -1,6 +1,6 @@
 import { buildRoadmap } from '../lib/roadmap.js'
 import { hrefFor } from '../lib/routes.js'
-import { weeksLabel } from './Bits.jsx'
+import { SectionTitle, weeksLabel, hoursLabel } from './Bits.jsx'
 
 export default function Roadmap({ course, settings, done }) {
   const { rows, track } = buildRoadmap(course, done)
@@ -19,7 +19,7 @@ export default function Roadmap({ course, settings, done }) {
 
       <ol className={hasTrack ? 'roadmap-grid with-track' : 'roadmap-grid'}>
         {rows.map((row, i) => {
-          const meta = [weeksLabel(row.weeks), row.hours ? `about ${row.hours} hours` : null].filter(Boolean).join(', ')
+          const meta = [weeksLabel(row.weeks), hoursLabel(row.hours)].filter(Boolean).join(', ')
           const complete = row.total > 0 && row.done === row.total
           const inBand = hasTrack && i >= first && i <= last
           return (
@@ -28,7 +28,7 @@ export default function Roadmap({ course, settings, done }) {
                 className={`roadmap-step kind-${row.kind}${complete ? ' complete' : ''}`}
                 href={hrefFor({ name: 'section', courseId: course.id, sectionId: row.id })}
               >
-                <span className="roadmap-step-title">{row.title}</span>
+                <SectionTitle title={row.title} className="roadmap-step-title" />
                 {meta && <span className="roadmap-step-meta">{meta}</span>}
                 {complete && <span className="roadmap-step-done">Done</span>}
               </a>
