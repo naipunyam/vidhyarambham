@@ -149,6 +149,8 @@ L2 = lesson(
     core=f"""
 ### Audiences, from broad to narrow
 
+The main audience options in Meta Ads Manager ({ASOF}):
+
 | Audience | What it is | When to use it |
 | --- | --- | --- |
 | **Location + age** | People in or near a place, in an age range | Almost every local business: a radius around the shop |
@@ -175,7 +177,7 @@ The audience and the budget matter, but the **ad itself** decides most results. 
 - **Made for the placement:** vertical video for Reels and Stories, with captions. Meta's free Blueprint videos include one on adding Reels placements to campaigns.
 - **The first 3 seconds** carry the message, as in organic posts.
 - **One offer, one call to action,** and a clear price where possible.
-- Ads Manager's **A/B test** feature can split the audience between versions; or put the versions in one ad set and compare cost per result.
+- Ads Manager's **A/B test** feature ({ASOF}) can split the audience between versions; or put the versions in one ad set and compare cost per result.
 
 ### The numbers to watch
 

@@ -1,6 +1,6 @@
 """Course-level sections: start here, schedule, week 0, baseline, posting
 track, final checklist, what next, glossary and the sources page."""
-from common import R, STATUS, VDATE, ASOF, link, rules, fence, bullets, numbered, table, use, fmt_hours
+from common import R, STATUS, VDATE, VDATE2, ASOF, link, rules, fence, bullets, numbered, table, use, fmt_hours
 
 MODULE_MAP = [
     (1, 'Foundations', 'How platforms rank content, the funnel, career paths; your practice account goes live', 'Starter plan and baseline'),
@@ -818,9 +818,9 @@ def finish(course):
              'Free and open-source software for the laptop', 'Malayalam fonts and typing', 'AI tools',
              'India: rules and law', 'Earning programmes', 'Help and safety', 'Other']
     parts = [f"""
-Every link in this course is listed here with the date it was checked. Links were opened and read on {VDATE}; nothing here was copied from memory. If a link stops working, search for its title on the same website.
+Every link in this course is listed here with the date it was checked. Links were opened and read on {VDATE}, and a few more on {VDATE2}; nothing here was copied from memory. If a link stops working, search for its title on the same website.
 
-- **verified {VDATE}:** the page was opened and its content matched what the course says.
+- **verified {VDATE}** or **verified {VDATE2}:** the page was opened on that date and its content matched what the course says.
 - **verified {VDATE} (page title checked):** the page only shows its text in a full browser, so its title and description were checked. The facts the course takes from it come from another linked source.
 - **check current rules:** a rule, feature, limit or fee that changes often. Open the official source before you act or advise a client.
 - **unverified:** the site blocks automated checks, so the page could not be opened for this course. The address is the official one named by other government sources; type it yourself and check it is the real site.
@@ -837,13 +837,13 @@ Several Meta help pages (facebook.com and parts of WhatsApp's help) block automa
             rows.append((f"[{r['title']}]({r['url']})", where, STATUS[r['s']]))
         parts.append(f'## {g}\n\n' + table(['Resource', 'Used in', 'Status'], rows))
     unverified = [k for k in used_in if R[k]['s'] == 'u']
-    rules_keys = [k for k in used_in if R[k]['s'] == 'vr']
+    rules_keys = [k for k in used_in if R[k]['s'] in ('vr', 'vr2')]
     parts.append('## Marked "unverified"\n\n' + bullets([f"[{R[k]['title']}]({R[k]['url']})" for k in unverified]))
     parts.append('## Marked "check current rules"\n\n' + bullets([f"[{R[k]['title']}]({R[k]['url']})" for k in rules_keys]))
     sections.append({
         'id': 'smm-sources',
         'title': 'Sources and verification log',
         'kind': 'reference',
-        'summary': f'Every link in the course, where it is used and when it was checked ({VDATE}).',
+        'summary': f'Every link in the course, where it is used and when it was checked ({VDATE}, and a few on {VDATE2}).',
         'content': '\n\n'.join(p.strip() for p in parts),
     })

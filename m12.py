@@ -23,7 +23,7 @@ Keep it honest. While you're learning, say so: "Social media marketer in trainin
 
 You don't need to be everywhere. Three places are enough:
 
-1. **LinkedIn:** for employers, agencies and bigger clients. Since 2024, the creation tools that used to need Creator mode are open to everyone.
+1. **LinkedIn:** for employers, agencies and bigger clients. Since 2024, the creation tools that used to need Creator mode are open to everyone (as of October 2026).
 2. **Your portfolio site** (next lesson): proof, services and contact in one link.
 3. **WhatsApp Business** for your services: a profile, a catalogue of your packages (Module 15), and quick replies.
 

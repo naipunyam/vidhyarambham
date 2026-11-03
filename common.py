@@ -10,10 +10,13 @@ import hashlib
 import random
 
 VDATE = '2026-10-25'
+VDATE2 = '2026-11-03'  # links added or re-checked in the final review
 ASOF = 'as of October 2026'
 
 STATUS = {
     'v': f'verified {VDATE}',
+    'v2': f'verified {VDATE2}',
+    'vr2': f'verified {VDATE2}; check current rules',
     'vt': f'verified {VDATE} (page title checked)',
     'vr': f'verified {VDATE}; check current rules',
     'u': 'unverified: the site blocks automated checks',
@@ -182,14 +185,14 @@ R = {
     # ---- Malayalam fonts and typing
     'font-manjari': _r('Google Fonts: Manjari (Malayalam and Latin)', 'https://fonts.google.com/specimen/Manjari', 'v', G_FONTS),
     'font-chilanka': _r('Google Fonts: Chilanka (Malayalam handwriting style)', 'https://fonts.google.com/specimen/Chilanka', 'v', G_FONTS),
-    'font-noto-ml': _r('Google Fonts: Noto Sans Malayalam', 'https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam', 'v', G_FONTS),
+    'font-noto-ml': _r('Google Fonts: Noto Sans Malayalam', 'https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam', 'v2', G_FONTS),
     'smc-fonts': _r('Swathanthra Malayalam Computing: Manjari, Gayathri and Chilanka in Google Fonts', 'https://blog.smc.org.in/manjari-gayathri-chilanka-in-google-fonts/', 'v', G_FONTS),
     'gboard-ml': _r('Gboard Help: Type in a different language', 'https://support.google.com/gboard/answer/7068494', 'v', G_FONTS),
     'indic-kbd': _r('Indic Keyboard, free and open source (Google Play)', 'https://play.google.com/store/apps/details?id=org.smc.inputmethod.indic', 'v', G_FONTS),
     # ---- AI tools
-    'gemini-plans': _r('Google Gemini plans (has a free plan)', 'https://gemini.google/subscriptions/', 'vr', G_AI),
-    'chatgpt-plans': _r('ChatGPT plans (has a free plan)', 'https://chatgpt.com/pricing', 'vr', G_AI),
-    'claude-plans': _r('Claude plans (has a free plan)', 'https://claude.com/pricing', 'vr', G_AI),
+    'gemini-plans': _r('Google Gemini plans (has a free plan)', 'https://gemini.google/subscriptions/', 'vr2', G_AI),
+    'chatgpt-plans': _r('ChatGPT plans (has a free plan)', 'https://chatgpt.com/pricing', 'vr2', G_AI),
+    'claude-plans': _r('Claude plans (has a free plan)', 'https://claude.com/pricing', 'vr2', G_AI),
     # ---- India: rules and law
     'asci-guidelines': _r('ASCI: Guidelines for influencer advertising in digital media (PDF)', 'https://www.ascionline.in/social/wp-content/uploads/2025/04/ASCI-Influencer-Guidelines.pdf', 'vr', G_INDIA),
     'asci-faqs': _r('ASCI: influencer advertising FAQs', 'https://www.ascionline.in/social/faqs/', 'vr', G_INDIA),

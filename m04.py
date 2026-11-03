@@ -9,7 +9,7 @@ L1 = lesson(
     core="""
 ### The first three seconds decide everything
 
-People scroll fast. Instagram's advice to creators is to hook viewers in the first 3 seconds and watch the **View Rate** in Insights; YouTube's retention report shows an **Intro** figure for long videos: the share of viewers still watching after the first 30 seconds. Both are telling you the same thing: if the opening doesn't earn attention, nothing after it matters.
+People scroll fast. Instagram's advice to creators is to hook viewers in the first 3 seconds and watch the **View Rate** in Insights; YouTube's retention report shows an **Intro** figure for long videos: the share of viewers still watching after the first 30 seconds (as of October 2026). Both are telling you the same thing: if the opening doesn't earn attention, nothing after it matters.
 
 A strong hook works on three layers at once:
 
@@ -209,6 +209,7 @@ Version B reached more people outside the immediate area, including Gulf-based M
         ('indic-kbd', 'Install it if you want transliteration from English letters', '5 min'),
         ('font-manjari', 'Look at the Malayalam samples; download if you design on the laptop', '3 min'),
         ('font-chilanka', 'See the handwriting-style alternative', '2 min'),
+        ('font-noto-ml', 'See a plain alternative that matches Noto fonts for other scripts', '2 min'),
         ('smc-fonts', 'Read the short post about these fonts in Google Fonts and Docs (in Malayalam)', '5 min'),
         ('yt-captions', 'Read the three ways to add subtitles on YouTube', '5 min'),
     ],
@@ -279,7 +280,7 @@ L3 = lesson(
 - **Resolution:** 1080p at 30 frames per second is enough for social media and keeps files small on older phones. Use 4K only if your phone handles it smoothly.
 - **Grid lines on** (in the camera settings) to help framing.
 - **Lock focus and exposure:** tap and hold on your subject until the camera shows a lock, so brightness doesn't jump around.
-- **Shape:** vertical 9:16 for Reels, Shorts and Stories; horizontal 16:9 for long YouTube videos. Decide before you press record.
+- **Shape:** vertical 9:16 for Reels, Shorts and Stories; horizontal 16:9 for long YouTube videos (as of October 2026). Decide before you press record.
 - **Want manual control?** The free, open-source **Open Camera** app has manual controls, exposure lock and grids.
 
 ### Light: the cheapest upgrade
@@ -307,7 +308,7 @@ Viewers forgive slightly soft video; they leave when they can't hear clearly.
 - **Safe zones:** in vertical video the top and bottom are covered by the app's buttons and captions, so keep faces and text in the middle.
 - **Clean background:** move clutter, switch off a flickering bulb, choose a plain wall.
 - **Steady:** lean on a wall, rest the phone on a stack of books, hold with two hands and elbows tucked in. A phone stand is optional.
-- **Hands-free:** the YouTube Shorts camera has a timer for hands-free recording.
+- **Hands-free:** the YouTube Shorts camera has a timer for hands-free recording (as of October 2026).
 
 ### Shoot for the edit
 
@@ -477,6 +478,8 @@ On Instagram, more viewers watched to the end than on his earlier, unedited clip
         ('canva-mkt', 'Watch "Social video editing basics" and "Advanced social video"', '15 min'),
         ('yt-audio', 'Read how the Audio Library and attribution work', '10 min'),
         ('kdenlive', 'Optional, on the laptop: read about proxy clips', '3 min'),
+        ('shotcut', 'Optional, on the laptop: look at what Shotcut can do', '3 min'),
+        ('obs', 'Optional, on the laptop: read what OBS Studio does, for screen-recorded tutorials', '3 min'),
     ],
     steps=[
         'Study the resources (about 45 minutes). Install one editor your phone can run smoothly.',
@@ -604,6 +607,7 @@ For their YouTube room tour they made a thumbnail: the balcony view, the words "
         ('yt-thumbs', 'Re-read the thumbnail requirements', '5 min'),
         ('gimp', 'Optional, on the laptop: look at what GIMP can do', '5 min'),
         ('inkscape', 'Optional, on the laptop: look at what Inkscape can do', '5 min'),
+        ('krita', 'Optional, on the laptop or an Android tablet: look at what Krita can do', '3 min'),
     ],
     steps=[
         'Study the resources (about 45 minutes).',

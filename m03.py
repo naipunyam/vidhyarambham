@@ -457,6 +457,7 @@ She also wrote her LinkedIn headline: "Learning social media marketing | Buildin
         ('threads-500m', 'Read the Threads update: user numbers, Communities, live chats', '5 min'),
         ('tg-channels', 'Read how Telegram channels and discussion groups work', '5 min'),
         ('sharechat', 'Check the languages listed', '3 min'),
+        ('moj', 'Check the languages listed and what kinds of video it shows', '3 min'),
         ('x-algo', 'Skim the first part of the README: how "For You" is built', '5 min'),
         ('bt-koo', 'Read why Koo shut down', '3 min'),
         ('pib-apps', 'Read the June 2020 order that blocked TikTok and other apps', '3 min'),

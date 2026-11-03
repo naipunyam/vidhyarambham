@@ -145,7 +145,7 @@
 - v https://ehrc.iiitb.ac.in/project/tele-manas Tele-MANAS: 1-800-89-14416 or 14416, toll-free 24/7, language of choice.
 - v https://ps.keralapolice.gov.in/ernakulamruralcyber-ps/notifications/National-Cyber-Crime-Reporting-Helpline-No-1930-3338 Kerala Police: 1930 available 24 hours; cybercrime.gov.in for reporting online crimes incl. financial fraud.
 - v https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf DPDP Rules 2025 explainer: consent "clear, informed and easy to understand", separate notice with purpose; withdraw any time; 18-month phased compliance; penalties up to Rs 250 crore (security), 200 crore (breach notification, children); verifiable parental consent for children's data. vr
-- v https://fonts.google.com/specimen/Manjari Manjari: Malayalam + Latin family (Google Fonts). Also https://fonts.google.com/specimen/Chilanka , https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam (not fetched)
+- v https://fonts.google.com/specimen/Manjari Manjari: Malayalam + Latin family (Google Fonts). Also https://fonts.google.com/specimen/Chilanka (Malayalam handwriting-style font, designer Santhosh Thottingal) and https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam (sans-serif for Malayalam): both fetched 2026-11-03
 - v https://blog.smc.org.in/manjari-gayathri-chilanka-in-google-fonts/ (25 Aug 2019) SMC's Manjari, Gayathri, Chilanka available in Google Fonts/Drive; Google Fonts has only free-licence fonts.
 - v https://support.google.com/gboard/answer/7068494 Gboard: Settings > Languages > Add keyboard > Malayalam; hold space bar to switch.
 - v https://play.google.com/store/apps/details?id=org.smc.inputmethod.indic Indic Keyboard: "Free and open source. No ads, no tracking." Malayalam incl. Transliteration and Predictive Transliteration, Swanalekha, Inscript. Updated 3 Oct 2026.
@@ -199,3 +199,9 @@
 - v https://openstax.org/books/principles-marketing/pages/12-1-pricing-and-its-role-in-the-marketing-mix 12.1 Pricing: define pricing, role in marketing mix, psychology of pricing.
 - v https://openstax.org/books/principles-marketing/pages/15-1-personal-selling-and-its-role-in-the-promotion-mix 15.1 Personal selling, relationship selling.
 - v https://www.hubspot.com/sales/sales-training HubSpot free sales courses: Inbound Sales Certification (5 classes), Sales Enablement (12 classes), Sales Software; "all HubSpot Academy certification courses are completely free"; each 2-4 hours of video.
+
+## Final review checks (2026-11-03)
+- v https://gemini.google/subscriptions/ Gemini plans: Free ($0 with a Google Account) lists "Image generation and editing", Deep Research, Gemini Live, Canvas, Gems; paid AI Plus, Pro, Ultra (US prices shown). vr
+- v https://chatgpt.com/pricing ChatGPT plans: Free, Go, Plus, Pro, Business, Enterprise; Free: limited GPT-5.5 Instant, "Limited and slower image generation", limited deep research, memory, Codex. vr
+- v https://claude.com/pricing Claude plans: Free ("Free for everyone": chat on web, desktop and mobile, web search, file creation, code execution, Artifacts; limited usage), Pro, Max, Team, Enterprise. vr
+- v https://fonts.google.com/noto/specimen/Noto+Sans+Malayalam Noto Sans Malayalam: sans-serif for Malayalam (Google Fonts).

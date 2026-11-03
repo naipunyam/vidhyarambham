@@ -153,7 +153,7 @@ Speed matters a little; accuracy and taste matter more. For news trends, check w
 
 Collaborating with another account introduces you to an audience that already trusts them. Options:
 
-- **Instagram Collabs:** a co-authored post that appears on both accounts. Instagram suggests using Collabs or tags when working with other creators, instead of reposting each other's content.
+- **Instagram Collabs:** a co-authored post that appears on both accounts (as of October 2026). Instagram suggests using Collabs or tags when working with other creators, instead of reposting each other's content.
 - **Guest appearances:** you appear in their video and they appear in yours, on YouTube or Reels.
 - **Complementary local accounts:** a bakery and a florist, a gym and a juice shop, a homestay and a trekking guide.
 - **Community pages and groups:** contribute a useful post or a series.

@@ -143,7 +143,7 @@ Most accounts fail because they post what the creator likes, not what the audien
 
 **2. Comment mining.** Open 3 to 5 popular accounts in your niche and read 50 comments on their best posts. Copy the questions, complaints and praise into a sheet. Comments are your audience telling you, for free, what they care about.
 
-**3. Search data.** Google Trends shows how search interest in a topic changes over time and by region, on a 0–100 scale. A 100 means the peak for that topic in your chosen time and place, not a number of searches, and very low interest shows as 0 ({ASOF}). Set the region to Kerala, compare two or three terms, and switch to **YouTube Search** to see video interest. Also type your topic into YouTube and Instagram search and note the suggestions that appear.
+**3. Search data.** Google Trends shows how search interest in a topic changes over time and by region, on a 0–100 scale. A 100 means the peak for that topic in your chosen time and place, not a number of searches, and very low interest shows as 0 (as of October 2026). Set the region to Kerala, compare two or three terms, and switch to **YouTube Search** to see video interest. Also type your topic into YouTube and Instagram search and note the suggestions that appear.
 
 **4. Your own numbers.** Once your page has more followers, its insights show top towns, age ranges and when followers are online. Until then, use the first three sources.
 
@@ -268,7 +268,7 @@ L3 = lesson(
 2. **Record the basics:** followers, posts a week, main formats, language, how they write bios and captions.
 3. **Find their best posts.** On YouTube, open the channel and sort videos by **Popular**. On Instagram, scroll their Reels tab and note the ones with the highest view counts. Write down the topic, the hook and the format of the top 3.
 4. **Read the comments** on those posts: what do people ask that isn't answered?
-5. **Check if they run ads:** Meta's Ad Library lets anyone search the ads a Page is running on Facebook and Instagram. If a competitor has run the same ad for months, it's probably working.
+5. **Check if they run ads:** Meta's Ad Library lets anyone search the ads a Page is running on Facebook and Instagram (as of October 2026). If a competitor has run the same ad for months, it's probably working.
 
 Then look for **gaps**: questions nobody answers, formats nobody uses well, a language gap (no good Malayalam explanations), a place gap (no one covers your panchayat), or a quality gap (everyone posts blurry photos).
 
