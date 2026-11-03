@@ -155,7 +155,7 @@ There is no investment without risk; even "safe" deposits carry inflation risk.
     ('Equity (ownership)', 'Shares, equity mutual funds, index funds', 'Highest over long periods', 'Large falls in bad years; years to recover'),
     ('Gold', 'Gold ETFs, gold mutual funds, jewellery', 'Varies; often rises when other assets fall', 'Long flat periods; jewellery has making charges and purity issues'),
     ('Real estate', 'Land, a house, REITs', 'Varies by place', 'Illiquid, large amounts, legal issues, costs'),
-    ('Speculative', 'Crypto, derivatives (F&O)', 'Uncertain', 'Very high volatility; SEBI found about 91% of individual F&O traders lost money in 2024-25 ({link("sebi-fno", "Moneylife")})'),
+    ('Speculative', 'Crypto, derivatives (F&O)', 'Uncertain', 'Very high volatility; SEBI found about 91% of individual F&O traders lost money in 2024-25 (' + link('sebi-fno', 'Moneylife') + ')'),
 ])}
 
 ### The risk–return trade-off
