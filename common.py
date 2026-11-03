@@ -136,6 +136,7 @@ R = {
     'kl-da': _r('Onmanorama: Kerala raises DA and DR to 37% (October 2026)', 'https://www.onmanorama.com/news/kerala/2026/10/17/kerala-hikes-da-dr-by-2-revised-rates-effective-with-november-payments.html', 'v', G_KERALA),
     'kl-aps': _r('Onmanorama: Assured Pension Scheme sanctioned in principle (March 2026)', 'https://www.onmanorama.com/news/kerala/2026/03/01/assured-pension-scheme-kerala-government.html', 'v', G_KERALA),
     'kl-pension': _r('Onmanorama: Kerala employees still waiting on pension reform (August 2026)', 'https://www.onmanorama.com/news/kerala/2026/08/17/kerala-govt-employees-left-waiting-pension-remains-stuck-between-promises.html', 'v', G_KERALA),
+    'ml-cps': _r('Moneylife: Kerala introduces the contributory pension scheme for employees joining from 1 April 2013', 'https://moneylife.in/article/introduction-of-contributory-pension-scheme-in-kerala/30913.html', 'v', G_KERALA),
     'medisep2': _r('Onmanorama: Medisep phase 2 from 1 February 2026', 'https://www.onmanorama.com/news/kerala/2026/01/21/medisep-kerala-phase-2-rollout-february1.html', 'v', G_KERALA),
     'ag-gpf': _r('Accountant General (A&E) Kerala: about GPF', 'https://cag.gov.in/ae/kerala/en/page-ae-kerala-about-gpf', 'vr', G_KERALA),
     'gpais': _r('CUSAT: circular on the Group Personal Accident Insurance Scheme (PDF)', 'https://finance.cusat.ac.in/uploads/CIRC_279_CUSAT_NPS.N3_GPAIS_2024-2025.pdf', 'vt', G_KERALA),
