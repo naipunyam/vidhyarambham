@@ -33,9 +33,9 @@ Facts: FACTS.md (all checked 2026-11-03). Course stamp: "as of November 2026", "
 | M12 Retirement and financial independence | 25 | L01 How much is enough; L02 Pension options and FIRE |
 | M13 Estate basics | 26 | L01 Nominations and joint accounts; L02 Wills and your document system |
 | M14 Kerala government employee | 27 | L01 The pay slip decoded; L02 Pension, GPF, Medisep and the first-year plan |
-| M15 Scams and fraud protection | 28 | L01 Investment scams; L02 Payment frauds and digital arrest; L03 Report fast; spot-the-scam drill |
+| M15 Scams and fraud protection | 28-29 | L01 Investment scams; L02 Payment frauds and digital arrest; L03 Report fast; spot-the-scam drill |
 | M16 Growing income | 29 | L01 Grow your income (cross-references) |
-| M17 Capstone | 29-31 | L01 Investment Policy Statement; L02 One-page financial plan; L03 Yearly money review |
+| M17 Capstone | 30-31 | L01 Investment Policy Statement; L02 One-page financial plan; L03 Yearly money review |
 
 ## Money Workbook tabs (one file, built cumulatively)
 Expenses (W0) - Baseline (W0) - Values (M01) - Goals, Net Worth, Cash Flow (M02) - Budget (M03) - Accounts (M04) - Emergency (M05) - Debts (M06) - Insurance (M07) - Calculators, Allocation (M08) - Funds, Holdings (M09) - Tax (M10) - Big Goals (M11) - Retirement (M12) - Documents (M13) - Scam Check (M15) - Plan, Review (M17).
