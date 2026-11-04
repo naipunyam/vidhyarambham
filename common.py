@@ -77,6 +77,7 @@ R = {
     'sirois': _r('Sirois and Pychyl (2013), "Procrastination and the Priority of Short-Term Mood Regulation" (free author copy)', 'https://eprints.whiterose.ac.uk/id/eprint/91793/', 'v3', G_SCI),
     'wohl': _r('BPS Research Digest (4 May 2010): to cure procrastination, forgive yourself (Wohl, Pychyl and Bennett)', 'https://bps.org.uk/research-digest/cure-procrastination-forgive-yourself', 'v3', G_SCI),
     'rb-writing': _r('University of Chicago (2011): writing about worries eases anxiety and improves test performance (Ramirez and Beilock)', 'https://news.uchicago.edu/story/writing-about-worries-eases-anxiety-and-improves-test-performance', 'v3', G_SCI),
+    'pashler': _r('Pashler, McDaniel, Rohrer and Bjork (2008), "Learning Styles: Concepts and Evidence"', 'https://digitalcommons.usf.edu/psy_facpub/1765/', 'v3', G_SCI),
     'sdt': _r('Center for Self-Determination Theory: the theory (autonomy, competence, relatedness)', 'https://selfdeterminationtheory.org/theory/', 'v', G_SCI),
     'pon-batna': _r('Harvard Program on Negotiation: what is BATNA and how to find it', 'https://www.pon.harvard.edu/daily/batna/translate-your-batna-to-the-current-deal/', 'v', G_SCI),
     'hsad': _r('Harvard Study of Adult Development (director: Robert Waldinger)', 'https://www.adultdevelopmentstudy.org/', 'v', G_SCI),
