@@ -150,6 +150,7 @@ R = {
     'nin-dgi': _r('ICMR-NIN, Dietary Guidelines for Indians, 2024 (PDF)', 'https://www.nin.res.in/dietaryguidelines/pdfjs/locale/DGI24thJune2024fin.pdf', 's', G_BODY),
     'icmr-sf': _r('South First (May 2024): ICMR releases Dietary Guidelines for Indians after 13 years', 'https://thesouthfirst.com/health/icmr-releases-dietary-guidelines-for-indians-after-13-years-says-no-to-protein-supplements/', 'v', G_BODY),
     'icmr-air': _r('All India Radio News (May 2024): ICMR releases updated Dietary Guidelines for Indians', 'https://newsonair.gov.in/icmr-releases-updated-dietary-guidelines-for-indians-in-2024', 'v', G_BODY),
+    'who-salt': _r('World Health Organization: sodium reduction fact sheet (less than 5 g of salt a day)', 'https://www.who.int/news-room/fact-sheets/detail/sodium-reduction', 'v', G_BODY),
     'aao-screen': _r('American Academy of Ophthalmology: computers, digital devices and eye strain', 'https://www.aao.org/eye-health/tips-prevention/computer-usage', 'v', G_BODY),
 
     # ---- Help and safety
