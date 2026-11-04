@@ -1,0 +1,700 @@
+{
+ "format": "vidhyarambham-course",
+ "formatVersion": 1,
+ "id": "kerala-real-estate",
+ "version": 1,
+ "title": "Kerala Real Estate Business: From Token Advance to Registration",
+ "summary": "A practical course in running a legal, honest real estate service business in Kerala: land records, law, documents, due diligence, valuation, finance and taxes, then agent registration, sourcing, marketing, sales, transactions, rentals, NRI property care, development, investing, tech and fraud prevention, ending with a first real deal or a full business plan. Low-capital paths first; rules dated and marked \"check current rules\". Part-time: 22 weeks at about 5 to 6 hours a week. Full-time: about 9 weeks.",
+ "language": "en",
+ "updated": "2026-11-04",
+ "totalWeeks": 22,
+ "paces": [
+  {
+   "id": "part-time",
+   "label": "Part-time",
+   "hoursPerWeek": 6,
+   "weekLength": 1,
+   "note": "Alongside PSC study or a job: 22 weeks at about 5 to 6 hours a week"
+  },
+  {
+   "id": "full-time",
+   "label": "Full-time",
+   "hoursPerWeek": 15,
+   "weekLength": 0.4,
+   "note": "About 9 calendar weeks at about 15 hours a week. The capstone deal still needs real calendar time."
+  }
+ ],
+ "sections": [
+  {
+   "id": "re-start",
+   "title": "Start here: Kerala Real Estate Business",
+   "kind": "intro",
+   "summary": "What the course covers, how it works, the legal and ethics rules, and the course map. 22 modules, 53 lessons, 22 weeks part-time.",
+   "content": "## What this course is\n\nA practical course in running a legal, honest real estate service business in Kerala, written for a beginner near Kuttiady, Kozhikode, with an Android phone, an old laptop, ₹0 for learning and very little capital. It focuses first on **low-capital paths**: brokerage, rentals and property management, NRI property care and real estate marketing. Buying property to invest is treated as a later stage.\n\nBy the end you will understand how a property deal works from token advance to registration and mutation, be able to do due diligence and valuation, know the main Kerala and central laws, run your service with written agreements, and have either **closed a first real deal** (a rental or a sale) legally, or produced a complete investment analysis and business plan.\n\n## What you will be able to do\n\n- Convert cents, ares and square feet; read survey numbers, thandaper, certificates, EC and deeds.\n- Explain the main laws (Transfer of Property Act, Registration Act, stamp duty, RERA, paddy land, land reforms, building rules, CRZ, ESA, rent control, benami, cash limits) and when each matters.\n- Run a full due-diligence checklist and know exactly when to bring in an advocate or surveyor.\n- Value property with comparables, fair value and income methods; calculate the full cost of buying, rental yield, cap rate, cash-on-cash and IRR.\n- Understand TDS, capital gains, rental income tax and GST at the level a broker needs (and when to call a CA).\n- Register as an agent if required, take written mandates, source, market, negotiate and manage transactions and rentals.\n- Spot the common frauds in Kerala and protect your clients.\n\n## Duration\n\n- **22 modules, 53 lessons** in three parts; lessons take 10 to 25 minutes to read, plus a real-world task in your local market.\n- **Part-time:** 22 weeks at about 5 to 6 hours a week (about 100 hours), alongside PSC preparation.\n- **Full-time:** about 9 calendar weeks at about 15 hours a week. The capstone deal needs real calendar time.\n\n## The three parts\n\nEach part works on its own; its part page says what to set up if you start there.\n\n| Part | Modules | Part-time weeks | Study time |\n| --- | --- | --- | --- |\n| **A: Understand the business** | Modules 1–2 | 1–1 | about 6 h |\n| **B: Knowledge base** | Modules 3–9 | 2–8 | about 33 h |\n| **C: Run the business** | Modules 10–22 | 9–21 | about 51 h |\n\n## How every lesson works\n\nCore lesson with a Kozhikode or Kerala example → worked calculation where numbers matter → key rules with the date checked and the source → when you need a licensed professional → free resources (what to study, how long) → an action task in your local market with proof → a copy-ready template → common mistakes → a local fraud warning → a short quiz with answers → a progress checklist. Each module has a project, a rubric, a \"short on time\" version, flashcards and tools for your **Real Estate Toolkit**.\n\n## Legal, accuracy and ethics\n\n**This course is educational only. It is not legal, tax or investment advice.** Property law, rates, fees and portals change; every rule in this course is dated \"as of November 2026\" and marked \"check current rules\". Before any real transaction, check the official source and use licensed professionals: an **advocate** for title opinions and legal disputes, a **licensed surveyor** for measurement and boundary questions, a **chartered accountant** for tax, and a **licensed document writer or advocate** to draft deeds. Never do work that needs a licence you don't hold. This course never recommends a specific property or investment; it teaches you how to evaluate them.\n\n**Ethics rules you follow in every task:** act only with the owner's consent (written for listings); never misrepresent a property; follow K-RERA rules; avoid cash and black-money dealings; respect clients' privacy (blur ID numbers and phone numbers in anything you share).\n\n**Honest risk warning:** property is illiquid (it can take months or years to sell), legal disputes are common and slow, prices can stagnate or fall, and many small investors lose money through bad titles, unapproved layouts, over-borrowing and fraud. This course shows you how to reduce those risks, not how to avoid them completely.\n\n## Key assumptions made for this course\n\n- No real estate course existed in the app, so this is a new course with stable IDs (RE-M01-L01 and so on).\n- You will start with a service business (brokerage, rentals, NRI care, marketing) and treat buying to invest as later.\n- Rates and rules were checked on 2026-11-04; the Kerala Registration, Revenue and Ente Bhoomi portals block automated checks, so for them the course gives the official addresses and cross-checks details with secondary guides, clearly marked.\n- From 1 April 2026 the Income-tax Act, 2025 replaced the 1961 Act, and many section numbers changed; the course explains tax rules by what they do and names old and new numbers only where checked.\n- Topics covered by other courses in this app are cross-referenced: sales skills in [Entrepreneurship](https://naipunyam.github.io/vidhyarambham/#/course/entrepreneurship/ent-m07) (in the Practical Entrepreneurship course), social media in [Social Media Marketing](https://naipunyam.github.io/vidhyarambham/#/course/social-media-marketing/smm-m11) (in the Practical Social Media Marketing course), and investing basics in [Personal Finance](https://naipunyam.github.io/vidhyarambham/#/course/personal-finance/fin-m08) (in the Practical Personal Finance for India course).\n- All names in examples are fictional.\n\n## The course map\n\n| Module | What it covers | What you build |\n| --- | --- | --- |\n| M01 | Property types, players, cycles, Kerala demand drivers | A local market snapshot |\n| M02 | Broker, rentals, NRI care, marketing, plotting, investing, flipping | Your chosen path with risks |\n| M03 | Cents, ares, sq ft; survey numbers; thandaper; certificates; portals | A land-records walk-through for one plot |\n| M04 | TPA, Registration Act, stamp duty, RERA, paddy land, land reforms, building rules, CRZ, ESA, rent control, benami, cash limits | A one-page legal map |\n| M05 | Agreement for sale, sale deed, gift, partition, settlement, POA, rental, permits, OC, NOCs | Annotated sample documents |\n| M06 | Title chain, EC, litigation, physical checks, flood and zoning, professionals | A full due-diligence run |\n| M07 | Fair value vs market value, comparables, income and cost methods | 20+ listing comparables sheet |\n| M08 | Loans, EMI, yield, cap rate, cash-on-cash, IRR, total cost | ROI analysis of 5 properties |\n| M09 | TDS, capital gains, rent tax, GST, brokerage income tax | A tax checklist for buyers, sellers and you |\n| M10 | K-RERA agent registration, mandates, commission, inventory | A mandate template and 5 inventory entries |\n| M11 | Local, NRI, builder and online sourcing; broker interviews | Interview notes and a sourcing plan |\n| M12 | Photos, video, virtual tours, listings, portals, social, WhatsApp, GBP | A real listing, live |\n| M13 | Client needs, site visits, objections, negotiation, closing, token | A site visit and a negotiation plan |\n| M14 | Token to agreement, loans, stamp duty, SRO registration, mutation, handover | A transaction timeline |\n| M15 | Tenant screening, agreements, verification, rent, maintenance, NRI care | A rental management package |\n| M16 | Layouts, conversion, roads, utilities, development risk | A development feasibility screen |\n| M17 | Cost per sq ft, contracts, quality checks, permits | A construction cost estimate |\n| M18 | Rentals, land banking, flipping, REITs, risks | An investment comparison |\n| M19 | CRM in Sheets, Google Earth, QGIS, AI | A working CRM and a map of your listings |\n| M20 | Structure, registration, GST, bookkeeping, pricing, partnerships | A one-page business setup plan |\n| M21 | Fake titles, double sales, forged POAs, encroachment, black money, ethics | A fraud checklist and ethics code |\n| M22 | A first legal deal, or an investment analysis plus business plan | Your complete toolkit |\n\n## Start here\n\n1. Read the **Weekly schedule**.\n2. Do **Week 0: setup** (about 1 hour) and the **Baseline quiz** (20 minutes).\n3. Start Module 1 in week 1 and the **Weekly market track** (20 minutes every Sunday)."
+  },
+  {
+   "id": "re-schedule",
+   "title": "Weekly schedule: part-time and full-time",
+   "kind": "reference",
+   "summary": "22 weeks part-time at about 5 to 6 hours, or about 9 weeks full-time.",
+   "content": "The app's **This week** view follows the part-time schedule. If you study full-time, switch the pace to **Full-time** on the course page.\n\n## Part-time schedule (about 5 to 6 hours a week)\n\n| Week | Lessons and projects | Hours |\n| --- | --- | --- |\n| 0 | Week 0: setup and baseline quiz | 2.5 |\n| 1 | **Part A starts.** RE-M01-L01, RE-M01-L02, M01 project, RE-M02-L01, RE-M02-L02, M02 project | 5.8 |\n| 2 | **Part B starts.** RE-M03-L01, RE-M03-L02, RE-M03-L03, M03 project, RE-M04-L01 | 5.8 |\n| 3 | RE-M04-L02, RE-M04-L03, RE-M04-L04, RE-M04-L05, M04 project | 5.8 |\n| 4 | RE-M05-L01, RE-M05-L02, RE-M05-L03, RE-M05-L04, M05 project | 5.6 |\n| 5 | RE-M06-L01, RE-M06-L02, RE-M06-L03, M06 project | 5.3 |\n| 6 | RE-M07-L01, RE-M07-L02, RE-M07-L03, M07 project | 5.1 |\n| 7 | RE-M08-L01, RE-M08-L02, M08 project, RE-M09-L01 | 5.3 |\n| 8 | RE-M09-L02, M09 project | 2.1 |\n| 9 | **Part C starts.** RE-M10-L01, RE-M10-L02, M10 project, RE-M11-L01, RE-M11-L02 | 5.8 |\n| 10 | M11 project, RE-M12-L01, RE-M12-L02, RE-M12-L03, M12 project | 5.6 |\n| 11 | RE-M13-L01, RE-M13-L02, M13 project, RE-M14-L01, RE-M14-L02 | 5.8 |\n| 12 | RE-M14-L03, M14 project, RE-M15-L01, RE-M15-L02, M15 project | 5.6 |\n| 13 | RE-M16-L01, M16 project, RE-M17-L01, M17 project, RE-M18-L01 | 5.3 |\n| 14 | RE-M18-L02, M18 project, RE-M19-L01, RE-M19-L02, M19 project, RE-M20-L01 | 5.8 |\n| 15 | RE-M20-L02, M20 project, RE-M21-L01, RE-M21-L02, M21 project | 5.3 |\n| 16 | RE-M22-L01 | 1.6 |\n| 17 | RE-M22-L02 (weeks 17–21) | 2.3 |\n| 18 | RE-M22-L02 (weeks 17–21) | 2.3 |\n| 19 | RE-M22-L02 (weeks 17–21) | 2.3 |\n| 20 | RE-M22-L02 (weeks 17–21) | 2.3 |\n| 21 | RE-M22-L02 (weeks 17–21), RE-M22-L03, M22 project | 4.8 |\n| 22 | final retest and checklist | 1.8 |\n\n## A typical part-time week\n\n- Two or three lesson evenings after PSC study.\n- **Saturday or Sunday morning:** the field task (a site visit, an office visit, a broker interview, photographing a property). Village and sub-registrar offices work on weekdays, so plan office visits for a weekday morning when you can.\n- **Sunday:** the 20-minute weekly market log.\n\n## Full-time schedule (about 15 hours a week)\n\n| Calendar week | Course weeks | Modules | Notes |\n| --- | --- | --- | --- |\n| 1 | 0–2 | M01, M02, M03, M04 | Week 0 setup and baseline quiz, then Part A. |\n| 2 | 3–4 | M04, M05 |  |\n| 3 | 5–7 | M06, M07, M08, M09 |  |\n| 4 | 8–9 | M09, M10, M11 |  |\n| 5 | 10–12 | M11, M12, M13, M14, M15 |  |\n| 6 | 13–14 | M16, M17, M18, M19, M20 |  |\n| 7 | 15–17 | M20, M21, M22 | The capstone needs real calendar time (about a month) for a deal or a full plan. |\n| 8 | 18–19 | M22 | The capstone needs real calendar time (about a month) for a deal or a full plan. |\n| 9 | 20–22 | M22 | The capstone needs real calendar time (about a month) for a deal or a full plan. |"
+  },
+  {
+   "id": "re-setup",
+   "title": "Week 0: free tool setup",
+   "kind": "setup",
+   "weeks": [
+    0,
+    0
+   ],
+   "hours": 1.0,
+   "summary": "Create your Real Estate Workbook in Google Sheets or LibreOffice, your toolkit folders, saved portal links and your local study area.",
+   "content": "About one hour. Everything is free.\n\n## The free tool stack\n\n- **Google Sheets** (phone app) or **LibreOffice Calc** (laptop): your **Real Estate Workbook** with the tabs below.\n- **Google Drive** or a phone folder called **Real Estate Toolkit**, with sub-folders: 00 Setup, 01 How real estate works in Kerala, 02 Business paths and choosing yours … 22 Capstone: your first deal or your business plan.\n- **Phone camera** and a free video editor for listings (Module 12).\n- **Google Maps / Google Earth** for locations and rough measurements; [QGIS](https://qgis.org/) on the laptop later (Module 19).\n- **WhatsApp Business** (free) for client communication, if you choose (Module 12).\n- A **notebook** for office visits and interviews.\n\n## Workbook tabs\n\n| Tab | Added in | Row 1 headings or contents |\n| --- | --- | --- |\n| Comps | Module 7 | `Date seen,Source (portal/broker/owner),Link or contact,Locality,Panchayat/municipality,Type (land/house/flat/commercial),Land area (cents),Built-up area (sq ft),Asking price (Rs),Price per cent (Rs),Price per sq ft (Rs),Road frontage (ft),Road width (ft),Distance to town (km),Flood/slope notes,Status (asking/sold/withdrawn),Notes` |\n| Cost | Module 4 | Full cost of a purchase (calculator) |\n| ROI | Module 8 | Rental yield and return calculator |\n| Leads | Module 19 (start earlier if you get leads) | `Lead ID,Date,Name,Phone,Source,Buy/Rent/Sell/Let,Type,Area wanted,Budget (Rs),Stage (new/contacted/visit booked/visited/offer/agreement/closed/lost),Next action,Next action date,Properties shown,Notes,Consent (Y/N)` |\n| Inventory | Module 10 | Properties you have a mandate for |\n| Log | Week 1 | Weekly market log numbers |\n\n## Steps\n\n1. Create the workbook and folders.\n2. Add the **Log** tab and the Sunday reminder for the weekly market log.\n3. Save the official portal addresses in your phone browser: K-RERA, Kerala Registration, IGR fair value, Revenue (ReLIS), Ente Bhoomi, e-Rekha, KSDMA hazard maps (links in Modules 3 and 4).\n4. Write down your **local area**: the panchayats and towns you will study (for example Kuttiady, Velom, Kayakkody, Maruthonkara, Kunnummal, Nadapuram and Kozhikode city). Changing these names for your own area is fine.\n5. Decide your privacy rule: you never post anyone's ID, phone number or documents publicly, and you blur personal details in screenshots.",
+   "tasks": [
+    {
+     "id": "re-setup-workbook",
+     "text": "Real Estate Workbook created with tabs",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "re-setup-folders",
+     "text": "Toolkit folders made",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "re-setup-portals",
+     "text": "Official portal addresses saved",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "re-setup-area",
+     "text": "Your local study area written down",
+     "kind": "task",
+     "week": 0
+    }
+   ]
+  },
+  {
+   "id": "re-baseline",
+   "title": "Baseline quiz: where you start",
+   "kind": "setup",
+   "weeks": [
+    0,
+    0
+   ],
+   "hours": 0.5,
+   "summary": "A 12-question knowledge quiz (form A) and a 10-item skills self-rating. You repeat both at the end with form B.",
+   "content": "Take this in week 0 and write your scores in the **Log** tab. You will take form B at the end. Don't worry about a low score: that is the point of a baseline.\n\n## Knowledge quiz, form A (12 questions, 15 minutes)\n\nAnswer without looking anything up; guessing is fine. Score 1 per correct answer, out of 12. Cover the answers first.\n\n1. How many square feet are in one cent?\n    - A) About 435.6 sq ft\n    - B) 100 sq ft\n    - C) 1,000 sq ft\n    - D) 4,356 sq ft\n2. One are equals about how many cents?\n    - A) 10 cents\n    - B) 1 cent\n    - C) 0.5 cents\n    - D) About 2.47 cents\n3. What does an encumbrance certificate (EC) mainly show?\n    - A) Registered transactions on the property, such as sales and mortgages, for the period searched\n    - B) The government fair value\n    - C) That the property has no flood risk\n    - D) That the building has a permit\n4. A seller says \"the agreement for sale is enough; we don't need a sale deed.\" What is true?\n    - A) An agreement for sale transfers ownership\n    - B) A notarised agreement is the same as registration\n    - C) Only flats need a sale deed\n    - D) Ownership passes only by a registered sale deed; an agreement for sale does not transfer ownership\n5. As of November 2026, what are the usual stamp duty and registration fee for a sale deed in Kerala?\n    - A) 5% and 5%\n    - B) A fixed Rs 5,000\n    - C) 1% and 1%\n    - D) Stamp duty 8% and registration fee 2% of the higher of price or fair value\n6. Who must register with K-RERA under the RERA Act?\n    - A) Real estate agents who facilitate sales in registrable projects, and promoters of such projects\n    - B) Only banks\n    - C) Only buyers\n    - D) Nobody in Kerala\n7. Land shown in the paddy and wetland data bank:\n    - A) Is always government land\n    - B) Cannot be freely filled or built on; conversion needs legal approval and may not be allowed\n    - C) Can be built on after paying land tax\n    - D) Is the best land for a quick house\n8. A buyer pays Rs 60 lakh for a house. Who deducts TDS, and roughly how much?\n    - A) The seller pays 10%\n    - B) No TDS on houses\n    - C) The bank pays 5%\n    - D) The buyer deducts 1% (about Rs 60,000) and deposits it for the seller\n9. A house costs Rs 40 lakh and rents for Rs 12,000 a month. What is the gross rental yield?\n    - A) About 3.6%\n    - B) About 12%\n    - C) About 30%\n    - D) About 0.3%\n10. Which is the safest way to take a token advance?\n    - A) In cash with a verbal promise\n    - B) By bank transfer, with a signed receipt stating the terms\n    - C) Through the broker's personal cash\n    - D) In cash with no receipt\n11. When is an advocate's title opinion most important?\n    - A) Only for flats\n    - B) After registration\n    - C) Never, the EC is enough\n    - D) Before signing the agreement for sale and paying a large advance\n12. Which is a warning sign of a possible fraud?\n    - A) The seller asks for payment by bank transfer\n    - B) The seller insists on a quick cash deal through a power of attorney holder and refuses to show originals\n    - C) The seller provides a 30-year EC\n    - D) The seller asks for an advocate to check the title\n\n### Answers, form A\n\n1. **A.** One cent is one-hundredth of an acre: 43,560 ÷ 100 = 435.6 sq ft (RE-M03-L01).\n2. **D.** One are is 100 square metres, about 2.47 cents (RE-M03-L01).\n3. **A.** An EC lists registered transactions; it does not prove there are no unregistered claims or court cases (RE-M06-L01).\n4. **D.** Section 54 of the Transfer of Property Act (RE-M04-L01).\n5. **D.** Check current rules before every deal (RE-M04-L01).\n6. **A.** Agents need registration and must quote the number (RE-M10-L01).\n7. **B.** The Kerala Conservation of Paddy Land and Wetland Act (RE-M04-L03).\n8. **D.** TDS applies when the consideration or stamp duty value is Rs 50 lakh or more (RE-M09-L01).\n9. **A.** Rs 12,000 × 12 = Rs 1.44 lakh; ÷ Rs 40 lakh = 3.6% (RE-M08-L02).\n10. **B.** Cash limits and proof matter (RE-M13-L02, RE-M04-L05).\n11. **D.** Due diligence comes before commitment (RE-M06-L03).\n12. **B.** Forged or misused powers of attorney are a common fraud (RE-M21-L01).\n\n## Skills self-rating (5 minutes)\n\n| No | Statement (rate 1 = not at all, 5 = fully) | Start | End |\n| --- | --- | --- | --- |\n| 1 | I can explain the steps of a property sale from token advance to mutation. |  |  |\n| 2 | I can read a sale deed and an EC and point out what to check. |  |  |\n| 3 | I can convert cents, ares and square feet without a calculator app. |  |  |\n| 4 | I can find a property's fair value on the official portal. |  |  |\n| 5 | I can calculate the full cost of buying a property. |  |  |\n| 6 | I can calculate rental yield and cap rate. |  |  |\n| 7 | I know which tasks need an advocate, a surveyor, a CA or a document writer. |  |  |\n| 8 | I can write an honest listing and market it for free. |  |  |\n| 9 | I know at least five local brokers or property professionals. |  |  |\n| 10 | I can spot at least five common real estate frauds. |  |  |\n\nAdd the scores (10 to 50).",
+   "tasks": [
+    {
+     "id": "re-base-quiz",
+     "text": "Baseline: knowledge quiz form A scored",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "re-base-skills",
+     "text": "Baseline: skills self-rating totalled",
+     "kind": "task",
+     "week": 0
+    }
+   ]
+  },
+  {
+   "id": "re-system",
+   "title": "Weekly market track: market log and practical milestones",
+   "kind": "track",
+   "weeks": [
+    1,
+    22
+   ],
+   "summary": "A 20-minute Sunday market log, plus milestones: 20+ comparables, fair-value checks, broker interviews, a due-diligence run, ROI for 5 properties, a real listing, a CRM and a site visit.",
+   "content": "Two things run underneath the course: a **weekly market log** (20 minutes every Sunday) and a set of **practical milestones** that build your local knowledge and your toolkit. **This week** on the course page shows each one when it is due.\n\n## The weekly market log\n\nEvery week, add about three real listings to your Comps sheet, meet or call at least one new person in the property world, update your leads, and check one rule or rate on an official source.\n\n```\nWEEKLY MARKET LOG (Sunday, 20 minutes)          Week ___\n1. Listings added to the Comps sheet this week: ___ (target 3)\n2. New contacts: brokers ___ owners ___ buyers/tenants ___ professionals ___\n3. Leads in CRM: new ___ ; follow-ups done ___ ; overdue ___\n4. One thing I learned about how deals work here: ______________________\n5. One rule or rate I checked on an official source (with date): ______\n6. Next week's three actions: 1 ______ 2 ______ 3 ______\n```\n\n## Milestones\n\n| Due by week | Milestone | Evidence |\n| --- | --- | --- |\n| 1 | Part A review | half a page on what you learned in Part A and what you will do next |\n| 5 | Due-diligence checklist run on a real property (with permission) or the sample case | the filled checklist |\n| 6 | Market study: 10 real listings in your Comps sheet | the Comps sheet with 10 rows |\n| 6 | Market study: 20+ real listings (land and houses), price per cent and per sq ft | the Comps sheet with 20+ rows and the summary cells |\n| 7 | Fair value looked up on the official portal for 3 properties and compared with asking prices | screenshots or notes with dates |\n| 8 | Rental yield and ROI analysis for 5 real properties | the ROI tab with 5 properties |\n| 8 | Part B review | half a page on what you learned in Part B and what you will do next |\n| 10 | Interviews: 3 local brokers and 1 document writer or advocate | your interview notes |\n| 10 | One real listing (with the owner's written permission) posted on free portals and social media | the owner's permission, the listing links and screenshots |\n| 11 | A real site visit conducted or shadowed | your site-visit checklist |\n| 14 | CRM sheet in use: every lead tracked with next action dates | a CRM screenshot with personal details blurred |\n\n## Rules for field work\n\n- Always ask permission before photographing a property or a person; get the owner's **written** permission before listing.\n- Visit offices politely, during working hours, and never pretend to be a buyer or an officer.\n- Don't collect or share anyone's personal documents. Use your own property or a family property (with permission) for record practice, or the sample case in the course.",
+   "tasks": [
+    {
+     "id": "re-log-w01",
+     "text": "Weekly market log, week 1",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-part-a",
+     "text": "Part A review",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Evidence:** half a page on what you learned in Part A and what you will do next."
+    },
+    {
+     "id": "re-log-w02",
+     "text": "Weekly market log, week 2",
+     "kind": "project",
+     "week": 2,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w03",
+     "text": "Weekly market log, week 3",
+     "kind": "project",
+     "week": 3,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w04",
+     "text": "Weekly market log, week 4",
+     "kind": "project",
+     "week": 4,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w05",
+     "text": "Weekly market log, week 5",
+     "kind": "project",
+     "week": 5,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-dd",
+     "text": "Due-diligence checklist run on a real property (with permission) or the sample case",
+     "kind": "project",
+     "week": 5,
+     "detail": "**Evidence:** the filled checklist."
+    },
+    {
+     "id": "re-log-w06",
+     "text": "Weekly market log, week 6",
+     "kind": "project",
+     "week": 6,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-comps10",
+     "text": "Market study: 10 real listings in your Comps sheet",
+     "kind": "project",
+     "week": 6,
+     "detail": "**Evidence:** the Comps sheet with 10 rows."
+    },
+    {
+     "id": "re-sys-comps20",
+     "text": "Market study: 20+ real listings (land and houses), price per cent and per sq ft",
+     "kind": "project",
+     "week": 6,
+     "detail": "**Evidence:** the Comps sheet with 20+ rows and the summary cells."
+    },
+    {
+     "id": "re-log-w07",
+     "text": "Weekly market log, week 7",
+     "kind": "project",
+     "week": 7,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-fv",
+     "text": "Fair value looked up on the official portal for 3 properties and compared with asking prices",
+     "kind": "project",
+     "week": 7,
+     "detail": "**Evidence:** screenshots or notes with dates."
+    },
+    {
+     "id": "re-log-w08",
+     "text": "Weekly market log, week 8",
+     "kind": "project",
+     "week": 8,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-part-b",
+     "text": "Part B review",
+     "kind": "project",
+     "week": 8,
+     "detail": "**Evidence:** half a page on what you learned in Part B and what you will do next."
+    },
+    {
+     "id": "re-sys-roi",
+     "text": "Rental yield and ROI analysis for 5 real properties",
+     "kind": "project",
+     "week": 8,
+     "detail": "**Evidence:** the ROI tab with 5 properties."
+    },
+    {
+     "id": "re-log-w09",
+     "text": "Weekly market log, week 9",
+     "kind": "project",
+     "week": 9,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w10",
+     "text": "Weekly market log, week 10",
+     "kind": "project",
+     "week": 10,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-interviews",
+     "text": "Interviews: 3 local brokers and 1 document writer or advocate",
+     "kind": "project",
+     "week": 10,
+     "detail": "**Evidence:** your interview notes."
+    },
+    {
+     "id": "re-sys-listing",
+     "text": "One real listing (with the owner's written permission) posted on free portals and social media",
+     "kind": "project",
+     "week": 10,
+     "detail": "**Evidence:** the owner's permission, the listing links and screenshots."
+    },
+    {
+     "id": "re-log-w11",
+     "text": "Weekly market log, week 11",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-visit",
+     "text": "A real site visit conducted or shadowed",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** your site-visit checklist."
+    },
+    {
+     "id": "re-log-w12",
+     "text": "Weekly market log, week 12",
+     "kind": "project",
+     "week": 12,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w13",
+     "text": "Weekly market log, week 13",
+     "kind": "project",
+     "week": 13,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w14",
+     "text": "Weekly market log, week 14",
+     "kind": "project",
+     "week": 14,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-sys-crm",
+     "text": "CRM sheet in use: every lead tracked with next action dates",
+     "kind": "project",
+     "week": 14,
+     "detail": "**Evidence:** a CRM screenshot with personal details blurred."
+    },
+    {
+     "id": "re-log-w15",
+     "text": "Weekly market log, week 15",
+     "kind": "project",
+     "week": 15,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w16",
+     "text": "Weekly market log, week 16",
+     "kind": "project",
+     "week": 16,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w17",
+     "text": "Weekly market log, week 17",
+     "kind": "project",
+     "week": 17,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w18",
+     "text": "Weekly market log, week 18",
+     "kind": "project",
+     "week": 18,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w19",
+     "text": "Weekly market log, week 19",
+     "kind": "project",
+     "week": 19,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w20",
+     "text": "Weekly market log, week 20",
+     "kind": "project",
+     "week": 20,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w21",
+     "text": "Weekly market log, week 21",
+     "kind": "project",
+     "week": 21,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    },
+    {
+     "id": "re-log-w22",
+     "text": "Weekly market log, week 22",
+     "kind": "project",
+     "week": 22,
+     "detail": "**Evidence:** the week's row in the Log tab."
+    }
+   ]
+  },
+  {
+   "id": "re-toolkit",
+   "title": "Toolkit: every template and calculator in one place",
+   "kind": "reference",
+   "summary": "Comparables sheet, cost calculator, ROI and EMI formulas, due-diligence and document checklists, mandate, intake, site-visit, listing, CRM, timeline, rental agreement checklist, NRI care menu and the weekly log.",
+   "content": "Every copy-ready tool in one place. Copy them into your workbook or toolkit folder; the lesson named under each explains how to use it.\n\n## Comparables sheet with formulas\n\nFrom RE-M07-L01.\n\n```\nDate seen,Source (portal/broker/owner),Link or contact,Locality,Panchayat/municipality,Type (land/house/flat/commercial),Land area (cents),Built-up area (sq ft),Asking price (Rs),Price per cent (Rs),Price per sq ft (Rs),Road frontage (ft),Road width (ft),Distance to town (km),Flood/slope notes,Status (asking/sold/withdrawn),Notes\n\nCOMPARABLES SHEET (tab \"Comps\")  Row 1 = headers above. In row 2:\nJ2 (price per cent):   =IF(G2>0, I2/G2, \"\")\nK2 (price per sq ft):  =IF(H2>0, I2/H2, \"\")\nCopy J2:K2 down. Summary cells (land only, for one locality):\nMedian price per cent: =MEDIAN(FILTER(J2:J200, F2:F200=\"land\", D2:D200=\"Kuttiady\"))\nCount of land listings: =COUNTIFS(F2:F200,\"land\",D2:D200,\"Kuttiady\")\n(LibreOffice without FILTER: use a pivot table, or sort and pick the middle value.)\nRule: compare like with like (same area, similar size, similar road access).\n```\n\n## Full cost of a purchase\n\nFrom RE-M04-L01 and RE-M14-L02.\n\n```\nFULL COST OF A PURCHASE (tab \"Cost\") - rates as of November 2026; check current rules\nB1  Agreed price (Rs)                       [type]\nB2  Fair value of the land/building (Rs)    [type, from the IGR fair value search]\nB3  Value for duty = higher of the two      =MAX(B1,B2)\nB4  Stamp duty rate                         0.08   (sale deed; check current rules)\nB5  Registration fee rate                   0.02   (check current rules)\nB6  Stamp duty (Rs)                         =B3*B4\nB7  Registration fee (Rs)                   =B3*B5\nB8  Document writer / advocate fee (Rs)     [type quote]\nB9  EC, certified copies, sketches (Rs)     [type]\nB10 Brokerage rate                          [type, e.g. 0.01 or 0.02]\nB11 Brokerage (Rs)                          =B1*B10\nB12 GST on brokerage (if charged)           =B11*0.18\nB13 Loan processing fee and legal/valuation charges (Rs)  [type]\nB14 Mutation, misc. travel (Rs)             [type]\nB15 TOTAL extra costs                       =SUM(B6:B9,B11:B14)\nB16 TOTAL cost of purchase                  =B1+B15\nB17 Extra costs as % of price               =B15/B1\nB18 TDS to deduct (if B1 or B2 is Rs 50 lakh or more) =IF(MAX(B1,B2)>=5000000, MAX(B1,B2)*0.01, 0)\n(TDS is not an extra cost: it is part of the price paid to the government for the seller.)\n```\n\n## Rental yield and return calculator\n\nFrom RE-M08-L02.\n\n```\nRENTAL YIELD AND RETURN CALCULATOR (tab \"ROI\")\nB1  Purchase price (Rs)                 [type]\nB2  Purchase costs (Rs)                 [from Cost tab B15]\nB3  Total investment (Rs)               =B1+B2\nB4  Monthly rent (Rs)                   [type]\nB5  Gross annual rent                   =B4*12\nB6  Gross rental yield                  =B5/B1\nB7  Vacancy allowance (months a year)   [type, e.g. 1]\nB8  Building tax + land tax per year    [type]\nB9  Maintenance and repairs per year    [type, e.g. 1% of building value]\nB10 Insurance and management fees       [type]\nB11 Net operating income (NOI)          =B4*(12-B7)-B8-B9-B10\nB12 Net yield / cap rate                =B11/B1\nB13 Loan amount (Rs)                    [type, 0 if none]\nB14 Annual interest rate                [type, e.g. 0.085]\nB15 Loan term (years)                   [type]\nB16 Monthly EMI                         =IF(B13>0, -PMT(B14/12, B15*12, B13), 0)\nB17 Annual loan payments                =B16*12\nB18 Cash invested (own money)           =B3-B13\nB19 Annual cash flow after EMI          =B11-B17\nB20 Cash-on-cash return                 =IF(B18>0, B19/B18, \"\")\nIRR (tab \"IRR\"): list year 0 cash flow as minus own cash invested, then each\nyear's cash flow, and in the final year add the expected sale price minus\nselling costs and loan balance. =IRR(B2:B12)\n```\n\n## EMI formulas\n\nFrom RE-M08-L01.\n\n```\nEMI FORMULAS\nMonthly EMI:      =-PMT(annual_rate/12, years*12, loan_amount)\nExample:          =-PMT(0.085/12, 20*12, 2500000)   -> about Rs 21,700\nTotal paid:       =EMI*years*12\nTotal interest:   =EMI*years*12 - loan_amount\nMax loan from an EMI you can afford: =-PV(annual_rate/12, years*12, EMI)\n```\n\n## Due-diligence checklist\n\nFrom RE-M06-L03.\n\n```\nDUE-DILIGENCE CHECKLIST (one per property; tick and attach proof)\nOWNERSHIP AND TITLE                                          Done  Proof file\n[ ] Copy of the current title deed (aadharam) seen and read     __    ______\n[ ] Prior deeds (title chain) for at least 30 years, if possible __   ______\n[ ] Encumbrance certificate (EC) for 30+ years (mortgages, sales, attachments) __ ______\n[ ] Seller's name matches deed, EC, thandaper, land tax receipt and ID __ ______\n[ ] All co-owners / legal heirs identified and willing to sign  __    ______\n[ ] Power of attorney (if any): original, registered, still valid, principal alive __ ______\n[ ] Possession certificate / location certificate from the village office __ ______\n[ ] Latest land tax (karam) receipt                             __    ______\n[ ] Mutation (pokkuvaravu) done in the seller's name            __    ______\nLAND RECORDS AND SURVEY\n[ ] Survey / resurvey number and sub-division match all papers  __    ______\n[ ] Sketch / FMB from the village or e-Rekha; area matches the deed __ ______\n[ ] Land type in revenue records (purayidam / nilam / thottam / data bank) __ ______\n[ ] Not in the paddy/wetland data bank (or conversion order exists) __ ______\n[ ] Not government, puramboke, forest or excess (surplus) land  __    ______\nBUILDING (if any)\n[ ] Building permit and approved plan from the panchayat/municipality __ ______\n[ ] Occupancy certificate / building number; building tax receipt __ ______\n[ ] Built area matches the permit (no unauthorised additions)   __    ______\nLOCATION AND RISK\n[ ] Physical visit: boundaries match sketch; neighbours confirm __    ______\n[ ] Access road: public road or registered right of way; width __    ______\n[ ] Flood, landslide and water-logging check (KSDMA maps, neighbours, 2018/2019 floods) __ ______\n[ ] CRZ (coastal), ESA (Western Ghats), forest buffer, quarry nearby __ ______\n[ ] Land-use / master plan zoning (municipalities) if known      __    ______\n[ ] Electricity, water, drainage, mobile signal                  __    ______\nDISPUTES AND DEBTS\n[ ] No pending case (ask seller in writing; advocate searches)  __    ______\n[ ] No bank loan or attachment on EC; loan closure letter if there was one __ ______\n[ ] No tenant or occupant claim; no encroachment                __    ______\nPROFESSIONAL SIGN-OFF\n[ ] Advocate's title opinion (written)                          __    ______\n[ ] Licensed surveyor's measurement (if boundaries or area are unclear) __ ______\nDECISION: proceed / proceed with conditions / walk away   Reason: ______\n```\n\n## Document checklist by deal type\n\nFrom RE-M05-L04.\n\n```\nDOCUMENT CHECKLIST BY DEAL TYPE\nSALE (land or house)          Seller brings           Buyer brings\n  Title deed + prior deeds    [ ]                     ID, PAN, photos [ ]\n  EC (30 years)               [ ]                     Funds by bank transfer [ ]\n  Thandaper, land tax receipt [ ]                     Loan sanction (if any) [ ]\n  Possession / location cert. [ ]                     TDS paid (if Rs 50 lakh+) [ ]\n  Sketch / FMB                [ ]\n  Building permit, OC, building tax (if building) [ ]\n  ID, PAN, photos; all co-owners [ ]\nRENTAL\n  Owner: ownership proof, building tax receipt, ID  [ ]\n  Tenant: ID, address proof, employer/college letter, references, photos [ ]\n  Signed agreement (and registration if lease is longer than 11 months / over a year: check) [ ]\n  Inventory list with photos; meter readings [ ]\nNRI OWNER\n  Registered power of attorney (if not attending) [ ]  Passport copy [ ]\n  NRO/NRE bank details for funds [ ]  Tax advice from a CA [ ]\n```\n\n## Owner mandate template\n\nFrom RE-M10-L02.\n\n```\nOWNER MANDATE (agreement to market a property) - review with an advocate before use\nThis agreement is made on ______ at ______ between:\nOWNER: ______ (address ______, phone ______) and\nAGENT: ______ (K-RERA agent registration no. ______, if registered; address ______)\n1. Property: survey no. ______, ______ village, ______ taluk, area ______ cents,\n   building ______ sq ft, as per title deed no. ______ of ______ SRO.\n2. Purpose: the owner authorises the agent to market the property for SALE / RENT.\n3. Type: exclusive / non-exclusive. Period: from ______ to ______ (e.g. 90 days).\n4. Asking price / rent: Rs ______. Minimum acceptable: to be decided by the owner only.\n5. Commission: ______% of the final sale price (or ___ month's rent), payable by the\n   owner only on registration of the sale deed / signing of the rental agreement,\n   by bank transfer, with a GST invoice if the agent is GST-registered.\n6. The owner confirms that the information given is true and that they have the\n   right to sell / let. The agent will not publish anything the owner has not approved.\n7. The agent will: market honestly, share all offers in writing, not take money from\n   buyers on the owner's behalf without written approval, and keep documents private.\n8. Photos and videos may be published on: ______ (portals / social media).\n9. Either party may end this agreement with ___ days' written notice.\nOwner signature ______  Agent signature ______  Witnesses 1 ______ 2 ______\n```\n\n## Client intake form\n\nFrom RE-M13-L01.\n\n```\nCLIENT INTAKE (buyer or tenant)              Date ______  Source ______\nName ______  Phone ______  WhatsApp Y/N  Email ______  NRI? Y/N (country ______)\nLooking for: buy / rent    Type: land / house / flat / commercial\nAreas (in order): 1 ______ 2 ______ 3 ______\nBudget: Rs ______ to ______   Loan needed? Y/N   Pre-approved? Y/N\nLand size ______ cents   Bedrooms ______   Must-haves: road access / water / school nearby / ______\nDeal-breakers: flood-prone / steep slope / narrow road / ______\nTimeline: move/buy by ______   Decision makers: ______\nViewing availability: ______   Consent to store details in my CRM: Y/N\n```\n\n## Site-visit checklist\n\nFrom RE-M13-L01.\n\n```\nSITE-VISIT CHECKLIST           Property ______  Date ______  With ______\nBEFORE: owner permission [ ]  route and timing [ ]  documents summary in hand [ ]\n        client's must-haves list [ ]  measuring tape, phone charged [ ]\nON SITE\n[ ] Road: public or private? width ___ ft; vehicle access in monsoon?\n[ ] Boundaries: walls/stones match sketch? neighbours' names ______\n[ ] Slope, soil, rock; water-logging signs; flood level marks from 2018/2019?\n[ ] Water: well depth/level ___; KWA connection? Electricity: phase ___\n[ ] Building: cracks, dampness, roof leaks, wiring, plumbing, septic tank location\n[ ] Surroundings: quarry, stream, high-tension line, temple/mosque/church, school, shops\n[ ] Mobile signal ___; nearest bus stop ___ km\n[ ] Photos: front, road, boundaries, each room, issues found\nAFTER: client feedback (1-5) ___ ; questions for owner ______ ; next step ______\n```\n\n## Listing template\n\nFrom RE-M12-L02.\n\n```\nLISTING TEMPLATE (honest, specific, owner-approved)\nTITLE: [Size] [Type] for [sale/rent] in [Locality], [distance] from [landmark]\ne.g. \"12 cents residential land for sale, 1.5 km from Kuttiady bus stand\"\nPRICE: Rs ______ (negotiable / fixed)   Price per cent: Rs ______\nKEY FACTS: land ___ cents | built-up ___ sq ft | road ___ ft wide | ___ km to ___\n           water: well / KWA | electricity | facing ___ | title: clear (advocate-checked? Y/N)\nDESCRIPTION (3-5 short lines, facts not hype):\n______________________________________________\nNOT INCLUDED / HONEST NOTES: e.g. \"Narrow private road for last 50 m\" \"Part of land slopes\"\nDOCUMENTS AVAILABLE: deed, EC, thandaper, tax receipts, permit/OC\nCONTACT: ______ (K-RERA agent reg. no. ______ if applicable)\nOwner approval of this text and photos: signed / WhatsApp message saved on ______\n```\n\n## CRM sheet\n\nFrom RE-M19-L01.\n\n```\nLead ID,Date,Name,Phone,Source,Buy/Rent/Sell/Let,Type,Area wanted,Budget (Rs),Stage (new/contacted/visit booked/visited/offer/agreement/closed/lost),Next action,Next action date,Properties shown,Notes,Consent (Y/N)\n\nCRM SHEET (tab \"Leads\"). Row 1 = headers above.\nOverdue follow-ups: add column P \"Overdue?\" with =IF(AND(L2<>\"\", L2<TODAY(), J2<>\"closed\", J2<>\"lost\"),\"OVERDUE\",\"\")\nPipeline count by stage (on a \"Dashboard\" tab): =COUNTIF(Leads!J:J,\"visited\")\nConversion rate: =COUNTIF(Leads!J:J,\"closed\")/COUNTA(Leads!A2:A)\nUse Data > Data validation on column J so stages are always spelled the same.\n```\n\n## Transaction timeline\n\nFrom RE-M14-L01.\n\n```\nTRANSACTION TIMELINE (sale)                    Target date   Done\nDay 0    Offer accepted; token advance by bank transfer with signed receipt  ____  [ ]\nDay 1-7  Documents collected; EC applied; advocate engaged          ____  [ ]\nDay 7-21 Due diligence; advocate's written title opinion           ____  [ ]\nDay 7-30 Agreement for sale signed (advance, balance date, conditions) ____ [ ]\nDay 15-60 Loan sanction, bank's legal and technical check (if loan) ____  [ ]\n         Fair value check; stamp duty and fee calculated; e-stamp bought ____ [ ]\n         Draft sale deed by a licensed document writer or advocate; both sides read it ____ [ ]\n         TDS deducted and paid (if Rs 50 lakh or more)              ____  [ ]\nDay X    Registration at the Sub-Registrar Office (SRO); balance paid by bank transfer ____ [ ]\nDay X+   Original deed collected; mutation (pokkuvaravu) applied / auto-mutation checked ____ [ ]\n         Land tax paid in buyer's name; building tax/electricity/water transferred ____ [ ]\n         Keys and possession handed over; handover note signed       ____  [ ]\n         Commission invoice and payment by bank transfer             ____  [ ]\n```\n\n## Rental agreement checklist\n\nFrom RE-M05-L03 and RE-M15-L01.\n\n```\nRENTAL AGREEMENT CHECKLIST (have an advocate review your template)\n[ ] Parties' full names, addresses, ID numbers (last 4 digits only in copies you share)\n[ ] Property address, what is included (rooms, furniture, parking)\n[ ] Term (start, end), renewal, notice period for both sides\n[ ] Monthly rent, due date, payment method (bank transfer/UPI), late fee\n[ ] Security deposit amount, how and when it is refunded, permitted deductions\n    (note: the Kerala rent control law limits advances; ask an advocate what applies)\n[ ] Rent increase terms\n[ ] Who pays electricity, water, building tax, maintenance, minor and major repairs\n[ ] Use (residential / commercial), number of occupants, no subletting without consent\n[ ] Owner's entry for inspection with notice\n[ ] Inventory and condition at move-in (photos, meter readings) and at move-out\n[ ] Stamp paper value and registration requirement checked for the term (check current rules)\n[ ] Police/tenant verification done as required locally\n[ ] Signatures of both parties and two witnesses\n```\n\n## NRI property care service menu\n\nFrom RE-M15-L02.\n\n```\nNRI PROPERTY CARE SERVICE MENU (example; set your own prices)\nBASIC (monthly)       Visit once a month, 20 photos + short video, check locks,\n                      leaks, cleanliness, encroachment, neighbours' news   Rs ______\nSTANDARD (monthly)    Basic + pay land/building tax, electricity, water bills\n                      (owner's money, receipts shared), garden clearing    Rs ______\nRENTAL MANAGEMENT     Find and screen tenants, agreement, rent collection to owner's\n                      account, repairs coordination, monthly statement     ___% of rent\nONE-TIME              Document collection (EC, tax receipts, certificates),\n                      representation at offices with written authority      Rs ______ per task\nRULES: written service agreement; owner's money never mixed with yours; every\npayment with receipt; monthly report on the same date; no sale or legal act without\na registered power of attorney and the owner's written instruction.\n```\n\n## Weekly market log\n\nFrom Week 1 onwards.\n\n```\nWEEKLY MARKET LOG (Sunday, 20 minutes)          Week ___\n1. Listings added to the Comps sheet this week: ___ (target 3)\n2. New contacts: brokers ___ owners ___ buyers/tenants ___ professionals ___\n3. Leads in CRM: new ___ ; follow-ups done ___ ; overdue ___\n4. One thing I learned about how deals work here: ______________________\n5. One rule or rate I checked on an official source (with date): ______\n6. Next week's three actions: 1 ______ 2 ______ 3 ______\n```"
+  },
+  {
+   "id": "re-part-a",
+   "title": "Part A: Understand the business",
+   "kind": "gate",
+   "weeks": [
+    1,
+    1
+   ],
+   "summary": "Part A overview: Modules 1–2, weeks 1–1, and how to take it on its own.",
+   "content": "## What this part covers\n\nHow the Kerala property market works and which business path suits you.\n\n| Module | Title | Lessons |\n| --- | --- | --- |\n| Module 1 | How real estate works in Kerala | 2 |\n| Module 2 | Business paths and choosing yours | 2 |\n\nPart-time: weeks 1–1.\n\n## Taking this part on its own\n\n1. Read **Start here**, especially the legal and ethics box.\n2. Set up: Real Estate Workbook.\n3. Take: Baseline quiz.\n4. Start the weekly market log.",
+   "tasks": [
+    {
+     "id": "re-part-a-start",
+     "text": "Part A: overview read; standalone setup done if starting here",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-m01",
+   "title": "Module 1: How real estate works in Kerala",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 2.75,
+   "summary": "How real estate works in Kerala: property types (land, residential, commercial, agricultural, plantation), the people in a deal and what each does, market cycles, and the drivers of demand here (NRI money, migration, infrastructure, tourism, disasters, law). You map your local players and write a market snapshot.",
+   "content": "*Part A: Understand the business.*\n\n## Overview\n\nBefore learning laws and documents, you need a picture of the market you will work in. This module is mostly field work: a road survey, conversations and a one-page snapshot that you will update throughout the course.\n\nRemember the course rule from **Start here**: this is education, not legal, tax or investment advice. You will learn when to call an advocate, a surveyor, a CA or a document writer, and never to do their licensed work yourself.\n\n## Outcomes\n\nBy the end of this module you can:\n\n- Classify properties by type and by legal land type.\n- Name the players in a deal and what each is responsible for.\n- Describe market cycles and Kerala's demand drivers.\n- Write a one-page snapshot of your local market.\n\n## Time\n\nAbout 2 hours 45 minutes in total: 2 hours of lessons and 45 minutes for the module project. Part-time: week 1, with the module project due in week 1.\n\n## Lessons\n\n1. RE-M01-L01: Property types and the people in a deal (about 1 hour)\n2. RE-M01-L02: Market cycles and what drives demand in Kerala (about 1 hour)\n\n## Copy-ready tools in this module\n\n- The local players map and property-type count (RE-M01-L01).\n- The local market snapshot (RE-M01-L02).\n\n## Module project: a local market snapshot and players map\n\n1. Complete the road survey and players map (RE-M01-L01).\n2. Complete the market snapshot (RE-M01-L02).\n3. Share the snapshot with one experienced person (a broker or a relative who has bought land) and note what they disagree with.\n4. Save both in your toolkit folder; you will update the snapshot at the end of Part B and in the capstone.\n\n**Proof to record:** Your players map, road survey count, market snapshot and the feedback note.\n\n## Add to your Real Estate Toolkit\n\nSave these in your toolkit folder and Google Sheets workbook (set up in Week 0). By the capstone they form your complete business toolkit.\n\n- Local players map (offices, document writers, advocates, surveyors, banks, brokers).\n- Local market snapshot, version 1.\n\n## Self-assessment rubric\n\nScore yourself honestly after the project. Move on when no row is a 1 and at least half the rows are 3.\n\n| Criterion | 1: Not yet | 2: Getting there | 3: Ready |\n| --- | --- | --- | --- |\n| Property types | Confuses legal and physical type | Knows main types | Classifies by physical and legal type with examples |\n| Players | Few named | Most roles named | All roles named with local offices and contacts |\n| Market drivers | Generic list | Some local evidence | Local evidence from conversations, infrastructure and hazard maps |\n| Honesty | Repeats \"prices only go up\" | Some caveats | Separates asking prices from real deals and names risks |\n\n## Short on time?\n\nThe minimum version, for weeks when PSC study or work leaves little time:\n\n- Do the road survey on one short stretch (5 properties).\n- Write a half-page snapshot from one conversation.\n\n## Revision flashcards\n\nCover the right-hand column, say the answer aloud, then check.\n\n| Front (say the answer aloud) | Back |\n| --- | --- |\n| Purayidam | Garden or dry land in revenue records; generally buildable. |\n| Nilam | Paddy or wet land; protected by law. |\n| Who registers deeds? | The Sub-Registrar Office. |\n| Who drafts deeds? | A licensed document writer or an advocate. |\n| Who gives a title opinion? | An advocate. |\n| Four cycle stages | Recovery, expansion, peak/oversupply, slowdown. |\n| Main Malabar demand driver | NRI remittances. |\n\n## Top mistakes in this module\n\n- **Skipping field work.** Your local knowledge is your main asset as a beginner.\n- **Treating rumours as data.** Write down sources and dates.\n- **Overlooking rentals.** Rentals are often the fastest low-capital start.",
+   "tasks": [
+    {
+     "id": "re-m01-project",
+     "text": "Module project: a local market snapshot and players map",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** Your players map, road survey count, market snapshot and the feedback note. Save it in your toolkit folder (01 How real estate works in Kerala)."
+    },
+    {
+     "id": "re-m01-toolkit",
+     "text": "Toolkit: this module's tools saved and adapted to your area",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "re-m01-rubric",
+     "text": "Self-assessment: rubric scored, no row at 1",
+     "kind": "exit",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-m01-l01",
+   "title": "RE-M01-L01: Property types and the people in a deal",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.0,
+   "summary": "**Outcome:** You can classify any Kerala property by type, name everyone involved in a typical deal and what each is paid for, and map the players in your own area. **Time:** about 1 hour (15 minutes reading, 40 minutes of field notes).",
+   "content": "## Core lesson\n\n**Property types you will meet in Kerala:**\n\n- **Land (plots):** the most traded asset in rural and semi-urban Kerala. Recorded in revenue records by land type: **purayidam** (garden or dry land, generally buildable), **nilam** (paddy or wet land, protected by law, RE-M04-L03), **thottam** or plantation land, and others. A plot's legal type matters more than how it looks today.\n- **Residential:** independent houses (the most common), villas in gated projects, flats/apartments (mostly in towns and cities such as Kozhikode, Kochi and Thiruvananthapuram), and rooms or portions let to tenants.\n- **Commercial:** shop rooms (very common on town roads and junctions), office spaces, godowns, hotels and lodges, petrol pumps, hospitals and schools.\n- **Agricultural:** coconut, arecanut, rubber and mixed farmland; paddy fields.\n- **Plantation:** large holdings of rubber, tea, coffee, cardamom or pepper, mostly in the hills; land reforms law gave plantations special treatment, so converting plantation land to other uses can be legally sensitive (RE-M04-L03).\n- **Special categories:** government-assigned (pattayam) land with restrictions, temple or trust land, puramboke (government) land, and land in coastal (CRZ) or ecologically sensitive areas.\n\n**Who is involved in a typical deal:**\n\n| Player | Role | How they are paid |\n| --- | --- | --- |\n| Owner/seller | Holds title; signs the deed | Sale price |\n| Buyer | Pays; usually needs a loan or NRI funds | — |\n| Broker/agent | Finds the other side, arranges visits, helps negotiate and coordinate | Commission, often a percentage (local norms vary; RE-M10-L02) |\n| Document writer | Licensed to draft deeds; prepares the sale deed and handles registration paperwork | Fee per document |\n| Advocate | Gives the legal title opinion, handles disputes and complex documents | Fee |\n| Licensed surveyor | Measures land and fixes boundaries | Fee |\n| Sub-Registrar Office (SRO) | Registers the deed; collects stamp duty and fees | Government revenue |\n| Village office and taluk | Keep revenue records; issue certificates; mutation | Government fees |\n| Local body (panchayat/municipality) | Building permits, building numbers, building tax | Fees and taxes |\n| Bank or housing finance company | Lends; does its own legal and technical checks | Interest and fees |\n| Builder/developer | Builds and sells flats, villas or plots | Margin |\n\nYour business will sit among these players, so knowing what each one does (and does **not** do) is the first skill. A broker who tries to act as an advocate or document writer risks breaking the law and harming clients.\n\n## Local example\n\nSachin's neighbour, Kunhammed, wants to sell 15 cents of purayidam with an old house on the Kuttiady–Thottilpalam road to fund his daughter's studies. The buyer is a nurse working in Kuwait who wants a plot to build on later, close to her parents in Velom.\n\nIn the deal: a local broker who knows both families; a document writer near the Kuttiady SRO who drafts the deed; an advocate in Vadakara engaged by the buyer's brother to check title; the village office, which issues the possession certificate and later records the mutation; the SRO, where the deed is registered; and a bank in Kozhikode that gives the buyer a loan against her salary. The buyer is abroad, so she signs a registered power of attorney in favour of her brother (RE-M05-L02).\n\nSeven parties, at least five offices or professionals, and many places where things can go wrong. A good broker coordinates them; a bad one hides problems to close quickly.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [Kerala Real Estate Regulatory Authority (K-RERA): agent and project registration, complaints, project search](https://rera.kerala.gov.in/) | Browse the project search: see which project types (apartments, villas, plots, commercial) are registered in Kozhikode district | 15 minutes | verified 2026-11-04; check current rules |\n| [Wikipedia: Real Estate (Regulation and Development) Act, 2016](https://en.wikipedia.org/wiki/Real_Estate_%28Regulation_and_Development%29_Act,_2016) | Read the summary of who RERA covers (promoters, agents, buyers) | 10 minutes | verified 2026-11-04 |\n| [NoBroker: list your property for rent or sale (free for owners)](https://www.nobroker.in/list-your-property-for-rent-sale) | Look at how property types and sizes are listed (no account needed for browsing) | 10 minutes | verified 2026-11-04; check current rules |\n\n## Action task (in your local market)\n\n1. Walk or ride one main road in your area (for example Kuttiady town to Thottilpalam) and note at least 15 properties by type: land, house, flat, shop, commercial building, farmland, plantation.\n2. Note every property sign you see (\"For sale\", \"For rent\", broker boards) with the phone number (for your private records only).\n3. List the players in your area by name or office: nearest SRO, village office, panchayat office, two banks, document writers near the SRO, two advocates, any builders.\n4. Write three lines: which property type you see most for sale, which for rent, and which seems hardest to sell.\n\n**Proof to record:** A note with 15+ properties by type, the sign board count, your local players list and the three-line summary.\n\n## Template: Local players map\n\n```\nLOCAL PLAYERS MAP                           Area: ______\nSub-Registrar Office: ______  (address, working days)\nVillage office(s): ______        Taluk office: ______\nPanchayat / municipality office: ______\nDocument writers near the SRO: 1 ______ 2 ______\nAdvocates (property): 1 ______ 2 ______\nLicensed surveyors: 1 ______\nBanks / HFCs doing home loans: 1 ______ 2 ______\nBrokers seen (boards, ads): 1 ______ 2 ______ 3 ______\nBuilders / developers: 1 ______\nPROPERTY TYPE COUNT (one road survey)\nLand __ House __ Flat __ Shop/commercial __ Farmland __ Plantation __ For sale signs __ For rent signs __\n```\n\n## Common mistakes\n\n- **Judging land by how it looks.** A green, dry plot may still be nilam in records. Legal type comes from the records, not the eye.\n- **Thinking a broker can do everything.** Title opinions are for advocates, deeds for licensed document writers or advocates, measurement for surveyors.\n- **Ignoring commercial and rental demand.** Shop rooms and rentals often move faster than land and suit a low-capital start.\n\n## Local fraud warning\n\n**\"Clear title, ready for registration\" boards.** Some sellers and brokers advertise land as \"clear\" without any check. A board or a WhatsApp message is not evidence. Until you have seen the deed, a 30-year EC and an advocate's opinion, treat every claim as unverified (Module 6).\n\n## Quiz\n\nAnswer from memory first. The answers are at the bottom of this page.\n\n1. Which land type in Kerala revenue records is generally buildable?\n    - A) Forest land\n    - B) Purayidam (garden or dry land)\n    - C) Nilam (paddy land) in the data bank\n    - D) Puramboke (government land)\n2. Who is licensed to draft a sale deed?\n    - A) Any broker\n    - B) A licensed document writer or an advocate\n    - C) The buyer's bank\n    - D) The village officer\n3. Where is a sale deed registered?\n    - A) At K-RERA\n    - B) At the village office\n    - C) At the panchayat\n    - D) At the Sub-Registrar Office (SRO)\n4. What does the village office handle in a deal?\n    - A) Revenue records, certificates and mutation\n    - B) Building permits\n    - C) Home loans\n    - D) Stamp duty collection\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** read the lesson and browse K-RERA project search\n- **Action:** survey one road for 15+ properties and map your local players. It is done when your proof is saved: a note with 15+ properties by type, the sign board count, your local players list and the three-line summary.\n- **Quiz:** at least 3 right, or re-read the lesson and try again tomorrow.\n\n## Answers\n\n1. **B.** Purayidam is dry land; nilam and puramboke have strong restrictions.\n2. **B.** Deed drafting is licensed work; brokers coordinate but don't draft.\n3. **D.** The SRO registers documents and collects stamp duty and fees.\n4. **A.** Building permits are the local body's job; stamp duty goes through the SRO.",
+   "tasks": [
+    {
+     "id": "re-m01-l01-study",
+     "text": "Study: read the lesson and browse K-RERA project search",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "re-m01-l01-action",
+     "text": "Action: survey one road for 15+ properties and map your local players",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** A note with 15+ properties by type, the sign board count, your local players list and the three-line summary. Save it in your Real Estate Toolkit folder (01 How real estate works in Kerala) and note where it is."
+    },
+    {
+     "id": "re-m01-l01-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-m01-l02",
+   "title": "RE-M01-L02: Market cycles and what drives demand in Kerala",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.0,
+   "summary": "**Outcome:** You can explain what drives property demand and prices in Kerala, recognise the stage of a market cycle, and write a short snapshot of your local market. **Time:** about 1 hour (15 minutes reading, 40 minutes of research and conversations).",
+   "content": "## Core lesson\n\n**Property markets move in cycles.** A simple four-stage picture:\n1. **Recovery:** after a slump, few deals, prices flat, sellers patient.\n2. **Expansion:** demand grows (jobs, remittances, new roads), deals pick up, prices rise, new projects launch.\n3. **Peak/oversupply:** prices outrun incomes, many unsold flats and plots, speculation (\"prices only go up\").\n4. **Slowdown:** deals dry up, sellers cut asking prices quietly, builders offer discounts, some projects stall.\n\nReal markets are messier, and Kerala's land market can stay \"frozen\" for years: owners keep asking old prices, few deals happen, and real prices are hidden. That is why you will track **actual** listings and, where you can, actual sale prices (Module 7).\n\n**What drives demand in Kerala:**\n- **NRI money (remittances):** Gulf and other overseas earnings have long funded house building and land purchases, especially in Malabar. When Gulf jobs or oil prices weaken, local demand often softens.\n- **Migration and demographics:** young people moving to cities or abroad; ageing parents in large houses; small families wanting smaller, low-maintenance homes; migrant workers from other states needing cheap rentals.\n- **Infrastructure:** new or widened roads (national highway widening, bypasses), railway improvements, airports (Kozhikode airport at Karipur is nearby), hospitals, colleges and IT parks raise nearby values; announcements move prices before work starts, sometimes too much.\n- **Tourism:** homestays and resorts near beaches, backwaters and hill areas (Wayanad, Munnar, Kozhikode beaches), subject to CRZ, ESA and local rules.\n- **Education and healthcare clusters:** demand for rentals near medical colleges and universities.\n- **Interest rates and loan availability:** lower rates make loans cheaper and lift demand.\n- **Disasters and climate risk:** the 2018 and 2019 floods and landslides changed what buyers ask about; flood history now affects value (RE-M06-L02).\n- **Law and policy:** fair-value increases, stamp duty changes, paddy-land conversion rules and building rules all affect deals.\n\n**Good questions for any local market:** Who is buying here (NRIs, local salaried, investors, migrants)? What are they buying (plots, houses, flats, shops)? How long do listings stay up? Are sellers cutting prices? What is changing nearby (roads, colleges, rules)?\n\n## Local example\n\nIn 2025 and 2026, brokers around Kuttiady describe a market like this (the course's fictional summary of common patterns; check your own area): demand for small residential plots of 5 to 10 cents near the town and main roads from NRIs and salaried families; slow demand for large plots in interior areas without good road access; strong rental demand for small houses and rooms from teachers, government staff and migrant workers; and almost no flats outside Kozhikode city.\n\nPrices on roads leading to Kozhikode and near the bypass are higher per cent than interior roads, and plots with a history of water-logging in the 2018 monsoon now sell more slowly. Your task is to replace this fictional summary with real notes from your own conversations and listings.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [Kerala Real Estate Regulatory Authority (K-RERA): agent and project registration, complaints, project search](https://rera.kerala.gov.in/) | Count how many registered projects you can find in Kozhikode district by type; note any near you | 15 minutes | verified 2026-11-04; check current rules |\n| [Kerala State Disaster Management Authority: hazard maps (flood, landslide)](https://sdma.kerala.gov.in/hazard-maps/) | Open the hazard maps and find the flood and landslide maps for Kozhikode district | 15 minutes | verified 2026-11-04 |\n| [MIT OpenCourseWare 11.431J Real Estate Finance and Investment (Geltner and McGrath, CC BY-NC-SA)](https://ocw.mit.edu/courses/11-431j-real-estate-finance-and-investment-fall-2006) | Optional: read the first lecture note on real estate markets (space and asset markets) | 30 minutes | verified 2026-11-04 |\n\n## Action task (in your local market)\n\n1. Talk to three people about the local property market (a relative who bought recently, a shopkeeper, a broker). Ask the five questions: who buys, what, how long listings stay, price cuts, what is changing nearby.\n2. Find one infrastructure project or plan near you (a road widening, a bypass, a college, a hospital) and note its stage (announced, land acquisition, construction, complete).\n3. Check the KSDMA flood and landslide hazard maps for your panchayat and note whether parts of your area are marked.\n4. Write a one-page market snapshot: main demand drivers, cycle stage (your best guess), property types in demand, and risks.\n\n**Proof to record:** Notes from three conversations, one infrastructure note, a hazard-map note and your one-page market snapshot.\n\n## Template: Local market snapshot\n\n```\nLOCAL MARKET SNAPSHOT                    Area: ______  Date: ______\nWho is buying: NRIs __ local salaried __ investors __ migrants/tenants __\nWhat sells fastest: ______   What sells slowest: ______\nTypical listing time (from conversations): ______\nPrice trend (rising / flat / falling / frozen): ______  Evidence: ______\nDemand drivers here: remittances / roads / colleges / hospitals / tourism / other ______\nInfrastructure nearby (stage): ______\nHazards (KSDMA maps, 2018/2019 flood history): ______\nMy guess at the cycle stage: recovery / expansion / peak / slowdown. Why: ______\nOpportunities for a low-capital service business: ______\n```\n\n## Common mistakes\n\n- **Believing \"land prices never fall\".** Real prices can stagnate or fall for years, especially for interior and flood-prone land.\n- **Taking asking prices as market prices.** Asking prices are often far above what deals close at. Track listings and ask about actual deals.\n- **Buying on infrastructure announcements.** Projects get delayed or re-routed. Check the stage before treating it as value.\n\n## Local fraud warning\n\n**\"New road coming\" land sales.** Sellers sometimes claim a highway or bypass will pass next to a plot to justify a high price. Ask for the official alignment or notification, check the stage, and remember that land acquired for the road itself may be acquired at notified compensation, not market hopes.\n\n## Quiz\n\nAnswer from memory first. The answers are at the bottom of this page.\n\n1. Which has historically been a major driver of land and house demand in Malabar?\n    - A) Mining\n    - B) Large manufacturing industries\n    - C) Remittances from Kerala workers abroad, especially in the Gulf\n    - D) Government land auctions\n2. What is a sign that a market is in a slowdown?\n    - A) Banks raise loan limits\n    - B) Buyers compete for every plot\n    - C) New projects launch every month\n    - D) Listings stay up longer and sellers quietly cut prices\n3. Why track actual listings and deals rather than what people say?\n    - A) Asking prices and talk often differ from real closing prices\n    - B) Talk is always lies\n    - C) Banks require it\n    - D) Listings never change\n4. How did the 2018 and 2019 floods affect the Kerala market?\n    - A) Flood-prone land became more expensive\n    - B) Buyers now ask about flood history, and flood-prone plots can sell more slowly\n    - C) They had no effect\n    - D) All prices doubled\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** read the lesson and look at the KSDMA hazard maps for your district\n- **Action:** talk to three people, note an infrastructure project and write a one-page market snapshot. It is done when your proof is saved: notes from three conversations, one infrastructure note, a hazard-map note and your one-page market snapshot.\n- **Quiz:** at least 3 right, or re-read the lesson and try again tomorrow.\n\n## Answers\n\n1. **C.** NRI money has long funded house building and land purchases.\n2. **D.** Longer listing times and price cuts signal weaker demand.\n3. **A.** Real data protects your clients and your reputation.\n4. **B.** Hazard history now affects demand and value.",
+   "tasks": [
+    {
+     "id": "re-m01-l02-study",
+     "text": "Study: read the lesson and look at the KSDMA hazard maps for your district",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "re-m01-l02-action",
+     "text": "Action: talk to three people, note an infrastructure project and write a one-page market snapshot",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** Notes from three conversations, one infrastructure note, a hazard-map note and your one-page market snapshot. Save it in your Real Estate Toolkit folder (01 How real estate works in Kerala) and note where it is."
+    },
+    {
+     "id": "re-m01-l02-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-m02",
+   "title": "Module 2: Business paths and choosing yours",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 2.75,
+   "summary": "Business paths in real estate: brokerage, rental brokerage, property management, NRI property care, marketing and consulting (low capital), and plotting, buy-and-hold, flipping and land banking (high capital), with the money, skills, risks and time to income of each, and honest numbers on why small investors often lose money.",
+   "content": "*Part A: Understand the business.*\n\n## Overview\n\nYou choose your starting path here. With little capital and 5 to 7 hours a week, the course recommends starting with services (often rental brokerage plus NRI property care, or marketing) and treating investing as a later stage.\n\nThis decision is not final: you will revisit it in Module 18 (investing) and Module 22 (capstone).\n\n## Outcomes\n\nBy the end of this module you can:\n\n- Compare all real estate paths by capital, skills, risk and time to income.\n- Explain with numbers why small investors often lose money.\n- Calculate a break-even price for a flip.\n- Choose one or two starting paths with three next steps.\n\n## Time\n\nAbout 2 hours 45 minutes in total: 2 hours of lessons and 45 minutes for the module project. Part-time: week 1, with the module project due in week 1.\n\n## Lessons\n\n1. RE-M02-L01: Low-capital paths: brokerage, rentals, NRI property care, marketing (about 1 hour)\n2. RE-M02-L02: Capital-heavy paths: plotting, buy-and-hold, flipping (about 1 hour)\n\n## Copy-ready tools in this module\n\n- The path chooser (RE-M02-L01).\n- The flip break-even calculator (RE-M02-L02).\n\n## Module project: your chosen path with risks and a 90-day start plan\n\n1. Complete the path chooser (RE-M02-L01) and the break-even calculation (RE-M02-L02).\n2. Write a one-page 90-day plan for your chosen path: services, target clients, first three steps, what you must learn first (which modules).\n3. List the risks of your path and how you will reduce each.\n4. Share the plan with one experienced person and note their comments.\n\n**Proof to record:** The path chooser, the break-even calculation, your 90-day plan with risks, and the feedback.\n\n## Add to your Real Estate Toolkit\n\nSave these in your toolkit folder and Google Sheets workbook (set up in Week 0). By the capstone they form your complete business toolkit.\n\n- Path chooser and 90-day start plan.\n- Flip break-even calculator (Cost tab).\n\n## Self-assessment rubric\n\nScore yourself honestly after the project. Move on when no row is a 1 and at least half the rows are 3.\n\n| Criterion | 1: Not yet | 2: Getting there | 3: Ready |\n| --- | --- | --- | --- |\n| Comparison | One path considered | Several paths scored | All paths compared with local evidence |\n| Numbers | No calculation | Rough numbers | Break-even calculation on a real listing |\n| Plan | Vague | Steps without dates | 90-day plan with steps, learning and risks |\n| Honesty about risk | Ignores risks | Lists risks | Lists risks with ways to reduce each |\n\n## Short on time?\n\nThe minimum version, for weeks when PSC study or work leaves little time:\n\n- Score the five low-capital paths and pick one.\n- Write three first steps.\n\n## Revision flashcards\n\nCover the right-hand column, say the answer aloud, then check.\n\n| Front (say the answer aloud) | Back |\n| --- | --- |\n| Five low-capital paths | Sales brokerage, rental brokerage, property management, NRI property care, marketing. |\n| Purchase transaction costs in Kerala (approx.) | About 10%+ (8% stamp duty, 2% registration, fees, brokerage); check current rules. |\n| Why flips often fail | Costs, slow resale, taxes, holding costs. |\n| Main risk of land banking | Money locked for years with no guarantee of rising prices. |\n| When to consider investing | After an emergency fund, experience, a full analysis and money you can lock away. |\n| Simpler property exposure | Listed REITs (Module 18). |\n\n## Top mistakes in this module\n\n- **Following hype.** Use numbers and local evidence.\n- **Skipping the written plan.** A 90-day plan turns a choice into action.\n- **Mixing personal and client money.** Keep them separate from day one (Module 20).",
+   "tasks": [
+    {
+     "id": "re-m02-project",
+     "text": "Module project: your chosen path with risks and a 90-day start plan",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** The path chooser, the break-even calculation, your 90-day plan with risks, and the feedback. Save it in your toolkit folder (02 Business paths and choosing yours)."
+    },
+    {
+     "id": "re-m02-toolkit",
+     "text": "Toolkit: this module's tools saved and adapted to your area",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "re-m02-rubric",
+     "text": "Self-assessment: rubric scored, no row at 1",
+     "kind": "exit",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-m02-l01",
+   "title": "RE-M02-L01: Low-capital paths: brokerage, rentals, NRI property care, marketing",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.0,
+   "summary": "**Outcome:** You can compare the low-capital real estate paths (brokerage, rentals, property management, NRI property care, marketing) by money, skills, risk and time to first income, and pick one or two to start. **Time:** about 1 hour (15 minutes reading, 40 minutes of research and planning).",
+   "content": "## Core lesson\n\nWith little capital, you earn in real estate by **providing services**, not by owning property. Five low-capital paths suit a beginner in Kerala:\n\n**1. Sales brokerage.** You help owners sell and buyers buy, for a commission. Income per deal can be large, but deals are slow and many fail. You need a written mandate from the owner (RE-M10-L02), K-RERA registration where the law requires it (RE-M10-L01), and strong honesty, because buyers rely on what you say.\n\n**2. Rental brokerage.** You find tenants for owners (or homes for tenants) for a fee, often a portion of one month's rent (local norms vary). Rentals move faster than sales and teach you the whole process: listing, visits, screening, agreements.\n\n**3. Property management.** You manage rented properties for owners: rent collection, repairs, tenant issues, statements. Income is small but recurring (a percentage of rent or a fixed monthly fee).\n\n**4. NRI property care.** Many Kerala homes are owned by people working abroad. They need someone trustworthy to visit, photograph, pay taxes and bills, arrange repairs, deal with tenants, and collect documents from offices. This is one of the best fits for a reliable beginner in Malabar (RE-M15-L02).\n\n**5. Real estate marketing and content.** Owners and brokers need good photos, walkthrough videos, listing copy and social posts. If you build skill here (Module 12), you can serve many brokers and builders without handling transactions. The [Social Media Marketing course module on local business](https://naipunyam.github.io/vidhyarambham/#/course/social-media-marketing/smm-m11) (in the Practical Social Media Marketing course) covers the marketing side in depth.\n\n**Consulting** (coordinating due diligence, helping buyers compare properties) becomes possible later, once you have deep knowledge and a network of advocates and surveyors. Be careful never to present yourself as giving legal opinions or formal valuations.\n\n**How to choose:** list your strengths (trust in your community, photography, follow-up, office work), your time (5 to 7 hours a week now), your network (NRI families? landlords?), and the local demand you found in Module 1. Many people combine two paths, for example rental brokerage plus NRI property care.\n\n## Local example\n\nSachin has five to seven hours a week, a phone, a motorbike and many relatives with family members in the Gulf. His options:\n\n- **Rental brokerage** around Kuttiady: teachers and government staff are often posted to the area and need small houses; migrant workers need rooms. Owners often don't want the hassle of finding tenants.\n- **NRI property care:** at least six families he knows have houses that stay empty or are rented informally while the owners work abroad. They worry about leaks, encroachment, unpaid taxes and tenants not paying.\n- **Sales brokerage:** slower, needs more knowledge first.\n\nHe chooses rental brokerage plus NRI property care for the first six months, while studying the sales side. His first step is a written service menu (RE-M15-L02) and two conversations with NRI families during their next visit home.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [Kerala Real Estate Regulatory Authority (K-RERA): agent and project registration, complaints, project search](https://rera.kerala.gov.in/) | Read the agent registration section headings to see what registration involves | 10 minutes | verified 2026-11-04; check current rules |\n| [NoBroker: list your property for rent or sale (free for owners)](https://www.nobroker.in/list-your-property-for-rent-sale) | Study how rental listings are presented and what owners must provide | 15 minutes | verified 2026-11-04; check current rules |\n\n## Action task (in your local market)\n\n1. Score each of the five low-capital paths 1–5 on: fits my time, fits my skills, local demand, my network, and risk (5 = low risk).\n2. Talk to one owner (a landlord or an NRI family) and ask: \"What is your biggest headache with your property?\" Write the answer word for word.\n3. Choose one or two paths and write a one-paragraph reason.\n4. Write the first three concrete steps for your chosen path (for example: make a service menu, talk to five NRI families, list one rental).\n\n**Proof to record:** Your scored comparison of the five paths, the owner's answer, your chosen path with reasons and three next steps.\n\n## Template: Path chooser\n\n```\nPATH CHOOSER (score 1-5)       Time  Skills  Demand  Network  Risk(5=low)  Total\nSales brokerage                 __     __      __      __       __          __\nRental brokerage                __     __      __      __       __          __\nProperty management             __     __      __      __       __          __\nNRI property care               __     __      __      __       __          __\nMarketing / content             __     __      __      __       __          __\nOwner's biggest headache (quote): \"______________________\"\nMy path(s): ______  Why: ______\nFirst three steps: 1 ______ 2 ______ 3 ______\n```\n\n## Common mistakes\n\n- **Starting with investing because it sounds bigger.** With little capital, services build income, knowledge and a network first.\n- **Trying every path at once.** Pick one or two; do them well.\n- **Underestimating trust.** NRI care and property management are trust businesses; one mistake with money ends them.\n\n## Local fraud warning\n\n**\"Join our network, pay ₹10,000 to become a franchise broker.\"** Some schemes sell \"real estate agent franchises\" or \"training with guaranteed leads\". You don't need to pay anyone to start a legal service business; check any such offer with the red-flag check from the Mind, Body and People course (PD-M32-L01 there) and never pay for \"guaranteed\" income.\n\n## Quiz\n\nAnswer from memory first. The answers are at the bottom of this page.\n\n1. Why do low-capital paths suit a beginner?\n    - A) They earn from services, so you don't need money to buy property\n    - B) They are risk-free\n    - C) They need no knowledge\n    - D) They always pay the most\n2. Which path gives small but recurring income?\n    - A) Flipping\n    - B) Land banking\n    - C) Property management\n    - D) One-off land sale brokerage\n3. What must a broker never do?\n    - A) Market a property honestly\n    - B) Take a written mandate\n    - C) Arrange site visits\n    - D) Give legal title opinions or draft deeds without the required licence\n4. Why is NRI property care a good fit in Malabar?\n    - A) It needs a large investment\n    - B) Many homes are owned by families working abroad who need trustworthy local help\n    - C) NRIs never visit\n    - D) It requires a law degree\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** read the lesson and the path table\n- **Action:** score the five low-capital paths, talk to one owner and choose your path with three next steps. It is done when your proof is saved: your scored comparison of the five paths, the owner's answer, your chosen path with reasons and three next steps.\n- **Quiz:** at least 3 right, or re-read the lesson and try again tomorrow.\n\n## Answers\n\n1. **A.** Services build income, skill and network before investing.\n2. **C.** Management fees recur monthly.\n3. **D.** That work belongs to advocates and licensed document writers.\n4. **B.** Demand plus low capital needs.",
+   "tasks": [
+    {
+     "id": "re-m02-l01-study",
+     "text": "Study: read the lesson and the path table",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "re-m02-l01-action",
+     "text": "Action: score the five low-capital paths, talk to one owner and choose your path with three next steps",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** Your scored comparison of the five paths, the owner's answer, your chosen path with reasons and three next steps. Save it in your Real Estate Toolkit folder (02 Business paths and choosing yours) and note where it is."
+    },
+    {
+     "id": "re-m02-l01-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-m02-l02",
+   "title": "RE-M02-L02: Capital-heavy paths: plotting, buy-and-hold, flipping",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.0,
+   "summary": "**Outcome:** You can explain the capital, skills and risks of plotting, buy-and-hold investing, flipping and land banking, with honest numbers, and decide when (if ever) to move into them. **Time:** about 1 hour (15 minutes reading, 35 minutes of calculation and notes).",
+   "content": "## Core lesson\n\n**Capital-heavy paths** involve buying property with your own money and usually loans. They can build wealth, but they also lose people money regularly. Here is the full comparison of all paths:\n\n| Path | Capital needed | Key skills | Main risks | Time to income |\n| --- | --- | --- | --- | --- |\n| Broker / agent (sales) | Very low (phone, travel, K-RERA fee if required) | Local knowledge, networking, negotiation, documents | Irregular income; deals fall through; legal exposure if careless | 3–12 months to first sale |\n| Rental broker | Very low | Tenant screening, agreements, quick follow-up | Small fees; tenant problems | Weeks |\n| Property management | Low | Reliability, maintenance contacts, accounts | Owner and tenant disputes; money handling | 1–3 months |\n| NRI property care | Low | Trust, reporting, office work, maintenance | Responsibility for others' assets; misuse of authority | 1–3 months |\n| Real estate marketing / content | Low (phone, free tools) | Photography, video, copywriting, social media | Clients delay payment; competition | Weeks |\n| Consulting (due-diligence coordination, valuation help) | Low | Deep knowledge plus professional network | Must not cross into licensed legal or valuation work | 6–12 months |\n| Plotting and development | Very high | Land law, approvals, construction, finance | Approvals fail, money stuck, legal liability | Years |\n| Buy-and-hold rentals | High (down payment, loan) | Analysis, tenant management | Low yields, vacancies, illiquidity, repairs | Years |\n| Flipping | High | Buying below market, renovation, fast resale | Transaction costs (about 10%+), slow resale, taxes | 6–24 months per deal |\n| Land banking | High | Patience, legal checks | Money locked for years; prices may not rise; encroachment | Years |\n\n**Why small investors lose money in property:**\n1. **Bad title or illegal land** (data bank paddy land, encroached land, unapproved layouts, disputed inheritance): the property can't be sold, built on or financed.\n2. **Transaction costs:** in Kerala, buying costs roughly 10% or more on top of the price (8% stamp duty, 2% registration fee on the higher of price or fair value, plus document, legal and brokerage fees, RE-M04-L01). A flip must beat that before any profit.\n3. **Illiquidity:** land in interior areas can take a year or more to sell, at a lower price than hoped.\n4. **Low rental yields:** houses in Kerala often rent for well under 3% to 4% of their price a year, often less than a fixed deposit, before repairs and vacancies (RE-M08-L02).\n5. **Over-borrowing:** EMIs continue even when tenants leave or prices fall.\n6. **Disputes:** boundary, access-road and family disputes can take years in court.\n\n**When to consider them:** after you have (a) an emergency fund and no high-interest debt (see [Personal Finance, emergency fund](https://naipunyam.github.io/vidhyarambham/#/course/personal-finance/fin-m05) (in the Practical Personal Finance for India course)), (b) a few years of service experience and a trusted advocate and surveyor, (c) a full analysis showing returns after all costs, taxes and risks (Module 18), and (d) money you can leave locked for years. For many people, low-cost listed REITs are a simpler way to get property exposure (RE-M18-L02).\n\n## Local example\n\nSachin's cousin Rasheed wants to \"flip\" a 10-cent plot: buy at ₹18 lakh and sell within a year at ₹21 lakh.\n\nRough costs: stamp duty and registration on ₹18 lakh at 10% (assuming the fair value is not higher): ₹1.8 lakh; document writer, EC and other fees: about ₹25,000; brokerage at 1% on purchase: ₹18,000; brokerage at 1% on sale: ₹21,000. Total costs: about ₹2.44 lakh. Profit before tax: ₹21 lakh − ₹18 lakh − ₹2.44 lakh = **about ₹56,000**, about 3% on ₹18 lakh, before short-term capital gains tax, and only if he sells at ₹21 lakh within the year. If it takes two years to sell at ₹20 lakh, he loses money. Rasheed decides to keep his savings in his emergency fund and help with Sachin's rental work instead.\n\n## Worked calculation\n\n**Break-even price for a flip:**\n- Purchase price P = ₹18,00,000\n- Purchase costs (stamp duty 8% + registration 2% + fees + brokerage) ≈ 10% + ₹25,000 + 1% ≈ ₹2,23,000\n- Sale costs (brokerage 1%) ≈ ₹21,000 at the target price\n- Break-even sale price ≈ P + purchase costs + sale costs ≈ **₹20,44,000**, roughly 13.6% above the purchase price, before tax and holding costs (interest you could have earned, land tax, maintenance).\n- In Google Sheets: `=B1*1.11+25000+B2*0.01` where B1 is the purchase price and B2 the target sale price (rates as of November 2026; check current rules).\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [Square Yards (updated July 2026): stamp duty and registration charges in Kerala](https://www.squareyards.com/blog/stamp-duty-and-registration-charges-in-kerala) | Read the stamp duty and registration table to confirm the 8% + 2% used in the example | 10 minutes | verified 2026-11-04 through a secondary source; check current rules |\n| [MIT OpenCourseWare 11.431J Real Estate Finance and Investment (Geltner and McGrath, CC BY-NC-SA)](https://ocw.mit.edu/courses/11-431j-real-estate-finance-and-investment-fall-2006) | Optional: skim the syllabus to see how professionals think about real estate investment | 15 minutes | verified 2026-11-04 |\n| [The Week (30 June 2021): SEBI cuts minimum application amount for REITs](https://www.theweek.in/news/biz-tech/2021/06/30/sebi-reduces-minimum-application-amount-for-reits-should-you-invest-now.html) | Read how small investors can buy REIT units (more in RE-M18-L02) | 5 minutes | verified 2026-11-04 through a secondary source; check current rules |\n\n## Action task (in your local market)\n\n1. Find one real land listing in your area. Calculate the purchase costs and the break-even resale price using the calculation above.\n2. Ask one person who has bought land as an investment: \"How long did it take to sell, and at what price compared with what you hoped?\" Note the answer.\n3. Write your rule for when you would consider a capital-heavy path (savings, experience, analysis, time).\n4. Add your chosen low-capital path and your \"later\" rule to your toolkit folder.\n\n**Proof to record:** One break-even calculation on a real listing, notes from one investor conversation and your written rule.\n\n## Template: Flip break-even calculator\n\n```\nFLIP BREAK-EVEN (rates as of November 2026; check current rules)\nB1 Purchase price (Rs)                     [type]\nB2 Fair value (Rs)                         [type]\nB3 Duty base                               =MAX(B1,B2)\nB4 Stamp duty + registration (10%)         =B3*0.10\nB5 Fees (document writer, EC, misc.)       [type]\nB6 Brokerage on purchase                   =B1*[rate]\nB7 Target sale price                       [type]\nB8 Brokerage on sale                       =B7*[rate]\nB9 Holding costs (interest lost, taxes, maintenance) [type]\nB10 Break-even sale price                  =B1+B4+B5+B6+B8+B9\nB11 Profit before tax at target price      =B7-B10\n```\n\n## Common mistakes\n\n- **Ignoring transaction costs.** About 10% or more goes to costs on purchase; a flip must clear that first.\n- **Counting the asking price as profit.** Use realistic sale prices and times from real deals.\n- **Using emergency money or loans for land speculation.** Money locked in illiquid land can't help you in an emergency.\n\n## Local fraud warning\n\n**\"Guaranteed doubling\" land and plot schemes.** Ads promising that a plot will double in value in two or three years, often in \"upcoming\" layouts far from town, are a classic trap. Unapproved layouts may never get permits or roads (RE-M16-L01). No one can guarantee property returns.\n\n## Quiz\n\nAnswer from memory first. The answers are at the bottom of this page.\n\n1. About how much do stamp duty and registration add to a Kerala sale deed, as of November 2026?\n    - A) About 25%\n    - B) Nothing\n    - C) About 10% (8% + 2%) of the higher of price or fair value\n    - D) About 1%\n2. Why do many small property investors lose money?\n    - A) Property always rises\n    - B) Bad titles, high transaction costs, illiquidity, low yields and over-borrowing\n    - C) Banks pay their EMIs\n    - D) Taxes are zero\n3. What should you have before investing in property?\n    - A) A tip from a friend\n    - B) An emergency fund, no high-interest debt, experience, a full analysis and money you can lock away\n    - C) A guaranteed-return scheme\n    - D) A credit card\n4. A flip bought at ₹18 lakh needs roughly what sale price to break even?\n    - A) About ₹20.4 lakh after costs\n    - B) ₹18.5 lakh\n    - C) ₹30 lakh\n    - D) ₹18 lakh\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** read the lesson and the path comparison table\n- **Action:** calculate the break-even resale price for one real listing and write your rule for capital-heavy paths. It is done when your proof is saved: one break-even calculation on a real listing, notes from one investor conversation and your written rule.\n- **Quiz:** at least 3 right, or re-read the lesson and try again tomorrow.\n\n## Answers\n\n1. **C.** Plus document, legal and brokerage costs; check current rules.\n2. **B.** These risks are common and often ignored.\n3. **B.** Investing comes after financial safety and skill.\n4. **A.** Purchase and sale costs add roughly 13.6%.",
+   "tasks": [
+    {
+     "id": "re-m02-l02-study",
+     "text": "Study: read the lesson and the path comparison table",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "re-m02-l02-action",
+     "text": "Action: calculate the break-even resale price for one real listing and write your rule for capital-heavy paths",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** One break-even calculation on a real listing, notes from one investor conversation and your written rule. Save it in your Real Estate Toolkit folder (02 Business paths and choosing yours) and note where it is."
+    },
+    {
+     "id": "re-m02-l02-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "re-final",
+   "title": "Final retest and checklist",
+   "kind": "capstone",
+   "weeks": [
+    22,
+    22
+   ],
+   "hours": 1.5,
+   "summary": "Quiz form B, skills rating, comparison with your baseline and the final checklist of your real estate toolkit.",
+   "content": "Take **form B** of the quiz and the skills rating, compare them with your baseline, and tick the final checklist.\n\n## Knowledge quiz, form B (12 questions, 15 minutes)\n\nAnswer without looking anything up; guessing is fine. Score 1 per correct answer, out of 12. Cover the answers first.\n\n1. A plot is 10 cents. About how many square feet is that?\n    - A) About 1,000 sq ft\n    - B) About 43,560 sq ft\n    - C) About 4,356 sq ft\n    - D) About 435 sq ft\n2. A deed says 4.05 ares. About how many cents is that?\n    - A) About 40 cents\n    - B) About 10 cents\n    - C) About 1 cent\n    - D) About 4 cents\n3. What does the thandaper (thandaper number) record?\n    - A) The building permit number\n    - B) The bank loan number\n    - C) The sale price\n    - D) The landholder's account in the village revenue records, used for land tax\n4. An EC for 13 years shows no entries. What can you safely conclude?\n    - A) The title is perfect\n    - B) Only that no registered transactions appear for those 13 years; older history and unregistered claims still need checking\n    - C) The land is not paddy land\n    - D) There are no court cases\n5. A sale deed must be presented for registration within how long of signing?\n    - A) Within one week\n    - B) Within ten years\n    - C) There is no time limit\n    - D) Within four months\n6. Price Rs 30 lakh; fair value Rs 34 lakh. On what value is stamp duty calculated?\n    - A) Rs 30 lakh\n    - B) Rs 34 lakh, the higher of the two\n    - C) Rs 4 lakh, the difference\n    - D) Rs 32 lakh, the average\n7. What can a real estate agent registered with K-RERA NOT do?\n    - A) Arrange site visits\n    - B) Collect commission by bank transfer with an invoice\n    - C) Give a legal title opinion or draft and register deeds without the required licence\n    - D) Market a property with the owner's mandate\n8. Building near the coast may need clearance under which rules?\n    - A) Rent control law\n    - B) Benami law\n    - C) Coastal Regulation Zone (CRZ) rules\n    - D) RERA agent rules\n9. Net operating income is Rs 1.2 lakh a year on a Rs 30 lakh property. What is the cap rate?\n    - A) 12%\n    - B) 40%\n    - C) 4%\n    - D) 0.4%\n10. GST on the resale of a completed house with an occupancy certificate is:\n    - A) 18%\n    - B) 12%\n    - C) Not charged\n    - D) 5% always\n11. Which step comes right after registration of a sale deed?\n    - A) Mutation of the land records (pokkuvaravu) into the buyer's name\n    - B) Paying the token advance\n    - C) Signing the agreement for sale\n    - D) Applying for an EC for the next 30 years\n12. A layout of plots is sold with \"approval coming soon\". What is the main risk?\n    - A) Unapproved layouts may not get building permits, roads or utilities, and buyers can lose money\n    - B) No risk if the land is cheap\n    - C) Prices always rise\n    - D) Banks prefer unapproved layouts\n\n### Answers, form B\n\n1. **C.** 10 × 435.6 = 4,356 sq ft (RE-M03-L01).\n2. **B.** 4.05 × 2.47 ≈ 10 cents (RE-M03-L01).\n3. **D.** It links the owner to land-tax records (RE-M03-L02).\n4. **B.** Search 30+ years and check other sources (RE-M06-L01).\n5. **D.** Section 23 of the Registration Act (RE-M04-L01).\n6. **B.** Duty is on the higher of price or fair value (RE-M04-L01).\n7. **C.** Legal work needs an advocate; deeds need a licensed document writer or advocate (RE-M10-L01).\n8. **C.** CRZ 2019 and Kerala's approved coastal plan (RE-M04-L04).\n9. **C.** 1.2 ÷ 30 = 4% (RE-M08-L02).\n10. **C.** GST applies to under-construction property, not resale (RE-M09-L02).\n11. **A.** Mutation updates revenue records (RE-M14-L03).\n12. **A.** Unapproved layouts are a common trap (RE-M16-L01, RE-M21-L01).\n\n## Skills self-rating (5 minutes)\n\n| No | Statement (rate 1 = not at all, 5 = fully) | Start | End |\n| --- | --- | --- | --- |\n| 1 | I can explain the steps of a property sale from token advance to mutation. |  |  |\n| 2 | I can read a sale deed and an EC and point out what to check. |  |  |\n| 3 | I can convert cents, ares and square feet without a calculator app. |  |  |\n| 4 | I can find a property's fair value on the official portal. |  |  |\n| 5 | I can calculate the full cost of buying a property. |  |  |\n| 6 | I can calculate rental yield and cap rate. |  |  |\n| 7 | I know which tasks need an advocate, a surveyor, a CA or a document writer. |  |  |\n| 8 | I can write an honest listing and market it for free. |  |  |\n| 9 | I know at least five local brokers or property professionals. |  |  |\n| 10 | I can spot at least five common real estate frauds. |  |  |\n\nAdd the scores (10 to 50).\n\n## Compare\n\n| Measure | Start | End | Change |\n| --- | --- | --- | --- |\n| Knowledge quiz (out of 12) |  |  |  |\n| Skills self-rating (10–50) |  |  |  |\n| Listings in your Comps sheet | 0 |  |  |\n| Property professionals you know |  |  |  |\n| Leads in your CRM | 0 |  |  |\n\n## Final checklist\n\n| Item | Built in |\n| --- | --- |\n| Comparables sheet with 20+ local listings and price per cent / per sq ft | RE-M07-L03 |\n| Fair value compared with market prices for at least 3 properties | RE-M07-L01 |\n| Interview notes from 3 brokers and 1 document writer or advocate | RE-M11-L01 |\n| Annotated sale deed, EC and rental agreement samples | Module 5 |\n| A completed due-diligence checklist on a real or sample property | RE-M06-L03 |\n| A full purchase cost calculation using current official rates | RE-M04-L01 |\n| ROI analysis for 5 real properties | RE-M08-L02 |\n| A real listing with the owner's written permission, live on free portals and social media | Module 12 |\n| CRM sheet with every lead tracked | RE-M19-L01 |\n| A real site visit conducted or shadowed | RE-M13-L01 |\n| All toolkit templates adapted to your area | Toolkit page |\n| Capstone: a first legal deal with written agreements, or an investment analysis plus business plan | Module 22 |",
+   "tasks": [
+    {
+     "id": "re-final-quiz",
+     "text": "Final: knowledge quiz form B scored and compared",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-skills",
+     "text": "Final: skills self-rating compared",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-comps",
+     "text": "Comparables sheet with 20+ local listings and price per cent / per sq ft",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-fv",
+     "text": "Fair value compared with market prices for at least 3 properties",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-interviews",
+     "text": "Interview notes from 3 brokers and 1 document writer or advocate",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-docs",
+     "text": "Annotated sale deed, EC and rental agreement samples",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-dd",
+     "text": "A completed due-diligence checklist on a real or sample property",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-cost",
+     "text": "A full purchase cost calculation using current official rates",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-roi",
+     "text": "ROI analysis for 5 real properties",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-listing",
+     "text": "A real listing with the owner's written permission, live on free portals and social media",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-crm",
+     "text": "CRM sheet with every lead tracked",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-visit",
+     "text": "A real site visit conducted or shadowed",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-toolkit",
+     "text": "All toolkit templates adapted to your area",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-capstone",
+     "text": "Capstone: a first legal deal with written agreements, or an investment analysis plus business plan",
+     "kind": "task",
+     "week": 22
+    },
+    {
+     "id": "re-final-reflection",
+     "text": "Final reflection written: what you can do now and your next 12 months",
+     "kind": "exit",
+     "week": 22
+    }
+   ]
+  },
+  {
+   "id": "re-next",
+   "title": "What next: your 12-month roadmap",
+   "kind": "reference",
+   "summary": "A 12-month plan to grow from first deals to a small agency or specialist service, with free resources to go deeper.",
+   "content": "## The next 12 months\n\n| When | Focus | How |\n| --- | --- | --- |\n| Months 1–3 | Get to 10 active mandates or rental listings | Weekly market log, owner outreach, honest listings |\n| Months 1–3 | Register with K-RERA if your work requires it | RE-M10-L01; check current rules |\n| Months 3–6 | Close 2–4 rentals and 1 sale, or sign 3 NRI care clients | Written mandates, transaction timeline, CRM |\n| Months 6–9 | Build referral partners: an advocate, a surveyor, a CA, a document writer, two banks | RE-M11 and RE-M14 |\n| Months 9–12 | Decide: grow a small agency, specialise (NRI, rentals, land), or start a small investment | RE-M18 and RE-M20; keep an emergency fund first |\n| Every month | Update comparables and check one rule on an official source | Weekly market log |\n\n## Go deeper (free)\n\n- [MIT OCW Real Estate Finance and Investment](https://ocw.mit.edu/courses/11-431j-real-estate-finance-and-investment-fall-2006): lecture notes and problem sets (about 2 hours per topic).\n- [OpenStax Principles of Finance](https://openstax.org/books/principles-finance/pages/preface): chapters 7–9 on time value of money (about 2 hours each).\n- Other courses in this app: [Practical Entrepreneurship](https://naipunyam.github.io/vidhyarambham/#/course/entrepreneurship/ent-start) (in the Practical Entrepreneurship course) for business basics, [Social Media Marketing for local business](https://naipunyam.github.io/vidhyarambham/#/course/social-media-marketing/smm-m11) (in the Practical Social Media Marketing course), [Personal Finance investment options](https://naipunyam.github.io/vidhyarambham/#/course/personal-finance/fin-m09) (in the Practical Personal Finance for India course).\n\n## Stay legal\n\nLaws, rates and portals change. Before every deal, check stamp duty and fees, K-RERA rules and tax rules on official sources, and keep your advocate, surveyor and CA in the loop."
+  },
+  {
+   "id": "re-glossary",
+   "title": "Glossary with Malayalam terms",
+   "kind": "reference",
+   "summary": "55 key real estate and land-record terms in English and Malayalam.",
+   "content": "Key terms, including common Kerala land and document words. Local usage varies between districts and between older and newer documents; if your deeds use a different word, note it next to the entry.\n\n| English | മലയാളം (Malayalam) | Simple meaning |\n| --- | --- | --- |\n| **Cent** | സെന്റ് | One-hundredth of an acre, about 435.6 sq ft (40.47 sq m) |\n| **Are** | ആർ | 100 square metres, about 2.47 cents |\n| **Hectare** | ഹെക്ടർ | 100 ares, about 2.47 acres |\n| **Survey number** | സർവേ നമ്പർ | The number identifying a parcel in survey records |\n| **Resurvey number** | റീസർവേ നമ്പർ | The parcel number from the resurvey (block and number) |\n| **Thandaper** | തണ്ടപ്പേര് | The landholder's account number in village revenue records |\n| **Village office** | വില്ലേജ് ഓഫീസ് | The lowest revenue office, which keeps land records and issues certificates |\n| **Land tax** | ഭൂനികുതി / കരം | The annual tax on land paid to the Revenue Department |\n| **Possession certificate** | കൈവശ സർട്ടിഫിക്കറ്റ് | Village office certificate that a person is in possession of a property |\n| **Location certificate** | ലൊക്കേഷൻ സർട്ടിഫിക്കറ്റ് | Certificate of where a property is located |\n| **Ownership certificate** | ഉടമസ്ഥാവകാശ സർട്ടിഫിക്കറ്റ് | Local body certificate of who owns a building |\n| **Title deed** | ആധാരം | The registered document that transfers ownership |\n| **Prior deeds** | മുന്നാധാരങ്ങൾ | Earlier deeds showing how the property passed to the seller |\n| **Encumbrance certificate (EC)** | ബാധ്യതാ സർട്ടിഫിക്കറ്റ് (കുടിക്കട സർട്ടിഫിക്കറ്റ്) | Certificate listing registered transactions on a property for a period |\n| **Mutation** | പോക്കുവരവ് | Changing the owner's name in revenue records after a transfer |\n| **Sketch / FMB** | സ്കെച്ച് / എഫ്.എം.ബി. | Survey map of a parcel showing boundaries and measurements |\n| **Purayidam (dry land)** | പുരയിടം | Garden or dry land, generally usable for houses |\n| **Nilam (wet land / paddy land)** | നിലം | Paddy or wet land, protected by law |\n| **Data bank** | ഡാറ്റാ ബാങ്ക് | The official list of paddy and wetlands under the 2008 Act |\n| **Puramboke** | പുറമ്പോക്ക് | Government land not assigned to anyone (roadsides, river banks) |\n| **Pattayam** | പട്ടയം | A government grant of land to a person |\n| **Sub-Registrar Office (SRO)** | സബ് രജിസ്ട്രാർ ഓഫീസ് | The office where property documents are registered |\n| **Document writer** | ആധാരം എഴുത്തുകാരൻ | A licensed professional who drafts deeds |\n| **Stamp duty** | മുദ്രവില | Tax paid to the state on a document such as a sale deed |\n| **Registration fee** | രജിസ്ട്രേഷൻ ഫീസ് | Fee paid to register a document |\n| **Fair value** | ന്യായവില | The government-notified minimum land value used for stamp duty |\n| **Market value** | വിപണി വില | The price a willing buyer and seller agree on |\n| **Token advance** | ടോക്കൺ അഡ്വാൻസ് | A small first payment to hold a deal |\n| **Agreement for sale** | വിൽപ്പന കരാർ | A contract promising a future sale; does not transfer ownership |\n| **Sale deed** | വിലയാധാരം | The registered document transferring ownership for a price |\n| **Gift deed** | ദാനാധാരം | A registered transfer without payment |\n| **Settlement deed** | ഒഴിമുറി / ധനനിശ്ചയാധാരം | A registered transfer, usually within a family, with conditions |\n| **Partition deed** | ഭാഗപത്രം | A registered division of jointly owned property |\n| **Power of attorney** | മുക്ത്യാർ | A document authorising someone to act for another |\n| **Release deed** | ഒഴിവുകുറി | A document giving up a share or right in property |\n| **Mortgage** | പണയം | Property pledged as security for a loan |\n| **Building permit** | കെട്ടിട നിർമ്മാണ പെർമിറ്റ് | Local body permission to construct |\n| **Occupancy certificate** | ഒക്യുപൻസി സർട്ടിഫിക്കറ്റ് | Local body certificate that a building can be used |\n| **Building number** | കെട്ടിട നമ്പർ | The number a local body assigns to a building |\n| **Building tax** | കെട്ടിട നികുതി | The property tax on buildings paid to the local body |\n| **NOC** | നിരാക്ഷേപ പത്രം | No objection certificate from an authority |\n| **Access road** | വഴി | The road or path to the property; legal right of way matters |\n| **Encroachment** | കയ്യേറ്റം | Unlawful occupation of someone else's or government land |\n| **Commission / brokerage** | കമ്മീഷൻ / ബ്രോക്കറേജ് | The fee paid to an agent |\n| **Mandate** | അധികാരപത്രം | Written authority from an owner to market a property |\n| **Rental agreement** | വാടക കരാർ | Contract between landlord and tenant |\n| **Security deposit** | സുരക്ഷാ നിക്ഷേപം | Refundable money held by the landlord |\n| **Rental yield** | വാടക ആദായം | Annual rent as a percentage of the price |\n| **Capital gains** | മൂലധന നേട്ടം | Profit on selling a capital asset such as property |\n| **TDS** | ഉറവിടത്തിൽ നികുതി പിടിക്കൽ | Tax deducted at source by the buyer and paid to the government |\n| **Benami property** | ബിനാമി സ്വത്ത് | Property held in another person's name while someone else paid and benefits |\n| **Layout** | ലേഔട്ട് | A plan dividing land into plots with roads |\n| **CRZ** | തീരദേശ പരിപാലന മേഖല | Coastal Regulation Zone, where building is restricted |\n| **ESA** | പരിസ്ഥിതി ലോല പ്രദേശം | Ecologically sensitive area |\n| **REIT** | റിയൽ എസ്റ്റേറ്റ് നിക്ഷേപ ട്രസ്റ്റ് | A listed trust that owns income-producing property |"
+  },
+  {
+   "id": "re-sources",
+   "title": "Sources and verification log",
+   "kind": "reference",
+   "summary": "Every link in the course, where it is used and when it was checked.",
+   "content": "Every link in the course with where it is used and when it was checked (2026-11-04).\n\n- **verified:** the page was opened and matched what the course says.\n- **verified; check current rules:** the page was checked, but it describes something that changes (a rate, a fee, a rule, a portal).\n- **verified through a secondary source:** the figure was checked on a reputable secondary guide, not the official page. Confirm on the official source before relying on it.\n- **unverified:** the official site blocks automated checks (most Kerala Registration and Revenue portals do), or the address came only from a search. Type the address yourself and check you are on the real government site (it ends in **.gov.in**).\n\nNo law, section number, rate or statistic in this course was written from memory without a check; where a check wasn't possible the point is described in general terms and marked \"check current rules\".\n\n## Official Kerala and Government of India portals\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Kerala Real Estate Regulatory Authority (K-RERA): agent and project registration, complaints, project search](https://rera.kerala.gov.in/) | RE-M01-L01, RE-M01-L02, RE-M02-L01 | verified 2026-11-04; check current rules |\n| [Kerala State Disaster Management Authority: hazard maps (flood, landslide)](https://sdma.kerala.gov.in/hazard-maps/) | RE-M01-L02 | verified 2026-11-04 |\n\n## Laws, rules and court decisions\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Wikipedia: Real Estate (Regulation and Development) Act, 2016](https://en.wikipedia.org/wiki/Real_Estate_%28Regulation_and_Development%29_Act,_2016) | RE-M01-L01 | verified 2026-11-04 |\n\n## Secondary guides used to check rates and procedures\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Square Yards (updated July 2026): stamp duty and registration charges in Kerala](https://www.squareyards.com/blog/stamp-duty-and-registration-charges-in-kerala) | RE-M02-L02 | verified 2026-11-04 through a secondary source; check current rules |\n| [The Week (30 June 2021): SEBI cuts minimum application amount for REITs](https://www.theweek.in/news/biz-tech/2021/06/30/sebi-reduces-minimum-application-amount-for-reits-should-you-invest-now.html) | RE-M02-L02 | verified 2026-11-04 through a secondary source; check current rules |\n\n## Free courses and textbooks\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [MIT OpenCourseWare 11.431J Real Estate Finance and Investment (Geltner and McGrath, CC BY-NC-SA)](https://ocw.mit.edu/courses/11-431j-real-estate-finance-and-investment-fall-2006) | RE-M01-L02, RE-M02-L02, What next | verified 2026-11-04 |\n| [OpenStax, Principles of Finance (free, CC BY-NC-SA)](https://openstax.org/books/principles-finance/pages/preface) | What next | verified 2026-11-04 |\n\n## Free tools\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [QGIS: free and open-source GIS (GPL)](https://qgis.org/) | Week 0 | verified 2026-11-04 |\n\n## Property portals and marketing platforms\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [NoBroker: list your property for rent or sale (free for owners)](https://www.nobroker.in/list-your-property-for-rent-sale) | RE-M01-L01, RE-M02-L01 | verified 2026-11-04; check current rules |\n\n## Marked \"unverified\"\n\nNone.\n\n## Marked \"check current rules\"\n\n- [Kerala Real Estate Regulatory Authority (K-RERA): agent and project registration, complaints, project search](https://rera.kerala.gov.in/)\n- [NoBroker: list your property for rent or sale (free for owners)](https://www.nobroker.in/list-your-property-for-rent-sale)\n- [Square Yards (updated July 2026): stamp duty and registration charges in Kerala](https://www.squareyards.com/blog/stamp-duty-and-registration-charges-in-kerala)\n- [The Week (30 June 2021): SEBI cuts minimum application amount for REITs](https://www.theweek.in/news/biz-tech/2021/06/30/sebi-reduces-minimum-application-amount-for-reits-should-you-invest-now.html)"
+  }
+ ]
+}
