@@ -74,6 +74,7 @@ R = {
     'om-flat7': _r('Onmanorama (3 February 2023): Kerala Budget, stamp duty for flats sold within six months raised to 7%', 'https://www.onmanorama.com/news/business/2023/02/03/kerala-budget-flat-apartment-stamp-duy-land-fair-price.amp.html', 'v', G_SEC),
     'om-rera': _r('Onmanorama (January 2020): RERA norms in Kerala, registration thresholds and fees', 'https://www.onmanorama.com/news/kerala/2020/01/01/rera-real-estate-regulatory-authority-norms.html', 'vt', G_SEC),
     'tg-krera': _r('TaxGuru: Kerala RERA Rules, registration fees', 'https://taxguru.in/corporate-law/kerala-rera-rules-registration.html', 'vt', G_SEC),
+    'sy-krera': _r('Square Yards (updated 22 November 2024): RERA Kerala agent registration, Form G and documents', 'https://www.squareyards.com/blog/rera-kerala-rerat', 'vt', G_SEC),
     'om-czmp': _r('Onmanorama (24 September 2024): Centre approves Kerala\'s revised Coastal Zone Management Plan', 'https://www.onmanorama.com/news/kerala/2024/09/24/coastal-zone-management-plan-centre-approves-proposal-of-kerala.html', 'v', G_SEC),
     'air-esa': _r('All India Radio News (3 August 2024): fresh Western Ghats ESA draft notification', 'https://newsonair.gov.in/centre-issues-fresh-esa-draft-notification-for-western-ghats-across-six-states', 'v', G_SEC),
     'week-ksmart': _r('The Week (10 April 2025): K-SMART services rolled out across Kerala\'s panchayats', 'https://www.theweek.in/wire-updates/national/2025/04/10/mes7-kl-k-smart-panchayats.html', 'v', G_SEC),
