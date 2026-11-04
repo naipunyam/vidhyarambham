@@ -59,7 +59,7 @@ R = {
     'rent-act': _r('India Code: Kerala Buildings (Lease and Rent Control) Act, 1965 (PDF)', 'https://www.indiacode.nic.in/bitstream/123456789/20372/1/kerala_buildings_lease_and_rent_ctrl_act_1965.pdf', 'v', G_LAW),
     'klr-act': _r('India Code: Kerala Land Reforms Act, 1963 (PDF)', 'https://www.indiacode.nic.in/bitstream/123456789/15605/1/the_kerala_land_reforms_act%2C_1963_%28no.1_of_1964%29.pdf', 'v', G_LAW),
     'sc-paddy': _r('LiveLaw (February 2025): Supreme Court on Paddy Land Act conversion fee above 25 cents (State of Kerala v. Moushmi Ann Jacob)', 'https://www.livelaw.in/amp/supreme-court/kerala-paddy-land-act-no-exemption-from-conversion-fee-if-land-exceeds-25-cents-supreme-court-284584', 'v', G_LAW),
-    'wp-rera': _r('Wikipedia: Real Estate (Regulation and Development) Act, 2016', 'https://en.wikipedia.org/wiki/Real_Estate_(Regulation_and_Development)_Act,_2016', 'v', G_LAW),
+    'wp-rera': _r('Wikipedia: Real Estate (Regulation and Development) Act, 2016', 'https://en.wikipedia.org/wiki/Real_Estate_%28Regulation_and_Development%29_Act,_2016', 'v', G_LAW),
     'wp-landreform': _r('Wikipedia: Land reform in Kerala', 'https://en.wikipedia.org/wiki/Land_reform_in_Kerala', 'v', G_LAW),
     'reg-act': _r('iPleaders: compulsory registration under Section 17 of the Registration Act, 1908, and the effect of non-registration', 'https://blog.ipleaders.in/registration-of-documents-and-consequences-of-non-registration-under-section-17-of-the-registration-act-l908/', 'v', G_LAW),
 
