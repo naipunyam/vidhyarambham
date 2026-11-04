@@ -357,7 +357,7 @@ L5 = lesson(
 - **Advance:** the Act allows a landlord to take an advance of **up to one month's rent** (section 8). In practice, large deposits (several months, or "lease" deals with big lump sums) are common in Kerala; tell clients the law's limit and send disputes to an advocate.
 - **Eviction:** a landlord can evict a tenant only through the Rent Control Court on grounds listed in **section 11** (for example non-payment of rent, subletting without consent, damage, the landlord's own bona fide need). Cutting water or electricity, or locking out a tenant, is not allowed.
 - **Rental agreements:** leases over one year must be registered (Registration Act, RE-M04-L01). Many owners use 11-month agreements; these still need proper stamping (RE-M05-L03).
-- A new central Model Tenancy Act (2021) is a model law for states; Kerala has not replaced the 1965 Act at the time of writing ({CHECK}).
+- The Centre published a Model Tenancy Act (2021) as a model law for states; whether Kerala has adopted anything based on it is unverified in this course, so treat the 1965 Act as the law and {CHECK}.
 
 **Benami Transactions (Prohibition) Amendment Act, 2016.** A benami transaction is buying property in someone else's name while the real buyer pays and benefits (for example to hide black money). It is illegal; penalties include **rigorous imprisonment of 1 to 7 years and a fine up to 25% of the fair market value**, and the property can be confiscated ({link('bb-benami', 'BankBazaar explainer')}). Buying in a spouse's or child's name using known, taxed income is **not** benami. A broker who knowingly helps arrange a benami deal is at risk too.
 
