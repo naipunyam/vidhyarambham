@@ -1,0 +1,844 @@
+{
+ "format": "vidhyarambham-course",
+ "formatVersion": 1,
+ "id": "mind-body-people",
+ "version": 1,
+ "title": "Mind, Body and People: Win Over Yourself and Others",
+ "summary": "A practical, evidence-based personal development and everyday-psychology course in five parts: understand your mind, master yourself, strengthen your body, win with people ethically, and character and purpose. Real-world tasks with proof in every lesson; baseline tests repeated at the end; 30-day meditation, journaling, rejection-therapy and fitness challenges; honest evidence ratings, including what failed to replicate. Free resources only. Part-time: 30 weeks at about 5 to 6 hours a week. Full-time: about 13 weeks.",
+ "language": "en",
+ "updated": "2026-11-04",
+ "totalWeeks": 30,
+ "paces": [
+  {
+   "id": "part-time",
+   "label": "Part-time",
+   "hoursPerWeek": 6,
+   "weekLength": 1,
+   "note": "Alongside PSC study or a job: 30 weeks at about 5 to 6 study hours a week, plus 10 to 40 minutes a day of practice"
+  },
+  {
+   "id": "full-time",
+   "label": "Full-time",
+   "hoursPerWeek": 15,
+   "weekLength": 0.4,
+   "note": "About 13 calendar weeks at about 15 hours a week. The 30-day challenges still take 30 real days; see the weekly schedule."
+  }
+ ],
+ "sections": [
+  {
+   "id": "pd-start",
+   "title": "Start here: Mind, Body and People",
+   "kind": "intro",
+   "summary": "What the course covers, how it works, how strong the evidence is, the safety rules and the course map. 36 modules, 80 lessons, 30 weeks part-time.",
+   "content": "## What this course is\n\nA practical, evidence-based course in everyday psychology, self-mastery, health and people skills, built for one learner: a 30-year-old near Kuttiady, Kozhikode, preparing for Kerala PSC exams, with an Android phone, an old laptop, no gym and a budget of ₹0. Every lesson ends with something you **do** in real life, and a piece of **proof** you keep: a log entry, a recording, a tracker screenshot. Over 30 weeks you build a **personal operating system**: morning and evening routines, a weekly review, a 12-month growth plan and a one-page **Personal Playbook**.\n\n## What you will be able to do\n\n- Explain how your mind really works (fast and slow thinking, shortcuts, emotions) and catch your own thinking traps.\n- Read a psychology claim and judge it: experiment or correlation, sample size, replicated or not.\n- Run daily habits that stick: a habit tracker, a weekly reflection, a meditation and journaling practice, a home workout and a sleep routine.\n- Handle stress, failure and strong emotions with tested tools (thought records, reappraisal, self-compassion, Stoic exercises), and know when to get professional help.\n- Act with more courage: a fear ladder, 30 days of rejection therapy, speaking up, a 5-minute talk to a real audience in English or Malayalam.\n- Connect with people: listen, ask follow-up questions, remember names, give real praise and honest feedback, say no, negotiate and lead a small group.\n- Influence people **honestly**, and recognise and resist manipulation: high-pressure sales, scams, MLM, gaslighting, emotional blackmail and dark patterns.\n- Measure yourself: the same baseline tests at the start and the end show what changed.\n\n## Duration\n\n- **36 modules, 80 lessons**, in five parts. Lessons take 10 to 25 minutes to read plus a real-world task.\n- **Part-time:** 30 weeks at about 5 to 6 study hours a week (about 140 hours in all), alongside PSC preparation. Daily practices add 10 to 40 minutes a day on top, but they replace things you would do anyway (exercise, winding down) and they are the point of the course.\n- **Full-time:** about 13 calendar weeks at about 15 hours a week. The 30-day challenges still take 30 real days each; the **Weekly schedule** page shows how they overlap.\n\n## The five parts\n\nEach part works on its own: its part page tells you the minimum setup and baseline tests you need if you start there.\n\n| Part | Modules | Part-time weeks | Study time |\n| --- | --- | --- | --- |\n| **A: Understand your mind** | Modules 1–4 | 1–3 | about 12 h |\n| **B: Master yourself** | Modules 5–16 | 4–11 | about 39 h |\n| **C: Strengthen your body** | Modules 17–23 | 12–14 | about 16 h |\n| **D: Win with people (ethically)** | Modules 24–33 | 15–22 | about 37 h |\n| **E: Character and purpose** | Modules 34–36 | 23–29 | about 22 h |\n\n## How every lesson works\n\nPsychology lessons follow one flow: **the principle in one line → the science (the key study, explained honestly) → how strong the evidence is → an everyday Kerala example → how to use it on yourself or with others → an action task with proof**. Health and skills lessons follow the same shape. Each lesson also has free resources (with exactly what to study and how long), a copy-ready template, common mistakes, a 3 to 5 question quiz with answers, and a progress checklist. Each module has a project, a self-assessment rubric, a \"short on time\" version, revision flashcards and lines to add to your Personal Playbook.\n\n## How strong is the evidence?\n\nEvery principle gets a rating. **Strong:** many studies, including large or real-world ones, agree. **Moderate:** good studies, but fewer, smaller effects or some mixed results. **Mixed or weak:** small, indirect or conflicting studies; treat it as a hypothesis. **Failed to replicate or myth:** tested properly and not supported, or never tested at all. **Practical tool:** a sensible method with little direct research of its own; judge it by your own data.\n\nPsychology has had a **replication crisis** (PD-M02-L02): many famous findings shrank or vanished when other labs repeated them. This course tells you which ones. You will see, for example, that **power posing** does not change hormones, that **strong ego-depletion claims** failed large replications, that **learning styles** have no support, that habits do not form in \"21 days\" (a median of about 66 days, with a wide range, in the best-known study), and that **MBTI-style type tests** are unreliable.\n\n## Ethics: influence yes, manipulation no\n\nPart D teaches influence and persuasion only for honest, mutually beneficial use: the request must be true, good for the other person too, and easy to refuse. Manipulation and \"dark psychology\" tactics are covered only so you can **recognise and resist** them (Module 32). Rejection therapy has strict safety and respect rules (PD-M14-L02).\n\n## Safety\n\n**This course is not therapy and not medical care.** It teaches everyday psychology and healthy habits. It cannot diagnose or treat anything. Talk to a doctor or a mental health professional if, for two weeks or more, low mood, worry, sleep problems or loss of interest are stopping you from studying, working or enjoying things; if you have thoughts of harming yourself; or if you use alcohol, tobacco or other substances to cope. In India you can call **Tele-MANAS on 14416 or 1-800-89-14416** (toll-free, 24 hours, in the language you choose; [checked 2026-11-04](https://ehrc.iiitb.ac.in/project/tele-manas)). In an emergency, call 112 or go to the nearest hospital.\n\n**Before the fitness modules,** see a doctor first if you have heart, lung, joint or blood-pressure problems, diabetes, a recent injury or surgery, are pregnant, or get chest pain, dizziness or unusual breathlessness when active.\n\n## Key assumptions made for this course\n\n- No Personal Development or Practical Psychology course existed in the app, so this is a new course. Its lesson IDs (PD-M01-L01 and so on) will not change.\n- Rejection therapy has its own module (Module 14) after Confidence and courage, so the 35 topics in the brief become 36 modules, with the capstone as Module 36.\n- Topics already taught in depth in other courses in this app are cross-referenced instead of repeated: procrastination, focus and exam anxiety in [Practical Learning Capabilities](https://naipunyam.github.io/vidhyarambham/#/course/learning-capabilities/lrn-m06) (in the Practical Learning Capabilities course); money psychology and scams in [Practical Personal Finance](https://naipunyam.github.io/vidhyarambham/#/course/personal-finance/fin-m15) (in the Practical Personal Finance for India course); selling in [Practical Entrepreneurship](https://naipunyam.github.io/vidhyarambham/#/course/entrepreneurship/ent-m07) (in the Practical Entrepreneurship course).\n- Notes and proof are kept in **Joplin** (free and open source) in a notebook called **Playbook**, with one sub-notebook per module. Any notes app or a paper notebook works too.\n- All examples and characters (Anu, Ashiq, Sreeja, Joseph sir and others) are fictional.\n\n## The course map\n\n| Module | What it covers | What you build |\n| --- | --- | --- |\n| M01 | System 1 and System 2, heuristics, emotion and reason | A \"think slower\" checklist |\n| M02 | Experiments, correlations, sample size, replication crisis, pop psychology | A claim-checker card |\n| M03 | Seven biases, CBT distortions, debiasing, the bias journal | Two weeks of bias journal |\n| M04 | Uncertainty, base rates, pre-mortems, choice overload, regret | A decision sheet for a real choice |\n| M05 | Values, life wheel, Big Five, VIA strengths, limits of MBTI | Your self-awareness profile |\n| M06 | Self-determination theory, intrinsic and extrinsic motivation, goal-setting, progress principle | A motivation redesign of one goal |\n| M07 | Vision, 12-month plan, weekly planning and review | Your 12-month plan, version 1 |\n| M08 | Present bias, commitment devices, environment design, habit loop, if-then plans, tiny habits, identity, procrastination | A two-week personal experiment with data |\n| M09 | Growth mindset (honest evidence), limiting beliefs, self-compassion | A self-talk rewrite |\n| M10 | Emotions, negativity bias, labelling, reappraisal, empathy | An emotion log and reappraisal practice |\n| M11 | Stress response, when to get help, thought records, Stoic practices, failure | Two weeks of thought records |\n| M12 | Meditation, breathwork, journaling, gratitude | 30-day meditation and journaling challenges |\n| M13 | Self-efficacy, spotlight effect, impostor feelings, fear ladders | Your personal fear ladder |\n| M14 | Rejection therapy: psychology, rules, 30-step ladder, 30-day challenge, comfort-zone challenges | 30-day rejection challenge |\n| M15 | Hedonic adaptation, social comparison, money, meaning, flow | A happiness experiment |\n| M16 | Attention economy, phone plan, digital-detox day | A phone plan and a detox day |\n| M17 | Safety, warm-ups, bodyweight strength, cardio, mobility | 30-day fitness challenge |\n| M18 | The Common Yoga Protocol | A safe 20-minute yoga routine |\n| M19 | Sleep science and your sleep plan | A 2-week sleep plan with a log |\n| M20 | The ICMR plate in Kerala meals, protein on a budget, food myths | A week of balanced plates |\n| M21 | Phone and laptop ergonomics, eye care | Your study-space fix |\n| M22 | Check-ups, hydration, tobacco and alcohol | A personal prevention plan |\n| M23 | Hygiene, grooming, dressing well on a budget | A grooming routine and a budget wardrobe |\n| M24 | First impressions, warmth and competence, halo, attribution error, stereotypes | Field notes on first impressions |\n| M25 | Similarity, familiarity, conversation, listening, names, praise | 14 days of conversation challenges |\n| M26 | Storytelling, assertiveness, saying no, NVC, feedback, difficult conversations | One real piece of feedback given |\n| M27 | Talk structure, voice, body language, nerves, etiquette, English and Malayalam | A 5-minute talk to a real audience |\n| M28 | Seven principles of influence, framing, ethics | The persuasion lab |\n| M29 | Interests, BATNA, anchoring, win-win | A real small negotiation |\n| M30 | Conformity, obedience, groupthink, loafing, bystander effect, trust, leading | Field notes and a led group task |\n| M31 | Friendships, family, conflict, lasting relationships, networking | A relationship map and 5 outreach messages |\n| M32 | High-pressure sales, MLM, scams, dark patterns, gaslighting, emotional blackmail | A manipulation-spotting file |\n| M33 | Sales and marketing psychology, interviews, exam nerves | A mock PSC interview, recorded |\n| M34 | Integrity, responsibility, humility, humour | A character audit |\n| M35 | Meaning, volunteering, giving back | A contribution project |\n| M36 | Behaviour-change project, social-skills project, personal operating system | Your one-page Personal Playbook |\n\n## Start here\n\n1. Read the **Weekly schedule** page.\n2. Do **Week 0: setup** (about 1 hour) and the **Baseline tests** (spread over 7 days: the sleep log and heart rate need a week).\n3. Start Module 1 in week 1, and the **daily system track** (habit tracker and Sunday reflection) at the same time."
+  },
+  {
+   "id": "pd-schedule",
+   "title": "Weekly schedule: part-time and full-time",
+   "kind": "reference",
+   "summary": "Week-by-week plan: 30 weeks part-time at about 5 to 6 hours, or about 13 weeks full-time, with daily practice minutes shown.",
+   "content": "The app's **This week** view follows the part-time schedule. If you study full-time, switch the pace to **Full-time** on the course page: one course week then becomes about 2.8 days.\n\n## Part-time schedule (about 5 to 6 study hours a week)\n\n\"Daily minutes\" is the time for daily practices (tracker, journal, meditation, the rejection request, workouts), added gradually so no week is a shock. Catch-up weeks fall where a new part starts; use them to finish projects or rest.\n\n| Week | Lessons and projects | Study hours | Daily minutes |\n| --- | --- | --- | --- |\n| 0 | Week 0: setup and baseline tests | 3.0 | — |\n| 1 | **Part A starts.** PD-M01-L01, PD-M01-L02, M01 project, PD-M02-L01, PD-M02-L02, M02 project | 5.8 | 10 |\n| 2 | PD-M03-L01, PD-M03-L02, PD-M03-L03, M03 project, PD-M04-L01 | 5.6 | 15 |\n| 3 | PD-M04-L02, M04 project | 2.1 | 15 |\n| 4 | **Part B starts.** PD-M05-L01, PD-M05-L02, M05 project, PD-M06-L01, PD-M06-L02 | 5.3 | 10 |\n| 5 | M06 project, PD-M07-L01, PD-M07-L02, M07 project, PD-M08-L01 | 5.1 | 10 |\n| 6 | PD-M08-L02, PD-M08-L03, PD-M08-L04, M08 project, PD-M09-L01 | 5.6 | 10 |\n| 7 | PD-M09-L02, M09 project, PD-M10-L01, PD-M10-L02, M10 project, PD-M11-L01 | 5.8 | 10 |\n| 8 | PD-M11-L02, PD-M11-L03, M11 project, PD-M12-L01, PD-M12-L02 | 5.3 | 25 |\n| 9 | M12 project, PD-M13-L01, PD-M13-L02, M13 project, PD-M14-L01 | 4.8 | 25 |\n| 10 | PD-M14-L02, PD-M14-L03, M14 project, PD-M15-L01, PD-M15-L02 | 5.6 | 30 |\n| 11 | M15 project, PD-M16-L01, PD-M16-L02, M16 project | 3.8 | 30 |\n| 12 | **Part C starts.** PD-M17-L01, PD-M17-L02, PD-M17-L03, M17 project, PD-M18-L01 | 5.8 | 55 |\n| 13 | M18 project, PD-M19-L01, PD-M19-L02, M19 project, PD-M20-L01, PD-M20-L02 | 5.6 | 55 |\n| 14 | M20 project, PD-M21-L01, M21 project, PD-M22-L01, M22 project, PD-M23-L01, M23 project | 5.6 | 55 |\n| 15 | **Part D starts.** PD-M24-L01, PD-M24-L02, M24 project, PD-M25-L01, PD-M25-L02 | 5.3 | 55 |\n| 16 | PD-M25-L03, M25 project, PD-M26-L01, PD-M26-L02, PD-M26-L03 | 5.6 | 55 |\n| 17 | M26 project, PD-M27-L01, PD-M27-L02, PD-M27-L03, M27 project | 5.8 | 55 |\n| 18 | PD-M28-L01, PD-M28-L02, M28 project, PD-M29-L01, PD-M29-L02 | 5.6 | 55 |\n| 19 | M29 project, PD-M30-L01, PD-M30-L02, PD-M30-L03, M30 project | 5.3 | 55 |\n| 20 | PD-M31-L01, PD-M31-L02, PD-M31-L03, M31 project, PD-M32-L01 | 5.3 | 55 |\n| 21 | PD-M32-L02, PD-M32-L03, M32 project, PD-M33-L01, PD-M33-L02 | 5.8 | 55 |\n| 22 | M33 project | 1.1 | 55 |\n| 23 | **Part E starts.** PD-M34-L01, PD-M34-L02, M34 project, PD-M35-L01, M35 project | 4.8 | 55 |\n| 24 | PD-M36-L01 | 1.8 | 55 |\n| 25 | PD-M36-L02 (weeks 25–29) | 2.8 | 55 |\n| 26 | PD-M36-L02 (weeks 25–29) | 2.8 | 55 |\n| 27 | PD-M36-L02 (weeks 25–29) | 2.8 | 55 |\n| 28 | PD-M36-L02 (weeks 25–29) | 2.8 | 55 |\n| 29 | PD-M36-L02 (weeks 25–29), PD-M36-L03, M36 project | 5.8 | 55 |\n| 30 | final retest and checklist | 1.8 | 55 |\n\n## A typical part-time week\n\n- **Weekdays:** one lesson on two or three evenings (25 minutes of reading, then the task over the next days), after PSC study.\n- **Every day:** the habit tracker, plus whichever daily practice is running.\n- **Saturday:** the module project or a real-world task (a conversation, a negotiation, a talk).\n- **Sunday:** the 20-minute **weekly reflection**, with a 1 to 2 minute recording (English and Malayalam on alternate weeks).\n\n## Full-time schedule (about 15 hours a week)\n\n| Calendar week | Course weeks | Modules | Notes |\n| --- | --- | --- | --- |\n| 1 | 0–2 | M01, M02, M03, M04 | Week 0 setup and the baseline (the sleep log and resting heart rate need 7 days; start them on day 1 and keep going while you study Part A). |\n| 2 | 3–4 | M04, M05, M06 |  |\n| 3 | 5–7 | M06, M07, M08, M09, M10, M11 | Bias journal (2 weeks) and the personal experiment (2 weeks) run in real days alongside the modules. |\n| 4 | 8–9 | M11, M12, M13, M14 | The 30-day meditation and journaling challenges start; they run in real days to about calendar week 8. |\n| 5 | 10–12 | M14, M15, M16, M17, M18 | The 30-day rejection challenge starts (real days, to about week 9). Part C starts: the 30-day fitness challenge begins. |\n| 6 | 13–14 | M18, M19, M20, M21, M22, M23 |  |\n| 7 | 15–17 | M24, M25, M26, M27 |  |\n| 8 | 18–19 | M28, M29, M30 | Part D: do the conversation challenges for 14 real days; give the 5-minute talk when an audience is available. |\n| 9 | 20–22 | M31, M32, M33 |  |\n| 10 | 23–24 | M34, M35, M36 | Start the 30-day capstone as soon as you finish M36-L01. It needs a real month. |\n| 11 | 25–27 | M36 |  |\n| 12 | 28–29 | M36 |  |\n| 13 | 30–30 | — |  |\n\n## If you fall behind\n\nSkip nothing that builds a habit; shrink it instead (the \"short on time\" box in every module). Missing a week is normal: do the weekly reflection, pick up where you stopped, and never try to do two weeks of daily practices in one day."
+  },
+  {
+   "id": "pd-setup",
+   "title": "Week 0: free tool setup",
+   "kind": "setup",
+   "weeks": [
+    0,
+    0
+   ],
+   "hours": 1.0,
+   "summary": "Install Loop, Joplin and (later) Medito, make your Playbook notebook and recordings folder, and choose your weekly time slots. About one hour.",
+   "content": "About one hour. Everything is free; open-source apps are preferred.\n\n## The free tool stack\n\n| Tool | What it is for | Cost and licence | Status |\n| --- | --- | --- | --- |\n| [Loop Habit Tracker](https://loophabits.org/) | The daily habit tracker for the whole course | Free, open source (GPLv3) | verified 2026-11-03 |\n| [Medito](https://meditofoundation.org/) | Guided meditation for the 30-day challenge | Free, from a non-profit; open source | verified 2026-11-04 |\n| [Joplin](https://joplinapp.org/) | Your Playbook notebook: notes, logs, photos of proof | Free, open source | verified 2026-11-03 |\n| [Android Digital Wellbeing](https://support.google.com/android/answer/9346420?hl=en) | Screen-time numbers for the baseline and Module 16 | Built into most Android phones | verified 2026-11-04; check current rules |\n| Your phone's voice recorder and camera | Weekly speaking recordings, proof photos | Already on your phone | — |\n| A notebook and pen | Journal, thought records, paper backup of everything | About ₹30, or one you have | — |\n\n## Steps\n\n1. **Install Loop Habit Tracker.** Add the five starter habits from the **Daily system track** page, each with a reminder time.\n2. **Install Joplin** (phone, and laptop if it runs). Create a notebook called **Playbook** with sub-notebooks: 00 Baseline, 01 How the mind works, 02 Reading psychology research, 03 Thinking traps … 36 Capstone: your personal operating system. Make a note called **Personal Playbook** inside it (it grows module by module) and a note called **Proof index** (one line per piece of proof: date, task code, where it is).\n3. **Install Medito** now or in Module 12.\n4. **Open Digital Wellbeing** (Settings > Digital Wellbeing and parental controls) and check that it is recording screen time. Names and steps vary by phone.\n5. **Make a recordings folder** on your phone (for example, Recordings/Playbook). Name files like `2026-11-15 week01 EN.m4a`.\n6. **Pick your time slots:** the 20-minute Sunday reflection, two or three lesson evenings, and a 10-minute evening slot for the tracker and journal.\n7. **Tell one person** (a friend, sibling or study partner) what you are doing and ask them to ask you about it every Sunday. Social commitment helps (PD-M08-L01).\n\n**Low-spec laptop?** You do not need the laptop at all. Everything works on the phone; Joplin can sync to a free account or just stay on the phone (back it up monthly with Joplin's export).",
+   "tasks": [
+    {
+     "id": "pd-setup-loop",
+     "text": "Loop Habit Tracker installed with five starter habits and reminders",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-setup-joplin",
+     "text": "Joplin Playbook notebook made, with the Personal Playbook and Proof index notes",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-setup-recorder",
+     "text": "Recordings folder made and a 30-second test recording saved",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-setup-slots",
+     "text": "Weekly time slots written down, and one person told",
+     "kind": "task",
+     "week": 0
+    }
+   ]
+  },
+  {
+   "id": "pd-baseline",
+   "title": "Baseline tests: measure where you start",
+   "kind": "setup",
+   "weeks": [
+    0,
+    1
+   ],
+   "hours": 2.0,
+   "summary": "Life wheel, Big Five, VIA strengths, five fitness tests, a 7-day sleep log, screen time, self-ratings for confidence, social confidence and listening, and a 10-question thinking-traps quiz. You repeat all of them at the end.",
+   "content": "Take every test now, in week 0, on a normal week, and write the results in a note called **Baseline A** in your Playbook notebook (00 Baseline). Be honest; nobody else sees these numbers. The point is to measure change, not to score high.\n\n## 1. Life wheel (5 minutes)\n\nScore each area of your life from 1 (very unhappy with it) to 10 (couldn't be better). Draw it as a wheel with eight spokes if you like; low spokes show where the wheel is \"flat\".\n\n| Area | What it includes | Score 1–10 |\n| --- | --- | --- |\n| Health and fitness | energy, strength, sleep, food |  |\n| Mind and emotions | calm, mood, handling stress |  |\n| Learning and career | PSC preparation, skills, work |  |\n| Money | income, savings, control over spending |  |\n| Family | relationships at home |  |\n| Friends and social life | people you can call, new connections |  |\n| Fun and rest | hobbies, play, real breaks |  |\n| Purpose and contribution | meaning, helping others, community |  |\n\n## 2. Big Five personality (10 minutes)\n\nTake the free [IPIP Big Five Factor Markers test](https://openpsychometrics.org/tests/IPIP-BFFM/) (50 statements, 3 to 8 minutes; educational use only). Write down your five percentile scores: Extraversion, Agreeableness, Conscientiousness, Emotional stability, Openness (Intellect/Imagination). Traits change slowly; at the end of the course expect small shifts at most, mainly in conscientiousness and emotional stability. Lesson PD-M05-L02 explains what the scores mean and don't mean.\n\n## 3. VIA character strengths (15 minutes)\n\nTake the free [VIA character strengths survey](https://www.viacharacter.org/) (about 12 minutes). Write down your top five strengths in order. (The site offers paid reports; you don't need them.)\n\n## 4. Fitness tests (30 minutes, plus heart rate on 3 mornings)\n\nRead the safety box on **Start here** first. Warm up for 5 minutes (march on the spot, arm circles, gentle squats). Rest 3 to 5 minutes between tests. Stop if anything hurts sharply.\n\n| Test | How to do it safely | Unit | Result |\n| --- | --- | --- | --- |\n| Push-ups | Full push-ups on the floor, or from the knees if you cannot do 5 full ones. Body straight from head to knees or heels, chest to a fist's height from the floor, arms fully straight at the top. Count clean reps until form breaks. Write which version you did and use the same version at the end. | reps |  |\n| Plank hold | Forearms under shoulders, body in a straight line, squeeze your seat. Time it until your hips sag or lift. Stop at 3 minutes at most. | seconds |  |\n| 1 km walk or walk-run | A flat, safe 1 km route (a marked km stone, a school ground, or measured with a maps app). Brisk walk, or walk-run if you already run. Time it. | minutes:seconds |  |\n| Resting heart rate | In the morning before tea or coffee, sit quietly for 5 minutes, find the pulse at your wrist or neck and count for 30 seconds, then double it. Do it on 3 mornings and take the average. | beats per minute |  |\n| Sit and reach | Sit on the floor, legs straight, feet against a wall or step. Reach forward slowly with both hands, no bouncing. Measure with a ruler or tape from fingertips to toes: minus if short of the toes, plus if past them. | centimetres |  |\n\n## 5. One-week sleep log (1 minute each morning for 7 days)\n\nUse this log every morning for 7 days. Write the averages at the bottom.\n\n```\n7-DAY SLEEP LOG (fill in each morning, takes 1 minute)\nDay | Into bed | Lights out | Minutes to fall asleep (guess) | Times awake | Got up | Total sleep (h) | Quality (1-5) | Caffeine after 2 pm? | Screen in last 30 min? | Daytime nap?\nAverage total sleep: ___ h  Average quality: ___  Latest lights-out: ___\n```\n\n## 6. Screen time (2 minutes, after 7 days)\n\nIn Digital Wellbeing, write down your **daily average screen time** for the last 7 days, the **number of unlocks** per day, and your **top 3 apps** by time.\n\n## 7. Self-ratings (5 minutes)\n\nRate each statement 1 to 5. Add up each scale (5 to 25).\n\n| Scale | Statement (rate 1 = not at all like me, 5 = very like me) | Start | End |\n| --- | --- | --- | --- |\n| Confidence | When I set myself a hard task, I believe I can do it if I keep working. |  |  |\n|  | I try new things even when I might fail at first. |  |  |\n|  | I can say what I think in a group without rehearsing it many times. |  |  |\n|  | A setback or a \"no\" does not ruin my week. |  |  |\n|  | I feel comfortable being seen by others (on video, on a stage, in a shop). |  |  |\n| Social confidence | I can start a conversation with a stranger (a shopkeeper, a person at a bus stop). |  |  |\n|  | I can keep a conversation going for five minutes with someone new. |  |  |\n|  | I can ask for help, advice or a discount without much fear. |  |  |\n|  | I can say no to a friend or relative politely and clearly. |  |  |\n|  | I have at least three people I could call if I needed help. |  |  |\n| Listening | I let people finish their sentences before I reply. |  |  |\n|  | I ask follow-up questions about what people tell me. |  |  |\n|  | I can sum up what someone said to their satisfaction. |  |  |\n|  | I remember the names of people I meet. |  |  |\n|  | People tell me things they do not tell others. |  |  |\n\n## 8. Thinking-traps quiz, form A (10 minutes)\n\nAnswer quickly, the way you normally would; don't look anything up. Score 1 per correct answer, out of 10. The answers are under the questions: cover them first.\n\n1. A pen and a notebook cost Rs 110 together. The notebook costs Rs 100 more than the pen. How much does the pen cost?\n    - A) Rs 15\n    - B) Rs 5\n    - C) Rs 10\n    - D) Rs 1\n2. Ravi from Kozhikode district is quiet, loves books and keeps everything in order. Which is he more likely to be?\n    - A) Both are equally likely\n    - B) A librarian\n    - C) A farmer or farm worker\n    - D) Impossible to say anything\n3. Meera studied economics and was active in her college union. Which is more probable?\n    - A) Meera works in a bank\n    - B) Meera works in a bank and is active in a trade union\n    - C) The second, because it fits her better\n    - D) Both are equally probable\n4. You paid Rs 300 for a film ticket. After 30 minutes the film is awful and you have a headache. What is the sensible way to decide whether to stay?\n    - A) Stay only if the ticket cost more than Rs 200\n    - B) Ignore the Rs 300 and ask whether the next 90 minutes are worth more than what else you could do\n    - C) Stay, or the Rs 300 is wasted\n    - D) Leave only if friends leave first\n5. The last three times you planned to finish a PSC topic \"in one week\", it took about two weeks. How long should you plan for the next similar topic?\n    - A) Four days, to push yourself\n    - B) About two weeks, based on your record\n    - C) One week, because this time you will focus harder\n    - D) You cannot plan at all\n6. A coach shouts at players after their worst match and praises them after their best. Next match, the shouted-at players improve and the praised ones do worse. What is the most likely reason?\n    - A) Shouting works better than praise\n    - B) Unusually good or bad results tend to be followed by more ordinary ones anyway\n    - C) The players were trying to upset the coach\n    - D) Praise makes people lazy\n7. A survey finds that people who drink tea at a tea shop every day have more friends. What does this show?\n    - A) Tea makes people friendly\n    - B) Nothing, because surveys are always wrong\n    - C) Having friends makes people drink tea\n    - D) Tea-shop visits and friendships go together; it does not show that one causes the other\n8. A fair coin has landed heads five times in a row. What is the chance of heads on the next toss?\n    - A) More than 50%, because heads is on a streak\n    - B) Exactly 1 in 32\n    - C) Less than 50%, because tails is due\n    - D) 50%\n9. A TV channel shows three house fires in Kozhikode this week. Your aunt says house fires are now very common. What should you check first?\n    - A) How many people shared the news on WhatsApp\n    - B) How many house fires happen in a normal year, from official or long-term figures\n    - C) Whether the videos looked real\n    - D) Nothing: three fires in a week proves it\n10. A shop shows \"MRP Rs 4,999, today Rs 1,999\" on a pair of earphones. What is the best way to judge the price?\n    - A) Buy now, because \"today\" means it ends tonight\n    - B) Rs 3,000 off is a great deal\n    - C) Compare the Rs 1,999 with what other shops and sites charge for the same model\n    - D) Higher MRP means better quality\n\n### Answers, form A\n\n1. **B.** Rs 5 (the notebook is Rs 105). The quick answer, Rs 10, comes from fast thinking: then the notebook would cost Rs 110 and the total Rs 120. Trap: answering before checking (PD-M01-L01).\n2. **C.** There are far more people in farming than librarians, so even if quiet book-lovers are more common among librarians, a random quiet book-lover is still more likely to farm. Trap: ignoring base rates (the representativeness heuristic, PD-M01-L02).\n3. **A.** Two things being true together can never be more likely than one of them alone. The second sounds more like her, which is the trap (the conjunction fallacy, PD-M01-L02).\n4. **B.** The Rs 300 is spent whether you stay or leave. Only future costs and benefits matter. Trap: the sunk-cost fallacy (PD-M03-L01).\n5. **B.** Your own track record (the outside view) is a better guide than your hopes for this time. Trap: the planning fallacy (PD-M03-L01).\n6. **B.** Extreme results are partly luck, so the next result is usually closer to average whatever the coach does. This is regression to the mean (PD-M02-L01).\n7. **D.** A correlation can come from a third factor (sociable people visit tea shops and make friends) or run either way. Trap: treating correlation as causation (PD-M02-L01).\n8. **D.** The coin has no memory: still 50%. Trap: the gambler's fallacy (PD-M01-L02).\n9. **B.** Vivid recent stories make events feel common. Only base figures over time tell you if they are. Trap: the availability heuristic (PD-M03-L01).\n10. **C.** The MRP is a number the seller chose; it anchors your sense of value. Real comparison prices are the only fair test. Traps: anchoring and false urgency (PD-M03-L01, PD-M32-L02).",
+   "tasks": [
+    {
+     "id": "pd-base-wheel",
+     "text": "Baseline: life wheel scored",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-big5",
+     "text": "Baseline: Big Five percentiles recorded",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-via",
+     "text": "Baseline: VIA top five recorded",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-fitness",
+     "text": "Baseline: five fitness tests done and recorded",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-sleep",
+     "text": "Baseline: 7-day sleep log done, averages written",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-screen",
+     "text": "Baseline: screen time, unlocks and top 3 apps recorded",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-ratings",
+     "text": "Baseline: three self-rating scales totalled",
+     "kind": "task",
+     "week": 0
+    },
+    {
+     "id": "pd-base-quiz",
+     "text": "Baseline: thinking-traps quiz form A scored",
+     "kind": "task",
+     "week": 0
+    }
+   ]
+  },
+  {
+   "id": "pd-system",
+   "title": "Daily system track: habit tracker, weekly reflection and 30-day challenges",
+   "kind": "track",
+   "weeks": [
+    1,
+    30
+   ],
+   "summary": "The daily habit tracker, a 20-minute Sunday reflection with a short recording, and the bias, experiment, thought-record, meditation, journaling, rejection, fitness and conversation challenges, with checkpoints.",
+   "content": "Two things run underneath the whole course: a **daily habit tracker** and a **weekly reflection** with a short recording. On top of them, a series of 2-week and 30-day challenges switch on module by module. **This week** on the course page shows each checkpoint when it is due.\n\n## 1. The daily habit tracker (every day, from week 0)\n\nTrack in Loop Habit Tracker (or on paper). Start with the first five habits only; the others switch on when their module arrives, and some switch off after their challenge ends.\n\n| Habit | Starts |\n| --- | --- |\n| Plan the day (2 minutes, morning) | Week 0 |\n| Move: workout or a 20-minute walk | Week 0 |\n| Sleep on time (in bed by your target time) | Week 0 |\n| Phone out of the room for the first study block | Week 0 |\n| Evening log: 3 lines in the journal | Week 0 |\n| Bias journal: 3 biases spotted | Module 3 (two weeks) |\n| Thought record when upset | Module 11 (two weeks) |\n| Meditation (5 to 10 minutes) | Module 12 (30 days, then keep) |\n| Rejection request (one a day) | Module 14 (30 days) |\n| Fitness challenge session | Module 17 (30 days, then keep) |\n| One new or deeper conversation | Module 25 onwards |\n\n```\nDAILY HABIT TRACKER (Loop Habit Tracker, or paper)      Month: ________\nTick a box when done. A missed day is data, not failure: never miss twice.\nHABIT                              1 2 3 4 5 6 7 8 9 10 ... 31   Days  Score\nPlan the day (2 min)               [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nMove (workout or 20-min walk)      [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nSleep on time (bed by __:__)       [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nPhone out of room, 1st block       [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nEvening log (3 lines)              [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nChallenge of the month: ________   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nRules: at most 6 habits at once. Add a new one only when an old one has\nbeen above 80% for two weeks. In Loop, set a reminder time for each habit\nand look at the Score graph on Sundays.\n```\n\n## 2. The weekly reflection (every Sunday, from week 1)\n\nTwenty minutes, same time every week. It includes a **1 to 2 minute speaking recording**: English one week, Malayalam the next. That is your weekly speaking practice for the whole course; from Module 27 you also count filler words and pace.\n\n```\nWEEKLY REFLECTION (Sunday, 20 minutes)      Week ___  Dates ________\n1. NUMBERS  Habit tracker: ___% of boxes ticked   Study hours (PSC): ___\n            Sleep average: ___ h   Screen time average: ___ h/day\n            Workouts: ___   Meditation days: ___   Challenge days: ___\n2. WINS     Three things that went well, and what I did to make them happen:\n            ________________________________________________________\n3. LESSONS  One thing that went badly. What would I tell a friend in my place?\n            ________________________________________________________\n4. PEOPLE   One good conversation this week, and what I learned about them:\n            ________________________________________________________\n5. RECORD   Speak for 1-2 minutes on your phone recorder (English one week,\n            Malayalam the next): \"This week I learned...\" File name: ________\n            Listen once. One thing to improve next time: ________________\n6. NEXT     Three priorities for next week, each with a day and time:\n            1. ______________ 2. ______________ 3. ______________\n            One change to my system (environment, time, cue): ___________\n7. MOOD     Rate the week 1-10: ___ . If below 4 for two weeks running,\n            read \"When to get help\" (PD-M11-L01) and talk to someone.\n```\n\n## 3. The challenges\n\n| From week | Challenge | Length | Where it is taught |\n| --- | --- | --- | --- |\n| 2 | Bias journal: 3 biases a day (yourself, the news, an ad) | 2 weeks | PD-M03-L03 |\n| 6 | Personal experiment on your study time | 2 weeks | PD-M08-L04 |\n| 8 | Thought records whenever a feeling is strong | 2 weeks | PD-M11-L02 |\n| 8 | Meditation, 5 to 10 minutes a day | 30 days, then keep | PD-M12-L01 |\n| 8 | Journaling with gratitude, 5 minutes a day | 30 days, then keep | PD-M12-L02 |\n| 10 | Rejection therapy, one request a day | 30 days | PD-M14-L03 |\n| 12 | Fitness, 20 to 30 minutes on 5 days a week | 30 days, then keep | PD-M17-L03 |\n| 15 | Conversation challenges: listening first, names, follow-up questions | 14 days | PD-M25-L02 |\n| 25 | Capstone: 30-day behaviour-change project and social-skills project | 30 days | PD-M36-L02 |\n\n**Peak load:** weeks 12 to 14 can have meditation, the end of the rejection challenge and the start of the fitness challenge at once (about 45 minutes a day). If that is too much, start the fitness challenge the day after the rejection challenge ends; the app will simply show those checkpoints as overdue for a week.\n\n## Checkpoints\n\n| Due by week | Checkpoint | Evidence |\n| --- | --- | --- |\n| 3 | Bias journal: week 1 done (21 entries) | your bias journal note, with the bias you caught most in yourself |\n| 3 | Part A review: what changed, what to keep | a half-page review in your Playbook notebook: your Part A projects, rubric scores and the three habits or ideas you are keeping |\n| 4 | Bias journal: week 2 done, and a 3-line summary of your top traps | the journal and the summary in 03 Thinking traps |\n| 7 | Personal experiment: baseline week logged (7 days of study minutes) | the experiment log |\n| 8 | Personal experiment: change week logged and result written | the completed experiment log with averages and your decision |\n| 9 | Thought records: week 1 (at least 3 records) | photos or notes of the records in 11 Stress and resilience |\n| 9 | Meditation challenge: day 10 of 30 | Medito history screenshot or your Loop habit graph |\n| 9 | Journaling challenge: day 10 of 30 | photos of your journal pages or the Joplin notes |\n| 10 | Thought records: week 2, plus re-rated feelings compared | the records and a note on which distortions came up most |\n| 11 | Meditation challenge: day 20 of 30 | Medito history screenshot or your Loop habit graph |\n| 11 | Journaling challenge: day 20 of 30 | photos of your journal pages or the Joplin notes |\n| 11 | Rejection challenge: day 10 of 30 | your 30-day rejection log |\n| 11 | Part B review: what changed, what to keep | a half-page review in your Playbook notebook: your Part B projects, rubric scores and the three habits or ideas you are keeping |\n| 12 | Meditation challenge: day 30 of 30, with a short review | Medito history screenshot or your Loop habit graph, plus 3 lines on what changed |\n| 12 | Journaling challenge: day 30 of 30, with a short review | photos of your journal pages or the Joplin notes, plus 3 lines on what changed |\n| 13 | Rejection challenge: day 20 of 30 | your 30-day rejection log |\n| 13 | Fitness challenge: day 10 of 30 | your workout log and a retest of push-ups and plank on day 30 |\n| 14 | Rejection challenge: day 30 of 30, with a short review | your 30-day rejection log, plus 3 lines on what changed |\n| 14 | Part C review: what changed, what to keep | a half-page review in your Playbook notebook: your Part C projects, rubric scores and the three habits or ideas you are keeping |\n| 15 | Fitness challenge: day 20 of 30 | your workout log and a retest of push-ups and plank on day 30 |\n| 16 | Fitness challenge: day 30 of 30, with a short review | your workout log and a retest of push-ups and plank on day 30, plus 3 lines on what changed |\n| 16 | Conversation challenges: 7 days logged | your conversation log |\n| 17 | Conversation challenges: 14 days logged, names remembered counted | your conversation log with the totals |\n| 22 | Part D review: what changed, what to keep | a half-page review in your Playbook notebook: your Part D projects, rubric scores and the three habits or ideas you are keeping |\n\nThe weekly reflection is a checkpoint every week as well (not listed above).\n\n## When you miss a day\n\nNever miss twice. A missed day is data: write in the tracker's note why it happened (no cue, too big, bad day) and fix that one thing. Count challenge days, not calendar days: if you miss one, the 30 days end a day later.",
+   "tasks": [
+    {
+     "id": "pd-reflect-w01",
+     "text": "Weekly reflection and recording, week 1",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w02",
+     "text": "Weekly reflection and recording, week 2",
+     "kind": "project",
+     "week": 2,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w03",
+     "text": "Weekly reflection and recording, week 3",
+     "kind": "project",
+     "week": 3,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-bias-w1",
+     "text": "Bias journal: week 1 done (21 entries)",
+     "kind": "project",
+     "week": 3,
+     "detail": "**Evidence:** your bias journal note, with the bias you caught most in yourself."
+    },
+    {
+     "id": "pd-sys-part-a",
+     "text": "Part A review: what changed, what to keep",
+     "kind": "project",
+     "week": 3,
+     "detail": "**Evidence:** a half-page review in your Playbook notebook: your Part A projects, rubric scores and the three habits or ideas you are keeping."
+    },
+    {
+     "id": "pd-reflect-w04",
+     "text": "Weekly reflection and recording, week 4",
+     "kind": "project",
+     "week": 4,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-bias-w2",
+     "text": "Bias journal: week 2 done, and a 3-line summary of your top traps",
+     "kind": "project",
+     "week": 4,
+     "detail": "**Evidence:** the journal and the summary in 03 Thinking traps."
+    },
+    {
+     "id": "pd-reflect-w05",
+     "text": "Weekly reflection and recording, week 5",
+     "kind": "project",
+     "week": 5,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w06",
+     "text": "Weekly reflection and recording, week 6",
+     "kind": "project",
+     "week": 6,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w07",
+     "text": "Weekly reflection and recording, week 7",
+     "kind": "project",
+     "week": 7,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-exp-w1",
+     "text": "Personal experiment: baseline week logged (7 days of study minutes)",
+     "kind": "project",
+     "week": 7,
+     "detail": "**Evidence:** the experiment log."
+    },
+    {
+     "id": "pd-reflect-w08",
+     "text": "Weekly reflection and recording, week 8",
+     "kind": "project",
+     "week": 8,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-exp-w2",
+     "text": "Personal experiment: change week logged and result written",
+     "kind": "project",
+     "week": 8,
+     "detail": "**Evidence:** the completed experiment log with averages and your decision."
+    },
+    {
+     "id": "pd-reflect-w09",
+     "text": "Weekly reflection and recording, week 9",
+     "kind": "project",
+     "week": 9,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-journaling-d10",
+     "text": "Journaling challenge: day 10 of 30",
+     "kind": "project",
+     "week": 9,
+     "detail": "**Evidence:** photos of your journal pages or the Joplin notes."
+    },
+    {
+     "id": "pd-sys-meditation-d10",
+     "text": "Meditation challenge: day 10 of 30",
+     "kind": "project",
+     "week": 9,
+     "detail": "**Evidence:** Medito history screenshot or your Loop habit graph."
+    },
+    {
+     "id": "pd-sys-tr-w1",
+     "text": "Thought records: week 1 (at least 3 records)",
+     "kind": "project",
+     "week": 9,
+     "detail": "**Evidence:** photos or notes of the records in 11 Stress and resilience."
+    },
+    {
+     "id": "pd-reflect-w10",
+     "text": "Weekly reflection and recording, week 10",
+     "kind": "project",
+     "week": 10,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-tr-w2",
+     "text": "Thought records: week 2, plus re-rated feelings compared",
+     "kind": "project",
+     "week": 10,
+     "detail": "**Evidence:** the records and a note on which distortions came up most."
+    },
+    {
+     "id": "pd-reflect-w11",
+     "text": "Weekly reflection and recording, week 11",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-journaling-d20",
+     "text": "Journaling challenge: day 20 of 30",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** photos of your journal pages or the Joplin notes."
+    },
+    {
+     "id": "pd-sys-meditation-d20",
+     "text": "Meditation challenge: day 20 of 30",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** Medito history screenshot or your Loop habit graph."
+    },
+    {
+     "id": "pd-sys-part-b",
+     "text": "Part B review: what changed, what to keep",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** a half-page review in your Playbook notebook: your Part B projects, rubric scores and the three habits or ideas you are keeping."
+    },
+    {
+     "id": "pd-sys-rejection-d10",
+     "text": "Rejection challenge: day 10 of 30",
+     "kind": "project",
+     "week": 11,
+     "detail": "**Evidence:** your 30-day rejection log."
+    },
+    {
+     "id": "pd-reflect-w12",
+     "text": "Weekly reflection and recording, week 12",
+     "kind": "project",
+     "week": 12,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-journaling-d30",
+     "text": "Journaling challenge: day 30 of 30, with a short review",
+     "kind": "project",
+     "week": 12,
+     "detail": "**Evidence:** photos of your journal pages or the Joplin notes, plus 3 lines on what changed."
+    },
+    {
+     "id": "pd-sys-meditation-d30",
+     "text": "Meditation challenge: day 30 of 30, with a short review",
+     "kind": "project",
+     "week": 12,
+     "detail": "**Evidence:** Medito history screenshot or your Loop habit graph, plus 3 lines on what changed."
+    },
+    {
+     "id": "pd-reflect-w13",
+     "text": "Weekly reflection and recording, week 13",
+     "kind": "project",
+     "week": 13,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-fitness-d10",
+     "text": "Fitness challenge: day 10 of 30",
+     "kind": "project",
+     "week": 13,
+     "detail": "**Evidence:** your workout log and a retest of push-ups and plank on day 30."
+    },
+    {
+     "id": "pd-sys-rejection-d20",
+     "text": "Rejection challenge: day 20 of 30",
+     "kind": "project",
+     "week": 13,
+     "detail": "**Evidence:** your 30-day rejection log."
+    },
+    {
+     "id": "pd-reflect-w14",
+     "text": "Weekly reflection and recording, week 14",
+     "kind": "project",
+     "week": 14,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-part-c",
+     "text": "Part C review: what changed, what to keep",
+     "kind": "project",
+     "week": 14,
+     "detail": "**Evidence:** a half-page review in your Playbook notebook: your Part C projects, rubric scores and the three habits or ideas you are keeping."
+    },
+    {
+     "id": "pd-sys-rejection-d30",
+     "text": "Rejection challenge: day 30 of 30, with a short review",
+     "kind": "project",
+     "week": 14,
+     "detail": "**Evidence:** your 30-day rejection log, plus 3 lines on what changed."
+    },
+    {
+     "id": "pd-reflect-w15",
+     "text": "Weekly reflection and recording, week 15",
+     "kind": "project",
+     "week": 15,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-fitness-d20",
+     "text": "Fitness challenge: day 20 of 30",
+     "kind": "project",
+     "week": 15,
+     "detail": "**Evidence:** your workout log and a retest of push-ups and plank on day 30."
+    },
+    {
+     "id": "pd-reflect-w16",
+     "text": "Weekly reflection and recording, week 16",
+     "kind": "project",
+     "week": 16,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-conv-w1",
+     "text": "Conversation challenges: 7 days logged",
+     "kind": "project",
+     "week": 16,
+     "detail": "**Evidence:** your conversation log."
+    },
+    {
+     "id": "pd-sys-fitness-d30",
+     "text": "Fitness challenge: day 30 of 30, with a short review",
+     "kind": "project",
+     "week": 16,
+     "detail": "**Evidence:** your workout log and a retest of push-ups and plank on day 30, plus 3 lines on what changed."
+    },
+    {
+     "id": "pd-reflect-w17",
+     "text": "Weekly reflection and recording, week 17",
+     "kind": "project",
+     "week": 17,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-sys-conv-w2",
+     "text": "Conversation challenges: 14 days logged, names remembered counted",
+     "kind": "project",
+     "week": 17,
+     "detail": "**Evidence:** your conversation log with the totals."
+    },
+    {
+     "id": "pd-reflect-w18",
+     "text": "Weekly reflection and recording, week 18",
+     "kind": "project",
+     "week": 18,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w19",
+     "text": "Weekly reflection and recording, week 19",
+     "kind": "project",
+     "week": 19,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w20",
+     "text": "Weekly reflection and recording, week 20",
+     "kind": "project",
+     "week": 20,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w21",
+     "text": "Weekly reflection and recording, week 21",
+     "kind": "project",
+     "week": 21,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w22",
+     "text": "Weekly reflection and recording, week 22",
+     "kind": "project",
+     "week": 22,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-sys-part-d",
+     "text": "Part D review: what changed, what to keep",
+     "kind": "project",
+     "week": 22,
+     "detail": "**Evidence:** a half-page review in your Playbook notebook: your Part D projects, rubric scores and the three habits or ideas you are keeping."
+    },
+    {
+     "id": "pd-reflect-w23",
+     "text": "Weekly reflection and recording, week 23",
+     "kind": "project",
+     "week": 23,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w24",
+     "text": "Weekly reflection and recording, week 24",
+     "kind": "project",
+     "week": 24,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w25",
+     "text": "Weekly reflection and recording, week 25",
+     "kind": "project",
+     "week": 25,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w26",
+     "text": "Weekly reflection and recording, week 26",
+     "kind": "project",
+     "week": 26,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w27",
+     "text": "Weekly reflection and recording, week 27",
+     "kind": "project",
+     "week": 27,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w28",
+     "text": "Weekly reflection and recording, week 28",
+     "kind": "project",
+     "week": 28,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    },
+    {
+     "id": "pd-reflect-w29",
+     "text": "Weekly reflection and recording, week 29",
+     "kind": "project",
+     "week": 29,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: English."
+    },
+    {
+     "id": "pd-reflect-w30",
+     "text": "Weekly reflection and recording, week 30",
+     "kind": "project",
+     "week": 30,
+     "detail": "**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: Malayalam."
+    }
+   ]
+  },
+  {
+   "id": "pd-toolkit",
+   "title": "Toolkit: every copy-ready template in one place",
+   "kind": "reference",
+   "summary": "Habit tracker, weekly reflection, bias journal, decision sheet, experiment log, thought record, rejection log, workout and sleep logs, conversation log, feedback script, speaking log, persuasion lab, negotiation prep, field notes, manipulation check, routines and the Personal Playbook.",
+   "content": "Every copy-ready tool in the course, in one place. Copy them into Joplin, a notebook or a spreadsheet. The lesson named under each tool explains how to use it well.\n\n## Daily habit tracker\n\nFrom Week 0, all course.\n\n```\nDAILY HABIT TRACKER (Loop Habit Tracker, or paper)      Month: ________\nTick a box when done. A missed day is data, not failure: never miss twice.\nHABIT                              1 2 3 4 5 6 7 8 9 10 ... 31   Days  Score\nPlan the day (2 min)               [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nMove (workout or 20-min walk)      [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nSleep on time (bed by __:__)       [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nPhone out of room, 1st block       [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nEvening log (3 lines)              [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nChallenge of the month: ________   [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]  ___\nRules: at most 6 habits at once. Add a new one only when an old one has\nbeen above 80% for two weeks. In Loop, set a reminder time for each habit\nand look at the Score graph on Sundays.\n```\n\n## Weekly reflection and recording\n\nFrom Week 1 onwards.\n\n```\nWEEKLY REFLECTION (Sunday, 20 minutes)      Week ___  Dates ________\n1. NUMBERS  Habit tracker: ___% of boxes ticked   Study hours (PSC): ___\n            Sleep average: ___ h   Screen time average: ___ h/day\n            Workouts: ___   Meditation days: ___   Challenge days: ___\n2. WINS     Three things that went well, and what I did to make them happen:\n            ________________________________________________________\n3. LESSONS  One thing that went badly. What would I tell a friend in my place?\n            ________________________________________________________\n4. PEOPLE   One good conversation this week, and what I learned about them:\n            ________________________________________________________\n5. RECORD   Speak for 1-2 minutes on your phone recorder (English one week,\n            Malayalam the next): \"This week I learned...\" File name: ________\n            Listen once. One thing to improve next time: ________________\n6. NEXT     Three priorities for next week, each with a day and time:\n            1. ______________ 2. ______________ 3. ______________\n            One change to my system (environment, time, cue): ___________\n7. MOOD     Rate the week 1-10: ___ . If below 4 for two weeks running,\n            read \"When to get help\" (PD-M11-L01) and talk to someone.\n```\n\n## Bias journal\n\nFrom PD-M03-L03.\n\n```\nBIAS JOURNAL (2 weeks, 3 entries a day: me, the news, an ad)\nDate | Where (me / news / ad) | What happened (one line) | Bias or distortion | Evidence it was that | Better thinking\nExample: 12 Nov | me | Kept reading a boring PSC guide because I paid Rs 400 | sunk cost | The money is gone either way | Switch to the free SCERT text for this topic\nExample: 12 Nov | news | \"Third accident on this road this week: roads unsafe\" | availability | No yearly figures given | Look for the yearly accident count before deciding\nExample: 12 Nov | ad | \"Was Rs 2,999, now Rs 999, only today!\" | anchoring + scarcity | The \"was\" price is the advertiser's own | Compare with two other shops\nBiases to look for: confirmation, sunk cost, overconfidence, planning fallacy,\nloss aversion, anchoring, availability, halo effect, fundamental attribution\nerror, social proof, plus the CBT distortions (PD-M03-L02).\nAt the end of each week: count which bias you caught most often in yourself.\n```\n\n## Decision sheet\n\nFrom PD-M04-L02.\n\n```\nDECISION SHEET (for any decision you'll live with for months)\nDecision: ______________________   Deadline: ________\nReversible (two-way door) or hard to undo (one-way door)? ______\nOptions (at least 3, including \"do nothing\" and \"wait\"):\n1. ______  2. ______  3. ______\nFor each: best case / worst case / most likely, and a rough probability.\nBase rate: how did this go for people like me? (ask 2 people, look up data)\nPre-mortem: \"It's a year later and this went badly. Why?\" ______________\nValues check (from my Values list): which option fits them best? ______\nDecision: ______  Why: ______  Review date: ______\nLater: what happened, and was it a bad decision or bad luck? ______\n```\n\n## Personal experiment log\n\nFrom PD-M08-L04.\n\n```\nPERSONAL EXPERIMENT (2 weeks: one change, one number)\nQuestion: Does ______________________ (the change) increase my study minutes?\nWeek 1 = normal (baseline). Week 2 = with the change. Keep everything else the same.\nDay | Date | Week (1 baseline / 2 change) | Change done? (Y/N) | Study minutes (timer) | Sleep (h) | Unusual event?\nResult: Week 1 average ___ min/day   Week 2 average ___ min/day   Difference ___\nHonest notes: Was anything else different (exam date, guests, illness, festivals)?\nDecision: keep / modify / drop the change. Next experiment: ________________\n```\n\n## Thought record\n\nFrom PD-M11-L02.\n\n```\nTHOUGHT RECORD (CBT, 5 to 10 minutes, whenever a feeling is strong)\n1. SITUATION   When, where, who, what happened (facts only):\n               ____________________________________________________\n2. FEELINGS    Name them and rate 0-100: ________ __  ________ __\n3. HOT THOUGHT What went through my mind? (the one that hurts most)\n               \"____________________________________________________\"\n               How much do I believe it? ___%\n4. DISTORTION  Which trap? (all-or-nothing, catastrophising, mind reading,\n               fortune telling, labelling, should statements, personalising,\n               mental filter, discounting the positive, emotional reasoning)\n5. EVIDENCE FOR the thought:       5b. EVIDENCE AGAINST it:\n   ______________________________     ______________________________\n6. BALANCED THOUGHT (true, fair, kind): ____________________________\n               How much do I believe it? ___%\n7. RE-RATE FEELINGS 0-100: ________ __  ________ __\n8. ONE ACTION I can take now (small and concrete): __________________\n```\n\n## 30-day rejection log\n\nFrom PD-M14-L03.\n\n```\n30-DAY REJECTION LOG (one request a day)\nDay | Date | Request (exact words) | Who / where | Fear before (0-10) | Result (yes / no / partial / counter-offer) | Fear after (0-10) | Lesson\n1 | ____ | \"_____________________\" | ________ | __ | ________ | __ | ________\nRules check before every request (all must be YES):\n[ ] Legal  [ ] Safe for both of us  [ ] Respectful  [ ] Low-stakes for them\n[ ] Easy for them to say no  [ ] Not romantic, not about personal space or the body\n[ ] Fits local culture (place, time, dress, language)\nAfter a \"no\": say \"No problem, thank you!\" and leave. Never ask twice.\nWeekly: average fear before ___ -> after ___ ; yes-rate ___% (expect 20-60%).\n```\n\n## Workout log\n\nFrom PD-M17-L02.\n\n```\nWORKOUT LOG\nDate | Session (A / B / walk-run / yoga) | Warm-up done? | Exercise: level x sets x reps (or seconds) | Effort (RPE 1-10) | Pain? (none / mild / stop) | Note\nProgress rule: when you can do the top of the rep range for all sets with good\nform on two sessions in a row, move to the next level of that exercise.\nStop rule: sharp pain, chest pain, dizziness or unusual breathlessness = stop\nand see a doctor.\n```\n\n## 7-day sleep log\n\nFrom Baseline and PD-M19-L02.\n\n```\n7-DAY SLEEP LOG (fill in each morning, takes 1 minute)\nDay | Into bed | Lights out | Minutes to fall asleep (guess) | Times awake | Got up | Total sleep (h) | Quality (1-5) | Caffeine after 2 pm? | Screen in last 30 min? | Daytime nap?\nAverage total sleep: ___ h  Average quality: ___  Latest lights-out: ___\n```\n\n## Conversation log\n\nFrom PD-M25-L02.\n\n```\nCONVERSATION LOG (one line per conversation)\nDate | Who (name, how we met) | Listening-first? (Y/N) | Follow-up questions asked | One thing I learned about them | Name remembered next time? | Next contact\nDaily challenge rotation (pick one a day):\n- Listen first: let them talk 2/3 of the time; summarise before you reply.\n- Two follow-ups: ask two questions about what they just said.\n- Names: use their name once in the talk; write it down within an hour.\n- Genuine praise: one specific, true compliment about effort or a choice.\n```\n\n## Feedback script\n\nFrom PD-M26-L03.\n\n```\nCONSTRUCTIVE FEEDBACK SCRIPT (SBI + request; say it in private)\nAsk:        \"Can I share one thing I noticed? It might help with ______.\"\nSituation:  \"On (day), at (place / meeting)...\"\nBehaviour:  \"...I noticed you (what you saw or heard, no labels)...\"\nImpact:     \"...and the effect was (on the work, on others, on me).\"\nTheir view: \"How did it look from your side?\"  (then LISTEN)\nRequest:    \"Next time, could you ______?\" or \"What would help?\"\nClose:      \"Thanks for hearing me out. I value (something true).\"\nAvoid: \"always\", \"never\", \"you are lazy/careless\", feedback in front of others.\n```\n\n## Speaking recording log\n\nFrom PD-M27-L03.\n\n```\nWEEKLY SPEAKING RECORDING LOG\nWeek | Language (EN / ML) | Topic | Length | File name | Filler words per minute | Pace (too fast / ok / slow) | Eye contact (video only, 1-5) | One fix for next week\nCount filler words: \"um\", \"ah\", \"like\", \"basically\", \"actually\", \"pinne\", \"athayathu\", \"enthu parayaan\".\nFillers per minute = filler count / minutes. Aim to halve it over the course, not to reach zero.\n```\n\n## Persuasion lab\n\nFrom PD-M28-L02.\n\n```\nPERSUASION LAB (one real request, rewritten honestly)\n1. The request, as I would normally say it: ______________________________\n2. What they gain if they say yes (be honest; if nothing, rethink): ______\n3. Principles I can use truthfully (tick only what is TRUE):\n   [ ] Reciprocity: I have already given or will give ______\n   [ ] Commitment: a small step they already agreed to ______\n   [ ] Social proof: real others like them who did it ______\n   [ ] Authority: my real, relevant credential or evidence ______\n   [ ] Liking: genuine common ground ______\n   [ ] Scarcity: a real limit (time, places) ______\n   [ ] Unity: a real shared identity (village, school, field) ______\n   [ ] Framing: say it as what they gain or avoid losing ______\n4. The rewritten request (under 60 words): ______________________________\n5. Ethics test (all must be YES): Would I be happy if they saw these notes?\n   Is it true? Is it good for them too? Can they easily say no?\n6. Result: yes / no / partial. What I learned: ____________________________\n```\n\n## Negotiation prep\n\nFrom PD-M29-L02.\n\n```\nNEGOTIATION PREP (5 minutes before any purchase or deal)\nWhat I want: ____________  Why (my real interest): ____________\nWhat they probably want (their interests): ____________\nMy BATNA (what I do if we don't agree): ____________\nMy walk-away point: Rs ______   My target: Rs ______   My first ask: Rs ______\nMarket facts (2 other prices or quotes): ____________ ____________\nThings that cost me little but help them (and the reverse): ____________\nOpening line: \"I like this. I've seen it for Rs ___ at ___. Can you do Rs ___?\"\nRules: be friendly, be quiet after your number, never lie about other offers,\nbe ready to walk away politely.\nResult: final price Rs ___ (asked Rs ___, first quote Rs ___). Relationship: ok / better / worse\n```\n\n## Field observation notes\n\nFrom PD-M30-L01.\n\n```\nFIELD OBSERVATION NOTES (social proof and conformity)\nDate | Place | What people did | Social proof, conformity, authority or bystander effect? | Would I have done the same? | Note\nPlaces to watch: bus stand queues, the busiest tea shop, a wedding hall,\nWhatsApp family groups (forwards), the temple or mosque crowd, a\nclassroom, an office counter, online reviews.\n```\n\n## Manipulation red-flag check\n\nFrom PD-M32-L02.\n\n```\nMANIPULATION RED-FLAG CHECK (use on any ad, message, call or pitch)\n[ ] Urgency: \"only today\", \"act now\", countdown timers\n[ ] Secrecy: \"don't tell anyone\", \"don't discuss with family\"\n[ ] Authority without proof: police, CBI, bank, RBI, \"senior manager\", uniforms on video\n[ ] Too good to be true: guaranteed returns, prizes you did not enter for\n[ ] Fear: arrest, account blocked, illness, \"your son is in trouble\"\n[ ] Payment pressure: UPI collect request, gift cards, crypto, \"processing fee\"\n[ ] Recruitment focus: money comes from bringing in others (MLM)\n[ ] Love or guilt used as leverage: \"if you loved me you would...\"\n[ ] Your memory questioned: \"that never happened, you're imagining it\"\n[ ] Design tricks: pre-ticked boxes, hidden charges, hard-to-cancel plans\nTwo or more ticks: STOP. Do not pay, click or share OTPs. Hang up, verify\nthrough an official number you look up yourself, talk to someone you trust.\nMoney already lost to cyber fraud: call 1930 immediately.\n```\n\n## Morning routine\n\nFrom PD-M36-L03.\n\n```\nMORNING ROUTINE (30 to 45 minutes; adjust times to your life)\n05:45  Wake at the same time every day; water; open the window (light)\n05:50  Move: workout A/B or yoga (20 min) on 3-5 days; walk on others\n06:10  Meditate 5-10 min (Medito) or slow breathing\n06:20  Plan the day: 3 priorities, first study block, one people goal\n06:25  Bath, breakfast (balanced plate), then the first PSC study block\n       with the phone in another room\n```\n\n## Evening routine\n\nFrom PD-M36-L03.\n\n```\nEVENING ROUTINE (30 minutes before your sleep time)\n21:30  Screens off or on night mode; phone charging outside the bedroom\n21:35  Tick the habit tracker; 3-line journal: one win, one lesson,\n       one thank-you\n21:45  Tomorrow's top 3 written; clothes and bag ready\n21:50  Light reading (a classic from the course) or slow breathing\n22:00  Lights out (same time every night, give or take 30 minutes)\n```\n\n## Personal Playbook\n\nFrom PD-M36-L03.\n\n```\nMY PERSONAL PLAYBOOK (one page; review on the 1st of every month)\nWHO I AM AND WANT TO BE\n  Values (top 5): ________   Strengths (top 5 VIA): ________\n  Identity statement: \"I am the kind of person who ________\"\nHOW I THINK\n  My top 3 thinking traps and my counter-move for each: ________\n  My decision rule for big choices: ________\nHOW I RUN MY DAY\n  Morning routine: ________   Evening routine: ________\n  Keystone habits (with cues): ________\n  If I slip: never miss twice; shrink the habit; restart on Monday\nHOW I HANDLE HARD MOMENTS\n  When stressed: ________   When I fail: ________   Help line: Tele-MANAS 14416\nHOW I LOOK AFTER MY BODY\n  Training plan: ________   Sleep window: ________   Plate: ________\nHOW I TREAT PEOPLE\n  Conversation rules: ________   My no-script: ________\n  Influence code: only true, only mutual benefit, always easy to say no\n  Red flags that make me stop: ________\nWHERE I'M GOING\n  12-month goals (max 3): ________   This month's focus: ________\n```"
+  },
+  {
+   "id": "pd-part-a",
+   "title": "Part A: Understand your mind",
+   "kind": "gate",
+   "weeks": [
+    1,
+    1
+   ],
+   "summary": "Part A overview: Modules 1–4, weeks 1–3. How to take this part on its own, which baseline tests to take, and what you will have at the end.",
+   "content": "## What this part covers\n\nHow your mind takes shortcuts, how to read research, your thinking traps, and better decisions.\n\n| Module | Title | Lessons |\n| --- | --- | --- |\n| Module 1 | How the mind works | 2 |\n| Module 2 | Reading psychology research | 2 |\n| Module 3 | Thinking traps | 3 |\n| Module 4 | Critical thinking and decisions | 2 |\n\nPart-time: weeks 1–3, about 12 study hours. Full-time: about 1 calendar weeks.\n\n## Taking this part on its own\n\nIf you start the course here, do this first (about 45 minutes, plus any 7-day logs):\n\n1. Read **Start here**, especially the evidence key and the **safety** box.\n2. Do the parts of **Week 0: setup** you need: Joplin Playbook notebook.\n3. Take these baseline tests from the **Baseline tests** page: Thinking-traps quiz (form A), Life wheel. Retake them at the end of the part to see what changed.\n4. Start the **daily habit tracker** and the **Sunday reflection** from the Daily system track. They make any part stick.\n5. Lessons sometimes point to earlier lessons by code (for example PD-M08-L03). Each one is short; read it when it comes up rather than going back to the start.\n\n## What you will have at the end\n\nYou will notice your own mental shortcuts as they happen, read any psychology headline with healthy doubt, and have a decision sheet for big choices.\n\nThe part review on the Daily system track (due week 3) asks you to write half a page on what changed and what you are keeping.",
+   "tasks": [
+    {
+     "id": "pd-part-a-start",
+     "text": "Part A: read the overview; if starting here, standalone setup and baseline done",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "pd-m01",
+   "title": "Module 1: How the mind works",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 2.75,
+   "summary": "How your mind actually makes judgements: the fast automatic system and the slow checking one, the main mental shortcuts, and how emotion and reason work together. You build a \"think slower\" checklist for the moments that matter.",
+   "content": "*Part A: Understand your mind.*\n\n## Overview\n\nEverything in this course rests on one idea: your mind is not a calm calculator, it is a fast pattern-matcher with a slow, lazy checker. Once you see that, most of the later modules make sense: biases (Module 3), habits (Module 8), emotions (Module 10), first impressions (Module 24) and manipulation (Module 32) all exploit or work with the fast system.\n\nThis module is deliberately short and practical. You will not memorise theories; you will catch your own mind taking shortcuts, in real situations, for a week. If you have done the Learning Capabilities course, its {xref('lrn', 'lrn-m16', 'thinking skills module')} adds reasoning practice for PSC; here the focus is on everyday judgement.\n\n## Outcomes\n\nBy the end of this module you can:\n\n- Describe System 1 and System 2, and say where intuition can and cannot be trusted.\n- Name representativeness, the conjunction fallacy, availability, anchoring, the affect heuristic and the gambler's fallacy, with an example of each.\n- Use the three-question pause in your four \"slow down\" situations.\n- Explain honestly which famous findings in this area held up and which did not (priming).\n\n## Time\n\nAbout 2 hours 45 minutes in total: 2 hours of lessons and 45 minutes for the module project. Part-time: week 1, with the module project due in week 1.\n\n## Lessons\n\n1. PD-M01-L01: Fast and slow thinking (about 1 hour)\n2. PD-M01-L02: Mental shortcuts, and emotion versus reason (about 1 hour)\n\n## Copy-ready tools in this module\n\n- The three-question pause card (PD-M01-L01).\n- The shortcut-spotting note and pre-purchase anchor test (PD-M01-L02).\n\n## Module project: a \"think slower\" checklist tested for a week\n\n1. Combine the three-question pause card and the shortcut-checking questions into one checklist of no more than 10 lines that fits on a phone screen or a card.\n2. Use it for seven days. Keep the pause log from PD-M01-L01 going.\n3. At the end, write five lines: how many pauses you did, how many changed your action, which shortcut caught you most often, which situation you will add or remove, and one line for your Playbook.\n\n**Proof to record:** Your checklist, the seven-day pause log and the five-line review.\n\n## Add to your Personal Playbook\n\nCopy these lines into the Playbook note in Joplin (set up in Week 0). By the end of the course they become your one-page Personal Playbook.\n\n- My \"slow down\" situations: money, forwards, people judgements, plans, and ______.\n- Before those decisions I ask: What exactly is the claim? What would I need to see? What does waiting cost?\n\n## Self-assessment rubric\n\nScore yourself honestly after the project. Move on when no row is a 1 and at least half the rows are 3. If a row is a 1, redo that part first.\n\n| Criterion | 1: Not yet | 2: Getting there | 3: Ready |\n| --- | --- | --- | --- |\n| Understanding | Cannot explain System 1 and 2 without notes | Explains them, but mixes up the shortcuts | Explains both systems and four shortcuts with own examples |\n| Practice | Fewer than five logged pauses | Five to nine pauses, mostly the same kind of situation | Ten or more pauses across at least three kinds of situation |\n| Honesty about evidence | Repeats priming claims as fact | Knows some findings failed but not which | Can say which findings are strong and which failed |\n| Usefulness | Checklist not used | Used sometimes | Used daily and edited after the week |\n\n## Short on time?\n\nThe minimum version, for weeks when PSC study, work or family leaves little time:\n\n- Read PD-M01-L01 only and do the three-question pause for three days.\n- Put the six shortcut-checking questions on your phone lock screen or a card in your wallet.\n\n## Revision flashcards\n\nCover the right-hand column, read the front, say the answer aloud, then check. Put the ones you miss on your phone's flashcard app (AnkiDroid, if you did the Learning Capabilities course).\n\n| Front (say the answer aloud) | Back |\n| --- | --- |\n| System 1 | Fast, automatic, effortless thinking: reading faces, gut reactions, quick answers. |\n| System 2 | Slow, effortful, limited thinking that can check System 1, but only when prompted. |\n| Pen and notebook cost Rs 110; notebook is Rs 100 more. Pen? | Rs 5. The fast answer, Rs 10, fails the check. |\n| Representativeness heuristic | Judging likelihood by resemblance to a typical case, ignoring base rates. |\n| Availability heuristic | Judging frequency by how easily examples come to mind. |\n| Anchoring | The first number seen pulls later estimates towards it. Replicates strongly. |\n| Affect heuristic | Liking something makes its risks seem low and benefits high. |\n| Behavioural priming status | Famous examples failed to replicate; Kahneman admitted relying on underpowered studies. |\n| When is intuition trustworthy? | When it was learned with lots of practice and quick, honest feedback. |\n\n## Top mistakes and misuses in this module\n\n- **Trying to think slowly about everything.** You will burn out. Pick a few trigger situations and pause only there.\n- **Learning the names and stopping.** Naming a bias does little. The pause, the checklist and the log change behaviour.\n- **Using these ideas to win arguments.** \"That's just your availability bias\" makes people defensive. Use the questions on yourself first, and ask them gently with others.",
+   "tasks": [
+    {
+     "id": "pd-m01-project",
+     "text": "Module project: a \"think slower\" checklist tested for a week",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** Your checklist, the seven-day pause log and the five-line review. Save it in your Playbook notebook (01 How the mind works)."
+    },
+    {
+     "id": "pd-m01-playbook",
+     "text": "Personal Playbook: this module's lines added and edited in your own words",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "pd-m01-rubric",
+     "text": "Self-assessment: rubric scored, no row at 1",
+     "kind": "exit",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "pd-m01-l01",
+   "title": "PD-M01-L01: Fast and slow thinking",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.0,
+   "summary": "**Outcome:** You can explain fast and slow thinking, spot when you are answering on autopilot, and use a three-question pause before decisions that matter. **Time:** about 1 hour (15 minutes reading, 30 minutes of tasks over three days).",
+   "content": "## The principle in one line\n\nMost of what you think and do runs on a fast, automatic system; a slower, effortful system can check it, but it is lazy and switches on only when you make it.\n\n## The science\n\nPsychologists have long noticed that some thinking happens by itself (you read a shop sign without trying, you know a friend is upset from one look) and some takes effort (multiplying 17 by 24, filling in a PSC application without mistakes). Daniel Kahneman made this popular in his 2011 book *Thinking, Fast and Slow*, using the labels **System 1** and **System 2** from earlier researchers.\n\n- **System 1** is fast, automatic, effortless and always on. It recognises faces, reads emotions, completes \"bread and…\", and jumps to answers. It is usually right, which is why we trust it.\n- **System 2** is slow, effortful and limited. It does calculations, follows rules, compares options and checks System 1's answers. It tires quickly and is easily disturbed (try multiplying in your head while crossing a busy road).\n\nThe classic demonstration is a puzzle you met in the baseline quiz: *a pen and a notebook cost Rs 110 together; the notebook costs Rs 100 more than the pen; how much is the pen?* \"Rs 10\" pops up instantly. That is System 1. If you check (Rs 10 + Rs 110 = Rs 120), you see it is wrong; the pen is Rs 5. Problems like this, from Shane Frederick's Cognitive Reflection Test, show that many educated people give the quick answer, because nothing tells System 2 to wake up. The answer *feels* right.\n\n**Be careful with the metaphor.** System 1 and System 2 are not two places in the brain; they are a handy way of describing two modes of thinking that blend into each other. And not everything in Kahneman's book has held up. His chapter on **priming** (the claim that, for example, reading words about old age makes people walk more slowly) relied on small studies that later failed to replicate. Kahneman himself wrote, \"I placed too much faith in underpowered studies.\" The core idea, that quick intuitive answers often go unchecked, is solid; some of the colourful examples are not. You will learn why that happens in PD-M02-L02.\n\n**When is fast thinking good?** In areas where you have had lots of practice with quick, honest feedback: an experienced driver braking, a nurse sensing a patient is getting worse, you recognising your mother's voice on the phone. It is unreliable where feedback is slow or noisy: predicting exam results, judging a stranger's honesty, choosing investments, or guessing how long a task will take.\n\n## How strong is the evidence?\n\n| Principle or claim | Evidence | What the research says |\n| --- | --- | --- |\n| Fast intuitive answers often go unchecked (trick problems such as the pen-and-notebook puzzle) | **Strong** | Replicated many times in many countries; many people give the intuitive wrong answer. |\n| \"Two systems\" as a model of the mind | **Moderate** | Useful description; psychologists debate whether there are really two separate systems or a continuum. |\n| Behavioural priming (e.g. old-age words making people walk slowly) | **Failed to replicate or myth** | Famous examples failed to replicate; Kahneman admitted relying on underpowered studies. |\n| Expert intuition is reliable when practice and feedback are good | **Moderate** | Supported in fields such as chess and firefighting; poor in fields with slow or noisy feedback. |\n\n## Everyday Kerala example\n\nAshiq, from Kuttiady, gets a WhatsApp message from a cousin: \"Kerala PSC has announced a new exam pattern from next month: forward to all aspirants!\" It has a logo and urgent red text. His fast system reacts first: worry, then the urge to forward it to his study group. Last year he did exactly that and later found the message was false.\n\nThis time he uses the pause. *What would I need to believe this?* An official notice. *Where would that be?* On the Kerala PSC website. *What is the cost of waiting ten minutes?* Nothing. He checks, finds no such notice, and posts in the group: \"Couldn't find this on the PSC site; let's wait for the official notification.\" Two people thank him. The whole check took four minutes; the old habit had cost him embarrassment and an hour of anxious messages.\n\nThe same pattern shows up in ordinary moments: agreeing to a cousin's \"small loan\" on the spot, buying a phone because the first price you saw made the second look cheap, or snapping back at your father before hearing his full sentence. None of these needs deep thought. Each one needs a short pause in which System 2 gets a chance to look.\n\n## How to use it\n\n**On yourself: build a \"slow down\" trigger.** You cannot run System 2 all day; it would exhaust you. Instead, decide in advance which situations deserve a check:\n\n1. **Money:** any payment, loan, purchase over ₹500 or \"offer\" with a deadline.\n2. **Forwards and news:** anything that makes you angry, scared or excited and asks you to share it.\n3. **People judgements:** \"he is lazy\", \"she doesn't like me\", \"they are cheating\".\n4. **Plans:** any estimate of time (\"I'll finish this topic by Friday\").\n\nIn those four situations, ask the **three-question pause**: *What exactly is the claim or choice? What would I need to see to believe it? What does waiting a little cost me?* If waiting costs little, wait and check.\n\n**With others: make it easy for their System 2.** When you ask someone for something important, give them time and the key facts in writing; do not ambush them. People who are rushed decide with System 1, and they often regret it (and resent you). Part D builds on this: honest influence gives people room to think; manipulation takes it away (Module 32).\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [OpenStax Psychology 2e, 7.3 Problem Solving (heuristics and biases)](https://openstax.org/books/psychology-2e/pages/7-3-problem-solving) | Read the section on heuristics and biases (\"Pitfalls to Problem Solving\" and the table of biases) | 15 minutes | verified 2026-11-03 |\n| [Wikipedia: Thinking, Fast and Slow (including the priming replication problem)](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) | Read the summary of the two systems and the \"Replication crisis\" criticism section | 10 minutes | verified 2026-11-04 |\n| [Crash Course Psychology with Hank Green (40 episodes)](https://thecrashcourse.com/topic/psychology/) | Watch episode #24 \"Brains vs. Bias\" (search the episode list on the page) | 10 minutes | verified 2026-11-04 |\n\n## Action task\n\n1. Write your four \"slow down\" situations (money, forwards, people judgements, plans) on a card or as the first note in your Playbook notebook, adding one situation of your own.\n2. For three days, every time one of those situations comes up, do the three-question pause and write one line: what happened, what your first impulse was, and what you did after the pause.\n3. Count how many times your first impulse was right and how many times the pause changed your action.\n4. Tell one person the pen-and-notebook puzzle. Notice whether they give the fast answer, and explain why it happens without making them feel foolish.\n\n**Proof to record:** A note with at least five pause entries over three days (situation, first impulse, action after the pause) and your count of impulses that changed.\n\n## Template: The three-question pause card\n\n```\nTHREE-QUESTION PAUSE (use for money, forwards, people judgements, plans)\n1. What exactly is the claim or the choice?\n   ______________________________________________\n2. What would I need to see to believe it / choose it?\n   ______________________________________________\n3. What does waiting (10 minutes, a day, a week) cost me?\n   ______________________________________________\nIf waiting costs little: WAIT and CHECK.\nLog: Date | Situation | First impulse | After the pause | Impulse right? (Y/N)\n```\n\n## Common mistakes and misuses\n\n- **Treating System 1 as \"bad\".** Fast thinking runs most of life well. The goal is to catch it in a few high-stakes situations, not to distrust every instinct.\n- **Thinking you are immune once you know.** Knowing about the pen-and-notebook trap does not protect you from the next one in a new form. Rely on triggers and checklists, not on feeling clever.\n- **Quoting priming studies as facts.** Many popular \"subtle cue changes behaviour\" findings failed to replicate. Say \"a famous study claimed…, but it did not hold up\".\n- **Using \"System 2\" as an excuse to overthink small choices.** Which tea to order does not need a pause. Save the pause for choices that are costly or hard to undo.\n\n## Quiz\n\nAnswer from memory first; that is retrieval practice. The answers are at the bottom of this page.\n\n1. Which task is mainly System 1?\n    - A) Calculating 17 × 24 in your head\n    - B) Comparing two loan offers line by line\n    - C) Recognising that a friend is angry from their face\n    - D) Filling in an OMR sheet carefully\n2. Why do many people answer \"Rs 10\" to the pen-and-notebook puzzle?\n    - A) They are tired of quizzes\n    - B) The quick answer feels right, so they never check it\n    - C) They are bad at arithmetic\n    - D) The puzzle has no correct answer\n3. What happened to the behavioural priming studies in Thinking, Fast and Slow?\n    - A) Many failed to replicate, and Kahneman said he had trusted underpowered studies\n    - B) They were all confirmed by large studies\n    - C) They were proved to be fraud by Kahneman\n    - D) They were never published\n4. When is gut intuition most trustworthy?\n    - A) When the decision is about strangers\n    - B) In areas where you have had lots of practice with quick, honest feedback\n    - C) When you feel very sure\n    - D) When there is no time to think\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** read the lesson and the OpenStax section on heuristics\n- **Action:** use the three-question pause for three days and log at least five cases. It is done when your proof is saved: a note with at least five pause entries over three days (situation, first impulse, action after the pause) and your count of impulses that changed.\n- **Quiz:** at least 3 right, or re-read the lesson and try again tomorrow.\n\n## Answers\n\n1. **C.** Reading facial emotion is fast and automatic: System 1. The others need effortful attention.\n2. **B.** The problem is easy to solve once checked; the trap is that nothing prompts the check.\n3. **A.** They were weak (small samples) rather than fraudulent, and later replications failed.\n4. **B.** Intuition is learned pattern-matching; it is good only where the patterns were learned with feedback.",
+   "tasks": [
+    {
+     "id": "pd-m01-l01-study",
+     "text": "Study: read the lesson and the OpenStax section on heuristics",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "pd-m01-l01-action",
+     "text": "Action: use the three-question pause for three days and log at least five cases",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** A note with at least five pause entries over three days (situation, first impulse, action after the pause) and your count of impulses that changed. Save it in your Playbook notebook (01 How the mind works) and write in this task's note where it is."
+    },
+    {
+     "id": "pd-m01-l01-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "pd-m01-l02",
+   "title": "PD-M01-L02: Mental shortcuts, and emotion versus reason",
+   "kind": "level",
+   "weeks": [
+    1,
+    1
+   ],
+   "hours": 1.0,
+   "summary": "**Outcome:** You can name the main mental shortcuts (representativeness, availability, anchoring, affect), explain how emotion and reason work together, and catch a shortcut misleading you. **Time:** about 1 hour (15 minutes reading, 30 minutes of tasks).",
+   "content": "## The principle in one line\n\nHeuristics are mental shortcuts that save effort and usually work, but in predictable situations they lead to errors; emotion is not the enemy of reason but its guide, and it can also mislead.\n\n## The science\n\nIn the 1970s, Amos Tversky and Daniel Kahneman described three shortcuts people use when judging likelihoods. Their work is among the most replicated in psychology.\n\n- **Representativeness:** judging how likely something is by how much it *looks like* a typical case. In the baseline quiz, \"Ravi is quiet and loves books: farmer or librarian?\" The description fits a librarian, but there are far more people in farming than librarians, so a random quiet book-lover is more likely to farm. Ignoring how common things are (the **base rate**) is the classic error. A related trap is the **conjunction fallacy**: in Tversky and Kahneman's \"Linda problem\", most people rated \"Linda is a bank teller and active in the feminist movement\" as more likely than \"Linda is a bank teller\", which is logically impossible. A story with more details feels more probable while being less so.\n- **Availability:** judging how common something is by how easily examples come to mind. Dramatic, recent or personal events (a plane crash, a friend's hacked phone) feel more frequent than they are.\n- **Anchoring:** the first number you see pulls your estimate towards it, even when it is irrelevant. In the original study, a spinning wheel's random number changed people's estimates of African countries in the UN. Anchoring is one of the findings that replicated well in the large Many Labs project (PD-M02-L02).\n\nThe **gambler's fallacy** (after five heads, tails feels \"due\") is a cousin: we expect short runs to look like the long-run average.\n\n**Emotion and reason.** The old picture of cold reason fighting hot emotion is wrong. Emotions are fast evaluations: fear says \"danger\", disgust says \"avoid\", interest says \"explore\". Paul Slovic called the use of feelings to judge risks and benefits the **affect heuristic**: if you like something (a new phone, a friendly salesman), you judge its risks as low and its benefits as high, and the reverse. The neurologist Antonio Damasio described patients with damage to emotion-related brain areas who could reason about choices but struggled to make sensible decisions in daily life; his \"somatic marker\" explanation is debated, but the broad point, that feelings help us choose, is widely accepted (OpenStax 10.4 covers theories of emotion).\n\nSo the aim is not to remove emotion. It is to **notice which emotion is driving a judgement** and ask whether it fits the facts. Fear before a job interview fits; fear of a forwarded message designed to scare you does not.\n\n## How strong is the evidence?\n\n| Principle or claim | Evidence | What the research says |\n| --- | --- | --- |\n| Anchoring on irrelevant numbers | **Strong** | Replicated in large multi-lab projects; the size varies with how much you already know. |\n| Base-rate neglect and the conjunction fallacy | **Strong** | Replicated widely; people do better when problems are given as counts (\"10 out of 100\") instead of percentages. |\n| Availability heuristic | **Moderate** | Well supported in lab studies and in risk perception; effects vary by task. |\n| Affect heuristic: liking something lowers its perceived risk | **Moderate** | Supported by many studies on risk perception. |\n| Emotion is the opposite of good reasoning | **Failed to replicate or myth** | Evidence from neuroscience and psychology shows emotions are part of good decision-making. |\n\n## Everyday Kerala example\n\nSreeja, from Nadapuram, is deciding whether to join a ₹12,000 PSC coaching batch. The coaching centre's poster shows ten smiling toppers. That is **availability** and **representativeness** at work: the toppers come to mind easily and \"look like\" success. What she does not see is the base rate: how many students joined and how many got a rank list place? When she asks, the centre will not say.\n\nAt the counter, the manager says the course \"normally costs ₹25,000\", so ₹12,000 feels like a bargain (**anchoring**). He is warm and funny, so the course *feels* safe (**affect**). Sreeja notices her excitement, uses the three-question pause from PD-M01-L01, and asks two former students from her village. Both say the classes were good but the material was the same as the free SCERT textbooks. She joins a cheaper weekend test series instead, and keeps studying from free material.\n\n## How to use it\n\n**Turn each shortcut into a question you ask before an important judgement:**\n\n| Shortcut | The question that checks it |\n| --- | --- |\n| Representativeness | \"How common is this in general, before I look at the details?\" |\n| Conjunction | \"Does each extra detail make the story more convincing but less likely?\" |\n| Availability | \"Am I judging by vivid examples, or by real numbers over time?\" |\n| Anchoring | \"Where did the first number come from, and what would I guess without it?\" |\n| Affect | \"Which emotion am I feeling, and does it fit the facts?\" |\n| Gambler's fallacy | \"Are these events really connected, or independent?\" |\n\n**With others:** when you present information, give numbers as counts (\"3 out of 10 students cleared it\") rather than percentages; people understand them better. And do not exploit anchors or emotions to push someone into a choice; Module 28 shows how to persuade with truth instead.\n\n## Free resources\n\n| Resource | What to study | Time | Status |\n| --- | --- | --- | --- |\n| [OpenStax Psychology 2e, 7.3 Problem Solving (heuristics and biases)](https://openstax.org/books/psychology-2e/pages/7-3-problem-solving) | Re-read the table of biases and heuristics (anchoring, confirmation, hindsight, representative, availability) | 10 minutes | verified 2026-11-03 |\n| [OpenStax Psychology 2e, chapter 10: Motivation and Emotion (10.1 and 10.4)](https://openstax.org/books/psychology-2e/pages/10-introduction) | Read 10.4 Emotion: the theories of emotion section | 20 minutes | verified 2026-11-04 |\n| [The Decision Lab: free index of cognitive biases](https://thedecisionlab.com/biases/) | Look up anchoring and the availability heuristic in the bias index; read one entry fully | 10 minutes | verified 2026-11-04 |\n\n## Action task\n\n1. Find three real examples this week, one each of anchoring (a price, a \"was\" price, a salary figure), availability (a news story or WhatsApp forward), and representativeness (a judgement about a person from how they look or talk). They can be your own judgements or someone else's.\n2. For each, write the shortcut, the checking question from the table, and what the answer to that question showed.\n3. Once this week, before a purchase over ₹500, write down your own price estimate before looking at any price tag or website. Then compare it with the first price you see.\n4. Notice one strong emotion during the week and write: the emotion, what it was telling you, and whether it fitted the facts.\n\n**Proof to record:** A note with three shortcut examples (each with its checking question and answer), your pre-purchase estimate versus the first price seen, and one emotion check.\n\n## Template: Shortcut spotting note\n\n```\nSHORTCUT SPOTTING\nDate | Situation | Shortcut (representativeness / availability / anchoring / affect / gambler's) | Checking question | What the check showed\nPre-purchase anchor test: item ______ my estimate Rs ____ first price seen Rs ____ final price paid Rs ____\nEmotion check: emotion ______ what it said ______ fits the facts? Y / N / partly\n```\n\n## Common mistakes and misuses\n\n- **Calling every mistake a bias.** Sometimes a judgement is wrong because you lacked information. A bias is a predictable pattern; name it only when it fits.\n- **Thinking shortcuts are stupid.** They save effort and are usually good enough. They fail in predictable conditions: unfamiliar problems, rare events, emotional pressure and numbers chosen by someone else.\n- **Using \"you are just being emotional\" to dismiss people.** Emotions carry information. Ask what the feeling is about before deciding whether it fits.\n\n## Quiz\n\nAnswer from memory first; that is retrieval practice. The answers are at the bottom of this page.\n\n1. \"Most quiet, bookish people are librarians, so Ravi is probably a librarian.\" What is missing from this reasoning?\n    - A) The base rate: how many librarians there are compared with other jobs\n    - B) Ravi's age\n    - C) Nothing; it is correct\n    - D) His favourite books\n2. A seller says \"MRP Rs 4,999, today Rs 1,999\". Which shortcut is the seller using?\n    - A) Anchoring\n    - B) The gambler's fallacy\n    - C) Representativeness\n    - D) Availability\n3. Why do plane crashes feel more common than they are?\n    - A) Because of anchoring\n    - B) People are bad at maths\n    - C) Planes crash every day\n    - D) Vivid, widely reported events come to mind easily (availability)\n4. Which statement about emotion and reasoning fits the research?\n    - A) Emotions are fast evaluations that help decisions but can mislead when they don't fit the facts\n    - B) Reason and emotion use the same brain cells\n    - C) Good decisions need emotions switched off\n    - D) Emotions only matter in relationships\n\n## Progress checklist\n\nTick these under **Your tasks** at the top of this page:\n\n- **Study:** read the lesson, the OpenStax emotion theories section and one Decision Lab entry\n- **Action:** find and check three real shortcut examples, do one pre-purchase anchor test and one emotion check. It is done when your proof is saved: a note with three shortcut examples (each with its checking question and answer), your pre-purchase estimate versus the first price seen, and one emotion check.\n- **Quiz:** at least 3 right, or re-read the lesson and try again tomorrow.\n\n## Answers\n\n1. **A.** Ignoring how common each category is leads to base-rate neglect.\n2. **A.** The high first number anchors your sense of value.\n3. **D.** Ease of recall is mistaken for frequency.\n4. **A.** Emotion guides choice; the skill is checking whether it fits the situation.",
+   "tasks": [
+    {
+     "id": "pd-m01-l02-study",
+     "text": "Study: read the lesson, the OpenStax emotion theories section and one Decision Lab entry",
+     "kind": "task",
+     "week": 1
+    },
+    {
+     "id": "pd-m01-l02-action",
+     "text": "Action: find and check three real shortcut examples, do one pre-purchase anchor test and one emotion check",
+     "kind": "project",
+     "week": 1,
+     "detail": "**Proof to record:** A note with three shortcut examples (each with its checking question and answer), your pre-purchase estimate versus the first price seen, and one emotion check. Save it in your Playbook notebook (01 How the mind works) and write in this task's note where it is."
+    },
+    {
+     "id": "pd-m01-l02-quiz",
+     "text": "Quiz: at least 3 right",
+     "kind": "task",
+     "week": 1
+    }
+   ]
+  },
+  {
+   "id": "pd-final",
+   "title": "Final retest and checklist",
+   "kind": "capstone",
+   "weeks": [
+    30,
+    30
+   ],
+   "hours": 1.5,
+   "summary": "Repeat every baseline test (form B of the quiz), compare start and end, tick the final checklist of your personal operating system and write a one-page reflection.",
+   "content": "Take every test again, the same way as in week 0, then compare. Use **form B** of the thinking-traps quiz (form A's answers would be remembered). Use the same push-up version, route and time of day as at the start.\n\n## How to read your results honestly\n\n- **Small changes are real changes.** One or two points on a 25-point scale, or a few more push-ups, matter when they come from habits you will keep.\n- **Personality barely moves in months.** If your Big Five scores hardly changed, that is normal. Habits and skills change faster than traits.\n- **Some numbers get worse for good reasons.** Your screen time may rise in an exam month; your rejection fears may feel bigger because you finally notice them. Write the reason next to the number.\n- **The quiz is not an IQ test.** It measures whether you now slow down on trap questions. Knowing the traps helps less than you would hope (PD-M03-L03): the habit of checking is what counts.\n\nTake every test now, in week 30, on a normal week, and write the results in a note called **Baseline B** in your Playbook notebook (00 Baseline). Be honest; nobody else sees these numbers. The point is to measure change, not to score high.\n\n## 1. Life wheel (5 minutes)\n\nScore each area of your life from 1 (very unhappy with it) to 10 (couldn't be better). Draw it as a wheel with eight spokes if you like; low spokes show where the wheel is \"flat\".\n\n| Area | What it includes | Score 1–10 |\n| --- | --- | --- |\n| Health and fitness | energy, strength, sleep, food |  |\n| Mind and emotions | calm, mood, handling stress |  |\n| Learning and career | PSC preparation, skills, work |  |\n| Money | income, savings, control over spending |  |\n| Family | relationships at home |  |\n| Friends and social life | people you can call, new connections |  |\n| Fun and rest | hobbies, play, real breaks |  |\n| Purpose and contribution | meaning, helping others, community |  |\n\n## 2. Big Five personality (10 minutes)\n\nTake the free [IPIP Big Five Factor Markers test](https://openpsychometrics.org/tests/IPIP-BFFM/) (50 statements, 3 to 8 minutes; educational use only). Write down your five percentile scores: Extraversion, Agreeableness, Conscientiousness, Emotional stability, Openness (Intellect/Imagination). Traits change slowly; at the end of the course expect small shifts at most, mainly in conscientiousness and emotional stability. Lesson PD-M05-L02 explains what the scores mean and don't mean.\n\n## 3. VIA character strengths (15 minutes)\n\nTake the free [VIA character strengths survey](https://www.viacharacter.org/) (about 12 minutes). Write down your top five strengths in order. (The site offers paid reports; you don't need them.)\n\n## 4. Fitness tests (30 minutes, plus heart rate on 3 mornings)\n\nRead the safety box on **Start here** first. Warm up for 5 minutes (march on the spot, arm circles, gentle squats). Rest 3 to 5 minutes between tests. Stop if anything hurts sharply.\n\n| Test | How to do it safely | Unit | Result |\n| --- | --- | --- | --- |\n| Push-ups | Full push-ups on the floor, or from the knees if you cannot do 5 full ones. Body straight from head to knees or heels, chest to a fist's height from the floor, arms fully straight at the top. Count clean reps until form breaks. Write which version you did and use the same version at the end. | reps |  |\n| Plank hold | Forearms under shoulders, body in a straight line, squeeze your seat. Time it until your hips sag or lift. Stop at 3 minutes at most. | seconds |  |\n| 1 km walk or walk-run | A flat, safe 1 km route (a marked km stone, a school ground, or measured with a maps app). Brisk walk, or walk-run if you already run. Time it. | minutes:seconds |  |\n| Resting heart rate | In the morning before tea or coffee, sit quietly for 5 minutes, find the pulse at your wrist or neck and count for 30 seconds, then double it. Do it on 3 mornings and take the average. | beats per minute |  |\n| Sit and reach | Sit on the floor, legs straight, feet against a wall or step. Reach forward slowly with both hands, no bouncing. Measure with a ruler or tape from fingertips to toes: minus if short of the toes, plus if past them. | centimetres |  |\n\n## 5. One-week sleep log (1 minute each morning for 7 days)\n\nUse this log every morning for 7 days. Write the averages at the bottom.\n\n```\n7-DAY SLEEP LOG (fill in each morning, takes 1 minute)\nDay | Into bed | Lights out | Minutes to fall asleep (guess) | Times awake | Got up | Total sleep (h) | Quality (1-5) | Caffeine after 2 pm? | Screen in last 30 min? | Daytime nap?\nAverage total sleep: ___ h  Average quality: ___  Latest lights-out: ___\n```\n\n## 6. Screen time (2 minutes, after 7 days)\n\nIn Digital Wellbeing, write down your **daily average screen time** for the last 7 days, the **number of unlocks** per day, and your **top 3 apps** by time.\n\n## 7. Self-ratings (5 minutes)\n\nRate each statement 1 to 5. Add up each scale (5 to 25).\n\n| Scale | Statement (rate 1 = not at all like me, 5 = very like me) | Start | End |\n| --- | --- | --- | --- |\n| Confidence | When I set myself a hard task, I believe I can do it if I keep working. |  |  |\n|  | I try new things even when I might fail at first. |  |  |\n|  | I can say what I think in a group without rehearsing it many times. |  |  |\n|  | A setback or a \"no\" does not ruin my week. |  |  |\n|  | I feel comfortable being seen by others (on video, on a stage, in a shop). |  |  |\n| Social confidence | I can start a conversation with a stranger (a shopkeeper, a person at a bus stop). |  |  |\n|  | I can keep a conversation going for five minutes with someone new. |  |  |\n|  | I can ask for help, advice or a discount without much fear. |  |  |\n|  | I can say no to a friend or relative politely and clearly. |  |  |\n|  | I have at least three people I could call if I needed help. |  |  |\n| Listening | I let people finish their sentences before I reply. |  |  |\n|  | I ask follow-up questions about what people tell me. |  |  |\n|  | I can sum up what someone said to their satisfaction. |  |  |\n|  | I remember the names of people I meet. |  |  |\n|  | People tell me things they do not tell others. |  |  |\n\n## 8. Thinking-traps quiz, form B (10 minutes)\n\nAnswer quickly, the way you normally would; don't look anything up. Score 1 per correct answer, out of 10. The answers are under the questions: cover them first.\n\n1. A bat and a ball (for gully cricket) cost Rs 220 together. The bat costs Rs 200 more than the ball. How much is the ball?\n    - A) Rs 22\n    - B) Rs 2\n    - C) Rs 10\n    - D) Rs 20\n2. Salma from Vadakara is shy, precise and loves numbers. Which is she more likely to work as?\n    - A) A professional statistician\n    - B) There is no way to reason about it\n    - C) A shop or office worker\n    - D) Equally likely\n3. Arun loves cricket and coaches children on weekends. Which is more probable?\n    - A) The second, because the details fit\n    - B) Arun is a teacher\n    - C) Both are equally probable\n    - D) Arun is a teacher and plays in a local cricket club\n4. You have spent eight months and Rs 6,000 on a coaching class that you now find much worse than free material. What matters most in deciding whether to continue?\n    - A) That you have already spent eight months\n    - B) Which option will help you most from now on, counting only future time and money\n    - C) What the class teacher will think\n    - D) The Rs 6,000 already paid\n5. Your friend says he will finish building his YouTube channel \"in a month\". Projects like his usually take three to four months. What is the best estimate?\n    - A) Three to four months, unless he has a specific reason to be faster\n    - B) One month: he is very motivated\n    - C) It will never happen\n    - D) Two weeks\n6. A student scores 98% in one mock test after months of 70s. In the next mock he scores 78%. What is the likeliest explanation?\n    - A) The second test was rigged\n    - B) He forgot everything in one week\n    - C) He became lazy after the high score\n    - D) Part of the 98% was luck, and scores tend to drift back towards the usual level\n7. Students who use a certain study app score higher in exams. What can we conclude?\n    - A) Users score higher; without an experiment we don't know if the app causes it\n    - B) Apps never help\n    - C) Good students avoid the app\n    - D) The app raises scores\n8. In a lottery, the number 7 has not come up as the first digit for 20 draws. What is the chance it comes up next time?\n    - A) Certain within two more draws\n    - B) Higher, because it is overdue\n    - C) Lower, because it is unlucky\n    - D) The same as any other digit\n9. After a friend's phone was hacked, you feel that most phones in your town are being hacked. What would tell you if that is true?\n    - A) How many forwards about hacking you received\n    - B) Figures on how often phones are hacked, compared with how many phones there are\n    - C) Your feeling, because it is strong\n    - D) How upset your friend was\n10. A salesman first shows you a Rs 45,000 phone and then a Rs 22,000 one, which suddenly feels cheap. What is happening?\n    - A) The second phone is objectively good value\n    - B) The salesman made a mistake\n    - C) Phones are always cheaper the second time\n    - D) The first price is acting as an anchor for the second\n\n### Answers, form B\n\n1. **C.** Rs 10 (the bat is Rs 210). The quick answer, Rs 20, would make the total Rs 240. Same trap as before: fast thinking unchecked (PD-M01-L01).\n2. **C.** Shop and office workers vastly outnumber statisticians, so the base rate wins even though the description \"sounds like\" a statistician (representativeness, PD-M01-L02).\n3. **B.** Adding a detail can only make a story less probable, even when it makes it more convincing (conjunction fallacy, PD-M01-L02).\n4. **B.** Money and time already spent cannot be recovered either way. Judge only the future (sunk cost, PD-M03-L01).\n5. **A.** The typical time for similar projects (the outside view, or reference class) beats an inside-view guess (planning fallacy, PD-M03-L01).\n6. **D.** An extreme score is usually partly luck, so the next one is closer to average: regression to the mean (PD-M02-L01).\n7. **A.** Keen students may both download apps and score well. Only a fair comparison (ideally random assignment) shows cause (PD-M02-L01).\n8. **D.** Each draw is independent: past draws do not change the odds (gambler's fallacy, PD-M01-L02).\n9. **B.** One vivid case feels like many. Rates and base numbers decide (availability, PD-M03-L01).\n10. **D.** The first number you see pulls your judgement towards it. Compare with your own budget and with other shops instead (anchoring, PD-M03-L01, PD-M29-L01).\n\n## Compare start and end\n\n| Measure | Start | End | Change |\n| --- | --- | --- | --- |\n| Life wheel: total of 8 areas (out of 80) |  |  |  |\n| Life wheel: lowest area |  |  |  |\n| Big Five: conscientiousness / emotional stability percentiles |  |  |  |\n| VIA top five (same or different?) |  |  |  |\n| Average sleep (hours) and quality (1–5) |  |  |  |\n| Screen time per day and unlocks |  |  |  |\n| Confidence scale (5–25) |  |  |  |\n| Social-confidence scale (5–25) |  |  |  |\n| Listening scale (5–25) |  |  |  |\n| Thinking-traps quiz (out of 10; A at start, B at end) |  |  |  |\n\n### Fitness\n\n| Test | Start | End | Change |\n| --- | --- | --- | --- |\n| Push-ups |  |  |  |\n| Plank hold |  |  |  |\n| 1 km walk or walk-run |  |  |  |\n| Resting heart rate |  |  |  |\n| Sit and reach |  |  |  |\n\n## Final checklist: your personal operating system\n\nTick each item under **Your tasks**. Each line shows where it was built.\n\n| Item | Built in |\n| --- | --- |\n| Habit tracker in use for the whole course, with at least 5 habits above 80% in the last month | Week 0 onwards |\n| At least 20 weekly reflections and recordings | Daily system track |\n| Two weeks of bias journal, and your top three traps named | PD-M03-L03 |\n| A decision sheet used for a real decision | PD-M04-L02 |\n| A 12-month plan and a weekly planning routine | Module 7 |\n| A two-week personal experiment with data and a decision | PD-M08-L04 |\n| Two weeks of thought records | PD-M11-L02 |\n| The 30-day meditation, journaling, rejection and fitness challenges completed (or restarted and completed) | Modules 12, 14 and 17 |\n| A training plan, a sleep window and a plate you actually follow | Part C |\n| 14 days of conversation challenges logged | PD-M25-L02 |\n| One real piece of constructive feedback given with the script | PD-M26-L03 |\n| A 5-minute talk given to a real audience, recorded | Module 27 |\n| The persuasion lab and a real negotiation, with results | Modules 28 and 29 |\n| A manipulation-spotting file with at least 10 real examples analysed | Module 32 |\n| Capstone: 30-day behaviour-change project and social-skills project, with data | Module 36 |\n| Your one-page Personal Playbook, morning and evening routines, and 12-month growth plan | PD-M36-L03 |\n\n## Your final reflection (one page)\n\n1. The three biggest changes, with the numbers that show them.\n2. The three habits you will keep for the next 12 months, with their cues.\n3. One thing that did not work for you, and why.\n4. Who helped, and how you will thank them.\n5. Read your Personal Playbook aloud and record it (2 to 3 minutes). Listen to it on the 1st of each month.",
+   "tasks": [
+    {
+     "id": "pd-final-wheel",
+     "text": "Final: life wheel scored and compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-big5",
+     "text": "Final: Big Five retaken and compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-via",
+     "text": "Final: VIA retaken and compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-fitness",
+     "text": "Final: five fitness tests done and compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-sleep",
+     "text": "Final: 7-day sleep log done and compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-screen",
+     "text": "Final: screen time and unlocks compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-ratings",
+     "text": "Final: three self-rating scales totalled and compared",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-quiz",
+     "text": "Final: thinking-traps quiz form B scored",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-tracker",
+     "text": "Habit tracker in use for the whole course, with at least 5 habits above 80% in the last month",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-reflections",
+     "text": "At least 20 weekly reflections and recordings",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-bias",
+     "text": "Two weeks of bias journal, and your top three traps named",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-decision",
+     "text": "A decision sheet used for a real decision",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-plan",
+     "text": "A 12-month plan and a weekly planning routine",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-experiment",
+     "text": "A two-week personal experiment with data and a decision",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-thought",
+     "text": "Two weeks of thought records",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-challenges",
+     "text": "The 30-day meditation, journaling, rejection and fitness challenges completed (or restarted and completed)",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-body",
+     "text": "A training plan, a sleep window and a plate you actually follow",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-conv",
+     "text": "14 days of conversation challenges logged",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-feedback",
+     "text": "One real piece of constructive feedback given with the script",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-talk",
+     "text": "A 5-minute talk given to a real audience, recorded",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-lab",
+     "text": "The persuasion lab and a real negotiation, with results",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-manip",
+     "text": "A manipulation-spotting file with at least 10 real examples analysed",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-capstone",
+     "text": "Capstone: 30-day behaviour-change project and social-skills project, with data",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-playbook",
+     "text": "Your one-page Personal Playbook, morning and evening routines, and 12-month growth plan",
+     "kind": "task",
+     "week": 30
+    },
+    {
+     "id": "pd-final-reflection",
+     "text": "Final reflection written and the Playbook recording saved",
+     "kind": "exit",
+     "week": 30
+    }
+   ]
+  },
+  {
+   "id": "pd-next",
+   "title": "What next: your 12-month roadmap",
+   "kind": "reference",
+   "summary": "How to keep the system running for a year, free resources to go deeper, other courses in the app, and when to get professional help.",
+   "content": "## The next 12 months\n\n| When | Focus | How |\n| --- | --- | --- |\n| Every day | Keep the 3 to 6 habits that earned a place in your Playbook | Loop Habit Tracker; never miss twice |\n| Every Sunday | Weekly reflection and recording | The same template; it is your steering wheel |\n| 1st of each month | Re-read your Personal Playbook and pick one monthly focus | One module's project, repeated at a harder level |\n| Every 3 months | Retest fitness and the three self-rating scales | The baseline page; write the change in your Playbook |\n| Every 6 months | Life wheel and 12-month plan review | PD-M07-L01 and PD-M07-L02 |\n| Once a year | A new 30-day challenge (rejection, speaking, fitness or a new one) | The challenge templates on the Toolkit page |\n\n## Go deeper (all free)\n\n- **Psychology:** read [OpenStax Psychology 2e](https://openstax.org/books/psychology-2e/pages/preface) chapters 2, 7, 10, 12 and 14 in full (about 2 hours each), then work through the [MIT OCW Introduction to Psychology](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) lectures (about 1 hour each) and the [Noba modules](https://nobaproject.com/) on topics you liked.\n- **Wellbeing:** audit [The Science of Well-Being](https://www.coursera.org/learn/the-science-of-well-being) (about 13 hours over 6 weeks) and try one new [Greater Good in Action](https://ggia.berkeley.edu/) practice a month.\n- **Stoicism and character:** one letter of [Seneca](https://standardebooks.org/ebooks/seneca/moral-letters-to-lucilius/richard-m-gummere) a week, and a book of [Meditations](https://www.gutenberg.org/ebooks/2680) a month.\n- **Speaking:** visit [Calicut Toastmasters](https://www.toastmasters.org/Find-a-Club/03984104-calicut-toastmasters) as a guest (check meeting details and any fees with the club first), or start a speaking circle with friends using the PD-M27 practice plan.\n- **Other courses in this app:** [Practical Learning Capabilities](https://naipunyam.github.io/vidhyarambham/#/course/learning-capabilities/lrn-start) (in the Practical Learning Capabilities course) for study skills and PSC exam mastery; [Practical Personal Finance](https://naipunyam.github.io/vidhyarambham/#/course/personal-finance/fin-m01) (in the Practical Personal Finance for India course) for money habits; [Practical Entrepreneurship](https://naipunyam.github.io/vidhyarambham/#/course/entrepreneurship/ent-m03) (in the Practical Entrepreneurship course) to turn people skills into customer conversations and sales.\n\n## Signs you need more than a course\n\nIf a problem keeps returning despite your best effort for several weeks (sleep, mood, anxiety, anger, a habit you cannot control), that is a reason to see a professional, not a personal failure. Tele-MANAS (**14416**) is free and confidential to call; a doctor at your local Family Health Centre can refer you."
+  },
+  {
+   "id": "pd-glossary",
+   "title": "Glossary with Malayalam meanings",
+   "kind": "reference",
+   "summary": "86 key terms in English and Malayalam, with simple meanings.",
+   "content": "Key words from the course, roughly in the order you meet them. Some English terms (CBT, BATNA, MLM) are used as they are in Malayalam conversation; the Malayalam is a plain-language rendering so you can explain the idea to family and friends. Malayalam psychology terms vary between textbooks; if your PSC material uses a different word, use that one.\n\n| English | മലയാളം (Malayalam) | Simple meaning |\n| --- | --- | --- |\n| **System 1 / System 2** | വേഗ ചിന്ത / മന്ദ ചിന്ത | Fast, automatic thinking versus slow, effortful thinking |\n| **Heuristic** | ചിന്താ കുറുക്കുവഴി | A mental shortcut that is usually good enough but sometimes wrong |\n| **Cognitive bias** | ചിന്താ പക്ഷപാതം | A predictable error in thinking |\n| **Confirmation bias** | സ്ഥിരീകരണ പക്ഷപാതം | Looking only for evidence that agrees with what you already believe |\n| **Sunk cost** | മുടക്കിപ്പോയ ചെലവ് | Money or time already spent that cannot be recovered |\n| **Overconfidence** | അമിത ആത്മവിശ്വാസം | Being more sure than your accuracy justifies |\n| **Planning fallacy** | ആസൂത്രണ പിഴവ് | Underestimating how long tasks will take |\n| **Loss aversion** | നഷ്ടഭയം | Losses feel bigger than equal gains |\n| **Anchoring** | നങ്കൂരമിടൽ (ആദ്യ സംഖ്യയുടെ സ്വാധീനം) | The first number you hear pulls your judgement |\n| **Availability heuristic** | ഓർമ്മയിൽ എളുപ്പം വരുന്നതിനെ ആശ്രയിക്കൽ | Judging how common something is by how easily examples come to mind |\n| **Base rate** | അടിസ്ഥാന നിരക്ക് | How common something is in general, before details |\n| **Correlation** | പരസ്പര ബന്ധം | Two things that tend to go together, without proof that one causes the other |\n| **Causation** | കാര്യകാരണ ബന്ധം | One thing actually making another happen |\n| **Experiment** | പരീക്ഷണം | A study where researchers change one thing and compare groups |\n| **Sample size** | സാമ്പിൾ വലിപ്പം | How many people a study included |\n| **Replication** | ആവർത്തന പഠനം | Repeating a study to see if the result holds |\n| **Replication crisis** | ആവർത്തന പ്രതിസന്ധി | The discovery that many famous findings did not repeat |\n| **Effect size** | ഫലത്തിന്റെ വലിപ്പം | How big a difference is, not just whether it exists |\n| **Cognitive distortion** | ചിന്താ വൈകല്യം | An unhelpful thinking pattern named in CBT |\n| **CBT (cognitive behavioural therapy)** | കോഗ്നിറ്റീവ് ബിഹേവിയറൽ തെറാപ്പി | A well-tested therapy that works on thoughts and actions |\n| **Pre-mortem** | മുൻകൂർ പരാജയ വിശകലനം | Imagining a plan has failed in order to find its weak points |\n| **Choice overload** | തിരഞ്ഞെടുപ്പ് ബാഹുല്യം | Feeling stuck when there are too many options |\n| **Values** | മൂല്യങ്ങൾ | What matters most to you, guiding how you want to act |\n| **Big Five** | അഞ്ച് പ്രധാന വ്യക്തിത്വ ഗുണങ്ങൾ | Five broad personality traits measured on a scale |\n| **Character strengths** | സ്വഭാവ ശക്തികൾ | Positive traits such as kindness, curiosity and honesty |\n| **Intrinsic motivation** | ആന്തരിക പ്രചോദനം | Doing something because it is interesting or meaningful in itself |\n| **Extrinsic motivation** | ബാഹ്യ പ്രചോദനം | Doing something for a reward or to avoid punishment |\n| **Autonomy** | സ്വയംഭരണം | Feeling that your actions are your own choice |\n| **Present bias** | വർത്തമാന പക്ഷപാതം | Valuing rewards now far more than bigger rewards later |\n| **Commitment device** | പ്രതിജ്ഞാ ഉപാധി | An arrangement that makes it harder to break a promise to yourself |\n| **Temptation bundling** | ഇഷ്ടവും കടമയും ചേർക്കൽ | Allowing a treat only while doing a task you avoid |\n| **Habit loop (cue, routine, reward)** | ശീല ചക്രം (സൂചന, പ്രവൃത്തി, പ്രതിഫലം) | The trigger, the action and the payoff that build a habit |\n| **Implementation intention (if-then plan)** | എങ്കിൽ-അപ്പോൾ പദ്ധതി | A plan of the form \"If X happens, then I will do Y\" |\n| **Procrastination** | നീട്ടിവയ്ക്കൽ | Delaying a task even though delay will make things worse |\n| **Growth mindset** | വളർച്ചാ മനോഭാവം | The belief that abilities can be developed with effort and good strategies |\n| **Self-compassion** | സ്വയം കരുണ | Treating yourself with the kindness you would show a friend |\n| **Emotional intelligence** | വൈകാരിക ബുദ്ധി | Noticing, understanding and managing emotions in yourself and others |\n| **Affect labelling** | വികാരത്തിന് പേര് നൽകൽ | Putting a feeling into words, which can calm it |\n| **Reappraisal** | പുനർ വിലയിരുത്തൽ | Changing how you interpret a situation to change how you feel |\n| **Empathy** | സഹാനുഭൂതി | Understanding and sharing another person's feelings |\n| **Negativity bias** | നിഷേധാത്മക പക്ഷപാതം | Bad events weigh more in the mind than good ones |\n| **Stress response** | സമ്മർദ്ദ പ്രതികരണം | The body's fight-or-flight reaction to a demand or threat |\n| **Resilience** | അതിജീവന ശേഷി | Bouncing back from difficulty |\n| **Thought record** | ചിന്താ രേഖ | A CBT worksheet for examining an upsetting thought |\n| **Stoicism** | സ്റ്റോയിക് ചിന്ത | An ancient philosophy of focusing on what you can control |\n| **Mindfulness** | സൂക്ഷ്മ ബോധം | Paying attention to the present moment without judging it |\n| **Self-efficacy** | സ്വയം കാര്യക്ഷമതാ വിശ്വാസം | Belief in your ability to do a specific task |\n| **Spotlight effect** | ശ്രദ്ധാകേന്ദ്ര മിഥ്യ | Overestimating how much others notice you |\n| **Impostor feelings** | കപടനാണെന്ന തോന്നൽ | Feeling like a fraud despite evidence of ability |\n| **Exposure (fear ladder)** | ഭയ ഗോവണി | Facing fears step by step, from easy to hard, until they shrink |\n| **Rejection therapy** | നിരസന ചികിത്സ (നിരസനം ശീലിക്കൽ) | Seeking small, safe \"no\"s on purpose to lose the fear of rejection |\n| **Hedonic adaptation** | സുഖാനുകൂലനം | Getting used to good and bad changes so they stop affecting mood |\n| **Social comparison** | സാമൂഹിക താരതമ്യം | Judging yourself against others |\n| **Flow** | ലയാവസ്ഥ | Being fully absorbed in a challenging task |\n| **Dark pattern** | വഞ്ചനാത്മക ഡിസൈൻ | An app or website design that tricks you into choices |\n| **Warm-up** | ശരീരം ചൂടാക്കൽ | Light movement that prepares the body for exercise |\n| **Progressive overload** | ക്രമാനുഗത ഭാരവർധന | Making exercise slightly harder over time |\n| **Resting heart rate** | വിശ്രമ ഹൃദയമിടിപ്പ് | Heartbeats per minute when sitting still |\n| **Asana / pranayama** | ആസനം / പ്രാണായാമം | Yoga postures / yoga breathing practices |\n| **Circadian rhythm** | ശരീര ഘടികാരം | The body's roughly 24-hour clock |\n| **Protein** | മാംസ്യം (പ്രോട്ടീൻ) | The nutrient the body uses to build and repair |\n| **Ergonomics** | ശരീരസൗഹൃദ ക്രമീകരണം | Arranging your space to fit your body |\n| **Halo effect** | പ്രഭാവലയ പ്രഭാവം | One good trait making us rate everything about a person higher |\n| **Fundamental attribution error** | അടിസ്ഥാന ആരോപണ പിഴവ് | Blaming people's character and ignoring their situation |\n| **Stereotype** | മുൻധാരണ | A fixed, oversimplified idea about a group |\n| **Rapport** | ആത്മബന്ധം | A feeling of connection and understanding between people |\n| **Active listening** | സജീവ ശ്രവണം | Listening to understand, and showing it |\n| **Assertiveness** | ദൃഢനിശ്ചയത്തോടെയുള്ള ആശയവിനിമയം | Saying what you need clearly and respectfully |\n| **Non-violent communication** | അക്രമരഹിത ആശയവിനിമയം | Observations, feelings, needs and requests instead of blame |\n| **Face-saving** | മാനം കാക്കൽ | Letting someone keep their dignity in a disagreement |\n| **Reciprocity** | പ്രത്യുപകാരം | The urge to return favours |\n| **Social proof** | സാമൂഹിക തെളിവ് | Doing what others like us are doing |\n| **Scarcity** | ദൗർലഭ്യം | Things seem more valuable when they are rare or running out |\n| **Framing** | അവതരണ രീതി | How the same facts are presented changes choices |\n| **BATNA** | ഒത്തുതീർപ്പിലെത്തിയില്ലെങ്കിലുള്ള മികച്ച ബദൽ | Your best option if the negotiation fails |\n| **Conformity** | അനുരൂപപ്പെടൽ | Changing behaviour to match a group |\n| **Obedience** | അനുസരണ | Following orders from an authority |\n| **Groupthink** | സംഘ ചിന്ത | A group agreeing too quickly and ignoring doubts |\n| **Social loafing** | കൂട്ടത്തിലെ ഉഴപ്പ് | Putting in less effort when working in a group |\n| **Bystander effect** | കാഴ്ചക്കാരന്റെ നിഷ്ക്രിയത്വം | Being less likely to help when others are present |\n| **Gaslighting** | ഗ്യാസ്‌ലൈറ്റിംഗ് (ഓർമ്മയെ സംശയിപ്പിക്കൽ) | Making someone doubt their own memory or sanity |\n| **Emotional blackmail** | വൈകാരിക ഭീഷണി | Using fear, obligation or guilt to control someone |\n| **MLM (multi-level marketing)** | ബഹുതല വിപണനം | Selling schemes where income depends on recruiting others |\n| **Integrity** | സത്യസന്ധത / ധർമ്മനിഷ്ഠ | Acting by your values even when no one is watching |\n| **Humility** | വിനയം | An accurate, modest view of yourself and openness to learning |\n| **Personal operating system** | വ്യക്തിഗത ജീവിതക്രമം | Your routines, reviews and rules working together |"
+  },
+  {
+   "id": "pd-sources",
+   "title": "Sources and verification log",
+   "kind": "reference",
+   "summary": "Every link in the course, where it is used and when it was checked.",
+   "content": "Every link in this course is listed here with the date it was checked. Links were opened and read for this course (most on 2026-11-04, some on 2026-11-03); nothing was copied from memory. If a link stops working, search for its title on the same website.\n\n- **verified [date]:** the page was opened on that date and its content matched what the course says.\n- **verified; check current rules:** as above, but it describes something that changes (an app, a price, free access, a meeting time, a law). Check before you rely on it.\n- **headline figures checked; secondary summary:** the numbers were checked on a summary page, not the original paper. Treat them as approximate.\n- **found in a web search; page not opened:** the address came from a search result but the page itself could not be opened for checking. Marked unverified.\n- **unverified:** the site blocks automated checks. The address is the official one; type it yourself and check that it is the real site.\n\nOpen-licensed and official sources are preferred: OpenStax and Noba (CC BY-NC-SA 4.0), MIT OpenCourseWare, public-domain classics on Project Gutenberg and Standard Ebooks, government and health bodies (WHO, NHS, ICMR-NIN, the Ministry of Ayush), university centres (Greater Good, Harvard), and open-source apps (Loop, Medito, Joplin). Wikipedia is used for the history and criticism of classic experiments, because its articles on them cite the replication studies.\n\n**Studies named without a link** (for example \"Iyengar and Lepper, 2000\") are well-known published papers described through the linked review or summary in the same lesson. The course gives numbers only where they were checked against a linked source.\n\n## Free textbooks and courses\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [OpenStax Psychology 2e, 7.3 Problem Solving (heuristics and biases)](https://openstax.org/books/psychology-2e/pages/7-3-problem-solving) | PD-M01-L01, PD-M01-L02 | verified 2026-11-03 |\n| [Crash Course Psychology with Hank Green (40 episodes)](https://thecrashcourse.com/topic/psychology/) | PD-M01-L01 | verified 2026-11-04 |\n| [OpenStax Psychology 2e, chapter 10: Motivation and Emotion (10.1 and 10.4)](https://openstax.org/books/psychology-2e/pages/10-introduction) | PD-M01-L02 | verified 2026-11-04 |\n| [OpenStax, Psychology 2e (free, CC BY-NC-SA 4.0)](https://openstax.org/books/psychology-2e/pages/preface) | What next | verified 2026-11-03 |\n| [Noba Project: free psychology modules and textbooks (CC BY-NC-SA 4.0)](https://nobaproject.com/) | What next | verified 2026-11-04 |\n| [MIT OpenCourseWare 9.00SC Introduction to Psychology, John Gabrieli (CC BY-NC-SA 4.0)](https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/) | What next | verified 2026-11-04 |\n| [Yale, \"The Science of Well-Being\" with Laurie Santos (Coursera; free to enrol, some features or the certificate may cost money)](https://www.coursera.org/learn/the-science-of-well-being) | What next | verified 2026-11-04; check current rules |\n\n## Wikipedia background articles (classic experiments and replication)\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Wikipedia: Thinking, Fast and Slow (including the priming replication problem)](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) | PD-M01-L01 | verified 2026-11-04 |\n\n## Free practices, surveys and tests\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [VIA Institute on Character: free character strengths survey (24 strengths, about 12 minutes)](https://www.viacharacter.org/) | Baseline tests, Final retest and checklist | verified 2026-11-04 |\n| [Open-Source Psychometrics: IPIP Big Five Factor Markers test (50 items, educational use)](https://openpsychometrics.org/tests/IPIP-BFFM/) | Baseline tests, Final retest and checklist | verified 2026-11-04 |\n| [The Decision Lab: free index of cognitive biases](https://thedecisionlab.com/biases/) | PD-M01-L02 | verified 2026-11-04 |\n| [Greater Good in Action (UC Berkeley): free, research-based practices](https://ggia.berkeley.edu/) | What next | verified 2026-11-04 |\n\n## Public-domain classics\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Marcus Aurelius, Meditations (Project Gutenberg, public domain in the USA)](https://www.gutenberg.org/ebooks/2680) | What next | verified 2026-11-04 |\n| [Seneca, Moral Letters to Lucilius, Gummere translation (Standard Ebooks; free in the USA, check your local law)](https://standardebooks.org/ebooks/seneca/moral-letters-to-lucilius/richard-m-gummere) | What next | verified 2026-11-04 |\n\n## Free talks and clubs\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Toastmasters: Calicut Toastmasters (Kozhikode; Sundays 3 to 5 pm, online attendance allowed)](https://www.toastmasters.org/Find-a-Club/03984104-calicut-toastmasters) | What next | verified 2026-11-04; check current rules |\n\n## Free and open-source tools\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Loop Habit Tracker (free, open source, GPLv3)](https://loophabits.org/) | Week 0 | verified 2026-11-03 |\n| [Medito: free meditation app from a non-profit foundation (open source)](https://meditofoundation.org/) | Week 0 | verified 2026-11-04 |\n| [Joplin: free, open-source notes for Android, Windows and Linux](https://joplinapp.org/) | Week 0 | verified 2026-11-03 |\n| [Android Help: manage how you spend time with Digital Wellbeing](https://support.google.com/android/answer/9346420?hl=en) | Week 0 | verified 2026-11-04; check current rules |\n\n## Helplines and official safety sources\n\n| Resource | Used in | Status |\n| --- | --- | --- |\n| [Tele-MANAS: toll-free 24x7 national mental health helpline, 14416 or 1-800-89-14416](https://ehrc.iiitb.ac.in/project/tele-manas) | Start here | verified 2026-11-04 |\n\n## Marked \"unverified\"\n\nNone.\n\n## Marked \"check current rules\"\n\n- [Android Help: manage how you spend time with Digital Wellbeing](https://support.google.com/android/answer/9346420?hl=en)\n- [Yale, \"The Science of Well-Being\" with Laurie Santos (Coursera; free to enrol, some features or the certificate may cost money)](https://www.coursera.org/learn/the-science-of-well-being)\n- [Toastmasters: Calicut Toastmasters (Kozhikode; Sundays 3 to 5 pm, online attendance allowed)](https://www.toastmasters.org/Find-a-Club/03984104-calicut-toastmasters)"
+  }
+ ]
+}
