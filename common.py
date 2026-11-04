@@ -96,6 +96,9 @@ R = {
     'mit-re': _r('MIT OpenCourseWare 11.431J Real Estate Finance and Investment (Geltner and McGrath, CC BY-NC-SA)', 'https://ocw.mit.edu/courses/11-431j-real-estate-finance-and-investment-fall-2006', 'v', G_TEXT),
 
     # ---- Tools
+    'gsheets': _r('Google Sheets (free with a Google account; works on phones and offline)', 'https://workspace.google.com/products/sheets/', 'v', G_TOOLS),
+    'libreoffice': _r('LibreOffice (free and open source; Calc spreadsheet works on an old laptop)', 'https://www.libreoffice.org/', 'v', G_TOOLS),
+    'canva': _r('Canva (free plan for listing graphics; site blocks automated checks)', 'https://www.canva.com/', 'u', G_TOOLS),
     'qgis': _r('QGIS: free and open-source GIS (GPL)', 'https://qgis.org/', 'v', G_TOOLS),
     'gearth': _r('Google Earth versions (web, mobile, Pro desktop)', 'https://www.google.com/earth/about/versions/', 'vr', G_TOOLS),
 

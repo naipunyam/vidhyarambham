@@ -112,6 +112,10 @@ L2 = lesson(
 **Lead quality.** A lead is anyone who might buy, sell, rent or let. Qualify every lead with the client intake form (RE-M13-L01) and grade it:
 {table(['Grade', 'Signs', 'Action'], LEAD_Q)}
 
+**Responding to a new lead.** Reply the same day if you can; speed matters more than polish. A simple first reply: "Thank you for contacting me about the 10-cent plot in Kakkattil. I'm Sachin, a local property agent. The owner has asked me to handle enquiries. Could you tell me what you're looking for, your budget range and when you plan to buy? I can share the location and photos, and arrange a visit with the owner's permission." Then fill in the intake form. Don't send the owner's phone number, the full address or document copies at this stage.
+
+**Following up without pestering.** Hot leads: every few days until a visit. Warm leads: once a month with genuinely matching properties. Cold leads: occasional market updates only if they agreed. Stop when someone says no, and remove their number if asked.
+
 Track every lead in your **CRM** (Leads tab; RE-M19-L01) from the first contact, with the source, so you learn which sources bring deals, not just enquiries.
 """,
     example="""
