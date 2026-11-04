@@ -1,65 +1,91 @@
-"""Course-level sections: start here, schedule, week 0, baseline tests, the
-learning system track, the toolkit, the final retest, what next, glossary
-and the sources page."""
+"""Course-level sections for Mind, Body and People: start here, schedule,
+week 0 setup, baseline tests, the daily system track, the toolkit, the five
+part pages, the final retest and checklist, what next, glossary and the
+sources page."""
 from common import (R, STATUS, VDATE, CHECK, GROUP_ORDER, EVIDENCE_KEY, FOLDERS, WEEKS, PROJECT_WEEK,
-                    ANKI_START, LAST_WEEK, LOAD, link, rules, fence, bullets, numbered, table, fmt_hours)
+                    LAST_WEEK, LOAD, PLAYBOOK, link, rules, xref, fence, bullets, numbered, table, fmt_hours, code_of)
 import plan
 import tests
 import tools
 
-FULL_TIME_WEEK = 0.375   # one course week = 0.375 calendar weeks at full-time pace
+FULL_TIME_WEEK = 0.4     # one course week = 0.4 calendar weeks at full-time pace (about 15 hours a week)
 FINAL = LAST_WEEK
 
+
+def wk(m, l):
+    return WEEKS[(m, l)][0]
+
+
+# Daily-practice checkpoints on the system track: (id, text, week, evidence)
+def challenges():
+    out = []
+    b = wk(3, 3)
+    out += [('pd-sys-bias-w1', 'Bias journal: week 1 done (21 entries)', b + 1, 'your bias journal note, with the bias you caught most in yourself'),
+            ('pd-sys-bias-w2', 'Bias journal: week 2 done, and a 3-line summary of your top traps', b + 2, 'the journal and the summary in 03 Thinking traps')]
+    e = wk(8, 4)
+    out += [('pd-sys-exp-w1', 'Personal experiment: baseline week logged (7 days of study minutes)', e + 1, 'the experiment log'),
+            ('pd-sys-exp-w2', 'Personal experiment: change week logged and result written', e + 2, 'the completed experiment log with averages and your decision')]
+    t = wk(11, 2)
+    out += [('pd-sys-tr-w1', 'Thought records: week 1 (at least 3 records)', t + 1, 'photos or notes of the records in 11 Stress and resilience'),
+            ('pd-sys-tr-w2', 'Thought records: week 2, plus re-rated feelings compared', t + 2, 'the records and a note on which distortions came up most')]
+    for name, (m, l), log in (('Meditation', (12, 1), 'Medito history screenshot or your Loop habit graph'),
+                              ('Journaling', (12, 2), 'photos of your journal pages or the Joplin notes'),
+                              ('Rejection', (14, 3), 'your 30-day rejection log'),
+                              ('Fitness', (17, 3), 'your workout log and a retest of push-ups and plank on day 30')):
+        s = wk(m, l)
+        key = name.lower()
+        out += [(f'pd-sys-{key}-d10', f'{name} challenge: day 10 of 30', s + 1, log),
+                (f'pd-sys-{key}-d20', f'{name} challenge: day 20 of 30', s + 3, log),
+                (f'pd-sys-{key}-d30', f'{name} challenge: day 30 of 30, with a short review', s + 4, log + ', plus 3 lines on what changed')]
+    c = wk(25, 2)
+    out += [('pd-sys-conv-w1', 'Conversation challenges: 7 days logged', c + 1, 'your conversation log'),
+            ('pd-sys-conv-w2', 'Conversation challenges: 14 days logged, names remembered counted', c + 2, 'your conversation log with the totals')]
+    for letter, title, a, z in plan.PARTS:
+        end = max(PROJECT_WEEK[m] for m in range(a, z + 1))
+        if letter != 'E':
+            out.append((f'pd-sys-part-{letter.lower()}', f'Part {letter} review: what changed, what to keep', end,
+                        f'a half-page review in your Playbook notebook: your Part {letter} projects, rubric scores and the three habits or ideas you are keeping'))
+    return sorted(out, key=lambda x: x[2])
+
+
 MODULE_MAP = [
-    (1, 'How the brain works for study: attention, working memory, encoding, sleep, retrieval, forgetting', 'A one-page model of how you learn, and your first study log'),
-    (2, 'Learning styles, rereading, highlighting, multitasking, speed-reading claims', 'Your "stop doing" list'),
-    (3, 'Retrieval, spacing, interleaving, elaboration, concrete examples, dual coding', 'Revision tab and a six-strategy study session'),
-    (4, 'AnkiDroid from zero: good cards, cloze, image occlusion, daily reviews, workload', 'A 100+ card PSC deck reviewed for 30 days'),
-    (5, 'Attention span, Pomodoro, time-blocking, Android distraction control', 'Focus tab, a quiet phone and a time-blocked week'),
-    (6, 'Why we procrastinate, if-then plans, tiny habits, rewards, restarting', 'If-then plans and habits tracked in Loop'),
-    (7, 'Illusions of knowing, self-testing, confidence ratings, weekly reviews', 'Your weekly learning review routine'),
-    (8, 'Feynman technique, self-explanation, good questions, concept maps, first principles', 'Five recorded Feynman explanations'),
-    (9, 'Cornell notes, outlines, mind maps, sketchnotes, notes into questions and cards', 'Notes that turn into recall practice'),
-    (10, 'SQ3R, skimming and scanning, speed versus comprehension, newspapers', 'Reading routine and current-affairs system'),
-    (11, 'Chunking, acronyms, stories, memory palace, pegs, the major system', 'A memory palace for a real PSC topic'),
-    (12, 'Syllabus map, PYQ analysis, mocks, error log, negative marking, 12-week plan, anxiety', 'Syllabus map, PYQ analysis, error log and 12-week plan'),
-    (13, 'Deliberate practice, feedback loops, self-directed learning projects', 'A practice loop and a learning project plan'),
-    (14, 'Mental maths, PSC arithmetic, reasoning practice', 'Maths and reasoning practice system'),
-    (15, 'English for PSC, input, shadowing, vocabulary with AnkiDroid, PSC Malayalam, any new language', 'Language routine and vocabulary deck'),
-    (16, 'Critical thinking, logical reasoning, mental models, problem solving, cognitive biases', 'Thinking checklist and reasoning practice'),
-    (17, 'AI as a Socratic tutor, quizzes, checking AI answers, avoiding over-reliance', 'Tutor prompts and a fact-check routine'),
-    (18, 'Linked notes, Joplin or Logseq, a PSC knowledge base', 'Your knowledge base'),
-    (19, 'Sleep, exercise, food, breaks, stress', 'Sleep, movement and stress plan'),
-    (20, 'Learning by teaching, study groups', 'A taught lesson and study-group rules'),
-    (21, 'A 30-day learning sprint with before and after tests', 'Sprint report and your learning system for life'),
+    (1, 'System 1 and System 2, heuristics, emotion and reason', 'A "think slower" checklist'),
+    (2, 'Experiments, correlations, sample size, replication crisis, pop psychology', 'A claim-checker card'),
+    (3, 'Seven biases, CBT distortions, debiasing, the bias journal', 'Two weeks of bias journal'),
+    (4, 'Uncertainty, base rates, pre-mortems, choice overload, regret', 'A decision sheet for a real choice'),
+    (5, 'Values, life wheel, Big Five, VIA strengths, limits of MBTI', 'Your self-awareness profile'),
+    (6, 'Self-determination theory, intrinsic and extrinsic motivation, goal-setting, progress principle', 'A motivation redesign of one goal'),
+    (7, 'Vision, 12-month plan, weekly planning and review', 'Your 12-month plan, version 1'),
+    (8, 'Present bias, commitment devices, environment design, habit loop, if-then plans, tiny habits, identity, procrastination', 'A two-week personal experiment with data'),
+    (9, 'Growth mindset (honest evidence), limiting beliefs, self-compassion', 'A self-talk rewrite'),
+    (10, 'Emotions, negativity bias, labelling, reappraisal, empathy', 'An emotion log and reappraisal practice'),
+    (11, 'Stress response, when to get help, thought records, Stoic practices, failure', 'Two weeks of thought records'),
+    (12, 'Meditation, breathwork, journaling, gratitude', '30-day meditation and journaling challenges'),
+    (13, 'Self-efficacy, spotlight effect, impostor feelings, fear ladders', 'Your personal fear ladder'),
+    (14, 'Rejection therapy: psychology, rules, 30-step ladder, 30-day challenge, comfort-zone challenges', '30-day rejection challenge'),
+    (15, 'Hedonic adaptation, social comparison, money, meaning, flow', 'A happiness experiment'),
+    (16, 'Attention economy, phone plan, digital-detox day', 'A phone plan and a detox day'),
+    (17, 'Safety, warm-ups, bodyweight strength, cardio, mobility', '30-day fitness challenge'),
+    (18, 'The Common Yoga Protocol', 'A safe 20-minute yoga routine'),
+    (19, 'Sleep science and your sleep plan', 'A 2-week sleep plan with a log'),
+    (20, 'The ICMR plate in Kerala meals, protein on a budget, food myths', 'A week of balanced plates'),
+    (21, 'Phone and laptop ergonomics, eye care', 'Your study-space fix'),
+    (22, 'Check-ups, hydration, tobacco and alcohol', 'A personal prevention plan'),
+    (23, 'Hygiene, grooming, dressing well on a budget', 'A grooming routine and a budget wardrobe'),
+    (24, 'First impressions, warmth and competence, halo, attribution error, stereotypes', 'Field notes on first impressions'),
+    (25, 'Similarity, familiarity, conversation, listening, names, praise', '14 days of conversation challenges'),
+    (26, 'Storytelling, assertiveness, saying no, NVC, feedback, difficult conversations', 'One real piece of feedback given'),
+    (27, 'Talk structure, voice, body language, nerves, etiquette, English and Malayalam', 'A 5-minute talk to a real audience'),
+    (28, 'Seven principles of influence, framing, ethics', 'The persuasion lab'),
+    (29, 'Interests, BATNA, anchoring, win-win', 'A real small negotiation'),
+    (30, 'Conformity, obedience, groupthink, loafing, bystander effect, trust, leading', 'Field notes and a led group task'),
+    (31, 'Friendships, family, conflict, lasting relationships, networking', 'A relationship map and 5 outreach messages'),
+    (32, 'High-pressure sales, MLM, scams, dark patterns, gaslighting, emotional blackmail', 'A manipulation-spotting file'),
+    (33, 'Sales and marketing psychology, interviews, exam nerves', 'A mock PSC interview, recorded'),
+    (34, 'Integrity, responsibility, humility, humour', 'A character audit'),
+    (35, 'Meaning, volunteering, giving back', 'A contribution project'),
+    (36, 'Behaviour-change project, social-skills project, personal operating system', 'Your one-page Personal Playbook'),
 ]
-
-BRIEF = [
-    ('How the brain learns: attention, working memory, encoding, consolidation, retrieval, forgetting curve, cognitive load, neuroplasticity', 1),
-    ('Myths to drop: learning styles, rereading and highlighting, multitasking, speed-reading claims', 2),
-    ('The six strategies: retrieval, spacing, interleaving, elaboration, concrete examples, dual coding', 3),
-    ('Spaced repetition from zero: AnkiDroid, good cards, cloze, image occlusion, daily reviews, workload', 4),
-    ('Focus and deep work: Pomodoro, time-blocking, Android distractions, attention span', 5),
-    ('Motivation and procrastination: causes, implementation intentions, tiny habits, rewards', 6),
-    ('Metacognition: self-testing, judging what you know, weekly learning reviews', 7),
-    ('Deep understanding: Feynman technique, self-explanation, concept maps, first principles, good questions', 8),
-    ('Note-making: Cornell, outlines, mind maps, sketchnotes, notes into questions and cards', 9),
-    ('Reading: SQ3R, skimming and scanning, speed versus comprehension, textbooks, newspapers', 10),
-    ('Memory techniques: memory palace, pegs, major system, chunking, acronyms, stories', 11),
-    ('Exam mastery: syllabus mapping, plans and revision cycles, PYQs, mocks, error logs, time, negative marking, anxiety', 12),
-    ('Deliberate practice and skill acquisition: feedback loops, self-directed projects', 13),
-    ('Numerical ability, reasoning practice, mental maths', 14),
-    ('Language learning: English, input, shadowing, vocabulary with spaced repetition, any language', 15),
-    ('Thinking skills: critical thinking, logic, mental models, problem solving, biases', 16),
-    ('Learning with AI: Socratic tutor, quizzes, explanations, checking answers, over-reliance', 17),
-    ('Personal knowledge management: linked notes, open-source tools', 18),
-    ('Brain health: sleep, exercise, nutrition, breaks, stress', 19),
-    ('Teaching others and study groups', 20),
-    ('Capstone: a 30-day sprint with before and after tests', 21),
-]
-
-REVIEW_WEEKS = [1, 4, 8, 12, 16, 20, 24]
-ANKI_DAYS = [(7, ANKI_START + 1), (14, ANKI_START + 2), (21, ANKI_START + 3), (30, ANKI_START + 4)]
 
 
 def total_hours():
@@ -68,7 +94,7 @@ def total_hours():
 
 def week_plan():
     """Return {week: (items, hours)} at part-time pace."""
-    plan_ = {0: (['Week 0: Learning Folder, Learning Workbook, PSC material and baseline tests'], 4.0)}
+    plan_ = {0: (['Week 0: setup and baseline tests'], LOAD[0])}
 
     def add(w, item, hrs):
         items, h = plan_.get(w, ([], 0))
@@ -79,37 +105,65 @@ def week_plan():
     for m, (title, lessons, ph) in enumerate(plan.MODULES, 1):
         for l, (lt, h) in enumerate(lessons, 1):
             a, b = WEEKS[(m, l)]
-            label = f'LRN-M{m:02d}-L{l:02d}' + ('' if a == b else f' (weeks {a}–{b})')
+            label = code_of(m, l) + ('' if a == b else f' (weeks {a}–{b})')
             for w in range(a, b + 1):
                 add(w, label, h / (b - a + 1))
-        add(PROJECT_WEEK[m], f'Module {m} project', ph)
+        add(PROJECT_WEEK[m], f'M{m:02d} project', ph)
     for w in range(1, FINAL + 1):
-        add(w, 'weekly review', plan.REVIEW_H)
-        if ANKI_START <= w < ANKI_START + 5:
-            add(w, 'daily AnkiDroid reviews', plan.ANKI_H if w < ANKI_START + 4 else plan.ANKI_H / 3)
-    add(FINAL, 'final retests and checklist', 1.5)
+        add(w, '', plan.REVIEW_H)
+    add(FINAL, 'final retest and checklist', 1.5)
     return plan_
+
+
+def daily_load(w):
+    """Daily practice minutes on top of study, for the schedule table."""
+    mins, what = 10, ['tracker and journal lines']
+    spans = [((12, 1), 10, 'meditation'), ((14, 3), 10, 'rejection request'), ((17, 3), 25, 'workout')]
+    for (m, l), mn, name in spans:
+        s = wk(m, l)
+        if s <= w:
+            mins += mn
+            what.append(name)
+    if wk(3, 3) <= w < wk(3, 3) + 2:
+        mins += 5
+        what.append('bias journal')
+    if wk(11, 2) <= w < wk(11, 2) + 2:
+        mins += 5
+        what.append('thought records')
+    return mins, what
+
+
+def schedule_rows():
+    rows = []
+    wp = week_plan()
+    for w in range(0, FINAL + 1):
+        items, h = wp.get(w, ([], 0))
+        part = ''
+        for letter, title, a, z in plan.PARTS:
+            if wk(a, 1) == w:
+                part = f'**Part {letter} starts.** '
+        mins, _ = daily_load(w) if w else (0, [])
+        rows.append((str(w), part + (', '.join(items) or 'catch-up week'), f'{h:.1f}', f'{mins}' if w else '—'))
+    return rows
 
 
 def full_time_rows():
     rows = []
     notes = {
-        1: 'Week 0 and the baseline tests (the 24-hour recall needs a second short session the next day). Then Modules 1–2.',
-        2: 'AnkiDroid starts (Module 4). The 30-day review runs in real days, to about calendar week 6, alongside the next modules.',
-        6: 'Module 12 ends: make your 12-week PSC plan. Read LRN-M21-L01 now and start the 30-day capstone sprint at the end of this week.',
-        7: 'Sprint days 1–7 (45–60 minutes a day), with the modules the app shows alongside.',
-        8: 'Sprint days 8–14, with the modules the app shows alongside.',
-        9: 'Sprint days 15–21. The app now shows LRN-M21-L01: you have already done it.',
-        10: 'Sprint days 22–28: the revision cycle. Keep AnkiDroid and the weekly review going.',
-        11: 'Sprint days 29–30, the after test on day 31 and your reflection report, the final retests and your learning system document.',
+        1: 'Week 0 setup and the baseline (the sleep log and resting heart rate need 7 days; start them on day 1 and keep going while you study Part A).',
+        3: 'Bias journal (2 weeks) and the personal experiment (2 weeks) run in real days alongside the modules.',
+        4: 'The 30-day meditation and journaling challenges start; they run in real days to about calendar week 8.',
+        5: 'The 30-day rejection challenge starts (real days, to about week 9). Part C starts: the 30-day fitness challenge begins.',
+        8: 'Part D: do the conversation challenges for 14 real days; give the 5-minute talk when an audience is available.',
+        10: 'Start the 30-day capstone as soon as you finish M36-L01. It needs a real month.',
     }
-    names = {m: plan.MODULES[m - 1][0] for m in range(1, 22)}
+    names = {m: plan.MODULES[m - 1][0] for m in range(1, 37)}
     c = 1
     while True:
         lo = int((c - 1) / FULL_TIME_WEEK + 0.999) if c > 1 else 0
         hi = min(int(c / FULL_TIME_WEEK - 0.001), FINAL)
         mods = []
-        for m in range(1, 22):
+        for m in range(1, 37):
             ws = [WEEKS[(m, l)] for l in range(1, len(plan.MODULES[m - 1][1]) + 1)]
             s, e = min(x[0] for x in ws), max(max(x[1] for x in ws), PROJECT_WEEK[m])
             if s <= hi and e >= lo:
@@ -121,450 +175,326 @@ def full_time_rows():
     return rows
 
 
+SAFETY = f"""
+**This course is not therapy and not medical care.** It teaches everyday psychology and healthy habits. It cannot diagnose or treat anything. Talk to a doctor or a mental health professional if, for two weeks or more, low mood, worry, sleep problems or loss of interest are stopping you from studying, working or enjoying things; if you have thoughts of harming yourself; or if you use alcohol, tobacco or other substances to cope. In India you can call **Tele-MANAS on 14416 or 1-800-89-14416** (toll-free, 24 hours, in the language you choose; {link('telemanas', 'checked ' + VDATE)}). In an emergency, call 112 or go to the nearest hospital.
+
+**Before the fitness modules,** see a doctor first if you have heart, lung, joint or blood-pressure problems, diabetes, a recent injury or surgery, are pregnant, or get chest pain, dizziness or unusual breathlessness when active.
+"""
+
+
 def start_section():
     total = total_hours()
-    map_rows = []
-    for m, does, output in MODULE_MAP:
-        ws = [WEEKS[(m, l)] for l in range(1, len(plan.MODULES[m - 1][1]) + 1)]
-        a, b = min(x[0] for x in ws), max(max(x[1] for x in ws), PROJECT_WEEK[m])
-        wl = f'{a}' if a == b else f'{a}–{b}'
-        map_rows.append((f'{m}. {plan.MODULES[m - 1][0]}', wl, does, output))
-    brief_rows = [(t, f'Module {m}') for t, m in BRIEF]
-    ft_weeks = len(full_time_rows())
+    n_lessons = sum(len(x[1]) for x in plan.MODULES)
+    part_rows = []
+    for letter, title, a, z in plan.PARTS:
+        hrs = sum(sum(h for _, h in plan.MODULES[m - 1][1]) + plan.MODULES[m - 1][2] for m in range(a, z + 1))
+        weeks_ = f'{wk(a, 1)}–{max(PROJECT_WEEK[m] for m in range(a, z + 1))}'
+        part_rows.append((f'**{letter}: {title}**', f'Modules {a}–{z}', weeks_, f'about {round(hrs)} h'))
     content = f"""
 ## What this course is
 
-A free, practical "learn how to learn" course that you do on your own study material. Every lesson teaches one evidence-based method, says honestly how strong the research behind it is, and ends with an action task on your real Kerala PSC subjects: GK, current affairs, the Constitution, Kerala, maths and reasoning, English and Malayalam. Lesson by lesson, the tasks build one **personal learning system** that you keep using for PSC and for everything you learn after it: AI skills, business, languages.
+A practical, evidence-based course in everyday psychology, self-mastery, health and people skills, built for one learner: a 30-year-old near Kuttiady, Kozhikode, preparing for Kerala PSC exams, with an Android phone, an old laptop, no gym and a budget of ₹0. Every lesson ends with something you **do** in real life, and a piece of **proof** you keep: a log entry, a recording, a tracker screenshot. Over {FINAL} weeks you build a **personal operating system**: morning and evening routines, a weekly review, a 12-month growth plan and a one-page **Personal Playbook**.
 
-It is written for a PSC aspirant near Kuttiady in Kozhikode district with an Android phone, an old laptop and ₹0 to spend. It works for anyone preparing for a competitive exam.
+## What you will be able to do
 
-## By the end you will have
+- Explain how your mind really works (fast and slow thinking, shortcuts, emotions) and catch your own thinking traps.
+- Read a psychology claim and judge it: experiment or correlation, sample size, replicated or not.
+- Run daily habits that stick: a habit tracker, a weekly reflection, a meditation and journaling practice, a home workout and a sleep routine.
+- Handle stress, failure and strong emotions with tested tools (thought records, reappraisal, self-compassion, Stoic exercises), and know when to get professional help.
+- Act with more courage: a fear ladder, 30 days of rejection therapy, speaking up, a 5-minute talk to a real audience in English or Malayalam.
+- Connect with people: listen, ask follow-up questions, remember names, give real praise and honest feedback, say no, negotiate and lead a small group.
+- Influence people **honestly**, and recognise and resist manipulation: high-pressure sales, scams, MLM, gaslighting, emotional blackmail and dark patterns.
+- Measure yourself: the same baseline tests at the start and the end show what changed.
 
-- **Measured results:** four baseline tests in week 0 (list recall after 10 minutes and 24 hours, reading speed with comprehension, focus duration, digit span), repeated with fresh versions in week {FINAL}
-- **An AnkiDroid deck** of 100 or more well-made cards on one PSC topic, reviewed every day for 30 days, and a daily review habit
-- **A memory palace** that holds a real PSC topic
-- **Five recorded Feynman explanations** of PSC topics, each improved after listening back
-- **A previous-year question analysis and an error log** for your target exam
-- **A complete 12-week PSC study and revision plan**
-- **A lesson you taught** to a family member or study partner
-- **A 30-day learning sprint** with before and after tests and a reflection report
-- **The Learning Workbook and Learning Folder** that hold the whole system: planner, revision schedule, card checklist, error log, Feynman template and weekly review
+## Duration
 
-## How long it takes
+- **{len(plan.MODULES)} modules, {n_lessons} lessons**, in five parts. Lessons take 10 to 25 minutes to read plus a real-world task.
+- **Part-time:** {FINAL} weeks at about 5 to 6 study hours a week (about {round(total)} hours in all), alongside PSC preparation. Daily practices add 10 to 40 minutes a day on top, but they replace things you would do anyway (exercise, winding down) and they are the point of the course.
+- **Full-time:** about {len(full_time_rows())} calendar weeks at about 15 hours a week. The 30-day challenges still take 30 real days each; the **Weekly schedule** page shows how they overlap.
 
-{table(['Pace', 'Calendar time', 'Hours a week', 'Total work'], [
-    ('Part-time (the default)', f'Week 0, then {FINAL} weeks: about 6.5 months', 'About 6 (5 to 7)', f'About {total:.0f} hours'),
-    ('Full-time', f'About {ft_weeks} weeks', 'About 15', f'About {total:.0f} hours'),
-])}
+## The five parts
 
-Pick your pace and start date on the course page; the app then shows your week and what is due. Two things take real days at any pace: the 30-day AnkiDroid review and the 30-day capstone sprint. Much of the action-task time is also PSC study, because you do it on your own syllabus.
+Each part works on its own: its part page tells you the minimum setup and baseline tests you need if you start there.
 
-## Honest expectations
+{table(['Part', 'Modules', 'Part-time weeks', 'Study time'], part_rows)}
 
-- **Your list recall will improve the most,** because techniques such as chunking and the memory palace work quickly. The list test shows it.
-- **Your digit span will change little.** Working memory capacity is fairly stable. A large review of "brain training" found gains on trained tasks but no convincing improvement in reading, arithmetic or intelligence ({link('wm-training', 'Melby-Lervåg and others, 2016')}). A gain of one digit usually comes from a better strategy, such as chunking.
-- **Reading speed will rise a little; comprehension can rise more.** No method lets you read several times faster with full understanding ({link('aps-speed', 'APS, 2016')}). The test reports your **effective reading rate**: speed multiplied by comprehension.
-- **Focus depends mostly on habits and your phone.** It usually improves a lot once the phone is out of reach.
-- **What matters most is your exam score.** Retrieval practice and spaced practice have the strongest evidence of any study methods ({link('dunlosky-aft', 'Dunlosky, 2013')}). The capstone measures the change on a real PSC subject.
-- **Some weeks will go badly.** The weekly review is where you notice and adjust, without guilt.
+## How every lesson works
+
+Psychology lessons follow one flow: **the principle in one line → the science (the key study, explained honestly) → how strong the evidence is → an everyday Kerala example → how to use it on yourself or with others → an action task with proof**. Health and skills lessons follow the same shape. Each lesson also has free resources (with exactly what to study and how long), a copy-ready template, common mistakes, a 3 to 5 question quiz with answers, and a progress checklist. Each module has a project, a self-assessment rubric, a "short on time" version, revision flashcards and lines to add to your Personal Playbook.
 
 ## How strong is the evidence?
 
-Every lesson has a short evidence table. The ratings mean:
+Every principle gets a rating. {EVIDENCE_KEY}
 
-{EVIDENCE_KEY}
+Psychology has had a **replication crisis** (PD-M02-L02): many famous findings shrank or vanished when other labs repeated them. This course tells you which ones. You will see, for example, that **power posing** does not change hormones, that **strong ego-depletion claims** failed large replications, that **learning styles** have no support, that habits do not form in "21 days" (a median of about 66 days, with a wide range, in the best-known study), and that **MBTI-style type tests** are unreliable.
 
-When research is thin, the lesson says so. Some popular methods in this course (the Feynman technique, Pomodoro, SQ3R, mind maps) have little direct research. They are included because they put well-supported principles into practice, and you will test them on your own results.
+## Ethics: influence yes, manipulation no
 
-## How each lesson works
+Part D teaches influence and persuasion only for honest, mutually beneficial use: the request must be true, good for the other person too, and easy to refuse. Manipulation and "dark psychology" tactics are covered only so you can **recognise and resist** them (Module 32). Rejection therapy has strict safety and respect rules (PD-M14-L02).
 
-1. **ID, title, outcome and time** at the top, such as LRN-M01-L01
-2. **Core lesson:** the idea, explained simply
-3. **Local example:** the idea used by PSC aspirants in Kozhikode district
-4. **How strong is the evidence?** an honest rating
-5. **Free resources:** exactly what to study, how long it takes, and when the link was checked
-6. **Action task:** real work on your PSC material, and the **proof to record**
-7. **Template:** copy-ready tools for your Learning Workbook or notebook
-8. **Common mistakes** and how to avoid them
-9. **Quiz:** 3 to 5 questions, with answers at the very bottom
-10. **Progress checklist:** the ticks under **Your tasks**
+## Safety
 
-Each module starts with an overview page: outcomes, time, the tools it adds, the module project, a self-assessment rubric, a "short on time?" version and revision flashcards.
+{SAFETY.strip()}
 
-## Where each topic is taught
+## Key assumptions made for this course
 
-The modules are ordered so your system starts working early: the six strategies and AnkiDroid in the first month, focus, habits and self-testing in the second, and exam mastery by week {PROJECT_WEEK[12]}, so your 12-week PSC plan runs during the rest of the course.
+- No Personal Development or Practical Psychology course existed in the app, so this is a new course. Its lesson IDs (PD-M01-L01 and so on) will not change.
+- Rejection therapy has its own module (Module 14) after Confidence and courage, so the 35 topics in the brief become 36 modules, with the capstone as Module 36.
+- Topics already taught in depth in other courses in this app are cross-referenced instead of repeated: procrastination, focus and exam anxiety in {xref('lrn', 'lrn-m06', 'Practical Learning Capabilities')}; money psychology and scams in {xref('fin', 'fin-m15', 'Practical Personal Finance')}; selling in {xref('ent', 'ent-m07', 'Practical Entrepreneurship')}.
+- Notes and proof are kept in **Joplin** (free and open source) in a notebook called **Playbook**, with one sub-notebook per module. Any notes app or a paper notebook works too.
+- All examples and characters (Anu, Ashiq, Sreeja, Joseph sir and others) are fictional.
 
-{table(['Topic', 'Module'], brief_rows)}
+## The course map
 
-## Module map
+{table(['Module', 'What it covers', 'What you build'], [(f'M{m:02d}', what, build) for m, what, build in MODULE_MAP])}
 
-{table(['Module', 'Part-time weeks', 'What you learn', 'What you add to your system'], map_rows)}
+## Start here
 
-## PSC exam soon? Take the fast path
-
-- **Exam within 8 weeks:** do Week 0, then Module 3 (the six strategies), Module 4 (AnkiDroid), LRN-M05-L03 (phone), Module 12 (exam mastery) and LRN-M19-L01 (sleep). Return to the rest after the exam.
-- **Exam within 12 to 16 weeks:** follow the normal order to the end of Module 4, then do Module 12 and start your 12-week plan. Continue with Modules 5 onwards alongside the plan.
-- **No exam date yet:** follow the normal order.
-
-On the course page, mark the lessons you skip as done later, or move your start date; your ticks are kept either way.
-
-## Key assumptions
-
-These decisions were made when the course was written. Change them if your situation is different.
-
-1. **Pace:** part-time, about 6 hours a week (5 to 7) for {FINAL} weeks after week 0. The full-time pace does the same work in about {ft_weeks} weeks at about 15 hours a week.
-2. **Your PSC study continues.** The course changes **how** you study, not **what**. Action tasks use your syllabus, books and question papers, so they count as PSC study too.
-3. **Target exam:** you choose one Kerala PSC exam (for example LDC, LGS, a Degree Level or Plus Two Level preliminary, or a department test) and download its syllabus in week 0. Examples use topics common to most general exams.
-4. **Devices:** the Android phone does nearly everything (AnkiDroid, Google Sheets, voice recorder, timer). The laptop helps with long typing and PDFs, and can run Anki for computers if it has Windows 10 or later or a recent Linux.
-5. **Money:** ₹0. Every tool and resource is free. No paid coaching, apps or AI plans are needed.
-6. **Language:** simple English. Key terms have Malayalam meanings in the glossary.
-7. **Facts in examples** (articles of the Constitution, rivers, awards) were checked on {VDATE}. PSC answer keys follow official textbooks, so check your own book when they differ.
-8. **Health:** the brain-health module gives general guidance, not medical advice. See a doctor for sleep, mood or health problems.
-9. **Privacy:** your recordings, notes and scores stay in your own Learning Folder. Your progress in this app is saved on your phone only.
-
-## The running examples (all made up)
-
-- **Anu**, 27, from Kakkattil: preparing for LDC and the Degree Level preliminary while tutoring students in the evenings (you may know her from the Personal Finance course)
-- **Sreeja**, 34, from Nadapuram: a homemaker with two children, studying for LGS in two 45-minute slots a day
-- **Ashiq**, 22, from Kuttiady: a new BCom graduate, good at maths, fighting a strong phone habit
-- **Joseph sir**, 61, from Thottilpalam: a retired Malayalam teacher who runs a small study group at the panchayat library
-- **Vinod**, a member of Joseph sir's group who drives an autorickshaw and hopes one day to work in the Gulf
-
-## Other courses in this app
-
-This course links to the others instead of repeating them:
-
-- **Free AI Generalist Course:** how AI models work and why they make things up (Level 0), and prompting (Level 1). Module 17 here uses AI for studying; that course teaches AI as a skill.
-- **Practical Entrepreneurship**, **Practical Social Media Marketing** and **Practical Personal Finance:** good next courses once your learning system runs (see **What next**). The methods you learn here apply to every one of them.
+1. Read the **Weekly schedule** page.
+2. Do **Week 0: setup** (about 1 hour) and the **Baseline tests** (spread over 7 days: the sleep log and heart rate need a week).
+3. Start Module 1 in week 1, and the **daily system track** (habit tracker and Sunday reflection) at the same time.
 """
     return {
-        'id': 'lrn-start',
-        'title': 'Start here: how this course works',
+        'id': 'pd-start',
+        'title': 'Start here: Mind, Body and People',
         'kind': 'intro',
-        'summary': 'What you will build and measure, how long it takes, how evidence is rated, where each topic is taught, the PSC fast path and the assumptions behind the course.',
+        'summary': f'What the course covers, how it works, how strong the evidence is, the safety rules and the course map. {len(plan.MODULES)} modules, {n_lessons} lessons, {FINAL} weeks part-time.',
         'content': content.strip(),
     }
 
 
 def schedule_section():
-    wp = week_plan()
-    rows = [(str(w), '; '.join(items), f'{h:.1f}'.rstrip('0').rstrip('.')) for w, (items, h) in sorted(wp.items())]
-    ft = full_time_rows()
     content = f"""
-## Part-time: about 6 hours a week
+The app's **This week** view follows the part-time schedule. If you study full-time, switch the pace to **Full-time** on the course page: one course week then becomes about {round(FULL_TIME_WEEK * 7, 1)} days.
 
-One course week is one calendar week. This is the default pace on the course page. From week {ANKI_START}, the **30-day AnkiDroid review** adds about 15 minutes a day; the **weekly learning review** takes about 20 minutes every Sunday.
+## Part-time schedule (about 5 to 6 study hours a week)
 
-{table(['Week', 'What you do', 'Hours'], rows)}
+"Daily minutes" is the time for daily practices (tracker, journal, meditation, the rejection request, workouts), added gradually so no week is a shock. Catch-up weeks fall where a new part starts; use them to finish projects or rest.
 
-## Full-time: about 15 hours a week
+{table(['Week', 'Lessons and projects', 'Study hours', 'Daily minutes'], schedule_rows())}
 
-Choose **Full-time** on the course page. The app then moves through about 2.7 course weeks every calendar week (one course week is {FULL_TIME_WEEK} of a calendar week). Real-day tasks don't speed up, so the full-time plan starts the 30-day sprint earlier and runs the later modules alongside it:
+## A typical part-time week
 
-{table(['Calendar week', 'Course weeks', 'Modules', 'Notes'], ft)}
+- **Weekdays:** one lesson on two or three evenings (25 minutes of reading, then the task over the next days), after PSC study.
+- **Every day:** the habit tracker, plus whichever daily practice is running.
+- **Saturday:** the module project or a real-world task (a conversation, a negotiation, a talk).
+- **Sunday:** the 20-minute **weekly reflection**, with a 1 to 2 minute recording (English and Malayalam on alternate weeks).
 
-## A weekly rhythm that fits around PSC study
+## Full-time schedule (about 15 hours a week)
 
-- **Every morning, 15 minutes:** AnkiDroid reviews (from week {ANKI_START}), before you open WhatsApp or YouTube.
-- **Your main PSC study block:** use the method from the latest lesson on that day's PSC topic. This is where the course pays off.
-- **Weekday evenings, 30–40 minutes:** read one lesson and do its quiz.
-- **Saturday, 60–90 minutes:** the action task. Most need your books, question papers and a quiet hour.
-- **Sunday, 20 minutes:** the weekly learning review and next week's plan.
+{table(['Calendar week', 'Course weeks', 'Modules', 'Notes'], full_time_rows())}
 
-## When you fall behind
+## If you fall behind
 
-- **This week** on the course page shows earlier open tasks as overdue. Do the action tasks first; readings can wait.
-- More than two weeks behind? Set a new start date on the course page so the weeks match your real progress. Your ticks are kept.
-- Use each module's "short on time?" version when you need it.
-- Never skip the daily AnkiDroid reviews to catch up on lessons: missed reviews pile up (LRN-M04-L04).
-
-## Exam mode
-
-In the last four weeks before a PSC exam, pause new lessons. Keep AnkiDroid, the weekly review and your 12-week plan's final phase (LRN-M12-L05), and reread LRN-M12-L04 and LRN-M12-L06. Move your start date later by the same number of weeks. The course waits for you.
+Skip nothing that builds a habit; shrink it instead (the "short on time" box in every module). Missing a week is normal: do the weekly reflection, pick up where you stopped, and never try to do two weeks of daily practices in one day.
 """
     return {
-        'id': 'lrn-schedule',
+        'id': 'pd-schedule',
         'title': 'Weekly schedule: part-time and full-time',
         'kind': 'reference',
-        'summary': 'What to do each week at both paces, how the 30-day tracks fit the full-time pace, and a weekly rhythm around PSC study.',
+        'summary': f'Week-by-week plan: {FINAL} weeks part-time at about 5 to 6 hours, or about {len(full_time_rows())} weeks full-time, with daily practice minutes shown.',
         'content': content.strip(),
     }
 
 
-TUTOR_PROMPT = """
-You are my study tutor for the Kerala PSC exam. I am a beginner at learning
-techniques, and I study in English with Malayalam as my first language.
-Today's topic: [topic]. My goal for this session: [goal].
-1. Ask me 2-3 questions first to find out what I already know.
-2. Do not give me long answers. Teach one small idea at a time, then ask me a
-   question that makes me recall or explain it.
-3. If I am wrong, give a hint before giving the answer.
-4. At the end, quiz me with 5 questions in PSC style, then list what I should
-   review.
-5. If you are not sure a fact is correct, say so, and tell me which official
-   source or textbook to check.
-"""
-
-
 def setup_section():
-    folder_list = ', '.join(FOLDERS)
-    tab_rows = [(name, when, f'`{hdr}`' if ',' in hdr else hdr) for name, when, hdr in tools.TABS]
+    folders = ', '.join(FOLDERS[:4]) + ' … ' + FOLDERS[-1]
     content = f"""
-Week 0 takes about 4 hours, including the baseline tests on the next page. You set up the places where your learning system will live, collect your PSC material, and measure where you start.
+About one hour. Everything is free; open-source apps are preferred.
 
-## 1. A Learning Folder
+## The free tool stack
 
-Make a folder called **Learning Folder** in Google Drive (or on your phone, if you prefer to keep it offline) with these subfolders: {folder_list}. Every proof goes into one of them: photos of handwritten work, screenshots, voice recordings and filled-in templates.
-
-Keep it **private**. Your recordings and scores are for you; share only what you choose.
-
-## 2. The Learning Workbook
-
-Make one spreadsheet called **Learning Workbook** in Google Sheets (phone or laptop). LibreOffice Calc on the laptop opens the same file if you prefer working offline. Start with three tabs; later modules add the rest:
-
-{table(['Tab', 'Added in', 'Row 1 headings'], tab_rows)}
-
-- **On the laptop:** paste a heading line into cell A1, then use **Data → Split text to columns** (Google Sheets) or **Data → Text to Columns** (LibreOffice).
-- **On the phone:** type the headings into row 1, one per cell.
-- **Formulas** in this course work in Google Sheets and LibreOffice Calc. If LibreOffice shows an error, change the commas between the parts of a formula to semicolons (its setting is under Tools → Options → LibreOffice Calc → Formula).
-
-## 3. Your PSC material
-
-Every action task uses your real material, so collect it now:
-
-1. **Choose your target exam.** If you have several, choose the next big one.
-2. **Download its syllabus** from the {rules('psc-syllabus', 'Kerala PSC post-wise syllabus page')} and save it in **12 Exam**.
-3. **Download at least three previous question papers** for the same or a similar post from {link('psc-pyq', 'Kerala PSC previous question papers')}, and their final answer keys from {link('psc-keys', 'the answer key page')}.
-4. **List your main sources** for each subject: SCERT school textbooks ({link('scert', 'SCERT Kerala')}), any guide or rank file you already own, your notes, and one current-affairs source (Module 10 builds this).
-
-## 4. Your phone and laptop
-
-- Nothing new to install yet. You need the **Clock app** (stopwatch and timer) and a **voice recorder** (most phones have one; a voice note to yourself also works).
-- Later modules install free, open-source apps: AnkiDroid (Module 4), Loop Habit Tracker (Module 6) and Joplin or Logseq (Module 18).
-- Turn off notifications for games and shopping apps today. Module 5 goes much further.
-
-## Your free tool stack
-
-Everything in this course runs on free tools. You don't need to install them all today; each module tells you when.
-
-{table(['Tool', 'What it is for', 'Set up in'], [
-    ('Google Sheets and Google Drive (or LibreOffice Calc offline)', 'Learning Workbook and Learning Folder', 'Week 0'),
-    ('Phone clock (timer, stopwatch) and voice recorder', 'Baseline tests, Pomodoro blocks, Feynman recordings', 'Week 0'),
-    (link('ankidroid-play', 'AnkiDroid') + ' (open source)', 'Spaced repetition flashcards', 'Module 4'),
-    (link('wellbeing', 'Digital Wellbeing') + ' (built into Android)', 'Screen time, Focus mode, app timers, Bedtime mode', 'Module 5'),
-    (link('loop', 'Loop Habit Tracker') + ' (open source)', 'Tracking study habits', 'Module 6'),
-    (link('joplin', 'Joplin') + ' or ' + link('logseq', 'Logseq') + ' (open source)', 'Your knowledge base', 'Module 18'),
-    ('A free AI chat plan (optional)', 'Socratic tutoring and quizzes from your notes', 'Module 17'),
+{table(['Tool', 'What it is for', 'Cost and licence', 'Status'], [
+    (link('loop', 'Loop Habit Tracker'), 'The daily habit tracker for the whole course', 'Free, open source (GPLv3)', STATUS['v3']),
+    (link('medito', 'Medito'), 'Guided meditation for the 30-day challenge', 'Free, from a non-profit; open source', STATUS['v']),
+    (link('joplin', 'Joplin'), 'Your Playbook notebook: notes, logs, photos of proof', 'Free, open source', STATUS['v3']),
+    (link('wellbeing', 'Android Digital Wellbeing'), 'Screen-time numbers for the baseline and Module 16', 'Built into most Android phones', STATUS['vr']),
+    ('Your phone\'s voice recorder and camera', 'Weekly speaking recordings, proof photos', 'Already on your phone', '—'),
+    ('A notebook and pen', 'Journal, thought records, paper backup of everything', 'About ₹30, or one you have', '—'),
 ])}
 
-## 5. Your weekly slots
+## Steps
 
-Block about 6 hours a week in your calendar, outside your best PSC study hours: for example 35 minutes on five weekday evenings, 90 minutes on Saturday and 20 minutes on Sunday for the weekly review.
+1. **Install Loop Habit Tracker.** Add the five starter habits from the **Daily system track** page, each with a reminder time.
+2. **Install Joplin** (phone, and laptop if it runs). Create a notebook called **Playbook** with sub-notebooks: {folders}. Make a note called **Personal Playbook** inside it (it grows module by module) and a note called **Proof index** (one line per piece of proof: date, task code, where it is).
+3. **Install Medito** now or in Module 12.
+4. **Open Digital Wellbeing** (Settings > Digital Wellbeing and parental controls) and check that it is recording screen time. Names and steps vary by phone.
+5. **Make a recordings folder** on your phone (for example, Recordings/Playbook). Name files like `2026-11-15 week01 EN.m4a`.
+6. **Pick your time slots:** the 20-minute Sunday reflection, two or three lesson evenings, and a 10-minute evening slot for the tracker and journal.
+7. **Tell one person** (a friend, sibling or study partner) what you are doing and ask them to ask you about it every Sunday. Social commitment helps (PD-M08-L01).
 
-## 6. A helper and a study partner
-
-Ask a family member or friend to help for 10 minutes with the digit-span test on the next page, and again in week {FINAL}. Ask a friend or classmate who also studies for PSC whether they'd be your study partner for Module 20; it helps from the start to have someone to quiz.
-
-## 7. An AI tutor (optional)
-
-The free plans of common AI chat tools can quiz you and explain ideas. Save this prompt and paste it at the start of a study chat:
-
-{fence(TUTOR_PROMPT)}
-
-AI tools can be confidently wrong about PSC facts. Check facts against your textbook or an official source, and let the AI question you rather than do the thinking for you (Module 17).
-
-## 8. Start two habits today
-
-- **The study log:** after every study session, add one row to the **Study Log** tab: what you studied, for how long, which method, and one thing you can now recall without looking. It takes one minute and builds the data for your weekly reviews.
-- **The weekly review:** every Sunday, answer three questions in a notebook or the **Weekly** tab: What did I learn (from memory)? What worked? What will I change? The full version arrives in LRN-M07-L03.
-
-Every link on this page was checked on {VDATE}. The **Sources and verification log** at the end of the course lists each one with its status.
+**Low-spec laptop?** You do not need the laptop at all. Everything works on the phone; Joplin can sync to a free account or just stay on the phone (back it up monthly with Joplin's export).
 """
     tasks = [
-        ('lrn-w0-folder', 'Learning Folder made, private, with its 22 subfolders'),
-        ('lrn-w0-workbook', 'Learning Workbook made with the Baseline, Study Log and Weekly tabs'),
-        ('lrn-w0-psc', 'Target exam chosen; syllabus and at least three previous papers with answer keys saved in 12 Exam'),
-        ('lrn-w0-slots', 'Weekly course slots blocked; a helper for the digit-span test found'),
-        ('lrn-w0-log', 'Study log started: at least three rows'),
+        ('pd-setup-loop', 'Loop Habit Tracker installed with five starter habits and reminders'),
+        ('pd-setup-joplin', 'Joplin Playbook notebook made, with the Personal Playbook and Proof index notes'),
+        ('pd-setup-recorder', 'Recordings folder made and a 30-second test recording saved'),
+        ('pd-setup-slots', 'Weekly time slots written down, and one person told'),
     ]
     return {
-        'id': 'lrn-w0',
-        'title': 'Week 0: Learning Folder, Learning Workbook and your PSC material',
+        'id': 'pd-setup',
+        'title': 'Week 0: free tool setup',
         'kind': 'setup',
         'weeks': [0, 0],
-        'hours': 2.5,
-        'summary': 'One private folder, one workbook, your PSC syllabus and question papers, weekly slots, and two habits that start today.',
+        'hours': 1.0,
+        'summary': 'Install Loop, Joplin and (later) Medito, make your Playbook notebook and recordings folder, and choose your weekly time slots. About one hour.',
         'content': content.strip(),
         'tasks': [{'id': i, 'text': t, 'kind': 'task', 'week': 0} for i, t in tasks],
     }
 
 
-def _digit_block(form):
-    fwd, bwd = tests.digit_sets(form)
-    f = '\n'.join(f'{n} digits: {s}' for n, s in fwd)
-    b = '\n'.join(f'{n} digits: {s}' for n, s in bwd)
-    return f'FORWARD (say them back in the same order)\n{f}\n\nBACKWARD (say them back in reverse order)\n{b}'
+def ratings_table():
+    rows = []
+    for scale, items in tests.SELF_RATINGS.items():
+        for i, s in enumerate(items, 1):
+            rows.append((scale if i == 1 else '', s, '', ''))
+    return table(['Scale', 'Statement (rate 1 = not at all like me, 5 = very like me)', 'Start', 'End'], rows)
 
 
-def _record_table():
-    return table(['Test', 'Start (week 0)', f'End (week {FINAL})', 'Change'], [
-        ('List recall after 10 minutes (out of 20)', '', '', ''),
-        ('List recall after 24 hours (out of 20)', '', '', ''),
-        ('Reading speed (words per minute)', '', '', ''),
-        ('Comprehension (out of 8, and %)', '', '', ''),
-        ('Effective reading rate (wpm × comprehension %)', '', '', ''),
-        ('Minutes to first distraction (average of 2 days)', '', '', ''),
-        ('Distractions in 45 minutes (average of 2 days)', '', '', ''),
-        ('Digit span forward', '', '', ''),
-        ('Digit span backward', '', '', ''),
-        ('Learning habits total (out of 75)', '', '', ''),
-    ])
+def record_table(form):
+    col = 'Start' if form == 'A' else 'End'
+    rows = [(a, f'1–10') for a, _ in tests.LIFE_AREAS]
+    out = [f'### Life wheel ({col})', table(['Area', 'What it includes', 'Score 1–10'], [(a, d, '') for a, d in tests.LIFE_AREAS])]
+    return '\n\n'.join(out)
 
 
-def _tests_text(form):
-    words = tests.LIST_A if form == 'A' else tests.LIST_B
-    title = tests.PASSAGE_A_TITLE if form == 'A' else tests.PASSAGE_B_TITLE
-    passage = tests.PASSAGE_A if form == 'A' else tests.PASSAGE_B
-    n_words = tests.WORDS_A if form == 'A' else tests.WORDS_B
-    qs, key = tests.mcq(tests.QUESTIONS_A if form == 'A' else tests.QUESTIONS_B, form)
-    word_rows = '\n'.join(f'{i:>2}. {w}' for i, w in enumerate(words, 1))
+def tests_text(form):
+    qs, key = tests.mcq(tests.QUIZ_A if form == 'A' else tests.QUIZ_B, form)
+    when = 'now, in week 0' if form == 'A' else f'now, in week {FINAL}'
+    fit = table(['Test', 'How to do it safely', 'Unit', 'Result'], [(n, how, unit, '') for n, how, unit in tests.FITNESS_TESTS])
     return f"""
-## Test 1: the 20-item list (about 20 minutes, plus 3 minutes tomorrow)
+Take every test {when}, on a normal week, and write the results in a note called **Baseline {form}** in your Playbook notebook ({FOLDERS[0]}). Be honest; nobody else sees these numbers. The point is to measure change, not to score high.
 
-1. Have a pen, paper and a timer ready. Set the timer for **2 minutes**.
-2. Start the timer and study the list below in any way you like. Stop when the timer rings.
-3. Cover the list. For the next **10 minutes**, do something that keeps your mind busy, such as arithmetic questions from your PSC book. Don't rehearse the list.
-4. Write down every word you remember, in any order, in **3 minutes**. Count the correct words (spelling doesn't matter). That is your **10-minute score**.
-5. **Don't look at the list again.** Exactly 24 hours later, write the words again in 3 minutes, without looking. That is your **24-hour score**.
+## 1. Life wheel (5 minutes)
 
-{fence(f'LIST {form} (study for 2 minutes)' + chr(10) + word_rows)}
+Score each area of your life from 1 (very unhappy with it) to 10 (couldn't be better). Draw it as a wheel with eight spokes if you like; low spokes show where the wheel is "flat".
 
-## Test 2: reading speed and comprehension (about 15 minutes)
+{table(['Area', 'What it includes', 'Score 1–10'], [(a, d, '') for a, d in tests.LIFE_AREAS])}
 
-1. Read the passage below **once**, at your normal pace for understanding: not skimming, not studying. Time yourself with the stopwatch from the first word to the last.
-2. Without looking back, answer the 8 questions below it.
-3. Work out your scores:
-    - **Reading speed (wpm)** = {n_words} words ÷ your minutes. Example: 3 minutes 20 seconds is 3.33 minutes, so {n_words} ÷ 3.33 = {n_words / 3.333:.0f} wpm.
-    - **Comprehension %** = correct answers ÷ 8 × 100
-    - **Effective reading rate** = wpm × comprehension % ÷ 100
+## 2. Big Five personality (10 minutes)
 
-### Passage {form}: {title} ({n_words} words)
+Take the free {link('ipip-bffm', 'IPIP Big Five Factor Markers test')} (50 statements, 3 to 8 minutes; educational use only). Write down your five percentile scores: Extraversion, Agreeableness, Conscientiousness, Emotional stability, Openness (Intellect/Imagination). Traits change slowly; at the end of the course expect small shifts at most, mainly in conscientiousness and emotional stability. Lesson PD-M05-L02 explains what the scores mean and don't mean.
 
-{passage.strip()}
+## 3. VIA character strengths (15 minutes)
 
-### Questions on passage {form}
+Take the free {link('via', 'VIA character strengths survey')} (about 12 minutes). Write down your top five strengths in order. (The site offers paid reports; you don't need them.)
+
+## 4. Fitness tests (30 minutes, plus heart rate on 3 mornings)
+
+Read the safety box on **Start here** first. Warm up for 5 minutes (march on the spot, arm circles, gentle squats). Rest 3 to 5 minutes between tests. Stop if anything hurts sharply.
+
+{fit}
+
+## 5. One-week sleep log (1 minute each morning for 7 days)
+
+Use this log every morning for 7 days. Write the averages at the bottom.
+
+{fence(tools.SLEEP_LOG)}
+
+## 6. Screen time (2 minutes, after 7 days)
+
+In Digital Wellbeing, write down your **daily average screen time** for the last 7 days, the **number of unlocks** per day, and your **top 3 apps** by time.
+
+## 7. Self-ratings (5 minutes)
+
+Rate each statement 1 to 5. Add up each scale (5 to 25).
+
+{ratings_table()}
+
+## 8. Thinking-traps quiz, form {form} (10 minutes)
+
+Answer quickly, the way you normally would; don't look anything up. Score 1 per correct answer, out of 10. The answers are under the questions: cover them first.
 
 {qs}
 
-## Test 3: focus duration (45 minutes, on two different days)
+### Answers, form {form}
 
-1. Choose a normal PSC study task: reading a new chapter and making notes works well.
-2. Set up the way you **usually** study. Don't change anything for the test.
-3. Start the stopwatch. Study for 45 minutes. Keep a paper beside you: every time you notice your attention left the task (you checked the phone, got up, started daydreaming), make a tally mark. Write down the time of the **first** one.
-4. Record: **minutes to first distraction**, **number of tally marks**, and a focus rating from 1 to 10.
-5. Repeat on another day this week, and use the average of the two.
-
-## Test 4: digit span (10 minutes, with a helper if possible)
-
-**With a helper (best):** the helper reads each line aloud at about one digit per second, in a flat voice. You repeat the digits (forward: same order; backward: reverse order). Start at the shortest lines. Stop a section when you fail **both** lines of the same length.
-
-**Alone:** cover the list with a paper and slide it down to show one line for as many seconds as there are digits, cover it again, and write the digits down. Use the same method again in week {FINAL}, so the scores compare fairly.
-
-**Your span** in each section is the longest length where you got at least one of the two lines exactly right.
-
-{fence(f'DIGIT SPAN, FORM {form}' + chr(10) + _digit_block(form))}
-
-## Part 5: your learning habits (5 minutes)
-
-Rate each statement: **1** never, **2** rarely, **3** sometimes, **4** usually, **5** almost always. Add them up (out of 75).
-
-{table(['No', 'Statement', 'Start', 'End'], [(str(i), s, '', '') for i, s in enumerate(tests.HABITS, 1)])}
-
-## Answer key for passage {form}
-
-Check only after you have answered all 8 questions: **{key}**.
+{key}
 """
 
 
 def baseline_section():
-    content = f"""
-Before you learn anything new, measure where you start. These four short tests and a habits rating take about 1.5 hours, spread over two days, because two of them need a second session. In week {FINAL} you repeat them with fresh versions (form B, on the final page), so you can see what changed. Don't practise for them, and don't look at form B.
-
-Copy this table into the **Baseline** tab of your Learning Workbook and fill in the **Start** column as you go:
-
-{_record_table()}
-{_tests_text('A')}
-## What your scores mean
-
-There are no good or bad scores here; they are your starting line. Short-term memory holds roughly seven items, give or take two ({link('os-psych-8-1', 'OpenStax Psychology 2e, 8.1')}), so a 20-word list is meant to be too long to hold without a method. What matters is the change by week {FINAL}, and the methods you used to get it. Save a photo of your answer sheets and a screenshot of the Baseline tab in **00 Baseline**.
-"""
+    content = tests_text('A')
+    tasks = [
+        ('pd-base-wheel', 'Baseline: life wheel scored'),
+        ('pd-base-big5', 'Baseline: Big Five percentiles recorded'),
+        ('pd-base-via', 'Baseline: VIA top five recorded'),
+        ('pd-base-fitness', 'Baseline: five fitness tests done and recorded'),
+        ('pd-base-sleep', 'Baseline: 7-day sleep log done, averages written'),
+        ('pd-base-screen', 'Baseline: screen time, unlocks and top 3 apps recorded'),
+        ('pd-base-ratings', 'Baseline: three self-rating scales totalled'),
+        ('pd-base-quiz', 'Baseline: thinking-traps quiz form A scored'),
+    ]
     return {
-        'id': 'lrn-baseline',
-        'title': 'Baseline tests: memory, reading, focus and digit span',
+        'id': 'pd-baseline',
+        'title': 'Baseline tests: measure where you start',
         'kind': 'setup',
-        'weeks': [0, 0],
-        'hours': 1.5,
-        'summary': f'Four short tests and a habits rating to measure where you start: list recall after 10 minutes and 24 hours, reading speed with comprehension, focus duration and digit span. You repeat them in week {FINAL}.',
+        'weeks': [0, 1],
+        'hours': 2.0,
+        'summary': 'Life wheel, Big Five, VIA strengths, five fitness tests, a 7-day sleep log, screen time, self-ratings for confidence, social confidence and listening, and a 10-question thinking-traps quiz. You repeat all of them at the end.',
         'content': content.strip(),
-        'tasks': [
-            {'id': 'lrn-baseline-list10', 'text': 'Baseline: list A recalled after 10 minutes, score recorded', 'kind': 'task', 'week': 0},
-            {'id': 'lrn-baseline-list24', 'text': 'Baseline: list A recalled after 24 hours, score recorded', 'kind': 'task', 'week': 0},
-            {'id': 'lrn-baseline-reading', 'text': 'Baseline: passage A read and quiz done; wpm, comprehension and effective rate recorded', 'kind': 'task', 'week': 0},
-            {'id': 'lrn-baseline-focus', 'text': 'Baseline: focus test done on two days, averages recorded', 'kind': 'task', 'week': 0},
-            {'id': 'lrn-baseline-digits', 'text': 'Baseline: digit span forward and backward recorded', 'kind': 'task', 'week': 0},
-            {'id': 'lrn-baseline-habits', 'text': 'Baseline: 15 learning habits rated, total recorded', 'kind': 'task', 'week': 0},
-        ],
+        'tasks': [{'id': i, 'text': t, 'kind': 'task', 'week': 0} for i, t in tasks],
     }
 
 
 def system_section():
-    rows = [(str(w), f'Weekly learning review (week {w})', 'Weekly tab row and your written review') for w in REVIEW_WEEKS]
-    rows += [(str(w), f'AnkiDroid: day {d} of 30 reviewed', 'Screenshot of the statistics screen' + (', and the retaken 20-question topic test' if d == 30 else '')) for d, w in ANKI_DAYS]
-    rows.sort(key=lambda r: int(r[0]))
+    ch = challenges()
+    rows = [(str(w), text, ev) for _, text, w, ev in ch]
+    habits = table(['Habit', 'Starts'], tools.HABITS)
     content = f"""
-Two habits run underneath the whole course. They turn lessons into a system. **This week** on the course page shows the checkpoints when they are due.
+Two things run underneath the whole course: a **daily habit tracker** and a **weekly reflection** with a short recording. On top of them, a series of 2-week and 30-day challenges switch on module by module. **This week** on the course page shows each checkpoint when it is due.
 
-## Habit 1: the weekly learning review (every Sunday, from week 1)
+## 1. The daily habit tracker (every day, from week 0)
 
-Twenty minutes, at the same time every week. Until you reach LRN-M07-L03, use the short version:
+Track in Loop Habit Tracker (or on paper). Start with the first five habits only; the others switch on when their module arrives, and some switch off after their challenge ends.
 
-1. **Recall:** without notes, write the three most important things you learned this week.
-2. **Numbers:** hours studied, days of AnkiDroid done (from week {ANKI_START}), and any test score.
-3. **Adjust:** what worked, what didn't, and one change for next week.
+{habits}
 
-From week {WEEKS[(7, 3)][0]}, use the full **weekly review** template (it is also on the **Toolkit** page) and copy its numbers into the **Weekly** tab.
+{fence(tools.HABIT_TRACKER)}
 
-## Habit 2: the 30-day AnkiDroid review (from week {ANKI_START})
+## 2. The weekly reflection (every Sunday, from week 1)
 
-In Module 4 you build a deck of 100 or more cards on one PSC topic. The course asks you to review it **every day for 30 days**. That proves the habit, and it is long enough to see spaced repetition work.
+Twenty minutes, same time every week. It includes a **1 to 2 minute speaking recording**: English one week, Malayalam the next. That is your weekly speaking practice for the whole course; from Module 27 you also count filler words and pace.
 
-- **Review every day,** even on bad days: 5 minutes is better than none. Do the reviews before you add new cards.
-- **Count review days, not calendar days.** If you miss a day, the 30 days end a day later.
-- **Add new cards gradually:** about 10 to 20 new cards a day until the deck has 100 or more (LRN-M04-L04 explains the workload).
-- **Proof:** a screenshot of the AnkiDroid statistics screen showing your review days and the percentage of reviews you answered correctly. On day 30, retake the 20-question topic test from LRN-M04-L01 and compare.
+{fence(tools.WEEKLY_REFLECTION)}
+
+## 3. The challenges
+
+{table(['From week', 'Challenge', 'Length', 'Where it is taught'], [
+    (str(wk(3, 3)), 'Bias journal: 3 biases a day (yourself, the news, an ad)', '2 weeks', 'PD-M03-L03'),
+    (str(wk(8, 4)), 'Personal experiment on your study time', '2 weeks', 'PD-M08-L04'),
+    (str(wk(11, 2)), 'Thought records whenever a feeling is strong', '2 weeks', 'PD-M11-L02'),
+    (str(wk(12, 1)), 'Meditation, 5 to 10 minutes a day', '30 days, then keep', 'PD-M12-L01'),
+    (str(wk(12, 2)), 'Journaling with gratitude, 5 minutes a day', '30 days, then keep', 'PD-M12-L02'),
+    (str(wk(14, 3)), 'Rejection therapy, one request a day', '30 days', 'PD-M14-L03'),
+    (str(wk(17, 3)), 'Fitness, 20 to 30 minutes on 5 days a week', '30 days, then keep', 'PD-M17-L03'),
+    (str(wk(25, 2)), 'Conversation challenges: listening first, names, follow-up questions', '14 days', 'PD-M25-L02'),
+    (str(wk(36, 2)), 'Capstone: 30-day behaviour-change project and social-skills project', '30 days', 'PD-M36-L02'),
+])}
+
+**Peak load:** weeks {wk(17, 3)} to {wk(17, 3) + 2} can have meditation, the end of the rejection challenge and the start of the fitness challenge at once (about 45 minutes a day). If that is too much, start the fitness challenge the day after the rejection challenge ends; the app will simply show those checkpoints as overdue for a week.
 
 ## Checkpoints
 
 {table(['Due by week', 'Checkpoint', 'Evidence'], rows)}
 
-## When a checkpoint is missed
+The weekly reflection is a checkpoint every week as well (not listed above).
 
-Missing one is information, not failure. Ask why: no fixed time, too many new cards, exam pressure, a bad week? Fix that one thing. Never try to "catch up" weeks of reviews in one sitting; do today's, and the backlog clears in a few days (LRN-M04-L04).
+## When you miss a day
+
+Never miss twice. A missed day is data: write in the tracker's note why it happened (no cue, too big, bad day) and fix that one thing. Count challenge days, not calendar days: if you miss one, the 30 days end a day later.
 """
-    tasks = [{'id': f'lrn-review-w{w:02d}', 'text': f'Weekly learning review, week {w}', 'kind': 'project', 'week': w,
-              'detail': '**Evidence:** your written review and a row in the Weekly tab. Save a photo or screenshot in 07 Metacognition.'}
-             for w in REVIEW_WEEKS]
-    tasks += [{'id': f'lrn-anki-day{d:02d}', 'text': f'AnkiDroid: day {d} of 30 reviewed', 'kind': 'project', 'week': w,
-               'detail': '**Evidence:** a screenshot of the AnkiDroid statistics screen showing your review days, saved in 04 Anki. On day 30, also your retaken 20-question topic test.'}
-              for d, w in ANKI_DAYS]
-    tasks.sort(key=lambda t: t['week'])
+    tasks = [{'id': f'pd-reflect-w{w:02d}', 'text': f'Weekly reflection and recording, week {w}', 'kind': 'project', 'week': w,
+              'detail': '**Evidence:** your written reflection and the recording file name in the Proof index. Language this week: ' + ('English' if w % 2 else 'Malayalam') + '.'}
+             for w in range(1, FINAL + 1)]
+    tasks += [{'id': i, 'text': t, 'kind': 'project', 'week': w, 'detail': f'**Evidence:** {ev}.'} for i, t, w, ev in ch]
+    tasks.sort(key=lambda t: (t['week'], t['id']))
     return {
-        'id': 'lrn-system',
-        'title': 'Learning system track: weekly reviews and the 30-day AnkiDroid review',
+        'id': 'pd-system',
+        'title': 'Daily system track: habit tracker, weekly reflection and 30-day challenges',
         'kind': 'track',
-        'weeks': [1, REVIEW_WEEKS[-1]],
-        'summary': f'A 20-minute review every Sunday from week 1, and daily AnkiDroid reviews for 30 days from week {ANKI_START}. Eleven checkpoints keep you on track.',
+        'weeks': [1, FINAL],
+        'summary': 'The daily habit tracker, a 20-minute Sunday reflection with a short recording, and the bias, experiment, thought-record, meditation, journaling, rejection, fitness and conversation challenges, with checkpoints.',
         'content': content.strip(),
         'tasks': tasks,
     }
@@ -572,20 +502,83 @@ Missing one is information, not failure. Ask why: no fixed time, too many new ca
 
 def toolkit_section():
     parts = ["""
-These are the six core tools of your learning system, in one place, ready to copy into your notebook, Joplin or the Learning Workbook. Each was introduced in a lesson; the lesson explains how to use it well.
+Every copy-ready tool in the course, in one place. Copy them into Joplin, a notebook or a spreadsheet. The lesson named under each tool explains how to use it well.
 """]
-    for name, var, where in tools.SIX_TOOLS:
-        parts.append(f'## {name}\n\nFrom {where}.\n\n' + fence(getattr(tools, var)))
-    parts.append('## Revision tab formulas\n\n' + fence(tools.REVISION_FORMULAS))
-    parts.append('## Error types\n\n' + table(['Code', 'Meaning'], tools.ERROR_TYPES))
-    rows = [(name, when, f'`{hdr}`' if ',' in hdr else hdr) for name, when, hdr in tools.TABS]
-    parts.append('## Learning Workbook tabs\n\n' + table(['Tab', 'Added in', 'Row 1 headings'], rows))
+    for name, body, where in tools.TOOLKIT:
+        parts.append(f'## {name}\n\nFrom {where}.\n\n' + fence(body))
     return {
-        'id': 'lrn-toolkit',
+        'id': 'pd-toolkit',
         'title': 'Toolkit: every copy-ready template in one place',
         'kind': 'reference',
-        'summary': 'The study planner, revision schedule, card-writing checklist, error log, Feynman template and weekly review, plus the Learning Workbook tab headings and formulas.',
+        'summary': 'Habit tracker, weekly reflection, bias journal, decision sheet, experiment log, thought record, rejection log, workout and sleep logs, conversation log, feedback script, speaking log, persuasion lab, negotiation prep, field notes, manipulation check, routines and the Personal Playbook.',
         'content': '\n\n'.join(p.strip() for p in parts),
+    }
+
+
+PART_INFO = {
+    'A': ('How your mind takes shortcuts, how to read research, your thinking traps, and better decisions.',
+          ['Thinking-traps quiz (form A)', 'Life wheel'],
+          ['Joplin Playbook notebook'],
+          'You will notice your own mental shortcuts as they happen, read any psychology headline with healthy doubt, and have a decision sheet for big choices.'),
+    'B': ('Values, strengths, motivation, goals, habits, mindset, emotions, stress, mindfulness, confidence, rejection therapy, happiness and attention.',
+          ['Life wheel', 'Big Five', 'VIA', 'Confidence and social-confidence ratings', 'Screen time'],
+          ['Loop Habit Tracker', 'Joplin Playbook notebook', 'Medito (Module 12)'],
+          'You will have a values list, a 12-month plan, habits that run on cues, two weeks of thought records, 30 days of meditation, journaling and rejection requests, and a phone that works for you.'),
+    'C': ('A safe no-equipment fitness programme, yoga, sleep, a Kerala diet, posture and eye care, prevention and grooming.',
+          ['Five fitness tests', '7-day sleep log', 'Life wheel (health area)'],
+          ['Loop Habit Tracker', 'A mat or folded bedsheet', 'A timer'],
+          'You will be training 3 to 5 days a week with a log, sleeping on a regular schedule, eating balanced plates, and have a check-up plan.'),
+    'D': ('How people see each other, rapport, communication, public speaking, honest influence, negotiation, groups, relationships, manipulation defence and psychology at work.',
+          ['Social-confidence and listening ratings', 'Thinking-traps quiz (questions 2, 3 and 10)'],
+          ['Joplin Playbook notebook', 'Phone voice recorder', 'Loop Habit Tracker'],
+          'You will have had dozens of better conversations, given real feedback, negotiated a purchase, spoken for 5 minutes to an audience, and built a file of manipulation red flags.'),
+    'E': ('Character, purpose and contribution, and the capstone that pulls everything into your personal operating system.',
+          ['Every baseline test (you will retest them all at the end)'],
+          ['Everything from earlier parts'],
+          'You will have run a 30-day behaviour-change project and a social-skills project with data, and written your one-page Personal Playbook.'),
+}
+
+
+def part_section(letter):
+    _, title, a, z = [p for p in plan.PARTS if p[0] == letter][0]
+    what, base, tools_, result = PART_INFO[letter]
+    start = wk(a, 1)
+    end = max(PROJECT_WEEK[m] for m in range(a, z + 1))
+    mods = [(f'Module {m}', plan.MODULES[m - 1][0], f'{len(plan.MODULES[m - 1][1])}') for m in range(a, z + 1)]
+    hrs = sum(sum(h for _, h in plan.MODULES[m - 1][1]) + plan.MODULES[m - 1][2] for m in range(a, z + 1))
+    content = f"""
+## What this part covers
+
+{what}
+
+{table(['Module', 'Title', 'Lessons'], mods)}
+
+Part-time: weeks {start}–{end}, about {round(hrs)} study hours. Full-time: about {max(1, round((end - start + 1) * FULL_TIME_WEEK))} calendar weeks.
+
+## Taking this part on its own
+
+If you start the course here, do this first (about 45 minutes, plus any 7-day logs):
+
+1. Read **Start here**, especially the evidence key and the **safety** box.
+2. Do the parts of **Week 0: setup** you need: {', '.join(tools_)}.
+3. Take these baseline tests from the **Baseline tests** page: {', '.join(base)}. Retake them at the end of the part to see what changed.
+4. Start the **daily habit tracker** and the **Sunday reflection** from the Daily system track. They make any part stick.
+5. Lessons sometimes point to earlier lessons by code (for example PD-M08-L03). Each one is short; read it when it comes up rather than going back to the start.
+
+## What you will have at the end
+
+{result}
+
+The part review on the Daily system track (due week {end}) asks you to write half a page on what changed and what you are keeping.
+"""
+    return {
+        'id': f'pd-part-{letter.lower()}',
+        'title': f'Part {letter}: {title}',
+        'kind': 'gate',
+        'weeks': [start, start],
+        'summary': f'Part {letter} overview: Modules {a}–{z}, weeks {start}–{end}. How to take this part on its own, which baseline tests to take, and what you will have at the end.',
+        'content': content.strip(),
+        'tasks': [{'id': f'pd-part-{letter.lower()}-start', 'text': f'Part {letter}: read the overview; if starting here, standalone setup and baseline done', 'kind': 'task', 'week': start}],
     }
 
 
@@ -596,65 +589,92 @@ def front():
 # ---------------------------------------------------------------- back matter
 
 SYSTEM_ITEMS = [
-    ('lrn-final-workbook', 'Learning Workbook with every tab in use and up to date', 'Week 0 onwards'),
-    ('lrn-final-deck', 'AnkiDroid deck of 100+ cards with 30 review days done, and a daily review habit', 'Module 4'),
-    ('lrn-final-revision', 'Revision tab with your current PSC topics scheduled', 'LRN-M03-L02'),
-    ('lrn-final-focus', 'A quiet phone setup and a time-blocked weekly planner', 'Module 5'),
-    ('lrn-final-habits', 'If-then plans and study habits tracked in Loop', 'Module 6'),
-    ('lrn-final-reviews', 'At least eight weekly reviews written', 'Module 7 and the system track'),
-    ('lrn-final-feynman', 'Five Feynman recordings, each with a second version', 'Module 8'),
-    ('lrn-final-palace', 'A memory palace for a PSC topic, recalled after a week', 'LRN-M11-L02'),
-    ('lrn-final-exam', 'Syllabus map, PYQ analysis and error log for your target exam', 'Module 12'),
-    ('lrn-final-plan', 'A 12-week PSC study and revision plan', 'LRN-M12-L05'),
-    ('lrn-final-kb', 'A knowledge base in Joplin or Logseq', 'Module 18'),
-    ('lrn-final-teach', 'A taught lesson with feedback, and study-group rules', 'Module 20'),
-    ('lrn-final-sprint', '30-day sprint report with before and after scores', 'Module 21'),
+    ('pd-final-tracker', 'Habit tracker in use for the whole course, with at least 5 habits above 80% in the last month', 'Week 0 onwards'),
+    ('pd-final-reflections', 'At least 20 weekly reflections and recordings', 'Daily system track'),
+    ('pd-final-bias', 'Two weeks of bias journal, and your top three traps named', 'PD-M03-L03'),
+    ('pd-final-decision', 'A decision sheet used for a real decision', 'PD-M04-L02'),
+    ('pd-final-plan', 'A 12-month plan and a weekly planning routine', 'Module 7'),
+    ('pd-final-experiment', 'A two-week personal experiment with data and a decision', 'PD-M08-L04'),
+    ('pd-final-thought', 'Two weeks of thought records', 'PD-M11-L02'),
+    ('pd-final-challenges', 'The 30-day meditation, journaling, rejection and fitness challenges completed (or restarted and completed)', 'Modules 12, 14 and 17'),
+    ('pd-final-body', 'A training plan, a sleep window and a plate you actually follow', 'Part C'),
+    ('pd-final-conv', '14 days of conversation challenges logged', 'PD-M25-L02'),
+    ('pd-final-feedback', 'One real piece of constructive feedback given with the script', 'PD-M26-L03'),
+    ('pd-final-talk', 'A 5-minute talk given to a real audience, recorded', 'Module 27'),
+    ('pd-final-lab', 'The persuasion lab and a real negotiation, with results', 'Modules 28 and 29'),
+    ('pd-final-manip', 'A manipulation-spotting file with at least 10 real examples analysed', 'Module 32'),
+    ('pd-final-capstone', 'Capstone: 30-day behaviour-change project and social-skills project, with data', 'Module 36'),
+    ('pd-final-playbook', 'Your one-page Personal Playbook, morning and evening routines, and 12-month growth plan', 'PD-M36-L03'),
 ]
 
 
 def final_section():
-    rows = [(t, where) for _, t, where in SYSTEM_ITEMS]
+    fit = table(['Test', 'Start', 'End', 'Change'], [(n, '', '', '') for n, _, _ in tests.FITNESS_TESTS])
+    compare = table(['Measure', 'Start', 'End', 'Change'], [
+        ('Life wheel: total of 8 areas (out of 80)', '', '', ''),
+        ('Life wheel: lowest area', '', '', ''),
+        ('Big Five: conscientiousness / emotional stability percentiles', '', '', ''),
+        ('VIA top five (same or different?)', '', '', ''),
+        ('Average sleep (hours) and quality (1–5)', '', '', ''),
+        ('Screen time per day and unlocks', '', '', ''),
+        ('Confidence scale (5–25)', '', '', ''),
+        ('Social-confidence scale (5–25)', '', '', ''),
+        ('Listening scale (5–25)', '', '', ''),
+        ('Thinking-traps quiz (out of 10; A at start, B at end)', '', '', ''),
+    ])
     content = f"""
-Two things finish the course: retake the four tests with fresh versions, and check that every part of your learning system exists and runs.
+Take every test again, the same way as in week 0, then compare. Use **form B** of the thinking-traps quiz (form A's answers would be remembered). Use the same push-up version, route and time of day as at the start.
 
-## 1. Retake the tests (form B)
+## How to read your results honestly
 
-Use exactly the same steps, timing and conditions as in week 0, but with the form B materials below. This time, **use any technique you learned**: that is the point. Fill in the **End** column of the Baseline tab, then the **Change** column.
+- **Small changes are real changes.** One or two points on a 25-point scale, or a few more push-ups, matter when they come from habits you will keep.
+- **Personality barely moves in months.** If your Big Five scores hardly changed, that is normal. Habits and skills change faster than traits.
+- **Some numbers get worse for good reasons.** Your screen time may rise in an exam month; your rejection fears may feel bigger because you finally notice them. Write the reason next to the number.
+- **The quiz is not an IQ test.** It measures whether you now slow down on trap questions. Knowing the traps helps less than you would hope (PD-M03-L03): the habit of checking is what counts.
 
-When you compare, be fair to yourself:
+{tests_text('B').strip()}
 
-- **Some improvement comes from practice:** you have done these tests before. The big gains (often in list recall) come from technique.
-- **Digit span may not move.** That's normal (see **Start here**). If it did, write down the strategy you used.
-- **Write three lines:** your biggest gain, the method behind it, and one score you want to improve next.
-{_tests_text('B')}
-## 2. Check your learning system
+## Compare start and end
 
-Each item should be a tab, a file, an app or a habit you could show someone tomorrow. If something is missing, the module listed has its template.
+{compare}
 
-{table(['System item', 'Where it was built'], rows)}
+### Fitness
 
-## Before you call the course done
+{fit}
 
-- Save a backup of your progress from **Backup and courses** in this app, and keep it in your Learning Folder.
-- Download a copy of your Learning Workbook (File → Download) and export your AnkiDroid collection as a backup.
-- Put your next weekly review, your next 12-week plan review and a "retest" date six months from now in your calendar. The course ends; your learning system doesn't.
+## Final checklist: your personal operating system
+
+Tick each item under **Your tasks**. Each line shows where it was built.
+
+{table(['Item', 'Built in'], [(t, w) for _, t, w in SYSTEM_ITEMS])}
+
+## Your final reflection (one page)
+
+1. The three biggest changes, with the numbers that show them.
+2. The three habits you will keep for the next 12 months, with their cues.
+3. One thing that did not work for you, and why.
+4. Who helped, and how you will thank them.
+5. Read your Personal Playbook aloud and record it (2 to 3 minutes). Listen to it on the 1st of each month.
 """
-    tasks = [
-        {'id': 'lrn-final-list10', 'text': 'Final: list B recalled after 10 minutes, score recorded', 'kind': 'task', 'week': FINAL},
-        {'id': 'lrn-final-list24', 'text': 'Final: list B recalled after 24 hours, score recorded', 'kind': 'task', 'week': FINAL},
-        {'id': 'lrn-final-reading', 'text': 'Final: passage B read and quiz done; effective reading rate recorded', 'kind': 'task', 'week': FINAL},
-        {'id': 'lrn-final-focusdur', 'text': 'Final: focus test on two days, averages recorded', 'kind': 'task', 'week': FINAL},
-        {'id': 'lrn-final-digits', 'text': 'Final: digit span forward and backward recorded', 'kind': 'task', 'week': FINAL},
-        {'id': 'lrn-final-habitsrating', 'text': 'Final: learning habits rated; Change column filled in', 'kind': 'task', 'week': FINAL},
-        {'id': 'lrn-final-compare', 'text': 'Final: three lines written on your biggest gain, its method and your next target', 'kind': 'exit', 'week': FINAL},
-    ] + [{'id': i, 'text': t, 'kind': 'task', 'week': FINAL} for i, t, _ in SYSTEM_ITEMS]
+    tasks = [{'id': f'pd-final-{k}', 'text': t, 'kind': 'task', 'week': FINAL} for k, t in [
+        ('wheel', 'Final: life wheel scored and compared'),
+        ('big5', 'Final: Big Five retaken and compared'),
+        ('via', 'Final: VIA retaken and compared'),
+        ('fitness', 'Final: five fitness tests done and compared'),
+        ('sleep', 'Final: 7-day sleep log done and compared'),
+        ('screen', 'Final: screen time and unlocks compared'),
+        ('ratings', 'Final: three self-rating scales totalled and compared'),
+        ('quiz', 'Final: thinking-traps quiz form B scored'),
+    ]]
+    tasks += [{'id': i, 'text': t, 'kind': 'task', 'week': FINAL} for i, t, _ in SYSTEM_ITEMS]
+    tasks.append({'id': 'pd-final-reflection', 'text': 'Final reflection written and the Playbook recording saved', 'kind': 'exit', 'week': FINAL})
     return {
-        'id': 'lrn-final',
-        'title': 'Final retests and learning system checklist',
+        'id': 'pd-final',
+        'title': 'Final retest and checklist',
         'kind': 'capstone',
         'weeks': [FINAL, FINAL],
         'hours': 1.5,
-        'summary': 'Retake the four tests with fresh versions, compare with week 0, and check that every part of your learning system exists and runs.',
+        'summary': 'Repeat every baseline test (form B of the quiz), compare start and end, tick the final checklist of your personal operating system and write a one-page reflection.',
         'content': content.strip(),
         'tasks': tasks,
     }
@@ -662,149 +682,140 @@ Each item should be a tab, a file, an app or a habit you could show someone tomo
 
 def next_section():
     content = f"""
-Finishing the course is the start of running your own learning system. Here is how to keep it going, for PSC and after it.
+## The next 12 months
 
-## Every day (20–60 minutes)
-
-- AnkiDroid reviews first, then new cards only if the reviews are done.
-- One retrieval session on your main PSC topic: blank-page recall or practice questions, before any rereading.
-- Phone out of reach during study blocks.
-
-## Every week (20 minutes)
-
-- The weekly learning review. One change at a time.
-- Update the Revision tab and clear the Errors tab's retests.
-
-## Every 12 weeks (one evening)
-
-- Review your 12-week PSC plan (LRN-M12-L05): what is solid, what is weak, and the next cycle's priorities.
-- Take one full mock test under exam conditions, and analyse it with the error log.
-- Repeat one of the baseline tests (form A works again by now), to keep measuring.
-
-## After PSC: the same system, new subjects
-
-{table(['What you want to learn', 'Where to start', 'Methods to use'], [
-    ('AI skills', 'The Free AI Generalist Course in this app', 'A learning project plan (LRN-M13-L02), Feynman explanations of each new idea, AnkiDroid for terms'),
-    ('Starting a business', 'Practical Entrepreneurship in this app', 'Deliberate practice with real customers, feedback loops, a weekly review'),
-    ('Marketing and freelancing', 'Practical Social Media Marketing in this app', 'Interleaved practice on real posts, an error log of what failed'),
-    ('Money management', 'Practical Personal Finance in this app', 'Concrete examples with your own numbers, spaced review of key rules'),
-    ('A new language (Hindi, Arabic, German...)', link('langtransfer', 'Language Transfer') + ' (free audio courses) and the LRN-M15-L04 plan', 'Daily input, shadowing, a vocabulary deck in AnkiDroid'),
-    ('Better English', link('learnenglish', 'British Council LearnEnglish'), 'Reading and listening every day, a phrase deck, speaking practice with a partner'),
-    ('How learning works, in more depth', link('lhtl', 'Learning How to Learn') + ' on Coursera (free to enrol)', 'Take notes as questions; make cards for key ideas'),
+{table(['When', 'Focus', 'How'], [
+    ('Every day', 'Keep the 3 to 6 habits that earned a place in your Playbook', 'Loop Habit Tracker; never miss twice'),
+    ('Every Sunday', 'Weekly reflection and recording', 'The same template; it is your steering wheel'),
+    ('1st of each month', 'Re-read your Personal Playbook and pick one monthly focus', 'One module\'s project, repeated at a harder level'),
+    ('Every 3 months', 'Retest fitness and the three self-rating scales', 'The baseline page; write the change in your Playbook'),
+    ('Every 6 months', 'Life wheel and 12-month plan review', 'PD-M07-L01 and PD-M07-L02'),
+    ('Once a year', 'A new 30-day challenge (rejection, speaking, fitness or a new one)', 'The challenge templates on the Toolkit page'),
 ])}
 
-## Keep learning about learning, free
+## Go deeper (all free)
 
-- {link('ls-materials', 'The Learning Scientists')}: posters, slides and a blog on the six strategies
-- {link('retrievalpractice', 'RetrievalPractice.org')}: guides and research summaries
-- {link('ncase', 'How To Remember Anything Forever-ish')}: the best 20-minute refresher on spaced repetition
-- {link('os-psych', 'OpenStax Psychology 2e')}, chapters 7 and 8 on thinking and memory
+- **Psychology:** read {link('os-psych', 'OpenStax Psychology 2e')} chapters 2, 7, 10, 12 and 14 in full (about 2 hours each), then work through the {link('mit-psych', 'MIT OCW Introduction to Psychology')} lectures (about 1 hour each) and the {link('noba', 'Noba modules')} on topics you liked.
+- **Wellbeing:** audit {link('yale-wb', 'The Science of Well-Being')} (about 13 hours over 6 weeks) and try one new {link('ggia', 'Greater Good in Action')} practice a month.
+- **Stoicism and character:** one letter of {link('seneca', 'Seneca')} a week, and a book of {link('meditations', 'Meditations')} a month.
+- **Speaking:** visit {link('tm-calicut', 'Calicut Toastmasters')} as a guest (check meeting details and any fees with the club first), or start a speaking circle with friends using the PD-M27 practice plan.
+- **Other courses in this app:** {xref('lrn', 'lrn-start', 'Practical Learning Capabilities')} for study skills and PSC exam mastery; {xref('fin', 'fin-m01', 'Practical Personal Finance')} for money habits; {xref('ent', 'ent-m03', 'Practical Entrepreneurship')} to turn people skills into customer conversations and sales.
 
-## A warning about "learning hacks"
+## Signs you need more than a course
 
-You will meet videos and apps that promise photographic memory, 1,000 words a minute, or "brain training" that raises intelligence. Check them against what you learned in Module 2 and the evidence tables in this course. The methods that work are less exciting: recall, spacing, mixing, explaining, sleep, and doing it every week.
-
-Every link on this page was checked on {VDATE}; see the **Sources and verification log** for each one's status.
+If a problem keeps returning despite your best effort for several weeks (sleep, mood, anxiety, anger, a habit you cannot control), that is a reason to see a professional, not a personal failure. Tele-MANAS (**14416**) is free and confidential to call; a doctor at your local Family Health Centre can refer you.
 """
     return {
-        'id': 'lrn-next',
-        'title': 'What next: keep your learning system running',
+        'id': 'pd-next',
+        'title': 'What next: your 12-month roadmap',
         'kind': 'reference',
-        'summary': 'Daily, weekly and 12-weekly routines after the course, and how to use the same system for AI skills, business, money and new languages.',
+        'summary': 'How to keep the system running for a year, free resources to go deeper, other courses in the app, and when to get professional help.',
         'content': content.strip(),
     }
 
 
 GLOSSARY = [
-    ('Learning', 'പഠനം', 'A lasting change in what you know or can do'),
-    ('Attention', 'ശ്രദ്ധ', 'Choosing what your mind works on right now'),
-    ('Working memory', 'പ്രവർത്തന ഓർമ്മ (താൽക്കാലിക ഓർമ്മ)', 'The small mental "desk" that holds a few items for seconds while you use them'),
-    ('Long-term memory', 'ദീർഘകാല ഓർമ്മ', 'Your large, lasting store of knowledge and skills'),
-    ('Cognitive load', 'ബൗദ്ധിക ഭാരം', 'How much a task demands from working memory'),
-    ('Schema', 'അറിവിന്റെ ചട്ടക്കൂട്', 'An organised pattern of knowledge in long-term memory'),
-    ('Encoding', 'ഓർമ്മയിൽ പതിപ്പിക്കൽ', 'Turning what you experience into a memory'),
-    ('Consolidation', 'ഓർമ്മ ഉറപ്പിക്കൽ', 'The brain stabilising new memories over hours and during sleep'),
-    ('Retrieval', 'ഓർത്തെടുക്കൽ', 'Bringing a memory back to mind'),
-    ('Forgetting curve', 'മറവിയുടെ വക്രരേഖ', 'Memory loss that is fast at first and slower later'),
-    ('Neuroplasticity', 'ന്യൂറോപ്ലാസ്റ്റിസിറ്റി (തലച്ചോറിന് മാറാനുള്ള കഴിവ്)', 'The brain changing its connections with learning and experience'),
-    ('Chunk', 'കൂട്ടം (ചങ്ക്)', 'Several items grouped and remembered as one unit'),
-    ('Neuromyth', 'തലച്ചോറിനെക്കുറിച്ചുള്ള മിഥ്യാധാരണ', 'A popular but false belief about the brain'),
-    ('Learning styles', 'പഠന ശൈലികൾ', 'The unsupported idea that teaching should match "visual" or "auditory" learners'),
-    ('Illusion of knowing', 'അറിവിന്റെ മിഥ്യാബോധം', 'Feeling that you know something because it looks familiar'),
-    ('Retrieval practice', 'ഓർത്തെടുക്കൽ പരിശീലനം', 'Learning by recalling without looking'),
-    ('Spaced practice', 'ഇടവിട്ടുള്ള പഠനം', 'Spreading study over days and weeks instead of cramming'),
-    ('Interleaving', 'ഇടകലർത്തിയുള്ള പരിശീലനം', 'Mixing different types of problems in one practice session'),
-    ('Elaboration', 'വിശദീകരിച്ചുള്ള പഠനം', 'Asking how and why, and linking new ideas to what you know'),
-    ('Concrete example', 'മൂർത്തമായ ഉദാഹരണം', 'A specific case that shows an abstract idea'),
-    ('Dual coding', 'ഇരട്ട കോഡിങ് (വാക്കും ചിത്രവും)', 'Combining words with pictures, maps, timelines or diagrams'),
-    ('Spaced repetition', 'ഇടവേള ആവർത്തനം', 'Reviewing at growing intervals, timed by software'),
-    ('Flashcard', 'ഓർമ്മക്കാർഡ് (ഫ്ലാഷ്കാർഡ്)', 'A card with a question on one side and the answer on the other'),
-    ('Cloze deletion', 'വിട്ടഭാഗം പൂരിപ്പിക്കൽ', 'A card that hides one word or phrase in a sentence'),
-    ('Image occlusion', 'ചിത്രഭാഗം മറയ്ക്കൽ', 'A card that hides part of a map or diagram'),
-    ('Deck', 'കാർഡ് ശേഖരം (ഡെക്ക്)', 'A collection of flashcards'),
-    ('Retention', 'ഓർമ്മ നിലനിർത്തൽ നിരക്ക്', 'The share of reviews you answer correctly'),
-    ('Leech', 'ആവർത്തിച്ച് തെറ്റുന്ന കാർഡ് (ലീച്ച്)', 'A card you keep failing; rewrite or split it'),
-    ('Focus', 'ഏകാഗ്രത', 'Keeping attention on one task'),
-    ('Distraction', 'ശ്രദ്ധ തെറ്റൽ', 'Anything that pulls your attention away'),
-    ('Multitasking', 'ഒരേസമയം പല ജോലികൾ', 'Switching quickly between tasks; it costs accuracy and time'),
-    ('Deep work', 'ആഴത്തിലുള്ള ജോലി', 'Long, undistracted work on a demanding task'),
-    ('Time-blocking', 'സമയം മുൻകൂട്ടി വിഭജിക്കൽ', 'Giving each task a fixed slot in your day'),
-    ('Procrastination', 'നീട്ടിവയ്ക്കൽ', 'Delaying a task you intend to do, even though delay will cost you'),
-    ('Implementation intention', 'എങ്കിൽ-അപ്പോൾ പദ്ധതി', 'A plan in the form "If X happens, then I will do Y"'),
-    ('Habit', 'ശീലം', 'An action done almost automatically in a familiar situation'),
-    ('Motivation', 'പ്രചോദനം', 'The reasons and energy that move you to act'),
-    ('Metacognition', 'മെറ്റാകോഗ്നിഷൻ (സ്വന്തം പഠനത്തെക്കുറിച്ചുള്ള ബോധം)', 'Knowing, checking and managing your own learning'),
-    ('Calibration', 'ആത്മവിലയിരുത്തലിന്റെ കൃത്യത', 'How well your confidence matches your real accuracy'),
-    ('Self-explanation', 'സ്വയം വിശദീകരണം', 'Explaining each step or idea to yourself as you study'),
-    ('Feynman technique', 'ഫെയ്ൻമാൻ രീതി', 'Explaining a topic simply, aloud, to find and fix the gaps'),
-    ('Concept map', 'ആശയ ഭൂപടം', 'Ideas in boxes joined by labelled arrows'),
-    ('First principles', 'അടിസ്ഥാന തത്ത്വങ്ങൾ', 'The basic truths from which you can rebuild an idea'),
-    ('Cornell notes', 'കോർണൽ കുറിപ്പ് രീതി', 'A page with notes, a question column and a summary'),
-    ('Mind map', 'മനോഭൂപടം (മൈൻഡ് മാപ്പ്)', 'A central topic with branches of related ideas'),
-    ('Skimming', 'ഓടിച്ചു വായിക്കൽ', 'Reading fast for the main idea'),
-    ('Scanning', 'തിരഞ്ഞു വായിക്കൽ', 'Searching a text quickly for one specific fact'),
-    ('Comprehension', 'ഗ്രഹണശേഷി', 'Understanding what you read'),
-    ('Mnemonic', 'ഓർമ്മസൂത്രം', 'A trick that makes something easier to remember'),
-    ('Memory palace (method of loci)', 'ഓർമ്മക്കൊട്ടാരം (സ്ഥാനരീതി)', 'Placing vivid images along a familiar route to remember a list'),
-    ('Peg system', 'കൊളുത്ത് രീതി (പെഗ് സിസ്റ്റം)', 'Hanging items on a memorised list of number-images'),
-    ('Major system', 'മേജർ സിസ്റ്റം (അക്കം-വ്യഞ്ജനം രീതി)', 'Turning digits into consonant sounds, then into words'),
-    ('Syllabus', 'പാഠ്യപദ്ധതി (സിലബസ്)', 'The official list of topics for an exam'),
-    ('Previous-year questions (PYQ)', 'മുൻവർഷ ചോദ്യങ്ങൾ', 'Questions from past papers of the same or similar exams'),
-    ('Mock test', 'മാതൃകാ പരീക്ഷ', 'A practice exam under real exam conditions'),
-    ('Error log', 'തെറ്റുകളുടെ രേഖ', 'A record of your mistakes, their causes and fixes'),
-    ('Negative marking', 'നെഗറ്റീവ് മാർക്ക്', 'Marks deducted for wrong answers'),
-    ('Revision', 'പുനരവലോകനം (റിവിഷൻ)', 'Going back over what you learned, best done by recall'),
-    ('Deliberate practice', 'ബോധപൂർവമായ പരിശീലനം', 'Focused practice on weak points, with feedback'),
-    ('Feedback', 'പ്രതികരണം (ഫീഡ്ബാക്ക്)', 'Information on how you did and what to fix'),
-    ('Critical thinking', 'വിമർശനാത്മക ചിന്ത', 'Judging claims by their evidence and reasoning'),
-    ('Argument', 'വാദം', 'Reasons (premises) offered in support of a conclusion'),
-    ('Fallacy', 'തെറ്റായ വാദരീതി', 'A flawed argument that can still sound convincing'),
-    ('Cognitive bias', 'ചിന്താ പക്ഷപാതം', 'A systematic error in thinking'),
-    ('Mental model', 'മാനസിക മാതൃക', 'A simple idea that helps explain how something works'),
-    ('Comprehensible input', 'മനസ്സിലാകുന്ന ഭാഷാ ഇൻപുട്ട്', 'Listening or reading that you can mostly understand'),
-    ('Shadowing', 'ഷാഡോയിങ് (കേട്ട് ഒപ്പം പറയൽ)', 'Repeating audio aloud right after the speaker'),
-    ('Vocabulary', 'പദസമ്പത്ത്', 'The words you know and can use'),
-    ('Hallucination (AI)', 'എഐയുടെ സാങ്കൽപ്പിക ഉത്തരം', 'An AI tool stating something false as if it were true'),
-    ('Socratic questioning', 'സോക്രട്ടീസിയൻ ചോദ്യരീതി', 'Teaching by asking questions that make you think'),
-    ('Knowledge base', 'വിജ്ഞാന ശേഖരം', 'Your linked collection of notes'),
-    ('Stress', 'മാനസിക സമ്മർദ്ദം', 'The body\'s response to demands or threats'),
-    ('Exam anxiety', 'പരീക്ഷാ ഉത്കണ്ഠ', 'Worry and tension about exams that can lower performance'),
-    ('Learning sprint', 'തീവ്ര പഠന കാലയളവ് (സ്പ്രിന്റ്)', 'A short, focused period of study with a clear goal and a measured result'),
+    ('System 1 / System 2', 'വേഗ ചിന്ത / മന്ദ ചിന്ത', 'Fast, automatic thinking versus slow, effortful thinking'),
+    ('Heuristic', 'ചിന്താ കുറുക്കുവഴി', 'A mental shortcut that is usually good enough but sometimes wrong'),
+    ('Cognitive bias', 'ചിന്താ പക്ഷപാതം', 'A predictable error in thinking'),
+    ('Confirmation bias', 'സ്ഥിരീകരണ പക്ഷപാതം', 'Looking only for evidence that agrees with what you already believe'),
+    ('Sunk cost', 'മുടക്കിപ്പോയ ചെലവ്', 'Money or time already spent that cannot be recovered'),
+    ('Overconfidence', 'അമിത ആത്മവിശ്വാസം', 'Being more sure than your accuracy justifies'),
+    ('Planning fallacy', 'ആസൂത്രണ പിഴവ്', 'Underestimating how long tasks will take'),
+    ('Loss aversion', 'നഷ്ടഭയം', 'Losses feel bigger than equal gains'),
+    ('Anchoring', 'നങ്കൂരമിടൽ (ആദ്യ സംഖ്യയുടെ സ്വാധീനം)', 'The first number you hear pulls your judgement'),
+    ('Availability heuristic', 'ഓർമ്മയിൽ എളുപ്പം വരുന്നതിനെ ആശ്രയിക്കൽ', 'Judging how common something is by how easily examples come to mind'),
+    ('Base rate', 'അടിസ്ഥാന നിരക്ക്', 'How common something is in general, before details'),
+    ('Correlation', 'പരസ്പര ബന്ധം', 'Two things that tend to go together, without proof that one causes the other'),
+    ('Causation', 'കാര്യകാരണ ബന്ധം', 'One thing actually making another happen'),
+    ('Experiment', 'പരീക്ഷണം', 'A study where researchers change one thing and compare groups'),
+    ('Sample size', 'സാമ്പിൾ വലിപ്പം', 'How many people a study included'),
+    ('Replication', 'ആവർത്തന പഠനം', 'Repeating a study to see if the result holds'),
+    ('Replication crisis', 'ആവർത്തന പ്രതിസന്ധി', 'The discovery that many famous findings did not repeat'),
+    ('Effect size', 'ഫലത്തിന്റെ വലിപ്പം', 'How big a difference is, not just whether it exists'),
+    ('Cognitive distortion', 'ചിന്താ വൈകല്യം', 'An unhelpful thinking pattern named in CBT'),
+    ('CBT (cognitive behavioural therapy)', 'കോഗ്നിറ്റീവ് ബിഹേവിയറൽ തെറാപ്പി', 'A well-tested therapy that works on thoughts and actions'),
+    ('Pre-mortem', 'മുൻകൂർ പരാജയ വിശകലനം', 'Imagining a plan has failed in order to find its weak points'),
+    ('Choice overload', 'തിരഞ്ഞെടുപ്പ് ബാഹുല്യം', 'Feeling stuck when there are too many options'),
+    ('Values', 'മൂല്യങ്ങൾ', 'What matters most to you, guiding how you want to act'),
+    ('Big Five', 'അഞ്ച് പ്രധാന വ്യക്തിത്വ ഗുണങ്ങൾ', 'Five broad personality traits measured on a scale'),
+    ('Character strengths', 'സ്വഭാവ ശക്തികൾ', 'Positive traits such as kindness, curiosity and honesty'),
+    ('Intrinsic motivation', 'ആന്തരിക പ്രചോദനം', 'Doing something because it is interesting or meaningful in itself'),
+    ('Extrinsic motivation', 'ബാഹ്യ പ്രചോദനം', 'Doing something for a reward or to avoid punishment'),
+    ('Autonomy', 'സ്വയംഭരണം', 'Feeling that your actions are your own choice'),
+    ('Present bias', 'വർത്തമാന പക്ഷപാതം', 'Valuing rewards now far more than bigger rewards later'),
+    ('Commitment device', 'പ്രതിജ്ഞാ ഉപാധി', 'An arrangement that makes it harder to break a promise to yourself'),
+    ('Temptation bundling', 'ഇഷ്ടവും കടമയും ചേർക്കൽ', 'Allowing a treat only while doing a task you avoid'),
+    ('Habit loop (cue, routine, reward)', 'ശീല ചക്രം (സൂചന, പ്രവൃത്തി, പ്രതിഫലം)', 'The trigger, the action and the payoff that build a habit'),
+    ('Implementation intention (if-then plan)', 'എങ്കിൽ-അപ്പോൾ പദ്ധതി', 'A plan of the form "If X happens, then I will do Y"'),
+    ('Procrastination', 'നീട്ടിവയ്ക്കൽ', 'Delaying a task even though delay will make things worse'),
+    ('Growth mindset', 'വളർച്ചാ മനോഭാവം', 'The belief that abilities can be developed with effort and good strategies'),
+    ('Self-compassion', 'സ്വയം കരുണ', 'Treating yourself with the kindness you would show a friend'),
+    ('Emotional intelligence', 'വൈകാരിക ബുദ്ധി', 'Noticing, understanding and managing emotions in yourself and others'),
+    ('Affect labelling', 'വികാരത്തിന് പേര് നൽകൽ', 'Putting a feeling into words, which can calm it'),
+    ('Reappraisal', 'പുനർ വിലയിരുത്തൽ', 'Changing how you interpret a situation to change how you feel'),
+    ('Empathy', 'സഹാനുഭൂതി', 'Understanding and sharing another person\'s feelings'),
+    ('Negativity bias', 'നിഷേധാത്മക പക്ഷപാതം', 'Bad events weigh more in the mind than good ones'),
+    ('Stress response', 'സമ്മർദ്ദ പ്രതികരണം', 'The body\'s fight-or-flight reaction to a demand or threat'),
+    ('Resilience', 'അതിജീവന ശേഷി', 'Bouncing back from difficulty'),
+    ('Thought record', 'ചിന്താ രേഖ', 'A CBT worksheet for examining an upsetting thought'),
+    ('Stoicism', 'സ്റ്റോയിക് ചിന്ത', 'An ancient philosophy of focusing on what you can control'),
+    ('Mindfulness', 'സൂക്ഷ്മ ബോധം', 'Paying attention to the present moment without judging it'),
+    ('Self-efficacy', 'സ്വയം കാര്യക്ഷമതാ വിശ്വാസം', 'Belief in your ability to do a specific task'),
+    ('Spotlight effect', 'ശ്രദ്ധാകേന്ദ്ര മിഥ്യ', 'Overestimating how much others notice you'),
+    ('Impostor feelings', 'കപടനാണെന്ന തോന്നൽ', 'Feeling like a fraud despite evidence of ability'),
+    ('Exposure (fear ladder)', 'ഭയ ഗോവണി', 'Facing fears step by step, from easy to hard, until they shrink'),
+    ('Rejection therapy', 'നിരസന ചികിത്സ (നിരസനം ശീലിക്കൽ)', 'Seeking small, safe "no"s on purpose to lose the fear of rejection'),
+    ('Hedonic adaptation', 'സുഖാനുകൂലനം', 'Getting used to good and bad changes so they stop affecting mood'),
+    ('Social comparison', 'സാമൂഹിക താരതമ്യം', 'Judging yourself against others'),
+    ('Flow', 'ലയാവസ്ഥ', 'Being fully absorbed in a challenging task'),
+    ('Dark pattern', 'വഞ്ചനാത്മക ഡിസൈൻ', 'An app or website design that tricks you into choices'),
+    ('Warm-up', 'ശരീരം ചൂടാക്കൽ', 'Light movement that prepares the body for exercise'),
+    ('Progressive overload', 'ക്രമാനുഗത ഭാരവർധന', 'Making exercise slightly harder over time'),
+    ('Resting heart rate', 'വിശ്രമ ഹൃദയമിടിപ്പ്', 'Heartbeats per minute when sitting still'),
+    ('Asana / pranayama', 'ആസനം / പ്രാണായാമം', 'Yoga postures / yoga breathing practices'),
+    ('Circadian rhythm', 'ശരീര ഘടികാരം', 'The body\'s roughly 24-hour clock'),
+    ('Protein', 'മാംസ്യം (പ്രോട്ടീൻ)', 'The nutrient the body uses to build and repair'),
+    ('Ergonomics', 'ശരീരസൗഹൃദ ക്രമീകരണം', 'Arranging your space to fit your body'),
+    ('Halo effect', 'പ്രഭാവലയ പ്രഭാവം', 'One good trait making us rate everything about a person higher'),
+    ('Fundamental attribution error', 'അടിസ്ഥാന ആരോപണ പിഴവ്', 'Blaming people\'s character and ignoring their situation'),
+    ('Stereotype', 'മുൻധാരണ', 'A fixed, oversimplified idea about a group'),
+    ('Rapport', 'ആത്മബന്ധം', 'A feeling of connection and understanding between people'),
+    ('Active listening', 'സജീവ ശ്രവണം', 'Listening to understand, and showing it'),
+    ('Assertiveness', 'ദൃഢനിശ്ചയത്തോടെയുള്ള ആശയവിനിമയം', 'Saying what you need clearly and respectfully'),
+    ('Non-violent communication', 'അക്രമരഹിത ആശയവിനിമയം', 'Observations, feelings, needs and requests instead of blame'),
+    ('Face-saving', 'മാനം കാക്കൽ', 'Letting someone keep their dignity in a disagreement'),
+    ('Reciprocity', 'പ്രത്യുപകാരം', 'The urge to return favours'),
+    ('Social proof', 'സാമൂഹിക തെളിവ്', 'Doing what others like us are doing'),
+    ('Scarcity', 'ദൗർലഭ്യം', 'Things seem more valuable when they are rare or running out'),
+    ('Framing', 'അവതരണ രീതി', 'How the same facts are presented changes choices'),
+    ('BATNA', 'ഒത്തുതീർപ്പിലെത്തിയില്ലെങ്കിലുള്ള മികച്ച ബദൽ', 'Your best option if the negotiation fails'),
+    ('Conformity', 'അനുരൂപപ്പെടൽ', 'Changing behaviour to match a group'),
+    ('Obedience', 'അനുസരണ', 'Following orders from an authority'),
+    ('Groupthink', 'സംഘ ചിന്ത', 'A group agreeing too quickly and ignoring doubts'),
+    ('Social loafing', 'കൂട്ടത്തിലെ ഉഴപ്പ്', 'Putting in less effort when working in a group'),
+    ('Bystander effect', 'കാഴ്ചക്കാരന്റെ നിഷ്ക്രിയത്വം', 'Being less likely to help when others are present'),
+    ('Gaslighting', 'ഗ്യാസ്‌ലൈറ്റിംഗ് (ഓർമ്മയെ സംശയിപ്പിക്കൽ)', 'Making someone doubt their own memory or sanity'),
+    ('Emotional blackmail', 'വൈകാരിക ഭീഷണി', 'Using fear, obligation or guilt to control someone'),
+    ('MLM (multi-level marketing)', 'ബഹുതല വിപണനം', 'Selling schemes where income depends on recruiting others'),
+    ('Integrity', 'സത്യസന്ധത / ധർമ്മനിഷ്ഠ', 'Acting by your values even when no one is watching'),
+    ('Humility', 'വിനയം', 'An accurate, modest view of yourself and openness to learning'),
+    ('Personal operating system', 'വ്യക്തിഗത ജീവിതക്രമം', 'Your routines, reviews and rules working together'),
 ]
 
 
 def glossary_section():
     rows = [(f'**{en}**', ml, meaning) for en, ml, meaning in GLOSSARY]
     content = f"""
-Key words from the course, roughly in the order you meet them. Many English terms, such as AnkiDroid, mock test and PYQ, are used as they are in Malayalam conversation; the Malayalam is given so you can explain them to family and study partners.
+Key words from the course, roughly in the order you meet them. Some English terms (CBT, BATNA, MLM) are used as they are in Malayalam conversation; the Malayalam is a plain-language rendering so you can explain the idea to family and friends. Malayalam psychology terms vary between textbooks; if your PSC material uses a different word, use that one.
 
 {table(['English', 'മലയാളം (Malayalam)', 'Simple meaning'], rows)}
 """
     return {
-        'id': 'lrn-glossary',
+        'id': 'pd-glossary',
         'title': 'Glossary with Malayalam meanings',
         'kind': 'reference',
-        'summary': f'{len(GLOSSARY)} key learning terms in English and Malayalam, with simple meanings.',
+        'summary': f'{len(GLOSSARY)} key terms in English and Malayalam, with simple meanings.',
         'content': content.strip(),
     }
 
@@ -830,13 +841,17 @@ def finish(course):
     for key in used_in:
         groups.setdefault(R[key]['group'], []).append(key)
     parts = [f"""
-Every link in this course is listed here with the date it was checked. Links were opened and read on {VDATE}; nothing here was copied from memory. If a link stops working, search for its title on the same website.
+Every link in this course is listed here with the date it was checked. Links were opened and read for this course (most on {VDATE}, some on 2026-11-03); nothing was copied from memory. If a link stops working, search for its title on the same website.
 
-- **verified {VDATE}:** the page was opened on that date and its content matched what the course says.
-- **verified {VDATE}; check current rules:** as above, but it describes something that changes: an app feature, an exam rule or a syllabus. Open the source before you rely on it.
-- **unverified:** the site blocks automated checks, so the page could not be opened for this course. The address is the official one; type it yourself and check that it is the real site.
+- **verified [date]:** the page was opened on that date and its content matched what the course says.
+- **verified; check current rules:** as above, but it describes something that changes (an app, a price, free access, a meeting time, a law). Check before you rely on it.
+- **headline figures checked; secondary summary:** the numbers were checked on a summary page, not the original paper. Treat them as approximate.
+- **found in a web search; page not opened:** the address came from a search result but the page itself could not be opened for checking. Marked unverified.
+- **unverified:** the site blocks automated checks. The address is the official one; type it yourself and check that it is the real site.
 
-Official and open-licensed sources are preferred: OpenStax books (CC BY-NC-SA 4.0), the public-domain comic by Nicky Case, open-access papers, and open-source apps (AnkiDroid, Joplin, Logseq, Loop). This course only links to them. Where a paper is behind a paywall, the course links to a free summary by the university or society that published it, and says so in the title. Wikipedia is used only to check facts used in examples.
+Open-licensed and official sources are preferred: OpenStax and Noba (CC BY-NC-SA 4.0), MIT OpenCourseWare, public-domain classics on Project Gutenberg and Standard Ebooks, government and health bodies (WHO, NHS, ICMR-NIN, the Ministry of Ayush), university centres (Greater Good, Harvard), and open-source apps (Loop, Medito, Joplin). Wikipedia is used for the history and criticism of classic experiments, because its articles on them cite the replication studies.
+
+**Studies named without a link** (for example "Iyengar and Lepper, 2000") are well-known published papers described through the linked review or summary in the same lesson. The course gives numbers only where they were checked against a linked source.
 """]
     for g in GROUP_ORDER:
         if g not in groups:
@@ -847,17 +862,17 @@ Official and open-licensed sources are preferred: OpenStax books (CC BY-NC-SA 4.
             where = ', '.join(used_in[key][:6]) + (' and more' if len(used_in[key]) > 6 else '')
             rows.append((f"[{r['title']}]({r['url']})", where, STATUS[r['s']]))
         parts.append(f'## {g}\n\n' + table(['Resource', 'Used in', 'Status'], rows))
-    unverified = [k for k in used_in if R[k]['s'] == 'u']
+    unverified = [k for k in used_in if R[k]['s'] in ('u', 's')]
     rules_keys = [k for k in used_in if R[k]['s'] == 'vr']
     headline = [k for k in used_in if R[k]['s'] == 'vt']
     parts.append('## Marked "unverified"\n\n' + (bullets([f"[{R[k]['title']}]({R[k]['url']})" for k in unverified]) or 'None.'))
     if headline:
-        parts.append('## Headline checked only\n\n' + bullets([f"[{R[k]['title']}]({R[k]['url']})" for k in headline]))
+        parts.append('## Secondary summaries\n\n' + bullets([f"[{R[k]['title']}]({R[k]['url']})" for k in headline]))
     parts.append('## Marked "check current rules"\n\n' + (bullets([f"[{R[k]['title']}]({R[k]['url']})" for k in rules_keys]) or 'None.'))
     sections.append({
-        'id': 'lrn-sources',
+        'id': 'pd-sources',
         'title': 'Sources and verification log',
         'kind': 'reference',
-        'summary': f'Every link in the course, where it is used and when it was checked ({VDATE}).',
+        'summary': f'Every link in the course, where it is used and when it was checked.',
         'content': '\n\n'.join(p.strip() for p in parts),
     })

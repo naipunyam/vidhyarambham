@@ -34,23 +34,23 @@ for (const s of course.sections) {
   for (const t of s.tasks || []) check(`${s.id}.${t.id}.detail`, t.detail)
   const w = (s.content || '').split(/\s+/).length
   words += w
-  if (/^lrn-m\d\d-l\d\d$/.test(s.id)) lessonWords.push([s.id, w])
+  if (/^pd-m\d\d-l\d\d$/.test(s.id)) lessonWords.push([s.id, w])
 }
 console.log(problems.length ? `PROBLEMS (${problems.length}):\n${problems.slice(0, 40).join('\n')}` : 'markdown ok')
 console.log(`words: ${words}; lessons: ${lessonWords.length}; lesson words min ${Math.min(...lessonWords.map((x) => x[1]))} max ${Math.max(...lessonWords.map((x) => x[1]))}`)
-const short = lessonWords.filter((x) => x[1] < 1100).map((x) => `${x[0]}:${x[1]}`)
+const short = lessonWords.filter((x) => x[1] < 1000).map((x) => `${x[0]}:${x[1]}`)
 if (short.length) console.log('short lessons:', short.join(' '))
 
 // Weekly load at part-time pace: section hours spread evenly over their weeks.
 const load = {}
 for (const s of course.sections) {
-  if (!s.weeks || !s.hours || /^lrn-m\d\d$/.test(s.id)) continue
+  if (!s.weeks || !s.hours || /^pd-m\d\d$/.test(s.id)) continue
   const [a, b] = s.weeks
   for (let w = a; w <= b; w++) load[w] = (load[w] || 0) + s.hours / (b - a + 1)
 }
 // Module project hours (overview hours minus its lessons) land in the module project's week.
 for (const s of course.sections) {
-  const m = /^lrn-m(\d\d)$/.exec(s.id)
+  const m = /^pd-m(\d\d)$/.exec(s.id)
   if (!m) continue
   const lessonHours = course.sections.filter((x) => x.id.startsWith(`${s.id}-l`)).reduce((n, x) => n + x.hours, 0)
   const wk = s.tasks.find((t) => t.id.endsWith('-project')).week
@@ -68,8 +68,24 @@ const ids = new Set(course.sections.map((s) => s.id))
 const bad = new Set(), unknown = new Set()
 for (const s of course.sections) {
   const blob = [s.content, s.summary, ...(s.tasks || []).map((t) => t.detail || '')].join('\n')
-  for (const m of blob.matchAll(/LRN-M\d\d-L\d(?!\d)/g)) bad.add(`${s.id}:${m[0]}`)
-  for (const m of blob.matchAll(/LRN-M(\d\d)-L(\d\d)/g)) if (!ids.has(`lrn-m${m[1]}-l${m[2]}`)) unknown.add(m[0])
+  for (const m of blob.matchAll(/PD-M\d\d-L\d(?!\d)/g)) bad.add(`${s.id}:${m[0]}`)
+  for (const m of blob.matchAll(/PD-M(\d\d)-L(\d\d)/g)) if (!ids.has(`pd-m${m[1]}-l${m[2]}`)) unknown.add(m[0])
 }
 if (bad.size) console.log('MALFORMED codes:', [...bad].join(' '))
 if (unknown.size) console.log('codes not (yet) in the course:', [...unknown].sort().join(' '))
+
+// Cross-course links must point at real sections of other courses.
+const { readdirSync } = await import('node:fs')
+const others = {}
+for (const f of readdirSync(`${repo}/public/courses`)) {
+  if (!f.endsWith('.json') || f === 'index.json') continue
+  const c = JSON.parse(readFileSync(`${repo}/public/courses/${f}`, 'utf8'))
+  others[c.id] = new Set((c.sections || []).map((s) => s.id))
+}
+const badX = new Set()
+for (const s of course.sections) {
+  for (const m of (s.content || '').matchAll(/#\/course\/([a-z0-9-]+)\/([a-z0-9-]+)\)/g)) {
+    if (!others[m[1]] || !others[m[1]].has(m[2])) badX.add(`${s.id}:${m[1]}/${m[2]}`)
+  }
+}
+if (badX.size) console.log('BAD cross-course links:', [...badX].join(' '))

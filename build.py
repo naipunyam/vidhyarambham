@@ -1,4 +1,4 @@
-"""Assemble the learning capabilities course JSON from the module files.
+"""Assemble the Mind, Body and People course JSON from the module files.
 
 Usage: python3 build.py [--out PATH]
 """
@@ -12,12 +12,12 @@ sys.path.insert(0, HERE)
 
 import common  # noqa: E402
 
-OUT = '/home/claude/vidhyarambham/public/courses/learning-capabilities.json'
+OUT = '/home/claude/vidhyarambham/public/courses/mind-body-people.json'
 if '--out' in sys.argv:
     OUT = sys.argv[sys.argv.index('--out') + 1]
 
 modules = []
-for m in range(1, 22):
+for m in range(1, 37):
     name = f'm{m:02d}'
     if os.path.exists(os.path.join(HERE, f'{name}.py')):
         modules.append((m, importlib.import_module(name)))
@@ -26,7 +26,11 @@ extras = importlib.import_module('extras')
 
 sections = []
 sections += extras.front()
+import plan  # noqa: E402
+starts = {p[2]: p[0] for p in plan.PARTS}
 for m, mod in modules:
+    if m in starts:
+        sections.append(extras.part_section(starts[m]))
     sections.append(mod.MODULE)
     sections += mod.LESSONS
 sections += extras.back()
@@ -35,22 +39,22 @@ FINAL = common.LAST_WEEK
 course = {
     'format': 'vidhyarambham-course',
     'formatVersion': 1,
-    'id': 'learning-capabilities',
+    'id': 'mind-body-people',
     'version': 1,
-    'title': 'Practical Learning Capabilities: Learn Faster, Remember Longer, Focus Better',
-    'summary': (f'An evidence-based "learn how to learn" course done on your own Kerala PSC material. Measure your memory, reading, '
-                f'focus and digit span in week 0 and again at the end; build a 100-card AnkiDroid deck, a memory palace, five Feynman '
-                f'recordings, a PYQ analysis and error log, a 12-week PSC study plan and a 30-day learning sprint. Honest evidence '
-                f'ratings for every technique; free tools only, open source wherever possible. Part-time: {FINAL} weeks at about 6 hours a week. '
-                f'Full-time: about {len(extras.full_time_rows())} weeks.'),
+    'title': 'Mind, Body and People: Win Over Yourself and Others',
+    'summary': (f'A practical, evidence-based personal development and everyday-psychology course in five parts: understand your mind, '
+                f'master yourself, strengthen your body, win with people ethically, and character and purpose. Real-world tasks with proof in '
+                f'every lesson; baseline tests repeated at the end; 30-day meditation, journaling, rejection-therapy and fitness challenges; '
+                f'honest evidence ratings, including what failed to replicate. Free resources only. Part-time: {FINAL} weeks at about 5 to 6 '
+                f'hours a week. Full-time: about {len(extras.full_time_rows())} weeks.'),
     'language': 'en',
     'updated': common.VDATE,
     'totalWeeks': FINAL,
     'paces': [
         {'id': 'part-time', 'label': 'Part-time', 'hoursPerWeek': 6, 'weekLength': 1,
-         'note': f'Alongside PSC study or a job: {FINAL} weeks at about 6 hours a week (5 to 7)'},
+         'note': f'Alongside PSC study or a job: {FINAL} weeks at about 5 to 6 study hours a week, plus 10 to 40 minutes a day of practice'},
         {'id': 'full-time', 'label': 'Full-time', 'hoursPerWeek': 15, 'weekLength': extras.FULL_TIME_WEEK,
-         'note': f'About {len(extras.full_time_rows())} calendar weeks at about 15 hours a week. The 30-day AnkiDroid review and the 30-day sprint still take real days; see the weekly schedule.'},
+         'note': f'About {len(extras.full_time_rows())} calendar weeks at about 15 hours a week. The 30-day challenges still take 30 real days; see the weekly schedule.'},
     ],
     'sections': sections,
 }
