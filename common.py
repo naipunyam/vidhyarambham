@@ -53,6 +53,7 @@ R = {
     'ksdma': _r('Kerala State Disaster Management Authority: hazard maps (flood, landslide)', 'https://sdma.kerala.gov.in/hazard-maps/', 'v', G_OFF),
     'it-tds': _r('Income Tax Department: TDS on the sum paid to buy an immovable property', 'https://incometaxindia.gov.in/w/tds-from-sum-paid-to-buy-an-immovable-property', 'vr', G_OFF),
     'ecourts': _r('eCourts Services (eCommittee, Supreme Court of India): case status by party name, CNR number, court orders, caveats', 'https://services.ecourts.gov.in/', 'v', G_OFF),
+    'kp-1930': _r('Kerala Police notice: National Cyber Crime Reporting Helpline 1930 and the portal cybercrime.gov.in', 'https://ps.keralapolice.gov.in/ernakulamruralcyber-ps/notifications/National-Cyber-Crime-Reporting-Helpline-No-1930-3338', 'v', G_OFF),
     'gbp': _r('Google Business Profile Help: guidelines for service-area businesses', 'https://support.google.com/business/answer/10514137?hl=en', 'v', G_OFF),
 
     # ---- Laws and court decisions

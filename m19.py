@@ -18,6 +18,14 @@ L1 = lesson(
 - **Daily habit (10 minutes):** check overdue actions, update stages after every call or visit, set a next action date for every open lead.
 - **Weekly (in your log):** count leads, visits and deals by source (RE-M11-L02).
 
+**A weekly pipeline review (15 minutes, Sunday with your log):**
+1. Sort by Stage. For each lead at "visited" or "offer", ask: what is the one next step, and who owns it?
+2. Move leads with no response after three polite follow-ups to "lost", with a reason (price, location, bought elsewhere, not serious). The reasons teach you what the market wants.
+3. Check the Inventory tab: mandates expiring in the next two weeks, listings to refresh, properties with no enquiries for a month (talk to the owner about price, using your comparables).
+4. Write the week's three actions in your log.
+
+**When to move beyond a sheet.** A sheet works well up to a few hundred leads. If you later hire people or handle many projects, a dedicated CRM may help, but only after your process works on the sheet. Choose one that lets you export your data and that keeps client data secure.
+
 **Privacy and security:** keep the sheet private (not "anyone with the link"); use a strong password and two-step verification on your Google account; record consent; delete details of people who ask, and of leads that are closed or lost after a reasonable time; never share client data with others without consent.
 """,
     example="""
