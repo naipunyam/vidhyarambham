@@ -1,0 +1,31 @@
+# Verified facts for the Kerala real estate course (2026-11-04)
+- Stamp duty sale deed 8%, registration fee 2% on higher of consideration or fair value (Square Yards, updated July 2026). Family gift/settlement 2% SD; lease up to 1 year 1% of rent; GPA for sale Rs 1,000; simple mortgage 5%; equitable mortgage 0.1% within 30 days.
+- Flats transferred within 6 months of building number: stamp duty 7% (Kerala Budget 2023, Onmanorama).
+- Fair value +20% from 1 April 2023 (G.O.(P) No.45/2023/TAXES). Search on igr.kerala.gov.in fair value: district, RDO, taluk, village, desam, survey number.
+- EC online via pearl.registration.kerala.gov.in: application Rs 15; first 5 years Rs 105; 6-30 years Rs 265; >30 years +Rs 30/yr (Housing.com, April 2025).
+- Kerala registration site blocks automated checks.
+- e-Rekha (Kerala Land Information Mission): FMB resurvey Rs 750/page; maps Rs 1,000; land/settlement register Rs 1,400; correlation statement Rs 1,000; area list Rs 550.
+- Ente Bhoomi (NIC): integrates Revenue (ReLIS), Registration (PEARL) and Survey; thandaper, location sketch, EC online; auto-mutation; digital resurvey with CORS/RTK/drones, 1,550 villages target.
+- Land tax online: revenue.kerala.gov.in (ReLIS) per district site.
+- K-RERA site: agent registration, complaint, project search. Agent fee Rs 25,000 individual (TaxGuru, Onmanorama); non-individual reported Rs 2 lakh (TaxGuru) or Rs 2.5 lakh (Onmanorama). Penalty for unregistered agents Rs 10,000/day (Onmanorama). Projects >500 sq m or >8 apartments must register.
+- RERA Act passed March 2016; fully in force 1 May 2017; agents must register and quote registration number; 70% to separate account; carpet area pricing (Wikipedia).
+- TPA s.54: sale of tangible immovable property Rs 100+ only by registered instrument; contract for sale does not create interest.
+- Registration Act s.17 compulsory registration (gifts, transfers Rs 100+, leases >1 year, s.53A contracts after 2001); s.49 effect of non-registration; s.23 present within 4 months.
+- Paddy Land Act s.27A conversion fee 10% of fair value above 25 cents up to 1 acre; up to 25 cents exempt only for small holdings (SC, State of Kerala v Moushmi Ann Jacob, 2025).
+- Land Reforms Act 1963 (amended 1969): tenancy abolished; ceiling roughly 12-15 acres by family size (Wikipedia).
+- Building permits: Sanketham stopped new applications in grama panchayats from 29 March 2025; K-SMART rolled out to all panchayats April 2025 (earlier to municipalities/corporations).
+- KPBR 2019 and KMBR 2019 (LSGD PDF of KPBR 2019).
+- CRZ 2019 notification; Kerala CZMP approved Sept 2024: CRZ-III A no-development zone 200 m -> 50 m in most areas; 66 panchayats CRZ-III to CRZ-II (article says CRZ-I to CRZ-II; treat carefully).
+- Western Ghats ESA: 6th draft notification Aug 2024, ~56,800 sq km in 6 states; restricts mining, quarrying, large infrastructure. Not final.
+- KSDMA hazard maps: sdma.kerala.gov.in/hazard-maps/ flood and landslide.
+- Kerala Buildings (Lease and Rent Control) Act 1965: s.11 eviction grounds via Rent Control Court; s.5 fair rent; s.8 advance up to one month's rent allowed; unconscionable rent > double fair rent.
+- Benami: RI 1-7 years, fine up to 25% FMV; spouse/child from known sources not benami.
+- Cash: receiving Rs 20,000+ in cash as advance for immovable property prohibited (269SS-type); Rs 2 lakh cash receipt limit (269ST-type); renumbered under Income-tax Act 2025. Check.
+- TDS on property: 1% of higher of consideration or stamp duty value if Rs 50 lakh or more; buyer deducts; no TAN; Form 26QB under old Act; under Income-tax Act 2025 (from 1 April 2026) section 393, Form 141 (TaxGuru).
+- SFT reporting threshold Rs 45 lakh from FY 2026-27 (Taxscan).
+- LTCG property: 12.5% without indexation from 23 July 2024; resident individuals/HUF property bought before that can choose 20% with indexation; 24-month holding period.
+- GST: under-construction residential 5% (1% affordable: up to Rs 45 lakh and 60/90 sq m) without ITC; no GST on completed with CC or resale. Brokerage GST 18%; registration threshold Rs 20 lakh services.
+- RBI LTV (Oct 2015): up to Rs 30 lakh 90%; 30-75 lakh 80%; above 75 lakh 75%.
+- SEBI 2021: REIT minimum application Rs 10,000-15,000; trading lot one unit.
+- OpenStax Principles of Finance CC BY-NC-SA; ch 7-9 time value of money. MIT OCW 11.431J Real Estate Finance and Investment (Geltner, McGrath) CC BY-NC-SA.
+- QGIS free open source GPL. Google Earth Pro desktop download ends 25 June 2027. NoBroker free owner listing. Google Business Profile: service-area business must hide address; up to 20 service areas.
