@@ -1,0 +1,31 @@
+# Verified facts (2026-11-04 unless marked)
+- Power posing: Carney, Cuddy, Yap 2010 (n=42) hormone/risk claims; Ranehill 2015 larger sample: no hormonal/behavioural effects, felt power only; Carney 2016 disowned; 2022 meta (128 studies): effect on feelings, none on physiology.
+- Ego depletion: Baumeister 1998 (chocolate/radish); Hagger 2016 23 labs, 2,141 people, no evidence; Vohs 2021 36 labs, 3,531, d = 0.06.
+- Replication: OSC 2015: 97 significant originals, 36% replicated, effects about half. Many Labs 2: 28 findings, ~50% failed.
+- Rejection therapy: created by Jason Comely; Jia Jiang found it 2012, 100 days, acquired 2016; TEDxMtHood 2015 ~15 min.
+- Milgram: 65% to 450 V; 40% same room, 30% touch-proximity; 21% phone; Perry 2012 critique (~half believed); Burger 2009 to 150 V similar.
+- SPE 1971: 24 students, ended day 6; Le Texier 2018/19 guards coached; demand characteristics; self-selection (Carnahan & McFarland 2007).
+- Asch 1951: 35.7% conforming responses (vs <1% control); 74% at least once; one ally -> ~5%.
+- Bystander: Kitty Genovese 38 witnesses exaggerated (NYT 2016); Philpot et al CCTV >200 incidents, help in >90%, more bystanders more help.
+- Marshmallow: Kidd 2013 reliability; Watts 2018 about half, shrinks with family background; Sperber 2024 doesn't predict adult functioning.
+- MBTI: 39–76% different type at 5 weeks; scores not bimodal; poor prediction.
+- Cialdini: six (1984) + unity (2016).
+- Gottman: prediction claims criticised (Heyman 2001 overfitting; not tested prospectively on fresh samples).
+- TFAS priming chapter R-index 14; Kahneman: "I placed too much faith in underpowered studies."
+- Loss aversion: losses ~2x gains commonly; disputed (Gal & Rucker 2018); replicated with varying size (Mrkva et al.).
+- Choice overload: jam 24 vs 6, ~3% vs ~30% bought; Scheibehenne 2010 50 experiments, 5,036 people, mean D = 0.02, high heterogeneity.
+- Spotlight: Gilovich et al 2000 shirt wearers estimated ~46% noticed, actual ~23% (secondary summary).
+- Growth mindset: Sisk 2018 r = .10 (273 samples, 365,915); interventions d = 0.08 (43, 57,155); low-SES d = 0.34.
+- Meditation: Goyal 2014 47 RCTs, 3,515; moderate evidence anxiety (0.38), depression (0.30), pain (0.33); not better than active treatments.
+- Money: Killingsworth/Kahneman/Mellers 2023: happiness rises with income on average; unhappiest group plateaus above $100k.
+- Premortem: Klein HBR 2007; prospective hindsight +30% reasons (Mitchell, Russo, Pennington 1989).
+- ICMR-NIN DGI 2024 (8 May 2024): 17 guidelines; cereals ≤45% energy; pulses/beans/meat up to 15%; sugar <5%; fat ≤30%; 56.4% disease burden from unhealthy diets; avoid protein supplements for muscle.
+- CYP (MDNIY 4th ed 2019): 45 min; prayer, loosening, standing/sitting/prone/supine asanas, kapalabhati, nadishodhana, sheetali, bhramari, dhyana, sankalpa, shanti; dos/don'ts and contraindications.
+- NHS Couch to 5K: free, 9 weeks, 3 runs a week.
+- AAO: screens don't permanently damage eyes; blink 5–7/min vs ~15; arm's length ~25 in; look into distance.
+- Tele-MANAS: 14416 or 1-800-89-14416, toll-free 24/7, language of choice.
+- Tobacco quitline 1800-11-2356, 8am–8pm Tue–Sun (VPCI).
+- Cyber: 1930 helpline; cybercrime.gov.in (portal blocks bots); I4C blocked 3,962 Skype IDs and 83,668 WhatsApp accounts used in digital arrest (PIB 12 Mar 2025).
+- Dark patterns: CCPA 30 Nov 2023, 13 patterns (false urgency, basket sneaking, confirm shaming, forced action, subscription trap, interface interference, bait and switch, drip pricing, disguised ads, nagging, trick question, SaaS billing, rogue malware).
+- Toastmasters: Calicut Toastmasters, Kozhikode, Sundays 3–5 pm, online attendance allowed, +91 85479 05327.
+- Lally (v 11-03): median 66 days, range 18–254. Gollwitzer & Sheeran d = .65, 94 tests.
