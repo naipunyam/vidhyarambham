@@ -145,6 +145,10 @@ def xref(course, section, text):
     return f'[{text}]({APP}{cid}/{section}) (in the {name} course)'
 
 
+def here(section, text):
+    return f'[{text}]({APP}kerala-real-estate/{section})'
+
+
 def res_table(rows):
     out = ['| Resource | What to study | Time | Status |', '| --- | --- | --- | --- |']
     for key, what, time in rows:
