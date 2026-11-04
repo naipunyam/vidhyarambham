@@ -52,6 +52,7 @@ R = {
     'kpbr': _r('Kerala Panchayat Building Rules, 2019 (LSGD PDF)', 'https://dop.lsgkerala.gov.in/system/files/file_page/kerala-panchayat-building-rules-2019_1.pdf', 's', G_OFF),
     'ksdma': _r('Kerala State Disaster Management Authority: hazard maps (flood, landslide)', 'https://sdma.kerala.gov.in/hazard-maps/', 'v', G_OFF),
     'it-tds': _r('Income Tax Department: TDS on the sum paid to buy an immovable property', 'https://incometaxindia.gov.in/w/tds-from-sum-paid-to-buy-an-immovable-property', 'vr', G_OFF),
+    'ecourts': _r('eCourts Services (eCommittee, Supreme Court of India): case status by party name, CNR number, court orders, caveats', 'https://services.ecourts.gov.in/', 'v', G_OFF),
     'gbp': _r('Google Business Profile Help: guidelines for service-area businesses', 'https://support.google.com/business/answer/10514137?hl=en', 'v', G_OFF),
 
     # ---- Laws and court decisions
@@ -61,6 +62,7 @@ R = {
     'sc-paddy': _r('LiveLaw (February 2025): Supreme Court on Paddy Land Act conversion fee above 25 cents (State of Kerala v. Moushmi Ann Jacob)', 'https://www.livelaw.in/amp/supreme-court/kerala-paddy-land-act-no-exemption-from-conversion-fee-if-land-exceeds-25-cents-supreme-court-284584', 'v', G_LAW),
     'wp-rera': _r('Wikipedia: Real Estate (Regulation and Development) Act, 2016', 'https://en.wikipedia.org/wiki/Real_Estate_%28Regulation_and_Development%29_Act,_2016', 'v', G_LAW),
     'wp-landreform': _r('Wikipedia: Land reform in Kerala', 'https://en.wikipedia.org/wiki/Land_reform_in_Kerala', 'v', G_LAW),
+    'tg-gpa': _r('TaxGuru (15 October 2011): Supreme Court in Suraj Lamp & Industries v. State of Haryana, GPA sales do not transfer title', 'https://taxguru.in/corporate-law/general-power-attorney-legal-sanctity-immovable-property-sold-transferred-registered-deeds-sc.html', 'v', G_LAW),
     'reg-act': _r('iPleaders: compulsory registration under Section 17 of the Registration Act, 1908, and the effect of non-registration', 'https://blog.ipleaders.in/registration-of-documents-and-consequences-of-non-registration-under-section-17-of-the-registration-act-l908/', 'v', G_LAW),
 
     # ---- Secondary guides
