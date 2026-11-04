@@ -27,7 +27,7 @@ L1 = lesson(
 - If the buyer takes possession under it and wants to rely on part-performance (TPA s.53A), it must be registered (Registration Act s.17, as amended in 2001).
 - It is stamped as an agreement; an advocate or document writer should draft it.
 
-**Sale deed (തീരാധാരം / ആധാരം).** The registered document that transfers ownership. Its standard parts:
+**Sale deed (വിലയാധാരം / ആധാരം).** The registered document that transfers ownership. Its standard parts:
 
 {table(['Part', 'What it contains', 'Red flags'], DEED_PARTS)}
 
