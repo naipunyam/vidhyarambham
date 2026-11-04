@@ -85,7 +85,7 @@ MODULES = [
         ('Ethics, conflicts of interest and protecting clients', 1.0)], 0.75),
     ('Capstone: your first deal or your business plan', [
         ('Choose your capstone and plan it', 1.25),
-        ('Run the capstone', 10.0),
+        ('Run the capstone', 20.0),
         ('Final retest, your toolkit and the next 12 months', 1.5)], 1.0),
 ]
 
@@ -115,11 +115,11 @@ def assign():
         load[week] += h
 
     for m, (title, lessons, ph) in enumerate(MODULES, 1):
-        if any(p[2] == m for p in PARTS) and m > 1 and load.get(w, 0) > 1:
+        if any(p[2] == m for p in PARTS) and m > 1 and load.get(w, 0) > 3:
             w += 1
         for l, (lt, h) in enumerate(lessons, 1):
             if m == CAPSTONE and l == 2:
-                a = w + 1 if load.get(w, 0) > 1 else w
+                a = w + 1 if load.get(w, 0) > 2 else w
                 for k in range(a, a + 5):
                     put(k, h / 5)
                 weeks[(m, l)] = (a, a + 4)

@@ -23,7 +23,7 @@ Both options require the **full toolkit** (RE-M22-L03) and the same legal and et
 
 **Option B: investment analysis + business plan.** Choose a real property you can analyse with permission or from public information (or the course's sample case for the legal part): comparables valuation, fair value check, full cost of purchase, rental yield and returns with a downside case, due-diligence checklist with the issues you'd send to an advocate, and a recommendation **framework** (not a recommendation to buy). Add a 12-month business plan: services, rate card, sourcing, marketing, monthly targets, compliance (K-RERA, GST, books) and risks.
 
-**Planning:** list every step, who is involved, what document is needed and a target week. Book time with professionals early. Your weekly schedule stays at 5 to 7 hours (10 hours of capstone work spread over five weeks).
+**Planning:** list every step, who is involved, what document is needed and a target week. Book time with professionals early. Your weekly schedule stays at 5 to 7 hours (about 20 hours of capstone work spread over five weeks, about 4 hours a week).
 """,
     example="""
 Sachin chooses **Option A (rental)**: a 2-bedroom house in Kakkattil whose owner (an NRI in Muscat) has signed a mandate. His five-week plan:
@@ -78,9 +78,9 @@ Backup if the deal stalls: ______""")],
 L2 = lesson(
     22, 2,
     outcome='You can carry out your capstone over five weeks, keeping every document, payment and decision legal, written and recorded.',
-    split='10 hours over five weeks (about 2 hours a week, inside your 5 to 7 hour schedule)',
+    split='20 hours over five weeks (about 4 hours a week, inside your 5 to 7 hour schedule)',
     core=f"""
-**Weekly rhythm (about 2 hours of capstone work):**
+**Weekly rhythm (about 4 hours of capstone work):**
 1. Monday: review the plan; update the CRM and deal file.
 2. During the week: do the steps (visits, calls, documents).
 3. Sunday: weekly log, write what happened, what's blocked and next week's three actions.
@@ -147,7 +147,7 @@ What I will do differently in my next deal: ______""")],
 **Late surprises.** Even in a small rental, a "landlord" may turn out not to be the owner, or a tenant may give fake ID. Your checks protect your first deal as much as your hundredth.
 """,
     quiz=[
-        Q('How much capstone work is planned each week?', 'About 2 hours inside your 5 to 7 hour schedule', '20 hours', 'None', '10 hours a day', why='10 hours over five weeks.'),
+        Q('How much capstone work is planned each week?', 'About 4 hours inside your 5 to 7 hour schedule', '20 hours', 'None', '10 hours a day', why='20 hours over five weeks.'),
         Q('A rental deposit should be paid:', 'By bank transfer to the owner, with the agreement signed', 'In cash to you', 'In cash to the owner', 'Before the visit', why='Your money rules.'),
         Q('Something goes wrong in week 3. What do you do?', 'Stop, record it, get the right professional\'s advice and decide with the client', 'Hide it', 'Cut corners', 'Abandon the client', why='Handling problems is the skill.'),
         Q('What is the proof for the capstone?', 'The deal file or analysis and plan, five weekly logs and a review', 'A screenshot of the course', 'Nothing', 'A friend\'s opinion', why='Evidence of real work.'),
@@ -268,7 +268,7 @@ Both options use the same standards: written consent, honest marketing, professi
         ('Capstone options', 'A: first real deal; B: analysis + business plan.'),
         ('Most realistic first deal', 'A rental.'),
         ('If the deal stalls', 'Submit up to the furthest stage plus a plan.'),
-        ('Capstone time', '10 hours over five weeks.'),
+        ('Capstone time', 'About 20 hours over five weeks.'),
         ('Toolkit rule', 'Every rate dated; "check current rules".'),
         ('Quarterly habit', 'Re-check rules on official sources.'),
     ],

@@ -217,11 +217,16 @@ The app's **This week** view follows the part-time schedule. If you study full-t
 
 def setup_section():
     tabs = table(['Tab', 'Added in', 'Row 1 headings or contents'], [
-        ('Comps', 'Module 7', '`' + tools.COMPS_HEADER + '`'),
+        ('Units', 'Module 3', 'Area conversion formulas'),
+        ('Comps', 'Module 7 (start collecting listings in week 1)', '`' + tools.COMPS_HEADER + '`'),
         ('Cost', 'Module 4', 'Full cost of a purchase (calculator)'),
         ('ROI', 'Module 8', 'Rental yield and return calculator'),
+        ('Loan', 'Module 8', 'Loan eligibility and EMI'),
+        ('Income', 'Module 9', 'Your invoices, income and expenses'),
+        ('Network', 'Module 11', 'Brokers, professionals and partners (with consent)'),
         ('Leads', 'Module 19 (start earlier if you get leads)', '`' + tools.CRM_HEADER + '`'),
         ('Inventory', 'Module 10', 'Properties you have a mandate for'),
+        ('Dashboard', 'Module 19', 'Counts by stage and source, conversion'),
         ('Log', 'Week 1', 'Weekly market log numbers'),
     ])
     content = f"""
@@ -229,11 +234,12 @@ About one hour. Everything is free.
 
 ## The free tool stack
 
-- **Google Sheets** (phone app) or **LibreOffice Calc** (laptop): your **Real Estate Workbook** with the tabs below.
+- {link('gsheets', 'Google Sheets')} (phone app) or {link('libreoffice', 'LibreOffice Calc')} (laptop): your **Real Estate Workbook** with the tabs below.
 - **Google Drive** or a phone folder called **Real Estate Toolkit**, with sub-folders: {', '.join(FOLDERS[:3])} … {FOLDERS[-1]}.
 - **Phone camera** and a free video editor for listings (Module 12).
-- **Google Maps / Google Earth** for locations and rough measurements; {link('qgis', 'QGIS')} on the laptop later (Module 19).
+- **Google Maps** and {link('gearth', 'Google Earth')} for locations and rough measurements; {link('qgis', 'QGIS')} on the laptop later (Module 19).
 - **WhatsApp Business** (free) for client communication, if you choose (Module 12).
+- {link('canva', 'Canva')} (free plan) for simple listing graphics, if you want them (Module 12).
 - A **notebook** for office visits and interviews.
 
 ## Workbook tabs
