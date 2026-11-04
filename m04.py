@@ -6,7 +6,7 @@ L1 = lesson(
     outcome='You can make a decision under uncertainty using options, rough probabilities, base rates and the reversible-or-not test, and judge decisions by process rather than luck.',
     split='20 minutes reading, 30 minutes of tasks',
     principle='You cannot control outcomes, only the quality of your decisions: list real options, think in rough probabilities, start from base rates, and match the effort to how reversible the choice is.',
-    science="""
+    science=f"""
 Most life decisions are made with incomplete information: which exam to focus on, whether to take a private job while preparing, whether to lend money to a relative. Decision research offers a few robust ideas.
 
 **1. Separate decisions from outcomes.** A good decision can turn out badly (bad luck), and a bad decision can turn out well (good luck). Poker players call judging decisions by outcomes "resulting". If you judge yourself only by results, you learn the wrong lessons. Instead, review the *process*: Did I consider the options? Did I use the information available?
@@ -27,14 +27,14 @@ Most life decisions are made with incomplete information: which exam to focus on
         ('Maximisers are less satisfied than satisficers', 'mixed', 'Found in early studies; later work questions how maximising is measured.'),
         ('Reversible versus irreversible decisions', 'tool', 'A practical rule from decision practice; little direct testing, but it matches how errors cost.'),
     ],
-    example="""
+    example=f"""
 Anu has been offered a job as a billing assistant in a supermarket in Kozhikode: ₹12,000 a month, 9 to 6, six days a week. She is preparing for the LDC and LGS exams and has a notification due in four months.
 
 She uses the decision sheet. **Options:** take the job; decline and study full time; ask for a part-time arrangement; take it for three months and review. **Reversible?** Mostly: she could leave the job later, though the employer may not take her back. **Base rate:** she asks two friends who studied while working; one cleared a list, one dropped out of the exam schedule. She looks up the PSC vacancies and applicants for the last LDC list and sees that only a small share of candidates get selected, so her chances are uncertain either way. **Expected value:** the job gives certain income and less family pressure; studying full time gives perhaps a modestly better chance at a job that pays more for decades.
 
 She decides to ask for a 9-to-2 shift, and if refused, to take the full-time job for three months while keeping a fixed 2-hour study block each evening, with a review date. Whatever the exam result, she will judge the decision by whether she followed the plan and reviewed it, not only by luck.
 """,
-    apply="""
+    apply=f"""
 **For any decision you will live with for months, use the decision sheet (template below).** The most important lines are:
 
 1. **At least three options,** including "wait" and a middle path. Most bad decisions come from considering only two (yes or no).
@@ -94,14 +94,14 @@ L2 = lesson(
         ('Choice overload in specific conditions', 'moderate', 'More likely with no clear preference, hard-to-compare options and time pressure.'),
         ('Long-term regret is more about inaction', 'moderate', 'Found in several studies by Gilovich and colleagues; depends on how regret is asked about.'),
     ],
-    example="""
+    example=f"""
 Joseph sir is helping five aspirants in Thottilpalam plan a 12-week study group before the Degree Level prelims. Before starting, he runs a pre-mortem: "It's twelve weeks from now. The group fell apart and nobody's scores improved. Write down why."
 
 In five minutes, they write: "Meetings at 7 pm clashed with family duties," "Two people dominated," "We chatted instead of testing," "Monsoon power cuts killed online mocks," "Nobody knew what to study each week." They fix each before starting: meetings move to Sunday 3 pm, a timer gives each person a turn, every meeting starts with a 20-question test, mocks are downloaded in advance, and a shared plan lists each week's topics.
 
 One member, Shamna, is overwhelmed by choosing among nine YouTube channels and four apps. Joseph sir asks her to pick one source per subject using two criteria (covers the syllabus, has practice questions) and to ignore the rest for 12 weeks.
 """,
-    apply="""
+    apply=f"""
 **Pre-mortem in 10 minutes (alone or with others):**
 
 1. Describe the plan in two lines.
@@ -164,7 +164,7 @@ LESSONS = [L1, L2]
 
 MODULE = module(
     4,
-    overview="""
+    overview=f"""
 Practical decision-making under uncertainty: options, base rates, rough probabilities, reversible and irreversible choices, pre-mortems, choice overload (honestly) and regret. You make a real decision with a decision sheet.
 
 Part A ends here, with the step from understanding your mind to using it well. Big life choices (career, money, family) are made with incomplete information. You cannot control the outcomes, but you can control the process, and a good process makes good outcomes more likely over a lifetime.

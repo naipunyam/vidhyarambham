@@ -23,14 +23,14 @@ The classic demonstration is a puzzle you met in the baseline quiz: *a pen and a
         ('Behavioural priming (e.g. old-age words making people walk slowly)', 'failed', 'Famous examples failed to replicate; Kahneman admitted relying on underpowered studies.'),
         ('Expert intuition is reliable when practice and feedback are good', 'moderate', 'Supported in fields such as chess and firefighting; poor in fields with slow or noisy feedback.'),
     ],
-    example="""
+    example=f"""
 Ashiq, from Kuttiady, gets a WhatsApp message from a cousin: "Kerala PSC has announced a new exam pattern from next month: forward to all aspirants!" It has a logo and urgent red text. His fast system reacts first: worry, then the urge to forward it to his study group. Last year he did exactly that and later found the message was false.
 
 This time he uses the pause. *What would I need to believe this?* An official notice. *Where would that be?* On the Kerala PSC website. *What is the cost of waiting ten minutes?* Nothing. He checks, finds no such notice, and posts in the group: "Couldn't find this on the PSC site; let's wait for the official notification." Two people thank him. The whole check took four minutes; the old habit had cost him embarrassment and an hour of anxious messages.
 
 The same pattern shows up in ordinary moments: agreeing to a cousin's "small loan" on the spot, buying a phone because the first price you saw made the second look cheap, or snapping back at your father before hearing his full sentence. None of these needs deep thought. Each one needs a short pause in which System 2 gets a chance to look.
 """,
-    apply="""
+    apply=f"""
 **On yourself: build a "slow down" trigger.** You cannot run System 2 all day; it would exhaust you. Instead, decide in advance which situations deserve a check:
 
 1. **Money:** any payment, loan, purchase over ₹500 or "offer" with a deadline.
@@ -104,12 +104,12 @@ So the aim is not to remove emotion. It is to **notice which emotion is driving 
         ('Affect heuristic: liking something lowers its perceived risk', 'moderate', 'Supported by many studies on risk perception.'),
         ('Emotion is the opposite of good reasoning', 'failed', 'Evidence from neuroscience and psychology shows emotions are part of good decision-making.'),
     ],
-    example="""
+    example=f"""
 Sreeja, from Nadapuram, is deciding whether to join a ₹12,000 PSC coaching batch. The coaching centre's poster shows ten smiling toppers. That is **availability** and **representativeness** at work: the toppers come to mind easily and "look like" success. What she does not see is the base rate: how many students joined and how many got a rank list place? When she asks, the centre will not say.
 
 At the counter, the manager says the course "normally costs ₹25,000", so ₹12,000 feels like a bargain (**anchoring**). He is warm and funny, so the course *feels* safe (**affect**). Sreeja notices her excitement, uses the three-question pause from PD-M01-L01, and asks two former students from her village. Both say the classes were good but the material was the same as the free SCERT textbooks. She joins a cheaper weekend test series instead, and keeps studying from free material.
 """,
-    apply="""
+    apply=f"""
 **Turn each shortcut into a question you ask before an important judgement:**
 
 | Shortcut | The question that checks it |
@@ -158,7 +158,7 @@ LESSONS = [L1, L2]
 
 MODULE = module(
     1,
-    overview="""
+    overview=f"""
 How your mind actually makes judgements: the fast automatic system and the slow checking one, the main mental shortcuts, and how emotion and reason work together. You build a "think slower" checklist for the moments that matter.
 
 Everything in this course rests on one idea: your mind is not a calm calculator, it is a fast pattern-matcher with a slow, lazy checker. Once you see that, most of the later modules make sense: biases (Module 3), habits (Module 8), emotions (Module 10), first impressions (Module 24) and manipulation (Module 32) all exploit or work with the fast system.

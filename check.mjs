@@ -22,7 +22,7 @@ const check = (where, md) => {
   if (/\]\(/.test(text)) problems.push(`${where}: broken link near "${text.match(/.{0,40}\]\(.{0,40}/)[0]}"`)
   if (/^\s*\|/m.test(text) && !/<table>/.test(html)) problems.push(`${where}: table did not render`)
   if (/undefined|NaN|\[object Object\]/.test(text)) problems.push(`${where}: undefined/NaN`)
-  if (/\{(ASOF|VDATE2?|CHECK|link\(|rules\(|use\(|inr\(|TABLE)/.test(md)) problems.push(`${where}: unformatted placeholder near "${md.match(/.{0,30}\{(ASOF|VDATE2?|CHECK|link\(|rules\(|use\(|inr\(|TABLE).{0,30}/)[0]}"`)
+  if (/\{(ASOF|VDATE2?|CHECK|link\(|rules\(|use\(|xref\(|tools\.|TABLE)/.test(md)) problems.push(`${where}: unformatted placeholder near "${md.match(/.{0,30}\{(ASOF|VDATE2?|CHECK|link\(|rules\(|use\(|xref\(|tools\.|TABLE).{0,30}/)[0]}"`)
   const links = [...md.matchAll(/\]\(([^)\s]+)\)/g)].map((m) => m[1])
   for (const l of links) if (!/^https?:\/\//.test(l)) problems.push(`${where}: non-http link ${l}`)
 }

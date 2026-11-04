@@ -29,14 +29,14 @@ Psychology uses a few kinds of study. Knowing which one you are looking at tells
         ('Regression to the mean misleads people about what works', 'strong', 'A statistical certainty whenever measurements include luck.'),
         ('Findings from Western student samples apply everywhere', 'mixed', 'Many hold broadly; others (some social and cultural effects) vary between countries.'),
     ],
-    example="""
+    example=f"""
 A YouTube channel claims: "Students who wake up at 4 am score 30% more in PSC exams!" Joseph sir, a retired teacher in Thottilpalam who now helps local aspirants, asks his group three questions.
 
 *Is it an experiment or a correlation?* The video surveyed toppers. Nobody was randomly told to wake at 4 am, so it is a correlation. *What could cause it besides waking time?* Toppers may be more disciplined in everything, or have fewer household duties, or be full-time aspirants. *Who was in the sample, and how many?* Twelve toppers who agreed to be interviewed: tiny, and only successes (nobody asked the 4 am risers who failed).
 
 He then suggests a fair test the group can do themselves: each person picks a study start time at random (by drawing a chit) for two weeks and logs their study minutes and mock scores. It will not be a perfect experiment, but it will tell them more than the video. You will run a similar personal experiment in PD-M08-L04.
 """,
-    apply="""
+    apply=f"""
 **The five-question claim check.** Use it on any psychology or health claim, in a video, a newspaper, a WhatsApp forward or a coaching class:
 
 1. **What kind of study?** Story, survey (correlation) or experiment with random assignment?
@@ -118,12 +118,12 @@ In 2015 the **Open Science Collaboration**, a team of 270 researchers, repeated 
         ('Learning styles matching', 'failed', 'No good evidence that matching teaching to a style helps.'),
         ('Findings that replicated in multi-lab projects (e.g. anchoring)', 'strong', 'Some classic effects held up well, and you can rely on them more.'),
     ],
-    example="""
+    example=f"""
 Anu, from Kakkattil, follows an Instagram "psychology facts" page. One post says: "Psychology says people who touch their nose while talking are lying." Another: "Hold a pen in your teeth to force a smile and you'll feel happier: proven by science." A third: "Your birth order decides your personality."
 
 She runs the red-flag list. The nose-touching claim has no study named at all and promises mind-reading (two flags); research on lie detection from body language shows people are only slightly better than chance. The pen-in-teeth "facial feedback" study is real but its famous version failed a 17-lab replication in 2016; later work suggests a small effect in some conditions, so "proven" is wrong. Birth-order effects on personality in large studies are very small or absent. She unfollows the page and follows Greater Good and the Noba Project instead.
 """,
-    apply="""
+    apply=f"""
 **Pop-psychology red flags.** Be sceptical when a claim:
 
 1. Promises a big change from a tiny trick ("one pose", "one word", "one hack").
@@ -174,7 +174,7 @@ LESSONS = [L1, L2]
 
 MODULE = module(
     2,
-    overview="""
+    overview=f"""
 How to read psychology research like a sceptical scientist: experiments versus correlations, samples and effect sizes, the replication crisis, and how to tell science from pop psychology. You build a claim-checker card you will use for the rest of the course and your life.
 
 Personal development is full of confident claims: "21 days to a habit", "power poses build confidence", "your personality type decides your career". Some are well supported; many are not. This module gives you the tools to tell the difference yourself, so you never have to take this course (or any course) on trust.

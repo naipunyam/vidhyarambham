@@ -34,14 +34,14 @@ The {link('decisionlab', 'Decision Lab bias index')} and Wikipedia's list of bia
         ('Anchoring', 'strong', 'Replicated in large multi-lab projects.'),
         ('Availability heuristic', 'moderate', 'Well supported in risk perception; effect sizes vary by task.'),
     ],
-    example="""
+    example=f"""
 Vinod runs a small mobile repair shop near Kuttiady bus stand and is preparing for the LDC exam in his spare time. In one week, all seven biases show up.
 
 He believes a certain brand of phone is unreliable, so he remembers every one that comes in broken and forgets the many that don't (**confirmation**). He keeps paying for an expensive online test series he never uses because he has "already paid three months" (**sunk cost**). He tells a customer, "100%, your phone will be ready by evening," and it isn't (**overconfidence**). He plans to finish the whole Indian Constitution in one week, as he planned and failed to last month (**planning fallacy**). He refuses to sell an old stock of chargers at a small loss, so they keep taking up shelf space (**loss aversion**). A customer's first offer of ₹300 for a repair worth ₹600 makes him settle at ₹400 (**anchoring**). After one break-in in the next town, he spends ₹8,000 on a shutter alarm without checking how often it happens nearby (**availability**).
 
 With the counter-moves, he cancels the unused subscription ("would I buy it today? No"), quotes repair times as "by tomorrow noon, usually today" (and is right more often), plans the Constitution over three weeks based on his last attempt, and writes his price before customers name one.
 """,
-    apply="""
+    apply=f"""
 **On yourself:** you cannot remove biases, but you can install counter-moves at the points where they cost the most:
 
 | Bias | Where it costs you | Counter-move |
@@ -98,7 +98,7 @@ L2 = lesson(
     outcome='You can name ten CBT cognitive distortions, catch them in your own self-talk, and replace one with a balanced thought.',
     split='20 minutes reading, 25 minutes of tasks',
     principle='Many painful feelings are driven less by events than by the distorted way we interpret them; naming the distortion loosens its grip.',
-    science="""
+    science=f"""
 **Cognitive behavioural therapy (CBT)** grew from the work of psychiatrist Aaron Beck in the 1960s and psychologist Albert Ellis. Beck noticed that depressed patients had automatic, negative thoughts that followed predictable patterns. He called them **cognitive distortions**. David Burns popularised a list of them in his book *Feeling Good* (1980).
 
 CBT is one of the best-tested psychological treatments: many trials and reviews show it helps anxiety disorders and depression, often about as much as medication for mild to moderate cases, with lower relapse for some people. It is a professional therapy; this lesson teaches only the everyday skill of noticing distortions, which you will build on with thought records in PD-M11-L02.
@@ -125,12 +125,12 @@ CBT is one of the best-tested psychological treatments: many trials and reviews 
         ('Guided and unguided CBT self-help', 'moderate', 'Helps many people, especially with some support; less than full therapy for severe problems.'),
         ('The specific list of ten distortions', 'tool', 'A practical teaching list; research supports the general idea of negative automatic thoughts more than any one list.'),
     ],
-    example="""
+    example=f"""
 Ashiq's name is missing from a PSC short list he was hoping for. His thoughts in the first hour: "I'm never going to get a government job (fortune telling). Everyone in Kuttiady will think I'm a waste (mind reading). I wasted four years (all-or-nothing). I'm useless (labelling)."
 
 That evening he writes them down and names each distortion. Then he asks what he would say to a friend in the same position. The answers: he has cleared two other preliminary exams this year; short lists often cut off by fractions of a mark; most people in town are busy with their own lives; and four years of study have given him knowledge that carries over to the next exam. He still feels disappointed (that is appropriate), but the feeling drops from "crushing" to "bad week". He books a time to analyse his errors the next morning, using the error log from the Learning Capabilities course.
 """,
-    apply="""
+    apply=f"""
 **The catch-name-check routine (2 minutes):**
 
 1. **Catch:** when you feel a sudden drop in mood, ask "What was I just thinking?" Write the thought word for word.
@@ -186,7 +186,7 @@ L3 = lesson(
     outcome='You can use four debiasing techniques and keep a two-week bias journal with three entries a day: yourself, the news and an ad.',
     split='15 minutes reading, 10 minutes a day for two weeks',
     principle='Knowing about biases protects you surprisingly little; changing the situation (checklists, outside views, asking others, slowing down) works better.',
-    science="""
+    science=f"""
 A disappointing finding first: simply learning about biases does not reliably make people less biased. People also show a **bias blind spot**: they rate themselves as less biased than others, even after learning about biases. Intelligence protects less than you might think.
 
 So what works? Researchers have tested several **debiasing** strategies:
@@ -207,7 +207,7 @@ So what works? Researchers have tested several **debiasing** strategies:
         ('Debiasing training games with feedback', 'mixed', 'Promising lab results lasting weeks; transfer to real life is less clear.'),
         ('Bias journal as a habit', 'tool', 'Combines slowing down and feedback; judge it by your own two weeks of data.'),
     ],
-    example="""
+    example=f"""
 Sreeja keeps the bias journal for two weeks. Day 3 looks like this:
 
 - **Me:** she decided a new classmate was arrogant after one short reply, then noticed only his short replies all week (**first impression + confirmation bias**). Counter-move: she asked him about his preparation; he was shy, not arrogant.
@@ -263,7 +263,7 @@ LESSONS = [L1, L2, L3]
 
 MODULE = module(
     3,
-    overview="""
+    overview=f"""
 The thinking traps that cost you most: seven well-studied cognitive biases, ten CBT cognitive distortions, and debiasing methods that actually help. You keep a two-week bias journal (three entries a day: yourself, the news and an ad).
 
 Module 1 showed how the fast mind takes shortcuts. This module names the most costly errors those shortcuts produce, in judgement (biases) and in how we talk to ourselves (distortions), and gives a counter-move for each.
