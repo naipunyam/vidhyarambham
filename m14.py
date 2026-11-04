@@ -16,9 +16,7 @@ L1 = lesson(
     outcome='You can manage a sale from token advance to a signed agreement for sale, coordinating due diligence and the professionals involved.',
     split='15 minutes reading, 45 minutes building a transaction file',
     core=f"""
-**The transaction timeline** (toolkit) takes a sale from offer to handover. Your job is to keep it moving, keep both sides informed and make sure nothing is skipped.
-
-{fence(tools.TIMELINE)}
+**The transaction timeline** (template below and in your toolkit) takes a sale from offer to handover, often in 6 to 10 weeks. Your job is to keep it moving, keep both sides informed and make sure nothing is skipped.
 
 **Week 1 after the token:**
 1. Open a **transaction file** (a folder per deal): mandate, token receipt, owner's documents, buyer's details, timeline.
